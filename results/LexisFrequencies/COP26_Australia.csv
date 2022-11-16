@@ -1,0 +1,164 @@
+"","COP","country","aspect","keyword","freq"
+"1","COP26","Australia","Accessibility","affordability",11.9501439992352
+"2","COP26","Australia","Accessibility","affordable",41.8255039973232
+"3","COP26","Australia","Accessibility","ability to pay",0
+"4","COP26","Australia","Accessibility","able to pay",0
+"5","COP26","Australia","Accessibility","inability to pay",0
+"6","COP26","Australia","Accessibility","unable to pay",0
+"7","COP26","Australia","Accessibility","energy poverty",5.9750719996176
+"8","COP26","Australia","Accessibility","energy burden",0
+"9","COP26","Australia","Accessibility","fuel poverty",0
+"10","COP26","Australia","Accessibility","trasportation poverty",0
+"11","COP26","Australia","Accessibility","energy prices",41.8255039973232
+"12","COP26","Australia","Accessibility","energy bills",0
+"13","COP26","Australia","Accessibility","tansportation bills",0
+"14","COP26","Australia","Accessibility","utility bill",0
+"15","COP26","Australia","Accessibility","electricity bill",0
+"16","COP26","Australia","Accessibility","utility bills",0
+"17","COP26","Australia","Accessibility","electricity bills",0
+"18","COP26","Australia","Accessibility","gas bill",0
+"19","COP26","Australia","Accessibility","energy billgas bill",0
+"20","COP26","Australia","Accessibility","energy cost",0
+"21","COP26","Australia","Accessibility","equity",35.8504319977056
+"22","COP26","Australia","Accessibility","inequity",0
+"23","COP26","Australia","Accessibility","inequality",11.9501439992352
+"24","COP26","Australia","Accessibility","inequalities",0
+"25","COP26","Australia","Accessibility","energy justice",0
+"26","COP26","Australia","Accessibility","household",11.9501439992352
+"27","COP26","Australia","Accessibility","households",11.9501439992352
+"28","COP26","Australia","Accessibility","low-income households",0
+"29","COP26","Australia","Accessibility","low-income household",0
+"30","COP26","Australia","Accessibility","energy efficiency",47.8005759969408
+"31","COP26","Australia","Accessibility","personal finance",0
+"32","COP26","Australia","Accessibility","personal finances",0
+"33","COP26","Australia","Accessibility","race",53.7756479965584
+"34","COP26","Australia","Accessibility","minorities",0
+"35","COP26","Australia","Accessibility","underserved communities",0
+"36","COP26","Australia","Accessibility","gender",23.9002879984704
+"37","COP26","Australia","Accessibility","women",101.576223993499
+"38","COP26","Australia","Accessibility","social economic class",0
+"39","COP26","Australia","Accessibility","upper class",0
+"40","COP26","Australia","Accessibility","middle class",5.9750719996176
+"41","COP26","Australia","Accessibility","lower class",0
+"42","COP26","Australia","Accessibility","working class",0
+"43","COP26","Australia","Accessibility","household heating",5.9750719996176
+"44","COP26","Australia","Accessibility","cooling",29.875359998088
+"45","COP26","Australia","Accessibility","thermal comfort",0
+"46","COP26","Australia","Accessibility","hosuehold heating problems",0
+"47","COP26","Australia","Accessibility","household cooling probloems",0
+"48","COP26","Australia","Accessibility","consumption",95.6011519938815
+"49","COP26","Australia","Accessibility","consuming",0
+"50","COP26","Australia","Accessibility","consumed",0
+"51","COP26","Australia","Accessibility","basic needs",0
+"52","COP26","Australia","Accessibility","basic need",0
+"53","COP26","Australia","Security","reliability",0
+"54","COP26","Australia","Security","reliable",59.750719996176
+"55","COP26","Australia","Security","resilience",197.177375987381
+"56","COP26","Australia","Security","resiliant",0
+"57","COP26","Australia","Security","power outage",0
+"58","COP26","Australia","Security","power outages",0
+"59","COP26","Australia","Security","blackout",0
+"60","COP26","Australia","Security","power cut",0
+"61","COP26","Australia","Security","blackouts",11.9501439992352
+"62","COP26","Australia","Security","power cuts",0
+"63","COP26","Australia","Security","security",203.152447986998
+"64","COP26","Australia","Security","stability",41.8255039973232
+"65","COP26","Australia","Security","risk",286.803455981645
+"66","COP26","Australia","Security","risky",5.9750719996176
+"67","COP26","Australia","Security","adequacy",5.9750719996176
+"68","COP26","Australia","Security","corruption",5.9750719996176
+"69","COP26","Australia","Security","corrupted",0
+"70","COP26","Australia","Security","geopolitics",5.9750719996176
+"71","COP26","Australia","Security","peak hours",0
+"72","COP26","Australia","Security","enegy demand",0
+"73","COP26","Australia","Security","nuclear",131.451583991587
+"74","COP26","Australia","Security","consistence",0
+"75","COP26","Australia","Security","consistency",0
+"76","COP26","Australia","Security","intermittancy",0
+"77","COP26","Australia","Security","intermittent",11.9501439992352
+"78","COP26","Australia","Security","war",65.7257919957935
+"79","COP26","Australia","Security","wars",23.9002879984704
+"80","COP26","Australia","Security","conflicts",11.9501439992352
+"81","COP26","Australia","Security","energy crisis",29.875359998088
+"82","COP26","Australia","Security","energy crises",0
+"83","COP26","Australia","Security","petro-politics",0
+"84","COP26","Australia","Security","petropolitics",0
+"85","COP26","Australia","Security","aging infrastructure",0
+"86","COP26","Australia","Security","industry",752.859071951817
+"87","COP26","Australia","Security","industries",340.579103978203
+"88","COP26","Australia","Security","industrial",143.401727990822
+"89","COP26","Australia","Security","neoliberalism",0
+"90","COP26","Australia","Security","nationalisation",0
+"91","COP26","Australia","Security","nationalising",0
+"92","COP26","Australia","Security","nationalizing",0
+"93","COP26","Australia","Sustainability","sustainability",143.401727990822
+"94","COP26","Australia","Sustainability","sustainable",442.155327971702
+"95","COP26","Australia","Sustainability","green",651.282847958318
+"96","COP26","Australia","Sustainability","greenhouse",597.50719996176
+"97","COP26","Australia","Sustainability","carbon emissions",454.105471970937
+"98","COP26","Australia","Sustainability","emissions",5299.88886366081
+"99","COP26","Australia","Sustainability","emission",227.052735985469
+"100","COP26","Australia","Sustainability","emitting",35.8504319977056
+"101","COP26","Australia","Sustainability","emitted",5.9750719996176
+"102","COP26","Australia","Sustainability","nuclear",131.451583991587
+"103","COP26","Australia","Sustainability","carbon capture",173.27708798891
+"104","COP26","Australia","Sustainability","carbon capture and storage",149.37679999044
+"105","COP26","Australia","Sustainability","CCS",53.7756479965584
+"106","COP26","Australia","Sustainability","CCU",0
+"107","COP26","Australia","Sustainability","carbon capture and usage",0
+"108","COP26","Australia","Sustainability","sequester",0
+"109","COP26","Australia","Sustainability","sequestering",0
+"110","COP26","Australia","Sustainability","sequestration",17.9252159988528
+"111","COP26","Australia","Sustainability","renewable energy",412.279967973614
+"112","COP26","Australia","Sustainability","renewables",227.052735985469
+"113","COP26","Australia","Sustainability","ecosystem",59.750719996176
+"114","COP26","Australia","Sustainability","ecosystems",71.7008639954111
+"115","COP26","Australia","Sustainability","transition",603.482271961377
+"116","COP26","Australia","Sustainability","transitioning",41.8255039973232
+"117","COP26","Australia","Sustainability","transitions",17.9252159988528
+"118","COP26","Australia","Sustainability","low-carbon",77.6759359950287
+"119","COP26","Australia","Sustainability","zero carbon",53.7756479965584
+"120","COP26","Australia","Sustainability","decarbonization",47.8005759969408
+"121","COP26","Australia","Sustainability","subsidies",316.678815979733
+"122","COP26","Australia","Sustainability","subsidy",11.9501439992352
+"123","COP26","Australia","Sustainability","subsidising",17.9252159988528
+"124","COP26","Australia","Sustainability","subsidizing",0
+"125","COP26","Australia","Sustainability","subsidise",5.9750719996176
+"126","COP26","Australia","Sustainability","subsidize",0
+"127","COP26","Australia","Sustainability","environmental health",0
+"128","COP26","Australia","Sustainability","decarbonisation",203.152447986998
+"129","COP26","Australia","Sustainability","decarbonize",11.9501439992352
+"130","COP26","Australia","Sustainability","decarbonise",107.551295993117
+"131","COP26","Australia","Sustainability","wind",394.354751974761
+"132","COP26","Australia","Sustainability","tidal",0
+"133","COP26","Australia","Sustainability","ocean energy",0
+"134","COP26","Australia","Sustainability","hydrogen",519.831263966731
+"135","COP26","Australia","Sustainability","geothermal",5.9750719996176
+"136","COP26","Australia","Sustainability","centralized",0
+"137","COP26","Australia","Sustainability","decentralized",0
+"138","COP26","Australia","Sustainability","centralised",0
+"139","COP26","Australia","Sustainability","decentralised",0
+"140","COP26","Australia","Sustainability","solar",244.977951984321
+"141","COP26","Australia","Sustainability","photovoltaics",0
+"142","COP26","Australia","Sustainability","photovoltaic",5.9750719996176
+"143","COP26","Australia","Sustainability","PV",0
+"144","COP26","Australia","Sustainability","solar panels",11.9501439992352
+"145","COP26","Australia","Sustainability","solar panel",17.9252159988528
+"146","COP26","Australia","Sustainability","shale gas fracking",0
+"147","COP26","Australia","Sustainability","frack",11.9501439992352
+"148","COP26","Australia","Sustainability","fracking",77.6759359950287
+"149","COP26","Australia","Sustainability","pollution",143.401727990822
+"150","COP26","Australia","Sustainability","polluting",47.8005759969408
+"151","COP26","Australia","Sustainability","polluted",0
+"152","COP26","Australia","Sustainability","energy storage",23.9002879984704
+"153","COP26","Australia","Sustainability","alternative",65.7257919957935
+"154","COP26","Australia","Sustainability","alternatives",47.8005759969408
+"155","COP26","Australia","Sustainability","coal",2593.18124783404
+"156","COP26","Australia","Sustainability","natural gas",125.47651199197
+"157","COP26","Australia","Sustainability","biomass",11.9501439992352
+"158","COP26","Australia","Sustainability","ozone",0
+"159","COP26","Australia","Sustainability","Electrical vehicles",0
+"160","COP26","Australia","Sustainability","EV",41.8255039973232
+"161","COP26","Australia","Sustainability","electric vehicles",119.501439992352
+"162","COP26","Australia","Sustainability","net zero",1726.79580788949
+"163","COP26","Australia","Sustainability","carbon neutrality",77.6759359950287

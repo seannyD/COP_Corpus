@@ -1,0 +1,164 @@
+"","COP","country","aspect","keyword","freq"
+"1","COP25","UAE","Accessibility","affordability",0
+"2","COP25","UAE","Accessibility","affordable",0
+"3","COP25","UAE","Accessibility","ability to pay",0
+"4","COP25","UAE","Accessibility","able to pay",0
+"5","COP25","UAE","Accessibility","inability to pay",0
+"6","COP25","UAE","Accessibility","unable to pay",0
+"7","COP25","UAE","Accessibility","energy poverty",0
+"8","COP25","UAE","Accessibility","energy burden",0
+"9","COP25","UAE","Accessibility","fuel poverty",0
+"10","COP25","UAE","Accessibility","trasportation poverty",0
+"11","COP25","UAE","Accessibility","energy prices",0
+"12","COP25","UAE","Accessibility","energy bills",0
+"13","COP25","UAE","Accessibility","tansportation bills",0
+"14","COP25","UAE","Accessibility","utility bill",0
+"15","COP25","UAE","Accessibility","electricity bill",0
+"16","COP25","UAE","Accessibility","utility bills",0
+"17","COP25","UAE","Accessibility","electricity bills",0
+"18","COP25","UAE","Accessibility","gas bill",0
+"19","COP25","UAE","Accessibility","energy billgas bill",0
+"20","COP25","UAE","Accessibility","energy cost",0
+"21","COP25","UAE","Accessibility","equity",85.940185630801
+"22","COP25","UAE","Accessibility","inequity",0
+"23","COP25","UAE","Accessibility","inequality",85.940185630801
+"24","COP25","UAE","Accessibility","inequalities",0
+"25","COP25","UAE","Accessibility","energy justice",0
+"26","COP25","UAE","Accessibility","household",0
+"27","COP25","UAE","Accessibility","households",0
+"28","COP25","UAE","Accessibility","low-income households",0
+"29","COP25","UAE","Accessibility","low-income household",0
+"30","COP25","UAE","Accessibility","energy efficiency",171.880371261602
+"31","COP25","UAE","Accessibility","personal finance",0
+"32","COP25","UAE","Accessibility","personal finances",0
+"33","COP25","UAE","Accessibility","race",0
+"34","COP25","UAE","Accessibility","minorities",0
+"35","COP25","UAE","Accessibility","underserved communities",0
+"36","COP25","UAE","Accessibility","gender",85.940185630801
+"37","COP25","UAE","Accessibility","women",85.940185630801
+"38","COP25","UAE","Accessibility","social economic class",0
+"39","COP25","UAE","Accessibility","upper class",0
+"40","COP25","UAE","Accessibility","middle class",0
+"41","COP25","UAE","Accessibility","lower class",0
+"42","COP25","UAE","Accessibility","working class",0
+"43","COP25","UAE","Accessibility","household heating",0
+"44","COP25","UAE","Accessibility","cooling",0
+"45","COP25","UAE","Accessibility","thermal comfort",0
+"46","COP25","UAE","Accessibility","hosuehold heating problems",0
+"47","COP25","UAE","Accessibility","household cooling probloems",0
+"48","COP25","UAE","Accessibility","consumption",429.700928154005
+"49","COP25","UAE","Accessibility","consuming",0
+"50","COP25","UAE","Accessibility","consumed",0
+"51","COP25","UAE","Accessibility","basic needs",0
+"52","COP25","UAE","Accessibility","basic need",0
+"53","COP25","UAE","Security","reliability",0
+"54","COP25","UAE","Security","reliable",85.940185630801
+"55","COP25","UAE","Security","resilience",85.940185630801
+"56","COP25","UAE","Security","resiliant",0
+"57","COP25","UAE","Security","power outage",0
+"58","COP25","UAE","Security","power outages",0
+"59","COP25","UAE","Security","blackout",0
+"60","COP25","UAE","Security","power cut",0
+"61","COP25","UAE","Security","blackouts",0
+"62","COP25","UAE","Security","power cuts",0
+"63","COP25","UAE","Security","security",601.581299415607
+"64","COP25","UAE","Security","stability",0
+"65","COP25","UAE","Security","risk",601.581299415607
+"66","COP25","UAE","Security","risky",0
+"67","COP25","UAE","Security","adequacy",0
+"68","COP25","UAE","Security","corruption",0
+"69","COP25","UAE","Security","corrupted",0
+"70","COP25","UAE","Security","geopolitics",0
+"71","COP25","UAE","Security","peak hours",0
+"72","COP25","UAE","Security","enegy demand",0
+"73","COP25","UAE","Security","nuclear",0
+"74","COP25","UAE","Security","consistence",0
+"75","COP25","UAE","Security","consistency",0
+"76","COP25","UAE","Security","intermittancy",0
+"77","COP25","UAE","Security","intermittent",0
+"78","COP25","UAE","Security","war",171.880371261602
+"79","COP25","UAE","Security","wars",0
+"80","COP25","UAE","Security","conflicts",85.940185630801
+"81","COP25","UAE","Security","energy crisis",0
+"82","COP25","UAE","Security","energy crises",0
+"83","COP25","UAE","Security","petro-politics",0
+"84","COP25","UAE","Security","petropolitics",0
+"85","COP25","UAE","Security","aging infrastructure",0
+"86","COP25","UAE","Security","industry",601.581299415607
+"87","COP25","UAE","Security","industries",0
+"88","COP25","UAE","Security","industrial",85.940185630801
+"89","COP25","UAE","Security","neoliberalism",0
+"90","COP25","UAE","Security","nationalisation",0
+"91","COP25","UAE","Security","nationalising",0
+"92","COP25","UAE","Security","nationalizing",0
+"93","COP25","UAE","Sustainability","sustainability",859.40185630801
+"94","COP25","UAE","Sustainability","sustainable",1460.98315572362
+"95","COP25","UAE","Sustainability","green",1632.86352698522
+"96","COP25","UAE","Sustainability","greenhouse",773.461670677209
+"97","COP25","UAE","Sustainability","carbon emissions",85.940185630801
+"98","COP25","UAE","Sustainability","emissions",3867.30835338604
+"99","COP25","UAE","Sustainability","emission",85.940185630801
+"100","COP25","UAE","Sustainability","emitting",0
+"101","COP25","UAE","Sustainability","emitted",85.940185630801
+"102","COP25","UAE","Sustainability","nuclear",0
+"103","COP25","UAE","Sustainability","carbon capture",0
+"104","COP25","UAE","Sustainability","carbon capture and storage",0
+"105","COP25","UAE","Sustainability","CCS",0
+"106","COP25","UAE","Sustainability","CCU",0
+"107","COP25","UAE","Sustainability","carbon capture and usage",0
+"108","COP25","UAE","Sustainability","sequester",171.880371261602
+"109","COP25","UAE","Sustainability","sequestering",0
+"110","COP25","UAE","Sustainability","sequestration",0
+"111","COP25","UAE","Sustainability","renewable energy",515.641113784806
+"112","COP25","UAE","Sustainability","renewables",515.641113784806
+"113","COP25","UAE","Sustainability","ecosystem",85.940185630801
+"114","COP25","UAE","Sustainability","ecosystems",429.700928154005
+"115","COP25","UAE","Sustainability","transition",171.880371261602
+"116","COP25","UAE","Sustainability","transitioning",0
+"117","COP25","UAE","Sustainability","transitions",171.880371261602
+"118","COP25","UAE","Sustainability","low-carbon",257.820556892403
+"119","COP25","UAE","Sustainability","zero carbon",0
+"120","COP25","UAE","Sustainability","decarbonization",171.880371261602
+"121","COP25","UAE","Sustainability","subsidies",85.940185630801
+"122","COP25","UAE","Sustainability","subsidy",0
+"123","COP25","UAE","Sustainability","subsidising",0
+"124","COP25","UAE","Sustainability","subsidizing",0
+"125","COP25","UAE","Sustainability","subsidise",0
+"126","COP25","UAE","Sustainability","subsidize",0
+"127","COP25","UAE","Sustainability","environmental health",0
+"128","COP25","UAE","Sustainability","decarbonisation",0
+"129","COP25","UAE","Sustainability","decarbonize",0
+"130","COP25","UAE","Sustainability","decarbonise",0
+"131","COP25","UAE","Sustainability","wind",343.760742523204
+"132","COP25","UAE","Sustainability","tidal",0
+"133","COP25","UAE","Sustainability","ocean energy",0
+"134","COP25","UAE","Sustainability","hydrogen",0
+"135","COP25","UAE","Sustainability","geothermal",0
+"136","COP25","UAE","Sustainability","centralized",0
+"137","COP25","UAE","Sustainability","decentralized",0
+"138","COP25","UAE","Sustainability","centralised",0
+"139","COP25","UAE","Sustainability","decentralised",0
+"140","COP25","UAE","Sustainability","solar",1289.10278446201
+"141","COP25","UAE","Sustainability","photovoltaics",0
+"142","COP25","UAE","Sustainability","photovoltaic",85.940185630801
+"143","COP25","UAE","Sustainability","PV",85.940185630801
+"144","COP25","UAE","Sustainability","solar panels",85.940185630801
+"145","COP25","UAE","Sustainability","solar panel",85.940185630801
+"146","COP25","UAE","Sustainability","shale gas fracking",0
+"147","COP25","UAE","Sustainability","frack",0
+"148","COP25","UAE","Sustainability","fracking",0
+"149","COP25","UAE","Sustainability","pollution",1031.28222756961
+"150","COP25","UAE","Sustainability","polluting",85.940185630801
+"151","COP25","UAE","Sustainability","polluted",0
+"152","COP25","UAE","Sustainability","energy storage",85.940185630801
+"153","COP25","UAE","Sustainability","alternative",0
+"154","COP25","UAE","Sustainability","alternatives",0
+"155","COP25","UAE","Sustainability","coal",171.880371261602
+"156","COP25","UAE","Sustainability","natural gas",0
+"157","COP25","UAE","Sustainability","biomass",85.940185630801
+"158","COP25","UAE","Sustainability","ozone",0
+"159","COP25","UAE","Sustainability","Electrical vehicles",0
+"160","COP25","UAE","Sustainability","EV",0
+"161","COP25","UAE","Sustainability","electric vehicles",0
+"162","COP25","UAE","Sustainability","net zero",0
+"163","COP25","UAE","Sustainability","carbon neutrality",85.940185630801

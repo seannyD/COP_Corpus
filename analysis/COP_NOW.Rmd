@@ -1,0 +1,250 @@
+---
+title: "COP corpus search"
+output: pdf_document
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r}
+try(setwd("~/OneDrive - Cardiff University/Research/Cardiff/ClimageChangeAndLanguage/project/analysis"))
+```
+
+```{r message=F,warning=F}
+library(ggplot2)
+library(dplyr)
+require(maps)
+require(viridis)
+library(ggpubr)
+```
+
+
+# Introduction
+
+# News on the Web corpus
+
+## Frequency by year
+
+```{r}
+copByYear = read.delim("../data/NOW/COP_10s_FreqByYear.txt", skip=1)
+copByYearB = read.delim("../data/NOW/COP_20s_FreqByYear.txt", skip=1)
+copByYear$FREQ = copByYear$FREQ + copByYearB$FREQ
+copByYear$PER.MIL = (copByYear$FREQ) / (copByYear$SIZE)
+
+NOW_COP_Freq = ggplot(copByYear,aes(x=Year, y=PER.MIL)) +
+  geom_line() + geom_point() +
+  scale_x_continuous(breaks=seq(2010,2021,2)) +
+  ylab("Frequency (per million words)") +
+  ggtitle("Mentions of COP summits in online news") +
+  theme(panel.grid.minor = element_blank())
+
+pdf("../results/NOW_COP_Freq.pdf",width=4,height=3)
+NOW_COP_Freq
+dev.off()
+
+ NOW_COP_Freq
+```
+
+\clearpage
+\newpage
+
+## By country
+
+```{r}
+copByC = read.delim("../data/NOW/COP_20s_FreqByCountry.txt",skip=1)
+copByC$SECTION = gsub(" $","",copByC$SECTION)
+copByC$region = copByC$SECTION
+
+repl = list(
+  c("United States","USA"),
+  c("Great Britain", "UK"))
+for(r in repl){
+  copByC$region[copByC$region==r[1]] = r[2]
+}
+copByC = copByC[order(copByC$PER.MIL,decreasing = T),]
+copByC
+```
+
+```{r}
+copByC.Out = copByC[,c("SECTION","FREQ","PER.MIL")]
+names(copByC.Out) = c("Country","Raw frequency","Frequency per million words")
+copByC.Out = copByC.Out[order(copByC.Out$`Frequency per million words`),]
+write.csv(copByC.Out,"../results/COP20s_ByCountry.csv",row.names = F)
+```
+
+Plot on a world map
+
+```{r}
+world_map <- map_data("world")
+world_map <- left_join(world_map, copByC, by = "region")
+ggplot(world_map, aes(x = long, y = lat, group = group)) +
+  geom_polygon(aes(fill=PER.MIL), colour = NA)+
+  scale_fill_viridis_c(option = "C",na.value = "light gray") +
+  theme_void()
+```
+
+```{r}
+ccpi = read.delim("../data/CCPI.tab",stringsAsFactors = F,skip = 1)
+repl = list(
+  c("United States","USA"),
+  c("Great Britain", "UK"))
+for(r in repl){
+  ccpi$Country[copByC$Country==r[1]] = r[2]
+}
+
+copByC$ccpi = ccpi[match(copByC$SECTION,ccpi$Country),]$CCPI
+
+cor.test(copByC$PER.MIL, copByC$ccpi)
+plot(copByC$PER.MIL, copByC$ccpi)
+text(copByC$PER.MIL, copByC$ccpi,copByC$SECTION)
+```
+
+
+
+## Collocations
+
+Load the data:
+
+```{r}
+d = data.frame()
+for(f in list.files("../data/NOW/","*Collocates.tab",full.names = T)){
+  dx = read.delim(f,header = F)
+  names(dx) = c("rank","X","word","freq","X","all","percent","mi","X")
+  dx = dx[,names(dx)!="X"]
+  dx$conference = substr(f,nchar(f)-18,nchar(f)-14)
+  dx$year = 2000+ as.numeric(substr(f,nchar(f)-15,nchar(f)-14))-6
+  d = rbind(d,dx)
+}
+d$year[d$year==2020] = 2021
+```
+
+Calculate the change in order to identify key terms:
+
+```{r}
+d$word = gsub(" ","",d$word)
+d = d[d$word!="(",]
+d = d[d$word!=")",]
+
+cx =table(d$word)
+selectedWords = names(cx[cx>=4])
+d = d[d$word %in% selectedWords,]
+
+#selectedWords = names(tail(sort(tapply(d$mi,d$word,max)),n=10))
+#selectedWords = names(tail(sort(tapply(d$mi,d$word,sd)),n=10))
+
+d$change = sapply(d$word, function(w){
+  coef(lm(d[d$word==w,]$mi~d[d$word==w,]$year))[2]
+})
+
+d$absChange = abs(d$change)
+
+collocationSummary = data.frame(
+  word = unique(d$word),
+  numConferencesWordAppearsIn = tapply(d$word,d$word,length),
+  meanFrequency = tapply(d$freq,d$word,mean),
+  changeInFrequencyOverTime = d[!duplicated(d$word),]$change,
+  absoluteChangeInFrequencyOverTime = d[!duplicated(d$word),]$absChange
+)
+write.csv(collocationSummary, "../results/COPCollocates_Change.csv")
+```
+
+Most highly ranked words:
+
+```{r}
+dSel = d[d$word %in% names(sort(tapply(d$rank,d$word,mean)))[1:11],]
+ggplot(dSel,aes(x=year,y=mi,color=word)) +
+  geom_line() +
+  xlab("Year") +
+  ylab("Mutual Information") +
+  ggtitle("Collocates of COP meetings")
+```
+
+Words changing most:
+
+```{r}
+selectedWords = names(tail(sort(tapply(d$absChange,d$word,head,n=1)),n=10))
+dSel = d[d$word %in% selectedWords,]
+avMI = tapply(dSel$mi,dSel$word,mean)
+dSel$word = factor(dSel$word,levels=names(sort(avMI,decreasing = T)))
+ggplot(dSel,aes(x=year,y=mi,color=word)) +
+  geom_line() + geom_point() +
+  xlab("Year") +
+  ylab("Mutual Information") +
+  ggtitle("Collocates of COP meetings")
+```
+
+
+# COCA
+
+## Frequency over time
+
+
+
+## Frequency by genre
+
+```{r}
+coca.sec = read.delim("../data/COCA/ClimateChange_BySection.txt",stringsAsFactors = F)
+coca.sec$mainSection = gsub(":.+","", coca.sec$SECTION)
+
+coca.tot = data.frame(
+  section = tapply(coca.sec$mainSection,
+                   coca.sec$mainSection,head,n=1),
+  FREQ = tapply(coca.sec$FREQ,coca.sec$mainSection,sum),
+  SIZE = tapply(coca.sec$SIZE,coca.sec$mainSection,sum)
+)
+coca.tot$PER.MIL = 1000000 * coca.tot$FREQ / coca.tot$SIZE
+
+sectionNames = c(Blog="Blogs", "ACAD"="Academic Journals", "Web"="General webpages", "MAG"= "Popular Magazines", "NEWS"="Newspapers", "SPOK"="Unscripted TV+Radio", "FIC"="Written Fiction", "Mov"="Movies", "TV"="Scripted TV")
+coca.tot$Genre = sectionNames[coca.tot$section]
+
+coca.tot =coca.tot[coca.tot$section!="Web",]
+
+coca.tot[order(coca.tot$PER.MIL,decreasing = T),c("Genre","FREQ",'PER.MIL')]
+
+coca.tot$PER.MIL.ROUND = round(coca.tot$PER.MIL,2)
+coca.tot = coca.tot[order(coca.tot$PER.MIL.ROUND,decreasing = T),]
+
+write.csv(
+  coca.tot[,c("Genre","FREQ",'PER.MIL.ROUND')],
+  "../results/COCA_ClimateChange_BySection.csv",
+  row.names = F)
+
+coca.tot$prop = 100*coca.tot$PER.MIL/sum(coca.tot$PER.MIL)
+coca.tot$ypos = rev(cumsum(rev(coca.tot$prop)))
+coca.tot$ypos = coca.tot$ypos + c(diff(coca.tot$ypos)/2,0)
+coca.tot$label = coca.tot$Genre
+coca.tot$label[coca.tot$label=="Movies"] = "Other"
+coca.tot$label[coca.tot$label=="Written Fiction"] = ""
+coca.tot$label[coca.tot$label=="Scripted TV"] = ""
+
+coca.tot$Genre = factor(coca.tot$Genre,levels = coca.tot$Genre)
+COCA.propGenre = ggplot(coca.tot,aes(y=prop,x="",fill=Genre)) +
+  geom_bar(stat="identity",position="stack") +
+  geom_text(aes(x="",y=ypos,label=label)) +
+  ylab("%") + xlab("") +
+  theme(axis.title.x = element_blank(),
+        axis.ticks.x = element_blank(),
+        legend.position = "none") +
+  ggtitle("Proportion of mentions\nby genre")
+COCA.propGenre
+```
+
+
+## Frequency over time
+
+```{r}
+coca.year = read.delim("../data/COCA/ClimateChange_ByYear.txt",stringsAsFactors = F)
+
+COCA.propYear = ggplot(coca.year,aes(x=SECTION,y=PER.MIL))+
+  geom_line() + geom_point() +
+  xlab("Year") + 
+  ylab("Frequency per million words") +
+  ggtitle("Frequency of 'climate change' in a\ngeneral corpus of American English")
+COCA.propYear
+
+pdf("../results/COCA_ClimateChage_ByYearAndGenre.pdf", width=7,height=4)
+ggarrange(COCA.propYear,COCA.propGenre,
+          nrow = 1,widths = c(1,0.6))
+dev.off()
+
+```
+

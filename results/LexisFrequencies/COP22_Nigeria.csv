@@ -1,0 +1,164 @@
+"","COP","country","aspect","keyword","freq"
+"1","COP22","Nigeria","Accessibility","affordability",0
+"2","COP22","Nigeria","Accessibility","affordable",0
+"3","COP22","Nigeria","Accessibility","ability to pay",0
+"4","COP22","Nigeria","Accessibility","able to pay",0
+"5","COP22","Nigeria","Accessibility","inability to pay",0
+"6","COP22","Nigeria","Accessibility","unable to pay",0
+"7","COP22","Nigeria","Accessibility","energy poverty",0
+"8","COP22","Nigeria","Accessibility","energy burden",0
+"9","COP22","Nigeria","Accessibility","fuel poverty",0
+"10","COP22","Nigeria","Accessibility","trasportation poverty",0
+"11","COP22","Nigeria","Accessibility","energy prices",0
+"12","COP22","Nigeria","Accessibility","energy bills",0
+"13","COP22","Nigeria","Accessibility","tansportation bills",0
+"14","COP22","Nigeria","Accessibility","utility bill",0
+"15","COP22","Nigeria","Accessibility","electricity bill",0
+"16","COP22","Nigeria","Accessibility","utility bills",0
+"17","COP22","Nigeria","Accessibility","electricity bills",0
+"18","COP22","Nigeria","Accessibility","gas bill",0
+"19","COP22","Nigeria","Accessibility","energy billgas bill",0
+"20","COP22","Nigeria","Accessibility","energy cost",0
+"21","COP22","Nigeria","Accessibility","equity",0
+"22","COP22","Nigeria","Accessibility","inequity",0
+"23","COP22","Nigeria","Accessibility","inequality",0
+"24","COP22","Nigeria","Accessibility","inequalities",0
+"25","COP22","Nigeria","Accessibility","energy justice",0
+"26","COP22","Nigeria","Accessibility","household",0
+"27","COP22","Nigeria","Accessibility","households",0
+"28","COP22","Nigeria","Accessibility","low-income households",0
+"29","COP22","Nigeria","Accessibility","low-income household",0
+"30","COP22","Nigeria","Accessibility","energy efficiency",0
+"31","COP22","Nigeria","Accessibility","personal finance",0
+"32","COP22","Nigeria","Accessibility","personal finances",0
+"33","COP22","Nigeria","Accessibility","race",0
+"34","COP22","Nigeria","Accessibility","minorities",0
+"35","COP22","Nigeria","Accessibility","underserved communities",0
+"36","COP22","Nigeria","Accessibility","gender",47.7235849957049
+"37","COP22","Nigeria","Accessibility","women",715.853774935573
+"38","COP22","Nigeria","Accessibility","social economic class",0
+"39","COP22","Nigeria","Accessibility","upper class",0
+"40","COP22","Nigeria","Accessibility","middle class",0
+"41","COP22","Nigeria","Accessibility","lower class",0
+"42","COP22","Nigeria","Accessibility","working class",0
+"43","COP22","Nigeria","Accessibility","household heating",0
+"44","COP22","Nigeria","Accessibility","cooling",47.7235849957049
+"45","COP22","Nigeria","Accessibility","thermal comfort",0
+"46","COP22","Nigeria","Accessibility","hosuehold heating problems",0
+"47","COP22","Nigeria","Accessibility","household cooling probloems",0
+"48","COP22","Nigeria","Accessibility","consumption",143.170754987115
+"49","COP22","Nigeria","Accessibility","consuming",0
+"50","COP22","Nigeria","Accessibility","consumed",0
+"51","COP22","Nigeria","Accessibility","basic needs",0
+"52","COP22","Nigeria","Accessibility","basic need",0
+"53","COP22","Nigeria","Security","reliability",0
+"54","COP22","Nigeria","Security","reliable",47.7235849957049
+"55","COP22","Nigeria","Security","resilience",286.341509974229
+"56","COP22","Nigeria","Security","resiliant",0
+"57","COP22","Nigeria","Security","power outage",0
+"58","COP22","Nigeria","Security","power outages",0
+"59","COP22","Nigeria","Security","blackout",0
+"60","COP22","Nigeria","Security","power cut",0
+"61","COP22","Nigeria","Security","blackouts",0
+"62","COP22","Nigeria","Security","power cuts",0
+"63","COP22","Nigeria","Security","security",715.853774935573
+"64","COP22","Nigeria","Security","stability",95.4471699914098
+"65","COP22","Nigeria","Security","risk",238.617924978524
+"66","COP22","Nigeria","Security","risky",0
+"67","COP22","Nigeria","Security","adequacy",0
+"68","COP22","Nigeria","Security","corruption",954.471699914097
+"69","COP22","Nigeria","Security","corrupted",0
+"70","COP22","Nigeria","Security","geopolitics",0
+"71","COP22","Nigeria","Security","peak hours",0
+"72","COP22","Nigeria","Security","enegy demand",0
+"73","COP22","Nigeria","Security","nuclear",190.89433998282
+"74","COP22","Nigeria","Security","consistence",0
+"75","COP22","Nigeria","Security","consistency",0
+"76","COP22","Nigeria","Security","intermittancy",0
+"77","COP22","Nigeria","Security","intermittent",0
+"78","COP22","Nigeria","Security","war",1049.91886990551
+"79","COP22","Nigeria","Security","wars",0
+"80","COP22","Nigeria","Security","conflicts",47.7235849957049
+"81","COP22","Nigeria","Security","energy crisis",0
+"82","COP22","Nigeria","Security","energy crises",0
+"83","COP22","Nigeria","Security","petro-politics",0
+"84","COP22","Nigeria","Security","petropolitics",0
+"85","COP22","Nigeria","Security","aging infrastructure",0
+"86","COP22","Nigeria","Security","industry",143.170754987115
+"87","COP22","Nigeria","Security","industries",95.4471699914098
+"88","COP22","Nigeria","Security","industrial",95.4471699914098
+"89","COP22","Nigeria","Security","neoliberalism",0
+"90","COP22","Nigeria","Security","nationalisation",0
+"91","COP22","Nigeria","Security","nationalising",0
+"92","COP22","Nigeria","Security","nationalizing",0
+"93","COP22","Nigeria","Sustainability","sustainability",286.341509974229
+"94","COP22","Nigeria","Sustainability","sustainable",1336.26037987974
+"95","COP22","Nigeria","Sustainability","green",715.853774935573
+"96","COP22","Nigeria","Sustainability","greenhouse",524.959434952754
+"97","COP22","Nigeria","Sustainability","carbon emissions",95.4471699914098
+"98","COP22","Nigeria","Sustainability","emissions",524.959434952754
+"99","COP22","Nigeria","Sustainability","emission",334.065094969934
+"100","COP22","Nigeria","Sustainability","emitting",0
+"101","COP22","Nigeria","Sustainability","emitted",0
+"102","COP22","Nigeria","Sustainability","nuclear",190.89433998282
+"103","COP22","Nigeria","Sustainability","carbon capture",0
+"104","COP22","Nigeria","Sustainability","carbon capture and storage",0
+"105","COP22","Nigeria","Sustainability","CCS",0
+"106","COP22","Nigeria","Sustainability","CCU",0
+"107","COP22","Nigeria","Sustainability","carbon capture and usage",0
+"108","COP22","Nigeria","Sustainability","sequester",47.7235849957049
+"109","COP22","Nigeria","Sustainability","sequestering",0
+"110","COP22","Nigeria","Sustainability","sequestration",0
+"111","COP22","Nigeria","Sustainability","renewable energy",1002.1952849098
+"112","COP22","Nigeria","Sustainability","renewables",47.7235849957049
+"113","COP22","Nigeria","Sustainability","ecosystem",47.7235849957049
+"114","COP22","Nigeria","Sustainability","ecosystems",47.7235849957049
+"115","COP22","Nigeria","Sustainability","transition",47.7235849957049
+"116","COP22","Nigeria","Sustainability","transitioning",47.7235849957049
+"117","COP22","Nigeria","Sustainability","transitions",0
+"118","COP22","Nigeria","Sustainability","low-carbon",0
+"119","COP22","Nigeria","Sustainability","zero carbon",0
+"120","COP22","Nigeria","Sustainability","decarbonization",0
+"121","COP22","Nigeria","Sustainability","subsidies",47.7235849957049
+"122","COP22","Nigeria","Sustainability","subsidy",0
+"123","COP22","Nigeria","Sustainability","subsidising",0
+"124","COP22","Nigeria","Sustainability","subsidizing",0
+"125","COP22","Nigeria","Sustainability","subsidise",0
+"126","COP22","Nigeria","Sustainability","subsidize",0
+"127","COP22","Nigeria","Sustainability","environmental health",0
+"128","COP22","Nigeria","Sustainability","decarbonisation",0
+"129","COP22","Nigeria","Sustainability","decarbonize",0
+"130","COP22","Nigeria","Sustainability","decarbonise",47.7235849957049
+"131","COP22","Nigeria","Sustainability","wind",190.89433998282
+"132","COP22","Nigeria","Sustainability","tidal",0
+"133","COP22","Nigeria","Sustainability","ocean energy",0
+"134","COP22","Nigeria","Sustainability","hydrogen",0
+"135","COP22","Nigeria","Sustainability","geothermal",0
+"136","COP22","Nigeria","Sustainability","centralized",0
+"137","COP22","Nigeria","Sustainability","decentralized",0
+"138","COP22","Nigeria","Sustainability","centralised",0
+"139","COP22","Nigeria","Sustainability","decentralised",0
+"140","COP22","Nigeria","Sustainability","solar",859.024529922688
+"141","COP22","Nigeria","Sustainability","photovoltaics",0
+"142","COP22","Nigeria","Sustainability","photovoltaic",47.7235849957049
+"143","COP22","Nigeria","Sustainability","PV",95.4471699914098
+"144","COP22","Nigeria","Sustainability","solar panels",95.4471699914098
+"145","COP22","Nigeria","Sustainability","solar panel",95.4471699914098
+"146","COP22","Nigeria","Sustainability","shale gas fracking",0
+"147","COP22","Nigeria","Sustainability","frack",0
+"148","COP22","Nigeria","Sustainability","fracking",0
+"149","COP22","Nigeria","Sustainability","pollution",190.89433998282
+"150","COP22","Nigeria","Sustainability","polluting",0
+"151","COP22","Nigeria","Sustainability","polluted",0
+"152","COP22","Nigeria","Sustainability","energy storage",0
+"153","COP22","Nigeria","Sustainability","alternative",95.4471699914098
+"154","COP22","Nigeria","Sustainability","alternatives",95.4471699914098
+"155","COP22","Nigeria","Sustainability","coal",190.89433998282
+"156","COP22","Nigeria","Sustainability","natural gas",0
+"157","COP22","Nigeria","Sustainability","biomass",0
+"158","COP22","Nigeria","Sustainability","ozone",0
+"159","COP22","Nigeria","Sustainability","Electrical vehicles",0
+"160","COP22","Nigeria","Sustainability","EV",0
+"161","COP22","Nigeria","Sustainability","electric vehicles",0
+"162","COP22","Nigeria","Sustainability","net zero",0
+"163","COP22","Nigeria","Sustainability","carbon neutrality",0
