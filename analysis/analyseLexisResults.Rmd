@@ -1,0 +1,758 @@
+---
+title: "Measuring Media Coverage of the Energy Trilemma"
+output: 
+  pdf_document:
+    toc: true
+editor_options: 
+  chunk_output_type: console
+papersize: a4
+---
+
+```{r echo=F,eval=F}
+try(setwd("~/OneDrive - Cardiff University/Research/Cardiff/ClimageChangeAndLanguage/project/analysis/"))
+```
+
+# Introduction
+
+This report analyses the the frequency of news media discussion of the three energy trilemma components: Accessibility, Security and Sustainability. It seeks to answer three research questions:
+
+1.  Overall, which components receive more attention in news media?
+
+2.  How does news coverage from different countries differ in terms of their emphases on different components.
+
+3.  How has the emphasis on different components changed over time?
+
+4.  How does the measure of news discussion compare to other measures of a country's prioritisation of the energy trilemma?
+
+\clearpage
+\newpage
+
+## Key Terms
+
+Discussion of each component of the energy trilemma was measured by measuring the frequency of key terms associated with each component. The tables below list the words included for each component. 
+
+```{r echo=F,warning=F,message=F}
+kw2 = read.csv("../data/LEXIS/TrilemmaKeywords.csv",stringsAsFactors = F)
+
+getKeywords= function(sub){
+  kx = unique(unlist(strsplit(kw2[kw2$Subject==sub,]$concepts,";")))
+  names(kx) = kx
+  return(kx)
+}
+accessibilityKeywords = sort(getKeywords("Accessibility"))
+securityKeywords = sort(getKeywords("Security"))
+sustainabilityKeywords = sort(getKeywords("Sustainability"))
+
+knitr::kable(data.frame(Accessibility = c(paste(accessibilityKeywords, collapse=", "))))
+
+knitr::kable(data.frame(Security = c(paste(securityKeywords, collapse=", "))))
+
+knitr::kable(data.frame(Sustainability = c(paste(sustainabilityKeywords, collapse=", "))))
+```
+\clearpage
+\newpage
+
+# Statistical analysis
+
+Load libraries
+
+```{r message=F,warning=F}
+library(ggtern)
+library(ggrepel)
+library(ggpubr)
+library(openxlsx)
+library(lme4)
+library(mgcv)
+library(tidyr)
+source(file = "GAM_derivaties.R")
+```
+
+## Load Data
+
+```{r message=F,warning=F}
+d = read.csv("../data/LEXIS/TrilemmaScores_byCountry.csv",stringsAsFactors = F)
+
+d$country[d$country=="South.Africa"] = "SA"
+d$country[d$country=="Hong.Kong"] = "HK"
+```
+
+Load the keywords and adjust the total frequency to control for the number of keywords
+
+```{r}
+kw = read.csv("../data/LEXIS/TrilemmaKeywords.csv",stringsAsFactors = F)
+
+getKeywords= function(sub){
+  kx = unique(unlist(strsplit(kw[kw$Subject==sub,]$concepts,";")))
+  names(kx) = kx
+  return(kx)
+}
+accessibilityKeywords = getKeywords("Accessibility")
+securityKeywords = getKeywords("Security")
+sustainabilityKeywords = getKeywords("Sustainability")
+
+d$sustainability = d$sustainability / length(sustainabilityKeywords)
+d$security = d$security / length(securityKeywords)
+d$accessibility = d$accessibility / length(accessibilityKeywords)
+```
+
+Calculate proportional weighting of each component.
+
+```{r}
+d$tot = d$accessibility + d$security + d$sustainability
+
+d$Accessibility = d$accessibility / d$tot
+d$Security = d$security / d$tot
+d$Sustainability = d$sustainability / d$tot
+```
+
+Mean and sd for each component:
+
+```{r}
+colMeans(d[,c("Sustainability","Security","Accessibility")])
+apply(d[,c("Sustainability","Security","Accessibility")],2,sd)
+```
+
+Total number of words:
+
+```{r}
+totalWords = sum(d$totalWords)
+totalWords
+```
+
+## Analysis of overall scores
+
+Create a ternary graph of the overall scores:
+
+```{r}
+overallTern = ggtern(data=d, 
+       aes(x=Accessibility,y=Security, z=Sustainability)) + 
+  tern_limit(T=0.55,L=0.45,R=0.75) + 
+  theme_showarrows() +
+  labs(x="",xarrow="Accessibility",
+       y="",yarrow="Security",
+       z="",zarrow="Sustainability")+
+  geom_text(aes(label=country,colour=country),show.legend = FALSE,
+            position = position_nudge_tern(y=0.01),
+            alpha=1) +
+  geom_point(aes(colour=country),alpha=0.5)
+overallTern
+pdf(file="../results/COP_Overall_EnergyTrilemma.pdf")
+overallTern
+dev.off()
+```
+
+Compare the weightings of the components:
+
+```{r}
+boxplotData = data.frame(
+  Score = c(d$Accessibility,d$Security,d$Sustainability)*100,
+  Type = rep(c("Acc.","Sec.","Sus."),each=nrow(d)),
+  Country = rep(d$country,3)
+)
+
+bpComp = ggplot(boxplotData,aes(y=Score,fill=Type,x=Type,color=Type))+
+  geom_boxplot() +
+  theme(axis.title.x = element_blank(), legend.position = "none") +
+  ylim(c(0,100)) + 
+  scale_fill_manual(values=c("#619cffff","#f8766dff","#0a9f37ff")) +
+  scale_color_manual(values=c("#3b61a1","#a34e48","#05591f"))
+
+bpComp
+pdf(file="../results/COP_Overall_EnergyTrilemma_Boxplot.pdf",
+    width=1.7,height=3)
+bpComp
+dev.off()
+```
+
+Plot the overall results by country:
+
+```{r}
+boxplotData$Country = factor(boxplotData$Country, levels = 
+  boxplotData[boxplotData$Type=="Sus.",]$Country[
+    order(boxplotData[boxplotData$Type=="Sus.",]$Score,decreasing = T)])
+
+balanceByCountry = ggplot(boxplotData,
+                          aes(x=Country,y=Score,fill=Type)) + 
+  geom_bar(position="fill",stat="identity") +
+  coord_flip() +
+  theme(legend.position = "none") +
+  annotate("text", x = 12, y = 0.25, label = "Sus")+
+  annotate("text", x = 12, y = 0.63, label = "Sec")+
+  annotate("text", x = 12, y = 0.9, label = "Acc") +
+  scale_fill_manual(values=c("#619cffff","#f8766dff","#0a9f37ff"))
+
+balanceByCountry
+pdf("../results/COP_Overall_EnergyTrilemma_ByCountry.pdf",
+    height=3,width=4)
+balanceByCountry
+dev.off()
+
+pdf("../results/COP_Boxplot_and_byCountry.pdf",
+    width = 4.25,height=2.5)
+ggarrange(bpComp+xlab("Component")+
+            theme(axis.title.x=element_text()),
+          balanceByCountry,nrow = 1,widths = c(1,2))
+dev.off()
+```
+
+The sustainability scores are clearly higher than security:
+
+```{r}
+t.test(d$Sustainability,d$Security)
+```
+
+Check whether security is higher than accessibility:
+
+```{r}
+t.test(d$Security,d$Accessibility)
+```
+
+Yes. So Sustainability > Security > Accessibility.
+
+
+## Analysis of change over time
+
+Load data for each year:
+
+```{r}
+dy = read.csv("../data/LEXIS/TrilemmaScores_byCountryAndYear.csv",stringsAsFactors = F)
+dy$COP = gsub("COP","",dy$COP)
+
+# Total frequency
+dy$tot = dy$accessibility + dy$security + dy$sustainability
+
+# Weighting of frequency
+dy$Accessibility = dy$accessibility / dy$tot
+dy$Security = dy$security / dy$tot
+dy$Sustainability = dy$sustainability / dy$tot
+```
+
+Graph of overall change over time:
+
+```{r}
+g1 = ggplot(dy,aes(x=as.numeric(COP),y=Accessibility)) +
+  stat_smooth(method = "lm",group=1,color="black")+
+  geom_point(aes(group=country,color=country)) +
+  geom_line(aes(group=country,color=country)) +
+  ggtitle("Accessibility")+
+  ylab("Score")+
+  xlab("COP")+
+  theme(legend.position = "none")
+
+g2 =  ggplot(dy,aes(x=as.numeric(COP),y=Security)) +
+  stat_smooth(group=1,color="black",n=14)+
+  geom_point(aes(group=country,color=country)) +
+  geom_line(aes(group=country,color=country)) +
+  ggtitle("Security")+
+  xlab("COP")+
+  theme(legend.position = "none",axis.title.y = element_blank())
+
+g3 =  ggplot(dy,aes(x=as.numeric(COP),y=Sustainability)) +
+  stat_smooth(group=1,color="black")+
+  geom_point(aes(group=country,color=country)) +
+  geom_line(aes(group=country,color=country)) +
+  ggtitle("Sustainability")+
+  ylab("Score")+
+  xlab("COP")+
+  theme(axis.title.y = element_blank())
+
+g1 + theme(legend.position = "right")
+g2 + theme(legend.position = "right")
+g3 + theme(legend.position = "right")
+
+# Write to file
+pdf("../results/COP_Trilemma_ChangeOverTime.pdf",height=4,width=12)
+ggarrange(g1,g2,g3,nrow = 1,widths = c(1.1,1.05,1.45))
+dev.off()
+```
+
+There appears to be a general trend over time. For sustainability, there is an increase in values around COP26, and this is compensated by a drop in security values. Below, we use a General Additive Model (GAM) to test the change in the proportional coverage of sustainability. The model includes a random intercept for each country. A random slope for year by country does not significantly improve the mode fit.
+
+```{r}
+dy$year = as.numeric(dy$COP)
+dy$countryFac = factor(dy$country)
+gm0 = gam(Sustainability ~ 
+            s(year,k=7) + 
+            s(countryFac,bs='re'),
+          data = dy)
+summary(gm0)
+```
+
+The EDF value for the smooth term of year is significantly greater than 1, indicating that there is evidence for non-linear change. 
+
+The plot below highlights which sections of the GAM spline are significantly increasing or decreasing. This method comes from [this source](https://www.fromthebottomoftheheap.net/2014/05/15/identifying-periods-of-change-with-gams/), and also used in Monaghan & Roberts (2019). The basic idea is to calculate the derivatives of the slope (how much the slope is increasing or decreasing) and then compute confidence intervals for the derivatives from their standard errors. If the confidence intervals of the derivatives do not overlap zero, then they are considered significant.
+
+```{r}
+plotGAMSignificantSlopes(gm0,"year","Year")
+```
+
+The plot suggests that there is a significant increase in media coverage about sustainability during COP26, but that reduced back to the baseline for COP27.
+
+The correlation between sustainability and both security and accessibility is highly negative, suggesting that the coverage of sustainability is at the expense of covering both the other topics:
+
+```{r}
+cor.test(dy$Sustainability, dy$Security)
+cor.test(dy$Sustainability, dy$Accessibility)
+```
+
+
+\clearpage
+\newpage
+
+## Absolute and relative change over time
+
+```{r}
+vec = NULL
+vecCenter = NULL
+for(country in unique(dy$country)){
+  dx = dy[dy$country==country,]
+  meanA = mean(dx$Accessibility)
+  meanSec = mean(dx$Security)
+  meanSus = mean(dx$Sustainability)
+  
+  dA = sum(diff(dx$Accessibility))
+  dSec = sum(diff(dx$Security))
+  dSus = sum(diff(dx$Sustainability))
+  
+  vec = rbind(vec,data.frame(
+    country = country,
+    Accessibility = c(meanA,meanA+dA),
+    Security = c(meanSec,meanSec+dSec),
+    Sustainability = c(meanSus,meanSus+dSus)
+  ))
+  centerPoint = 1/3
+  vecCenter = rbind(vecCenter,data.frame(
+    country = country,
+    Accessibility = c(centerPoint,centerPoint+dA*4),
+    Security = c(centerPoint,centerPoint+dSec*4),
+    Sustainability = c(centerPoint,centerPoint+dSus*4)
+  ))
+}
+
+avChange = ggtern(data=vec, 
+       aes(x=Accessibility,y=Security, z=Sustainability,colour=country)) + 
+  tern_limit(T=0.5,L=0.5,R=0.85) + 
+  theme_showarrows() +
+  labs(x="",xarrow="Accessibility",
+       y="",yarrow="Security",
+       z="",zarrow="Sustainability")+
+  geom_path(arrow=arrow(type = "closed",length =unit(0.1, "inches") )) +
+  ggtitle("Average change over time")
+
+avChange
+pdf("../results/COP_Overall_AvChangeOverTime.pdf",
+    width=6,height=6)
+avChange
+dev.off()
+
+relChange = ggtern(data=vecCenter, 
+       aes(x=Accessibility,y=Security, z=Sustainability,colour=country)) + 
+  tern_limit(T=1,L=1,R=1) + 
+  theme_showarrows() +
+  theme_nolabels()+
+  theme_noticks()+
+  theme(legend.position = "none")+
+  labs(x="",xarrow="Accessibility",
+       y="",yarrow="Security",
+       z="",zarrow="Sustainability")+
+  geom_text(aes(label=country,colour=country),show.legend = FALSE,
+            alpha=1) +
+  geom_path(arrow=arrow(type = "closed",length =unit(0.1, "inches") )) +
+  ggtitle("Average change over time")
+
+relChange
+
+pdf("../results/COP_Overall_RelChangeOverTime.pdf",width=6,height=6)
+relChange
+dev.off()
+
+```
+
+\clearpage
+\newpage
+
+## COP Trilemma scores over time by country:
+
+```{r}
+fillColours = rev(hcl.colors(length(unique(dy$COP))))
+
+ggtern(data=dy[dy$country=="UK",], 
+       aes(x=Accessibility,y=Security, z=Sustainability)) + 
+  tern_limit(T=0.4,L=0.4,R=0.85) + 
+  theme_showarrows() +
+  labs(x="",xarrow="Accessibility",
+       y="",yarrow="Security",
+       z="",zarrow="Sustainability")+
+  geom_path(arrow=arrow(type = "closed",length =unit(0.1, "inches") ),color="gray",alpha=1) +
+  #geom_text(aes(label=COP,colour=COP),show.legend = FALSE,
+  #          position = position_nudge_tern(y=0.01),
+  #          alpha=1) +
+  scale_color_manual(values = fillColours)+
+  geom_point(aes(colour=COP),alpha=0.5) +
+  ggtitle("UK")
+
+
+ggtern(data=dy[dy$country=="USA",], 
+       aes(x=Accessibility,y=Security, z=Sustainability)) + 
+  tern_limit(T=0.4,L=0.4,R=0.85) + 
+  theme_showarrows() +
+  labs(x="",xarrow="Accessibility",
+       y="",yarrow="Security",
+       z="",zarrow="Sustainability")+
+  geom_path(arrow=arrow(type = "closed",length =unit(0.1, "inches") ),color="gray",alpha=1) +
+  #geom_text(aes(label=COP,colour=COP),show.legend = FALSE,
+  #          position = position_nudge_tern(y=0.01),
+  #          alpha=1) +
+  scale_color_manual(values = fillColours)+
+  geom_point(aes(colour=COP),alpha=0.5) +
+  ggtitle("USA")
+
+
+ggtern(data=dy[dy$country=="Bangladesh",], 
+       aes(x=Accessibility,y=Security, z=Sustainability)) + 
+  tern_limit(T=0.4,L=0.5,R=0.85) + 
+  theme_showarrows() +
+  labs(x="",xarrow="Accessibility",
+       y="",yarrow="Security",
+       z="",zarrow="Sustainability")+
+  geom_path(arrow=arrow(type = "closed",length =unit(0.1, "inches") ),color="gray",alpha=1) +
+  #geom_text(aes(label=COP,colour=COP),show.legend = FALSE,
+  #          position = position_nudge_tern(y=0.01),
+  #          alpha=1) +
+  scale_color_manual(values = fillColours)+
+  geom_point(aes(colour=COP),alpha=0.5) +
+  ggtitle("Bangladesh")
+
+ggtern(data=dy[dy$country=="Ireland",], 
+       aes(x=Accessibility,y=Security, z=Sustainability)) + 
+  tern_limit(T=0.4,L=0.4,R=1) + 
+  theme_showarrows() +
+  labs(x="",xarrow="Accessibility",
+       y="",yarrow="Security",
+       z="",zarrow="Sustainability")+
+  geom_path(arrow=arrow(type = "closed",length =unit(0.1, "inches") ),color="gray",alpha=1) +
+  #geom_text(aes(label=COP,colour=COP),show.legend = FALSE,
+  #          position = position_nudge_tern(y=0.01),
+  #          alpha=1) +
+  scale_color_manual(values = fillColours)+
+  geom_point(aes(colour=COP),alpha=0.5) +
+  ggtitle("Ireland")
+
+ggtern(data=dy[dy$country=="Australia",], 
+       aes(x=Accessibility,y=Security, z=Sustainability)) + 
+  tern_limit(T=0.3,L=0.3,R=1) + 
+  theme_showarrows() +
+  labs(x="",xarrow="Accessibility",
+       y="",yarrow="Security",
+       z="",zarrow="Sustainability")+
+  geom_path(arrow=arrow(type = "closed",length =unit(0.1, "inches") ),color="gray",alpha=1) +
+  #geom_text(aes(label=COP,colour=COP),show.legend = FALSE,
+  #          position = position_nudge_tern(y=0.01),
+  #          alpha=1) +
+  scale_color_manual(values = fillColours)+
+  geom_point(aes(colour=COP),alpha=0.5) +
+  ggtitle("Australia")
+
+ggtern(data=dy[dy$country=="Nigeria",], 
+       aes(x=Accessibility,y=Security, z=Sustainability)) + 
+  tern_limit(T=0.6,L=0.6,R=1) + 
+  theme_showarrows() +
+  labs(x="",xarrow="Accessibility",
+       y="",yarrow="Security",
+       z="",zarrow="Sustainability")+
+  geom_path(arrow=arrow(type = "closed",length =unit(0.1, "inches") ),color="gray",alpha=1) +
+  #geom_text(aes(label=COP,colour=COP),show.legend = FALSE,
+  #          position = position_nudge_tern(y=0.01),
+  #          alpha=1) +
+  scale_color_manual(values = fillColours)+
+  geom_point(aes(colour=COP),alpha=0.5) +
+  ggtitle("Nigeria")
+
+ggtern(data=dy[dy$country=="China",], 
+       aes(x=Accessibility,y=Security, z=Sustainability)) + 
+  tern_limit(T=0.6,L=0.6,R=1) + 
+  theme_showarrows() +
+  labs(x="",xarrow="Accessibility",
+       y="",yarrow="Security",
+       z="",zarrow="Sustainability")+
+  geom_path(arrow=arrow(type = "closed",length =unit(0.1, "inches") ),color="gray",alpha=1) +
+  #geom_text(aes(label=COP,colour=COP),show.legend = FALSE,
+  #          position = position_nudge_tern(y=0.01),
+  #          alpha=1) +
+  scale_color_manual(values = fillColours)+
+  geom_point(aes(colour=COP),alpha=0.5) +
+  ggtitle("China")
+
+ggtern(data=dy[dy$country=="South.Africa",], 
+       aes(x=Accessibility,y=Security, z=Sustainability)) + 
+  tern_limit(T=0.6,L=0.6,R=1) + 
+  theme_showarrows() +
+  labs(x="",xarrow="Accessibility",
+       y="",yarrow="Security",
+       z="",zarrow="Sustainability")+
+  geom_path(arrow=arrow(type = "closed",length =unit(0.1, "inches") ),color="gray",alpha=1) +
+  #geom_text(aes(label=COP,colour=COP),show.legend = FALSE,
+  #          position = position_nudge_tern(y=0.01),
+  #          alpha=1) +
+  scale_color_manual(values = fillColours)+
+  geom_point(aes(colour=COP),alpha=0.5) +
+  ggtitle("South Africa")
+
+ggtern(data=dy[dy$country=="UAE",], 
+       aes(x=Accessibility,y=Security, z=Sustainability)) + 
+  tern_limit(T=0.6,L=0.6,R=1) + 
+  theme_showarrows() +
+  labs(x="",xarrow="Accessibility",
+       y="",yarrow="Security",
+       z="",zarrow="Sustainability")+
+  geom_path(arrow=arrow(type = "closed",length =unit(0.1, "inches") ),color="gray",alpha=1) +
+  #geom_text(aes(label=COP,colour=COP),show.legend = FALSE,
+  #          position = position_nudge_tern(y=0.01),
+  #          alpha=1) +
+  scale_color_manual(values = fillColours)+
+  geom_point(aes(colour=COP),alpha=0.5) +
+  ggtitle("UAE")
+
+ggtern(data=dy[dy$country=="Canada",], 
+       aes(x=Accessibility,y=Security, z=Sustainability)) + 
+  tern_limit(T=0.5,L=0.5,R=1) + 
+  theme_showarrows() +
+  labs(x="",xarrow="Accessibility",
+       y="",yarrow="Security",
+       z="",zarrow="Sustainability")+
+  geom_path(arrow=arrow(type = "closed",length =unit(0.1, "inches") ),color="gray",alpha=1) +
+  #geom_text(aes(label=COP,colour=COP),show.legend = FALSE,
+  #          position = position_nudge_tern(y=0.01),
+  #          alpha=1) +
+  scale_color_manual(values = fillColours)+
+  geom_point(aes(colour=COP),alpha=0.5) +
+  ggtitle("Canada")
+
+ggtern(data=dy[dy$country=="India",], 
+       aes(x=Accessibility,y=Security, z=Sustainability)) + 
+  tern_limit(T=0.5,L=0.5,R=1) + 
+  theme_showarrows() +
+  labs(x="",xarrow="Accessibility",
+       y="",yarrow="Security",
+       z="",zarrow="Sustainability")+
+  geom_path(arrow=arrow(type = "closed",length =unit(0.1, "inches") ),color="gray",alpha=1) +
+  #geom_text(aes(label=COP,colour=COP),show.legend = FALSE,
+  #          position = position_nudge_tern(y=0.01),
+  #          alpha=1) +
+  scale_color_manual(values = fillColours)+
+  geom_point(aes(colour=COP),alpha=0.5) +
+  ggtitle("India")
+```
+
+
+\clearpage
+\newpage
+
+# Comparing the frequency measure to other measures
+
+## Energy Justice Metric
+
+First, we compare our measures to the Energy Justice Metric (EJM) from Heffron et al. (2015). This involves estimating the costs of various processes associated with each component. Below we plot the two measures against each other:
+
+```{r}
+hi = read.csv("../data/Heffron_2018_Metric.csv",stringsAsFactors = F)
+d[,c("Hindex.acc","Hindex.sec","Hindex.sus")] = 
+  hi[match(d$country,hi$country),
+     c("accessibility","security","sustainability")]
+
+plot(d$Accessibility,d$Hindex.acc)
+plot(d$Security,d$Hindex.sec)
+plot(d$Sustainability,d$Hindex.sus)
+```
+
+It is difficult to assess the similarity with only three datapoints. The ranking for Security and Sustainability is the same, but there is a difference for Accessibility.
+
+## WEC Energy Trilemma Index
+
+Next, we compare our measure to the Energy Trilemma Index (ETI) from the WEC.
+
+```{r}
+wec = read.xlsx("../data/Trielemma_scores.xlsx",sheet = 1,startRow = 3)
+names(wec)[1:2] = c("Conference","Year")
+names(wec)[3:ncol(wec)] = paste0(rep(names(wec)[3:14]), rep(c(".SEC",".SUS",".ACC"),each=12))
+
+# Match WEC to our data
+dy[,c("WEC.SEC","WEC.SUS","WEC.ACC")] = NA
+for(i in 1:nrow(dy)){
+  country= dy[i,]$country
+  conf = dy[i,]$COP
+  dy[i,c("WEC.SEC","WEC.SUS","WEC.ACC")] = 
+      wec[wec$Conference==paste0("COP",conf),paste0(country,".",c("SEC","SUS","ACC"))]
+}
+
+xsus = dy[,c("COP","country","Sustainability","WEC.SUS")]
+xsec = dy[,c("COP","country","Security","WEC.SEC")]
+xacc = dy[,c("COP","country","Accessibility","WEC.ACC")]
+names(xsus) = c("COP","country","D","WEC")
+names(xsec) = c("COP","country","D","WEC")
+names(xacc) = c("COP","country","D","WEC")
+xsus$Comp = "Sustainability"
+xsec$Comp = "Security"
+xacc$Comp = "Accessibility"
+dyLong = rbind(xsus,xsec,xacc)
+
+m0 = lmer(WEC ~ 1 + (1|country) + (1 |Comp),data=dyLong)
+m1 = lmer(WEC ~ D + (1|country) + (1 |Comp),data=dyLong)
+anova(m0,m1)
+summary(m1)
+
+plot(dy$Sustainability,dy$WEC.SUS)
+plot(dy$Security,dy$WEC.SEC)
+plot(dy$Accessibility,dy$WEC.ACC)
+
+cor.test(dy$Sustainability,dy$WEC.SUS)
+cor.test(dy$Security,dy$WEC.SEC)
+cor.test(dy$Accessibility,dy$WEC.ACC)
+```
+
+The measures for sustainability are highly correlated. However, the measures for security are not, and the measures for accessibility are significantly negatively correlated.
+
+\clearpage
+\newpage
+
+# Before, during, and after the conferences
+
+```{r}
+dy$beforeAccProp = dy$beforeAcc/(dy$beforeAcc+dy$beforeSec+dy$beforeSus)
+dy$duringAccProp = dy$duringAcc/(dy$duringAcc+dy$duringSec+dy$duringSus)
+dy$afterAccProp = dy$afterAcc/(dy$afterAcc+dy$afterSec+dy$afterSus)
+
+dy$beforeSecProp = dy$beforeSec/(dy$beforeAcc+dy$beforeSec+dy$beforeSus)
+dy$duringSecProp = dy$duringSec/(dy$duringAcc+dy$duringSec+dy$duringSus)
+dy$afterSecProp = dy$afterSec/(dy$afterAcc+dy$afterSec+dy$afterSus)
+
+dy$beforeSusProp = dy$beforeSus/(dy$beforeAcc+dy$beforeSec+dy$beforeSus)
+dy$duringSusProp = dy$duringSus/(dy$duringAcc+dy$duringSec+dy$duringSus)
+dy$afterSusProp = dy$afterSus/(dy$afterAcc+dy$afterSec+dy$afterSus)
+
+phaseCats = c("beforeAccProp", "duringAccProp", "afterAccProp", 
+              "beforeSecProp", "duringSecProp", "afterSecProp", 
+              "beforeSusProp", "duringSusProp", "afterSusProp")
+
+phaseData = dy[,c("COP","country",phaseCats)]
+phaseData = gather(phaseData, phase, frequency, beforeAccProp:afterSusProp)
+phaseData$component = "Accessibility"
+phaseData$component[grepl("Sus",phaseData$phase)] = "Sustainability"
+phaseData$component[grepl("Sec",phaseData$phase)] = "Security"
+phaseData$phase = substr(phaseData$phase,0,nchar(phaseData$phase)-7)
+
+phaseData$phase = factor(phaseData$phase,levels=c("before","during","after"))
+```
+
+Plot the distribution of scores before/during/after
+
+```{r}
+pg1 = ggplot(phaseData[phaseData$component=="Accessibility",],
+       aes(x=phase,y=frequency)) +
+  geom_boxplot() +
+  ylab("Score") +
+  ggtitle("Accessibility")+
+  stat_summary(geom="point",fun="mean", size=3, col="red") +
+  stat_summary(fun=mean, colour="red", geom="line", aes(group = 1)) +
+  ylim(c(0,0.8))
+  
+pg2 = ggplot(phaseData[phaseData$component=="Security",],
+       aes(x=phase,y=frequency)) +
+  geom_boxplot() +
+  theme(axis.title.y=element_blank(),
+        axis.text.y = element_blank(),
+        axis.ticks.y = element_blank())+
+  ggtitle("Security")+
+  stat_summary(geom="point",fun="mean", size=3, col="red") +
+  stat_summary(fun=mean, colour="red", geom="line", aes(group = 1))+
+  ylim(c(0,0.8))
+
+pg3 = ggplot(phaseData[phaseData$component=="Sustainability",],
+       aes(x=phase,y=frequency)) +
+  geom_boxplot()+
+  theme(axis.title.y=element_blank(),
+        axis.text.y = element_blank(),
+        axis.ticks.y = element_blank())+
+  ggtitle("Sustainability") +
+  stat_summary(geom="point",fun="mean", size=3, col="red") +
+  stat_summary(fun=mean, colour="red", geom="line", aes(group = 1))+
+  ylim(c(0,0.8))
+
+ggarrange(pg1,pg2,pg3,nrow=1)
+pdf("../results/COP_BeforeDuringAfter.pdf",
+    width=5.5,height=3)
+ggarrange(pg1,pg2,pg3,nrow=1,
+          widths = c(1.2,1,1))
+dev.off()
+```
+
+Is there a significant difference between phases? Use an ANOVA:
+
+```{r}
+summary(aov(frequency~phase*component,data=phaseData))
+```
+
+Component is significant, since sustainability is talked about more than security and accessibility. But there is also a significant interaction. Look at individual t-tests:
+
+```{r}
+pSus = phaseData[phaseData$component=="Sustainability",]
+t.test(pSus[pSus$phase=="before",]$frequency,
+       pSus[pSus$phase=="during",]$frequency)
+t.test(pSus[pSus$phase=="during",]$frequency,
+       pSus[pSus$phase=="after",]$frequency)
+```
+
+```{r}
+pSec = phaseData[phaseData$component=="Security",]
+t.test(pSec[pSec$phase=="before",]$frequency,
+       pSec[pSec$phase=="during",]$frequency)
+t.test(pSec[pSec$phase=="during",]$frequency,
+       pSec[pSec$phase=="after",]$frequency)
+```
+
+
+```{r}
+pAcc = phaseData[phaseData$component=="Accessibility",]
+t.test(pAcc[pSec$phase=="before",]$frequency,
+       pAcc[pSec$phase=="during",]$frequency)
+t.test(pAcc[pSec$phase=="during",]$frequency,
+       pAcc[pSec$phase=="after",]$frequency)
+```
+
+It seems like sustainability is talked about slightly more during the conference than outside it, at the cost of talking about accessibility. Comparing during to not-during is also significant:
+
+```{r}
+t.test(pSus[pSus$phase=="during",]$frequency,
+       pSus[pSus$phase!="during",]$frequency)
+```
+
+A mixed effects model controlling for year and a random effect of country also suggests that sustainability talk increases during the conference:
+
+```{r}
+pm0 = lmer(frequency~ 1+
+             as.numeric(COP) + (1|country),
+  data = phaseData[phaseData$component=="Sustainability",])
+pm1 = lmer(frequency~ phase+
+             as.numeric(COP) + (1|country),
+  data = phaseData[phaseData$component=="Sustainability",])
+anova(pm0,pm1)
+summary(pm1)
+```
+
+\clearpage
+\newpage
+
+# Summary
+
+This analysis found the following patterns:
+
+-  Sustainability is talked about most, followed by Security and Accessibility.
+-  There was significant increase in media coverage about sustainability during COP26, but that reduced back to the baseline for COP27.
+-  There was a small increase in discourse about sustainability during the conferences, compared to before and after, at the cost of talking about security.
+-  Our measures for sustainability are highly correlated with the WEC ETI measures. However, our measures for security are not, and the measures for accessibility are significantly negatively correlated. This may suggest that the amount of reporting about the two latter components does not simply reflect the actual progress on solving the issues.
+
+# References
+
+Heffron, RJ, McCauley, D, Sovacool, BK. 2015. Resolving society's energy trilemma through the Energy Justice Metric, Energy Policy, Volume 87, Pages 168-176
+
+Monaghan, P. and Roberts, S.G., 2019. Cognitive influences in language evolution: Psycholinguistic predictors of loan word borrowing. Cognition, 186, pp.147-158.

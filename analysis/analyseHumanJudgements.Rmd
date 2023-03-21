@@ -1,0 +1,645 @@
+---
+title: "Human judgements of energy trilemma discussion"
+output: 
+  pdf_document:
+    toc: true
+editor_options: 
+  chunk_output_type: console
+---
+
+
+```{r echo=F,eval=F}
+try(setwd("~/OneDrive - Cardiff University/Research/Cardiff/ClimageChangeAndLanguage/project/analysis/"))
+```
+
+# Introduction
+
+To validate the automated measure, we compared it to human judgements. 10 fluent English speakers in the UK were trained on the basics of the energy trilemma, using standard teaching resources on the topic (Glasgow Science Centre, 2021; Our Future Energy, 2022, see below). Participants were not told what the key terms were. 
+
+Each participant was asked to read 40 randomly selected articles from the corpus. For each article, they rated the extent to which each article discussed each of the three aspects of the energy trilemma, scoring each aspect independently from 0 to 10. One participant was excluded due to technical difficulties (see discussion below). 8 of the articles were identical across participants, and these were used to test the agreement between human rates.
+
+The three measures are not independent, since discussing one aspect of the trilemma usually means not discussing the others. Therefore, the analyses below focus on sustainability, since that is the best-represented topic.
+
+The instructions for participants are included below:
+
+\clearpage
+\newpage
+
+# Instructions for participants
+
+This project aims to measure how much the media discusses the ‘energy trilemma’: three crucial components of our global energy system. These are the topics of accessibility, security, and sustainability.
+
+We’ve collected a large number of news articles about the UN conferences on climate change (e.g. COP26). We’re using automatic computational linguistics methods to summarise how much discussion is occurring for each of the three areas. However, we’re not sure whether the computational methods align well with human judgements. That’s where you come in.
+
+You’ll read a short news article, then give your opinion about how much each part of the trilemma was discussed. We’ll then use this data to check that the computational method is behaving sensibly.
+The first task is for you to understand what the three aspects of the trilemma are, so that you can recognise them. There’s a short introduction to the topics on the next page, and a link to a short video.
+
+Rating involves the following steps:
+-  Open the “NewsArticles” pdf file and read one of the articles. Some of the formatting might be a little strange or the text might be cut off halfway through a sentence. Don’t worry about this, just try to get a gist of what the article is about.
+-  When you’ve read the article, open up the ratings excel file. You can provide your judgement about how much the article discussed each component. Make sure the article number and article ID match.
+-  Type in a score from 0 (did not discuss) to 10 (discussed a lot) for each article. Some articles might not discuss one of the components at all, while in others there may be a balance. Looking at many articles together, we’re guessing that there will be a general balance, but we could be wrong. Don’t overthink things – we want to know your overall impression of each article.
+
+Go through each of the 40 articles in the article list and rate each one. It should take about 4 hours. You’re not expected to do this in one sitting.
+
+## The Energy Trilemma
+
+We use energy to power our phones and TVs, to heat our houses, cook our food, and transport us by car, train and plane. Sources of energy include oil, gas, solar, wind etc.. The energy trilemma is about addressing three often conflicting challenges related to providing energy: ensuring energy security, providing energy accessibility, and achieving environmental sustainability.
+
+### Sustainability 
+
+Environmental Sustainability of energy systems represents the transition of a country’s energy system towards mitigating and avoiding potential environmental harm and climate change impacts. The dimension focuses on productivity and efficiency of generation, transmission and distribution, decarbonisation, and air quality. 
+Globally, we draw most of our energy from oil, coal, and natural gas. These fossil fuels account for 80% of the world’s energy mix. These sources of energy have negative effects on our planet by releasing greenhouse gases into the atmosphere and are a huge contributor to the climate crisis. Sustainable energy focuses on meeting the energy demands of today without negatively impacting future generations. Hydro, solar, and wind power are all considered more sustainable sources of energy as they come from renewable sources. Other low-carbon options, such as nuclear power, may be a big part of our energy mix in the future but there are still ongoing debates about its sustainability when it comes to nuclear waste.  
+
+### Security 
+
+Security refers to whether we are able to access enough energy when and where we need it. This means being able to have uninterrupted availability of energy. In the short term this could mean an energy system that is able to respond to sudden changes in supply and demand. For example, energy demand in the UK spikes around 7am and again, between 4 and 7pm which is usually when people get up in the morning and when they return home from school or work!  
+Another aspect of energy security is security in the long term. With fossil fuels like oil, gas and coal, there is a limited supply and eventually these sources of energy will run out. Using renewable energy sources like wind, solar and hydro power can improve energy security in the long term. 
+
+### Accessibility
+
+Accessibility relates to a country’s ability to provide universal access to reliable, affordable, and abundant energy for domestic and commercial use. The dimension captures basic access to electricity and clean cooking fuels and technologies, access to prosperity-enabling levels of energy consumption, and affordability of electricity, gas, and fuel. 
+We need energy to live our every day lives: to heat our homes, run our cars and public transport and power the lights in buildings. It is important that the energy that we use is affordable and accessible to everyone. According to the International Energy Agency’s 2020 report, solar power is the cheapest source of electricity in history, with wind power not too far behind. This is partly down to more efficient solar plants and wind turbines to allow for better energy generation.  However, issues include whether they allow reliable energy provision.
+We can also improve energy affordability by making more energy efficient products. Gadgets that take less energy to power can help drive down energy costs by lessening demand.  
+
+Finally, please watch [this 3 minute video on the energy trilemma](https://www.youtube.com/watch?v=CI4DnLsANJM): 
+
+https://www.youtube.com/watch?v=CI4DnLsANJM
+
+
+\clearpage
+\newpage
+
+# Load libraries
+
+```{r warning=F,message=F}
+library(quanteda)
+library(quanteda.textstats)
+library(quanteda.textplots)
+library(stringr)
+library(openxlsx)
+library(ggplot2)
+library(lme4)
+library(MuMIn)
+library(sjPlot)
+library(irr)
+library(DescTools)
+library(lattice)
+library(party)
+```
+
+# Load data
+
+Load keywords, but remove any that were suggested as a result of the analysis of the human judgements, to avoid circularity. 
+
+```{r}
+kw = read.csv("../data/LEXIS/TrilemmaKeywords.csv",stringsAsFactors = F)
+kw = kw[kw$Notes != "Suggested by human judgements",]
+
+getKeywords= function(sub){
+  kx = unique(unlist(strsplit(kw[kw$Subject==sub,]$concepts,";")))
+  names(kx) = kx
+  return(kx)
+}
+accessibilityKeywords = getKeywords("Accessibility")
+securityKeywords = getKeywords("Security")
+sustainabilityKeywords = getKeywords("Sustainability")
+```
+
+Load human ratings of articles:
+
+```{r}
+d4 = NULL
+for(file in list.files("../data/HumanJudgements/judgements/")){
+  dx = NULL
+  if(grepl("xlsx",file)){
+    dx = read.xlsx(paste0("../data/HumanJudgements/judgements/",file),1)
+  } 
+  if(grepl("csv",file)){
+    dx = read.csv(paste0("../data/HumanJudgements/judgements/",file),stringsAsFactors = F)
+  }
+  dx$participant = as.numeric(gsub("_","",substr(file,14,15)))
+  d4 = rbind(d4,dx)
+}
+# Exclude articles rated twice
+d4 = d4[!duplicated(paste(d4$participant,d4$ID)),]
+
+#d4$text = copUK[match(d4$ID,copUK$ID),]$text
+d4$totalJudgement = d4$Sustainability + d4$Security + d4$Accessibility
+
+getProp = function(dx,measure){
+  X = dx[,measure] / dx$totalJudgement
+  X[dx$totalJudgement==0] = 0
+  return(X)
+}
+
+d4$SustainabilityProp = getProp(d4,"Sustainability")
+d4$SecurityProp = getProp(d4,"Security")
+d4$AccessibilityProp = getProp(d4,"Accessibility")
+
+d4$ID2 = paste0(d4$ID,"_",d4$participant)
+d4$participant = factor(d4$participant)
+```
+
+Load reference corpus frequencies for alternative measure. The frequencies come from the SiBol Extended corpus of UK newspaper articles from the last 10 years (see Dunning, 1993; Partington, 2010), as made available on Sketch Engine (Kilgariff et al., 2014).
+
+```{r}
+refFreqAcc = read.csv("../data/EngBroadsheetNewspaperCorpus/acc.csv",
+                stringsAsFactors = F,skip=2)
+refFreqSec = read.csv("../data/EngBroadsheetNewspaperCorpus/sec.csv",
+                stringsAsFactors = F,skip=2)
+refFreqSus = read.csv("../data/EngBroadsheetNewspaperCorpus/sus.csv",
+                stringsAsFactors = F,skip=2)
+```
+
+Function to compare frequencies between two corpora, based on the G2 metric (see Rayson et al., 2004).
+
+```{r}
+logLikelihood.G2 = function(a,b,c,d){
+  # freqInCorpus1,freqInCorpus2,sizeOfCorpus1,sizeOfCorpus2
+  E1 = c*(a+b) / (c+d)
+  E2 = d*(a+b) / (c+d)
+  G2 = 2*((a*log(a/E1)) + (b*log(b/E2))) 
+  G2[a==0] = NA
+  return(G2)
+}
+```
+
+
+Function to load article text and calculate frequency scores:
+
+```{r}
+getTextFromParticipantFile = function(partNum,ids){
+  fn = paste0("../data/HumanJudgements/stimuli/NewsArticles_",
+              partNum,"_SENT.txt")
+  tx = readLines(fn)
+  tx = paste(tx,collapse="\n")
+  tx = gsub("\n  [0-9][0-9]?\n","\n\n",tx)
+  tx = strsplit(tx,"\n [0-9][0-9]? : COP")[[1]]
+  idx = str_extract(tx,"[0-9][0-9]?_UK[0-9]+")
+  idx = paste0("COP",idx)
+  tx[match(ids,idx)]
+}
+
+
+processFile = function(d, accessibilityKW,securityKW,sustainabilityKW,
+                       refFreqAcc,refFreqSec,refFreqSus){
+  # Get text from file sent to participant
+  d$text = ""
+  for(px in unique(d$participant)){
+    d[d$participant==px,]$text = 
+      getTextFromParticipantFile(px,d[d$participant==px,]$ID)
+  }
+  # Lower case
+  d$text = tolower(d$text)
+  
+  # some texts need to be borrowed from other files
+  d[is.na(d$text),]$text = d[match(d[is.na(d$text),]$ID, d$ID),]$text
+  
+  # Create corpus, tokens, freq matrix
+  corp = corpus(d, docid_field = "ID2",text_field = "text")
+  tok = tokens(corp, remove_punct = TRUE)
+  corpDFM = dfm(tok)
+  d$ArticleTotalWords = rowSums(corpDFM)
+  
+  # Get frequency for one keyword
+  getFrequency = function(keyword){
+    keyword = tolower(keyword)
+    if(grepl(" ",keyword)){
+      # Multi-word expression
+      return(sapply(str_extract_all(d$text, keyword),length))
+    }
+    if(keyword %in% colnames(corpDFM)){
+      return(as.vector(corpDFM[,keyword]))
+    }
+    return(rep(0,nrow(d)))
+  }
+  
+  # Get score (frequency per 1000 words)
+  getScore = function(keywords){
+    freq = sapply(keywords,getFrequency)
+    return(rowSums(freq))
+    #prop = 1000000 * (freq/totalWords)
+    #return(prop)
+  }
+  
+  d$CorpAccFreq = getScore(accessibilityKW)
+  d$CorpSecFreq = getScore(securityKW)
+  d$CorpSusFreq = getScore(sustainabilityKW)
+  
+  d$CorpAccFreqRel = (1000000 * d$CorpAccFreq) / d$ArticleTotalWords
+  d$CorpSecFreqRel = (1000000 * d$CorpSecFreq) / d$ArticleTotalWords
+  d$CorpSusFreqRel = (1000000 * d$CorpSusFreq) / d$ArticleTotalWords
+  
+  getScoreG2 = function(keywords,kFreq){
+    freq = sapply(keywords,getFrequency)
+    refFreq = kFreq[match(colnames(freq),kFreq$Item),]$Frequency
+    refFreq[is.na(refFreq)] = 0
+    G2s = sapply(1:nrow(freq),function(i){
+      logLikelihood.G2(freq[i,],refFreq,
+                       d$ArticleTotalWords[i],482360)
+    })
+    return(colMeans(G2s,na.rm = T))
+  }
+  
+  d$CorpSusFreqG2 = getScoreG2(sustainabilityKW,refFreqSus)
+  
+  return(d)
+}
+
+```
+
+
+```{r}
+d4 = processFile(d4, 
+    accessibilityKeywords, securityKeywords, sustainabilityKeywords,
+    refFreqAcc,refFreqSec,refFreqSus)
+d4$Sustainability.scaled = d4$Sustainability/10
+d4$CorpSusFreq.scaled = d4$CorpSusFreq/max(d4$CorpSusFreq)
+```
+
+\clearpage
+\newpage
+
+# Results
+
+## Agreement between human participants
+
+Estimate inter-rater reliability using Intraclass Correlation Coefficient:
+
+```{r}
+commonIDs = table(d4$ID)
+commonIDs = names(commonIDs)[commonIDs>6]
+irrx = d4[d4$ID %in% commonIDs,]
+#irrx = irrx[!duplicated(paste(irrx$participant,irrx$ID)),]
+irrx = irrx[order(irrx$participant,irrx$ID),]
+irrx = matrix(irrx$Sustainability,
+              ncol=length(unique(irrx$participant)))
+icc(irrx, model = "oneway")
+```
+
+The value is "fair" according to Cicchetti (1994).
+
+Use correlation between participants as baseline. 
+
+```{r}
+parts = as.numeric(sort(unique(d4$participant)))
+cors = matrix(NA,nrow=length(parts),ncol=length(parts))
+rownames(cors) = parts
+colnames(cors) = parts
+d4 = d4[order(d4$ID),]
+for(i in 1:length(parts)){
+  for(j in 1:length(parts)){
+    part1 = parts[i]
+    part2 = parts[j]
+    p1 = d4[d4$participant==part1 & d4$ID %in% commonIDs,]
+    p2 = d4[d4$participant==part2 & d4$ID %in% commonIDs,]
+    cors[i,j] = cor(p1$Sustainability,p2$Sustainability,
+                            method = "kendall")
+  }
+}
+diag(cors)=NA
+```
+
+The mean correlation:
+
+```{r}
+mean(cors[lower.tri(cors)],na.rm=T)
+```
+
+There is a wide range of participant scores:
+
+```{r}
+hist(cors[lower.tri(cors)])
+```
+
+In particular, participant 1 seems to have very different judgements. The mean correlation increases when excluding them:
+
+```{r}
+meanCorBetweenHumans = mean(cors[-1,-1],na.rm=T)
+meanCorBetweenHumans
+cx = cors[-1,-1]
+cx = cx[lower.tri(cx)]
+sdCorBetweenHumans = sd(cx)
+```
+
+The ICC increases when excluding participant 1:
+
+```{r}
+icc(irrx[,-1], model = "oneway")
+```
+
+In addition, participant 1 reported difficulties with viewing the text in the proper format. So we exclude participant 1 from the data:
+
+```{r}
+d4 = d4[d4$participant!=1,]
+d4$participant = factor(d4$participant)
+```
+
+We note that the overall average human ratings for each aspect of the trilemma reflect the broad pattern in the full data: sustainability is discussed most.
+
+```{r}
+mean(d4$Sustainability)
+mean(d4$Security)
+mean(d4$Accessibility)
+```
+
+
+\clearpage
+\newpage
+
+## Agreement between human and automated measures
+
+Raw correlation between human and automated frequency:
+
+```{r}
+corBetweenHumansAndAuto = cor.test(d4$Sustainability, d4$CorpSusFreq,
+         method = "kendall")
+corBetweenHumansAndAuto
+```
+
+Correlation between human and relative frequency:
+
+```{r}
+cor.test(d4$Sustainability, d4$CorpSusFreqRel,
+         method = "kendall")
+```
+
+Raw correlation for the alternative measure, based on G2:
+
+```{r}
+cor.test(d4$Sustainability, d4$CorpSusFreqG2,
+         method = "kendall")
+```
+
+
+```{r}
+ggplot(d4, aes(x=Sustainability, y= CorpSusFreq,colour=participant)) + 
+  geom_jitter(width=0.1) +
+  geom_smooth(aes(colour="1"),method = "lm")
+```
+
+Modelling the participant ratings is conceptually difficult, so we just model the frequencies using Poisson regression. We add an intercept for each participant to remove the random influence of participant baselines.
+
+```{r}
+mx = glmer(CorpSusFreq~ Sustainability.scaled +
+             (1|participant),
+           family=poisson,
+           data = d4)
+mxSummary = summary(mx)
+mxSummary
+```
+
+The model accounts for a high proportion of the variance. The marginal effect is around 0.63, which puts an estimate for the correlation at 0.79.
+
+```{r warning=F}
+# Correlation between observed and predicted values:
+cor.test(d4$Sustainability.scaled,
+         predict(mx),method="kendall")
+# Pseudo R-squared:
+mxRSq = r.squaredGLMM(mx)
+mxRSq
+```
+
+Clear positive relationship (it appears non-linear because of the Poisson regression):
+
+```{r}
+plot_model(mx,"eff")[[1]] + 
+  xlab("Human Judgement (sustainability)") +
+  ylab("Corpus measure (sustainability)")
+```
+
+Other measures:
+
+```{r}
+cor.test(d4$Security, d4$CorpSecFreq,
+         method = "kendall")
+cor.test(d4$Accessibility, d4$CorpAccFreq,
+         method = "kendall")
+```
+
+
+
+\clearpage
+\newpage
+
+# Extra keywords
+
+Find words that appear more frequently in texts that are accurately predicted compared with texts that are under-predicted.
+
+```{r}
+suggestKeywords = function(d4, mx, breaks=c(-3,-2,2)){
+  d4$resid = resid(mx)
+  
+  lowTexts = d4[d4$resid < breaks[1],]
+  midTexts = d4[d4$resid > breaks[2] & d4$resid < breaks[3],]
+  
+  corpL = corpus(lowTexts,text_field="text")
+  colloc = textstat_collocations(tokens(corpL,remove_punct = T))
+  cat("Frequent Collocations in under-estimated texts:\n")
+  print(head(colloc,n=20))
+  
+  kwtexts = rbind(lowTexts,midTexts)
+  corp = corpus(kwtexts,text_field="text")
+  toks <- tokens(corp, remove_punct = TRUE) 
+  dfmat <- dfm(toks)
+  tstat_key <- textstat_keyness(dfmat,target = kwtexts$resid > -2)
+  cat("-------------\n\n")
+  cat("Keywords (frequent in well-predicted vs. under-predicted\n")
+  print(head(tstat_key,n=20))
+}
+```
+
+\clearpage
+\newpage
+
+### Sustainability
+
+```{r}
+mxSus = glmer(CorpSusFreq~ Sustainability.scaled +
+             (1|participant),
+           family=poisson,
+           data = d4)
+suggestKeywords(d4,mxSus)
+```
+
+
+```{r}
+textX = gsub("http.+ ?"," ",d4$text)
+tokX = tokens(corpus(textX),remove_punct = T)
+head(textstat_keyness(dfm(tokX),
+        target = d4$SustainabilityProp>0.75),
+     n=40)
+```
+
+Test which words are contributing most to the prediction. This uses a random forest: a machine learning method of predicting a value based on the presence or absence of features.
+
+```{r}
+getWordImportance = function(d,measure,keywords){
+  d$text = tolower(d$text)
+  corp = corpus(d, docid_field = "ID2",text_field = "text")
+  tok = tokens(corp, remove_punct = TRUE)
+  corpDFM = dfm(tok)
+  getFrequency = function(keyword){
+    keyword = tolower(keyword)
+    if(grepl(" ",keyword)){
+      # Multi-word expression
+      return(sapply(str_extract_all(d$text, keyword),length))
+    }
+    if(keyword %in% colnames(corpDFM)){
+      return(as.vector(corpDFM[,keyword]))
+    }
+    return(rep(0,nrow(d)))
+  }
+  freq = sapply(keywords,getFrequency)
+  freq = freq[,colSums(freq)>0]
+  freq = as.data.frame(freq)
+  freq$SusScore = d[,measure]
+  #ct = ctree(SusScore ~ ., data=freq)
+  cf = cforest(SusScore ~ ., data=freq)
+  imp = sort(varimp(cf))
+  return(imp)
+}
+```
+
+```{r fig.height=8}
+susImp = getWordImportance(d4,"Sustainability",sustainabilityKeywords)
+dotplot(susImp)
+```
+
+\newpage
+\clearpage
+
+### Security
+
+```{r}
+mxSec = glmer(CorpSecFreq~ Security +
+             (1|participant),
+           family=poisson,
+           data = d4)
+suggestKeywords(d4,mxSec)
+```
+
+```{r}
+head(textstat_keyness(dfm(tokX),
+        target = d4$SecurityProp>0.5),
+     n=20)
+```
+
+```{r fig.height=8}
+secImp = getWordImportance(d4,"Security",securityKeywords)
+dotplot(secImp)
+```
+
+\newpage
+\clearpage
+
+### Accessibility
+
+```{r}
+mxAcc = glmer(CorpAccFreq~ Accessibility +
+             (1|participant),
+           family=poisson,
+           data = d4)
+suggestKeywords(d4,mxAcc,c(-0.5, -0.5, 2))
+```
+
+```{r}
+head(textstat_keyness(dfm(tokX),
+        target = d4$AccessibilityProp>0.4),
+     n=20)
+```
+
+```{r fig.height=8}
+accImp = getWordImportance(d4,"Accessibility",accessibilityKeywords)
+dotplot(accImp)
+```
+
+## Summary of additional keywords
+
+Several key terms were identified above and added to the list of key terms that go into the calculation of the final scores.
+
+Below we re-calculate the agreement with human judgements based on the full list.
+
+```{r}
+kwAll = read.csv("../data/LEXIS/TrilemmaKeywords.csv",stringsAsFactors = F)
+getKeywords2= function(sub){
+  kx = unique(unlist(strsplit(kwAll[kwAll$Subject==sub,]$concepts,";")))
+  names(kx) = kx
+  return(kx)
+}
+accessibilityKeywords2 = getKeywords2("Accessibility")
+securityKeywords2 = getKeywords2("Security")
+sustainabilityKeywords2 = getKeywords2("Sustainability")
+
+d4B = processFile(d4, 
+    accessibilityKeywords2, securityKeywords2, sustainabilityKeywords2,
+    refFreqAcc,refFreqSec,refFreqSus)
+d4B$Sustainability.scaled = d4B$Sustainability/10
+```
+
+Raw correlation:
+
+```{r}
+cor.test(d4B$Sustainability, d4B$CorpSusFreq,
+         method = "kendall")
+```
+
+Model:
+
+```{r}
+mx2 = glmer(CorpSusFreq~ Sustainability.scaled +
+             (1|participant),
+           family=poisson,
+           data = d4B)
+summary(mx2)
+cor.test(d4B$Sustainability.scaled,
+         predict(mx2),method="kendall")
+r.squaredGLMM(mx2)
+```
+
+The additions have improved the model, but only by a very small amount.
+
+Other measures:
+
+```{r}
+cor.test(d4B$Security, d4B$CorpSecFreq,
+         method = "kendall")
+cor.test(d4B$Accessibility, d4B$CorpAccFreq,
+         method = "kendall")
+```
+
+
+Write summary data:
+
+```{r}
+dOut = d4[,c("ID","participant","Sustainability","Security","Accessibility",
+        "CorpSusFreq","CorpSecFreq","CorpAccFreq"),]
+dOut = dOut[order(dOut$participant,dOut$ID),]
+write.csv(dOut,
+  "../data/HumanJudgements/humanJudgementsSummary.csv",row.names=F)
+```
+
+
+\clearpage
+\newpage
+
+# Summary
+
+The automated measure reliably correlates with human judgements (mixed effects model pseudo marginal $R^2$ = `r round(mxRSq[1,1],3)`, z = `r round(mxSummary$coefficients[2,3],2)`, p < 0.001), at Kendall's tau = `r round(corBetweenHumansAndAuto$estimate,3)`. 
+
+Human judgements correlated with each other at mean Kendall's tau = `r round(meanCorBetweenHumans,3)`, sd = `r round(sdCorBetweenHumans,3)`. Therefore, the automated judgements are within `r round((meanCorBetweenHumans-corBetweenHumansAndAuto$estimate)/sdCorBetweenHumans,2)` standard deviations of human agreement.
+
+An alternative measure of frequency based on measuring frequency in the target article over and above the relative frequency in typical news articles was also tested. However, this correlated much less well with human judgements.
+
+
+# References
+
+Cicchetti, D.V., 1994. Guidelines, criteria, and rules of thumb for evaluating normed and standardized assessment instruments in psychology. Psychological assessment, 6(4), p.284.
+
+Dunning, T.E., 1993. Accurate methods for the statistics of surprise and coincidence. Computational linguistics, 19(1), pp.61-74.
+
+Kilgarriff, A., Baisa, V., Bušta, J., Jakubíček, M., Kovář, V., Michelfeit, J., Rychlý, P. and Suchomel, V., 2014. The Sketch Engine: ten years on. Lexicography, 1(1), pp.7-36.
+
+Partington, A., 2010. Modern Diachronic Corpus-Assisted Discourse Studies (MD-CADS) on UK newspapers: an overview of the project. Corpora, 5(2), pp.83-108.
+
+Rayson, P., Berridge, D. and Francis, B., 2004. Extending the Cochran rule for the comparison of word frequencies between corpora. In 7th International Conference on Statistical analysis of textual data (JADT 2004) (pp. 926-936).

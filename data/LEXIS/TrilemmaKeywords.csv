@@ -1,42 +1,56 @@
 Subject,concepts,Notes
 Accessibility,affordability;affordable,
 Accessibility,ability to pay;able to pay;inability to pay;unable to pay,
-Accessibility,energy poverty;energy burden;fuel poverty;trasportation poverty,
-Accessibility,energy prices;energy bills;tansportation bills,
-Accessibility,utility bill;electricity bill;utility bills;electricity bills;gas bill;energy billgas bill;energy bills;gas bill;energy bills;energy cost,
-Security,reliability;reliable,
+Accessibility,energy poverty;energy burden;fuel poverty;fuel-poverty;trasportation poverty,
+Accessibility,energy prices;transportation bills,
+Accessibility,utility bill;electricity bill;utility bills;electricity bills;gas bill;energy bill;gas bill;energy bills;gas bill;energy bills;energy cost,
 Accessibility,equity;inequity,
 Accessibility,inequality;inequalities,
 Accessibility,energy justice,
 Accessibility,household;households;low-income households;low-income household,
 Accessibility,energy efficiency,
 Accessibility,personal finance;personal finances,
-Accessibility,race;race;minorities;underserved communities,
-Accessibility,gender;gender;women,
+Accessibility,race;minorities;underserved communities,
+Accessibility,gender;women,
 Accessibility,social economic class;upper class;middle class;lower class;working class,
-Accessibility,household heating;cooling;thermal comfort;hosuehold heating problems;household cooling probloems,
+Accessibility,economic class;upper-class;middle-class;lower-class;working-class,Suggested by human judgements
+Accessibility,household heating;cooling;thermal comfort;household heating problems;household cooling problems,
 Accessibility,consumption;consuming;consumed,
 Accessibility,basic needs;basic need,
-Security,resilience;resiliant;power outage;power outages;blackout;power cut;blackouts;power cuts,
+Accessibility,reduced costs;reduces costs;reducing costs,Suggested by human judgements
+Accessibility,consumers;consumer,Suggested by human judgements
+Accessibility,development,Suggested by human judgements
+Accessibility,insurance,Suggested by human judgements
+Accessibility,cheap;economical;low cost;low-cost;budget;cost effective;cost-effective,Suggested by human judgements
+Accessibility,efficiency,Suggested by human judgements
+Accessibility,unequal;underrepresented,Suggested by human judgements
+Accessibility,low income household;low income households;energy-efficiency,Suggested by human judgements
+Security,reliability;reliable,
+Security,resilience;resilient;power outage;power outages;blackout;black-out;blackouts;black-outs;power cut;power cuts,
 Security,security;stability;reliability,
-Security,risk;risky;adequacy,
+Security,adequacy,
 Security,corruption;corrupted,
 Security,geopolitics,
-Security,peak hours;enegy demand,
+Security,peak hours;energy demand,
 Security,nuclear,
-Security,consistence;consistency;intermittancy;intermittent,Check how this is used?
+Security,consistent;consistency;intermittancy;intermittent,
 Security,war;wars;conflicts,
 Security,energy crisis;energy crises,
 Security,petro-politics;petropolitics,
 Security,aging infrastructure,
-Security,industry;industries;industrial,
-Security,neoliberalism;nationalisation;nationalising;nationalizing,
+Security,industry;industries,
+Security,neoliberalism;nationalisation;nationalization;nationalising;nationalizing,
+Security,certainty,Suggested by human judgements
+Security,agreement,Suggested by human judgements
+Security,secure,Suggested by human judgements
+Security,disaster;disasters,Suggested by human judgements
+Security,geo-politics;geo-political;poor infrastructure,Suggested by human judgements
 Sustainability,sustainability;sustainable,
 Sustainability,green,
-Sustainability,greenhouse;carbon emissions,
-Sustainability,emissions;emission;emitting;emitted,
+Sustainability,greenhouse,
+Sustainability,emissions;emission;emitting;emitted;emits,
 Sustainability,nuclear,
-Sustainability,carbon capture;carbon capture and storage;CCS;CCU;carbon capture and usage;sequester;sequestering;sequestration,
+Sustainability,carbon capture;CCS;CCU;sequester;sequestering;sequestration,
 Sustainability,renewable energy;renewables,
 Sustainability,ecosystem;ecosystems,
 Sustainability,transition;transitioning;transitions,
@@ -47,7 +61,7 @@ Sustainability,decarbonisation;decarbonization;decarbonize;decarbonise,
 Sustainability,wind;tidal;ocean energy;hydrogen;geothermal,
 Sustainability,centralized;decentralized;centralised;decentralised,
 Sustainability,solar;photovoltaics;photovoltaic;PV;solar panels;solar panel,
-Sustainability,shale gas fracking;frack;fracking,
+Sustainability,frack;fracking;fracked,
 Sustainability,pollution;polluting;polluted,
 Sustainability,energy storage,
 Sustainability,alternative;alternatives,
@@ -56,5 +70,11 @@ Sustainability,coal;natural gas,
 Sustainability,biomass,
 Sustainability,hydrogen,
 Sustainability,ozone,
-Sustainability,Electrical vehicles;EV;electric vehicles,
-Sustainability,net zero;carbon neutrality,
+Sustainability,electrical vehicles;EV;electric vehicles,
+Sustainability,net zero;carbon neutrality;carbon neutral,
+Sustainability,clean energy,Suggested by human judgements
+Sustainability,carbon reduction,Suggested by human judgements
+Sustainability,sea levels,Suggested by human judgements
+Sustainability,paris agreement,Suggested by human judgements
+Sustainability,zero-carbon;net-zero;carbon-neutral;carbon-neutrality;clean-energy;natural-gas;geo-thermal;bio-mass;o-zone;energy-storage;eco-system;eco-systems,Suggested by human judgements
+Sustainability,c02;e-vehicles;EVs;PVs;re-newables;pollutant,Suggested by human judgements

@@ -1,164 +1,219 @@
 "","COP","country","aspect","keyword","freq"
-"1","COP21","Ireland","Accessibility","affordability",2.59869857175526
-"2","COP21","Ireland","Accessibility","affordable",25.9869857175527
+"1","COP21","Ireland","Accessibility","affordability",2.77859978021276
+"2","COP21","Ireland","Accessibility","affordable",38.9003969229786
 "3","COP21","Ireland","Accessibility","ability to pay",0
-"4","COP21","Ireland","Accessibility","able to pay",2.59869857175526
+"4","COP21","Ireland","Accessibility","able to pay",2.77859978021276
 "5","COP21","Ireland","Accessibility","inability to pay",0
 "6","COP21","Ireland","Accessibility","unable to pay",0
-"7","COP21","Ireland","Accessibility","energy poverty",2.59869857175526
+"7","COP21","Ireland","Accessibility","energy poverty",4.16789967031914
 "8","COP21","Ireland","Accessibility","energy burden",0
-"9","COP21","Ireland","Accessibility","fuel poverty",7.79609571526579
-"10","COP21","Ireland","Accessibility","trasportation poverty",0
-"11","COP21","Ireland","Accessibility","energy prices",12.9934928587763
-"12","COP21","Ireland","Accessibility","energy bills",15.5921914305316
-"13","COP21","Ireland","Accessibility","tansportation bills",0
+"9","COP21","Ireland","Accessibility","fuel poverty",8.33579934063827
+"10","COP21","Ireland","Accessibility","fuel-poverty",1.38929989010638
+"11","COP21","Ireland","Accessibility","trasportation poverty",0
+"12","COP21","Ireland","Accessibility","energy prices",27.7859978021276
+"13","COP21","Ireland","Accessibility","transportation bills",0
 "14","COP21","Ireland","Accessibility","utility bill",0
-"15","COP21","Ireland","Accessibility","electricity bill",2.59869857175526
+"15","COP21","Ireland","Accessibility","electricity bill",2.77859978021276
 "16","COP21","Ireland","Accessibility","utility bills",0
-"17","COP21","Ireland","Accessibility","electricity bills",2.59869857175526
+"17","COP21","Ireland","Accessibility","electricity bills",2.77859978021276
 "18","COP21","Ireland","Accessibility","gas bill",0
-"19","COP21","Ireland","Accessibility","energy billgas bill",0
-"20","COP21","Ireland","Accessibility","energy cost",7.79609571526579
-"21","COP21","Ireland","Accessibility","equity",18.1908900022869
-"22","COP21","Ireland","Accessibility","inequity",5.19739714351053
-"23","COP21","Ireland","Accessibility","inequality",51.9739714351053
-"24","COP21","Ireland","Accessibility","inequalities",12.9934928587763
-"25","COP21","Ireland","Accessibility","energy justice",0
-"26","COP21","Ireland","Accessibility","household",23.3882871457974
-"27","COP21","Ireland","Accessibility","households",51.9739714351053
-"28","COP21","Ireland","Accessibility","low-income households",5.19739714351053
-"29","COP21","Ireland","Accessibility","low-income household",5.19739714351053
-"30","COP21","Ireland","Accessibility","energy efficiency",59.7700671503711
-"31","COP21","Ireland","Accessibility","personal finance",0
-"32","COP21","Ireland","Accessibility","personal finances",0
-"33","COP21","Ireland","Accessibility","race",59.7700671503711
-"34","COP21","Ireland","Accessibility","minorities",2.59869857175526
-"35","COP21","Ireland","Accessibility","underserved communities",0
-"36","COP21","Ireland","Accessibility","gender",57.1713685786158
-"37","COP21","Ireland","Accessibility","women",106.546641441966
-"38","COP21","Ireland","Accessibility","social economic class",0
-"39","COP21","Ireland","Accessibility","upper class",0
-"40","COP21","Ireland","Accessibility","middle class",2.59869857175526
-"41","COP21","Ireland","Accessibility","lower class",0
-"42","COP21","Ireland","Accessibility","working class",2.59869857175526
-"43","COP21","Ireland","Accessibility","household heating",0
-"44","COP21","Ireland","Accessibility","cooling",15.5921914305316
-"45","COP21","Ireland","Accessibility","thermal comfort",0
-"46","COP21","Ireland","Accessibility","hosuehold heating problems",0
-"47","COP21","Ireland","Accessibility","household cooling probloems",0
-"48","COP21","Ireland","Accessibility","consumption",103.947942870211
-"49","COP21","Ireland","Accessibility","consuming",7.79609571526579
-"50","COP21","Ireland","Accessibility","consumed",2.59869857175526
-"51","COP21","Ireland","Accessibility","basic needs",0
-"52","COP21","Ireland","Accessibility","basic need",0
-"53","COP21","Ireland","Security","reliability",5.19739714351053
-"54","COP21","Ireland","Security","reliable",15.5921914305316
-"55","COP21","Ireland","Security","resilience",64.9674642938816
-"56","COP21","Ireland","Security","resiliant",0
-"57","COP21","Ireland","Security","power outage",2.59869857175526
-"58","COP21","Ireland","Security","power outages",2.59869857175526
-"59","COP21","Ireland","Security","blackout",0
-"60","COP21","Ireland","Security","power cut",2.59869857175526
-"61","COP21","Ireland","Security","blackouts",0
-"62","COP21","Ireland","Security","power cuts",2.59869857175526
-"63","COP21","Ireland","Security","security",311.843828610632
-"64","COP21","Ireland","Security","stability",31.1843828610632
-"65","COP21","Ireland","Security","risk",231.284172886219
-"66","COP21","Ireland","Security","risky",5.19739714351053
-"67","COP21","Ireland","Security","adequacy",5.19739714351053
-"68","COP21","Ireland","Security","corruption",10.3947942870211
-"69","COP21","Ireland","Security","corrupted",2.59869857175526
-"70","COP21","Ireland","Security","geopolitics",5.19739714351053
-"71","COP21","Ireland","Security","peak hours",2.59869857175526
-"72","COP21","Ireland","Security","enegy demand",0
-"73","COP21","Ireland","Security","nuclear",124.737531444253
-"74","COP21","Ireland","Security","consistence",0
-"75","COP21","Ireland","Security","consistency",2.59869857175526
-"76","COP21","Ireland","Security","intermittancy",0
-"77","COP21","Ireland","Security","intermittent",5.19739714351053
-"78","COP21","Ireland","Security","war",181.908900022869
-"79","COP21","Ireland","Security","wars",10.3947942870211
-"80","COP21","Ireland","Security","conflicts",12.9934928587763
-"81","COP21","Ireland","Security","energy crisis",2.59869857175526
-"82","COP21","Ireland","Security","energy crises",0
-"83","COP21","Ireland","Security","petro-politics",0
-"84","COP21","Ireland","Security","petropolitics",0
-"85","COP21","Ireland","Security","aging infrastructure",0
-"86","COP21","Ireland","Security","industry",369.015197189248
-"87","COP21","Ireland","Security","industries",90.9544500114343
-"88","COP21","Ireland","Security","industrial",77.9609571526579
-"89","COP21","Ireland","Security","neoliberalism",10.3947942870211
-"90","COP21","Ireland","Security","nationalisation",0
-"91","COP21","Ireland","Security","nationalising",0
-"92","COP21","Ireland","Security","nationalizing",0
-"93","COP21","Ireland","Sustainability","sustainability",254.672460032016
-"94","COP21","Ireland","Sustainability","sustainable",501.548824348766
-"95","COP21","Ireland","Sustainability","green",808.195255815887
-"96","COP21","Ireland","Sustainability","greenhouse",878.36011725328
-"97","COP21","Ireland","Sustainability","carbon emissions",340.42951289994
-"98","COP21","Ireland","Sustainability","emissions",3191.20184611547
-"99","COP21","Ireland","Sustainability","emission",179.310201451113
-"100","COP21","Ireland","Sustainability","emitting",25.9869857175527
-"101","COP21","Ireland","Sustainability","emitted",20.7895885740421
-"102","COP21","Ireland","Sustainability","nuclear",124.737531444253
-"103","COP21","Ireland","Sustainability","carbon capture",33.7830814328184
-"104","COP21","Ireland","Sustainability","carbon capture and storage",20.7895885740421
-"105","COP21","Ireland","Sustainability","CCS",0
-"106","COP21","Ireland","Sustainability","CCU",0
-"107","COP21","Ireland","Sustainability","carbon capture and usage",0
-"108","COP21","Ireland","Sustainability","sequester",15.5921914305316
-"109","COP21","Ireland","Sustainability","sequestering",7.79609571526579
-"110","COP21","Ireland","Sustainability","sequestration",7.79609571526579
-"111","COP21","Ireland","Sustainability","renewable energy",301.449034323611
-"112","COP21","Ireland","Sustainability","renewables",101.349244298455
-"113","COP21","Ireland","Sustainability","ecosystem",41.5791771480842
-"114","COP21","Ireland","Sustainability","ecosystems",70.1648614373921
-"115","COP21","Ireland","Sustainability","transition",374.212594332758
-"116","COP21","Ireland","Sustainability","transitioning",18.1908900022869
-"117","COP21","Ireland","Sustainability","transitions",2.59869857175526
-"118","COP21","Ireland","Sustainability","low-carbon",109.145340013721
-"119","COP21","Ireland","Sustainability","zero carbon",46.7765742915948
-"120","COP21","Ireland","Sustainability","decarbonization",0
-"121","COP21","Ireland","Sustainability","subsidies",150.724517161805
-"122","COP21","Ireland","Sustainability","subsidy",15.5921914305316
-"123","COP21","Ireland","Sustainability","subsidising",10.3947942870211
-"124","COP21","Ireland","Sustainability","subsidizing",0
-"125","COP21","Ireland","Sustainability","subsidise",15.5921914305316
-"126","COP21","Ireland","Sustainability","subsidize",0
-"127","COP21","Ireland","Sustainability","environmental health",2.59869857175526
-"128","COP21","Ireland","Sustainability","decarbonisation",77.9609571526579
-"129","COP21","Ireland","Sustainability","decarbonize",0
-"130","COP21","Ireland","Sustainability","decarbonise",44.1778757198395
-"131","COP21","Ireland","Sustainability","wind",231.284172886219
-"132","COP21","Ireland","Sustainability","tidal",5.19739714351053
-"133","COP21","Ireland","Sustainability","ocean energy",0
-"134","COP21","Ireland","Sustainability","hydrogen",7.79609571526579
-"135","COP21","Ireland","Sustainability","geothermal",0
-"136","COP21","Ireland","Sustainability","centralized",0
-"137","COP21","Ireland","Sustainability","decentralized",0
-"138","COP21","Ireland","Sustainability","centralised",0
-"139","COP21","Ireland","Sustainability","decentralised",0
-"140","COP21","Ireland","Sustainability","solar",252.073761460261
-"141","COP21","Ireland","Sustainability","photovoltaics",0
-"142","COP21","Ireland","Sustainability","photovoltaic",5.19739714351053
-"143","COP21","Ireland","Sustainability","PV",12.9934928587763
-"144","COP21","Ireland","Sustainability","solar panels",46.7765742915948
-"145","COP21","Ireland","Sustainability","solar panel",54.5726700068606
-"146","COP21","Ireland","Sustainability","shale gas fracking",0
-"147","COP21","Ireland","Sustainability","frack",0
-"148","COP21","Ireland","Sustainability","fracking",31.1843828610632
-"149","COP21","Ireland","Sustainability","pollution",179.310201451113
-"150","COP21","Ireland","Sustainability","polluting",62.3687657221264
-"151","COP21","Ireland","Sustainability","polluted",7.79609571526579
-"152","COP21","Ireland","Sustainability","energy storage",5.19739714351053
-"153","COP21","Ireland","Sustainability","alternative",98.7505457267001
-"154","COP21","Ireland","Sustainability","alternatives",18.1908900022869
-"155","COP21","Ireland","Sustainability","coal",784.80696867009
-"156","COP21","Ireland","Sustainability","natural gas",51.9739714351053
-"157","COP21","Ireland","Sustainability","biomass",12.9934928587763
-"158","COP21","Ireland","Sustainability","ozone",10.3947942870211
-"159","COP21","Ireland","Sustainability","Electrical vehicles",0
-"160","COP21","Ireland","Sustainability","EV",20.7895885740421
-"161","COP21","Ireland","Sustainability","electric vehicles",64.9674642938816
-"162","COP21","Ireland","Sustainability","net zero",254.672460032016
-"163","COP21","Ireland","Sustainability","carbon neutrality",77.9609571526579
+"19","COP21","Ireland","Accessibility","energy bill",13.8929989010638
+"20","COP21","Ireland","Accessibility","energy bills",13.8929989010638
+"21","COP21","Ireland","Accessibility","energy cost",12.5036990109574
+"22","COP21","Ireland","Accessibility","equity",19.4501984614893
+"23","COP21","Ireland","Accessibility","inequity",4.16789967031914
+"24","COP21","Ireland","Accessibility","inequality",51.404095933936
+"25","COP21","Ireland","Accessibility","inequalities",12.5036990109574
+"26","COP21","Ireland","Accessibility","energy justice",0
+"27","COP21","Ireland","Accessibility","household",23.6180981318084
+"28","COP21","Ireland","Accessibility","households",43.0682965932977
+"29","COP21","Ireland","Accessibility","low-income households",2.77859978021276
+"30","COP21","Ireland","Accessibility","low-income household",2.77859978021276
+"31","COP21","Ireland","Accessibility","energy efficiency",63.9077949448934
+"32","COP21","Ireland","Accessibility","personal finance",0
+"33","COP21","Ireland","Accessibility","personal finances",0
+"34","COP21","Ireland","Accessibility","race",52.7933958240424
+"35","COP21","Ireland","Accessibility","minorities",4.16789967031914
+"36","COP21","Ireland","Accessibility","underserved communities",0
+"37","COP21","Ireland","Accessibility","gender",48.6254961537233
+"38","COP21","Ireland","Accessibility","women",140.319288900744
+"39","COP21","Ireland","Accessibility","social economic class",0
+"40","COP21","Ireland","Accessibility","upper class",0
+"41","COP21","Ireland","Accessibility","middle class",1.38929989010638
+"42","COP21","Ireland","Accessibility","lower class",0
+"43","COP21","Ireland","Accessibility","working class",1.38929989010638
+"44","COP21","Ireland","Accessibility","economic class",0
+"45","COP21","Ireland","Accessibility","upper-class",0
+"46","COP21","Ireland","Accessibility","middle-class",2.77859978021276
+"47","COP21","Ireland","Accessibility","lower-class",0
+"48","COP21","Ireland","Accessibility","working-class",1.38929989010638
+"49","COP21","Ireland","Accessibility","household heating",0
+"50","COP21","Ireland","Accessibility","cooling",20.8394983515957
+"51","COP21","Ireland","Accessibility","thermal comfort",0
+"52","COP21","Ireland","Accessibility","household heating problems",0
+"53","COP21","Ireland","Accessibility","household cooling problems",0
+"54","COP21","Ireland","Accessibility","consumption",115.311890878829
+"55","COP21","Ireland","Accessibility","consuming",5.55719956042551
+"56","COP21","Ireland","Accessibility","consumed",4.16789967031914
+"57","COP21","Ireland","Accessibility","basic needs",0
+"58","COP21","Ireland","Accessibility","basic need",0
+"59","COP21","Ireland","Accessibility","reduced costs",0
+"60","COP21","Ireland","Accessibility","reduces costs",0
+"61","COP21","Ireland","Accessibility","reducing costs",1.38929989010638
+"62","COP21","Ireland","Accessibility","consumers",51.404095933936
+"63","COP21","Ireland","Accessibility","consumer",48.6254961537233
+"64","COP21","Ireland","Accessibility","development",402.89696813085
+"65","COP21","Ireland","Accessibility","insurance",37.5110970328722
+"66","COP21","Ireland","Accessibility","cheap",37.5110970328722
+"67","COP21","Ireland","Accessibility","economical",1.38929989010638
+"68","COP21","Ireland","Accessibility","low cost",4.16789967031914
+"69","COP21","Ireland","Accessibility","low-cost",8.33579934063827
+"70","COP21","Ireland","Accessibility","budget",143.097888680957
+"71","COP21","Ireland","Accessibility","cost effective",1.38929989010638
+"72","COP21","Ireland","Accessibility","cost-effective",15.2822987911702
+"73","COP21","Ireland","Accessibility","efficiency",109.754691318404
+"74","COP21","Ireland","Accessibility","unequal",13.8929989010638
+"75","COP21","Ireland","Accessibility","underrepresented",1.38929989010638
+"76","COP21","Ireland","Accessibility","low income household",0
+"77","COP21","Ireland","Accessibility","low income households",0
+"78","COP21","Ireland","Accessibility","energy-efficiency",4.16789967031914
+"79","COP21","Ireland","Security","reliability",5.55719956042551
+"80","COP21","Ireland","Security","reliable",16.6715986812765
+"81","COP21","Ireland","Security","resilience",75.0221940657444
+"82","COP21","Ireland","Security","resilient",54.1826957141488
+"83","COP21","Ireland","Security","power outage",4.16789967031914
+"84","COP21","Ireland","Security","power outages",2.77859978021276
+"85","COP21","Ireland","Security","blackout",0
+"86","COP21","Ireland","Security","black-out",0
+"87","COP21","Ireland","Security","blackouts",0
+"88","COP21","Ireland","Security","black-outs",0
+"89","COP21","Ireland","Security","power cut",2.77859978021276
+"90","COP21","Ireland","Security","power cuts",2.77859978021276
+"91","COP21","Ireland","Security","security",323.706874394786
+"92","COP21","Ireland","Security","stability",25.0073980219148
+"93","COP21","Ireland","Security","adequacy",4.16789967031914
+"94","COP21","Ireland","Security","corruption",6.94649945053189
+"95","COP21","Ireland","Security","corrupted",1.38929989010638
+"96","COP21","Ireland","Security","geopolitics",8.33579934063827
+"97","COP21","Ireland","Security","peak hours",1.38929989010638
+"98","COP21","Ireland","Security","energy demand",12.5036990109574
+"99","COP21","Ireland","Security","nuclear",129.204889779893
+"100","COP21","Ireland","Security","consistent",38.9003969229786
+"101","COP21","Ireland","Security","consistency",5.55719956042551
+"102","COP21","Ireland","Security","intermittancy",0
+"103","COP21","Ireland","Security","intermittent",2.77859978021276
+"104","COP21","Ireland","Security","war",275.081378241063
+"105","COP21","Ireland","Security","wars",19.4501984614893
+"106","COP21","Ireland","Security","conflicts",18.0608985713829
+"107","COP21","Ireland","Security","energy crisis",38.9003969229786
+"108","COP21","Ireland","Security","energy crises",2.77859978021276
+"109","COP21","Ireland","Security","petro-politics",0
+"110","COP21","Ireland","Security","petropolitics",0
+"111","COP21","Ireland","Security","aging infrastructure",0
+"112","COP21","Ireland","Security","industry",372.332370548509
+"113","COP21","Ireland","Security","industries",86.1365931865955
+"114","COP21","Ireland","Security","neoliberalism",5.55719956042551
+"115","COP21","Ireland","Security","nationalisation",0
+"116","COP21","Ireland","Security","nationalization",0
+"117","COP21","Ireland","Security","nationalising",0
+"118","COP21","Ireland","Security","nationalizing",0
+"119","COP21","Ireland","Security","certainty",20.8394983515957
+"120","COP21","Ireland","Security","agreement",1371.238991535
+"121","COP21","Ireland","Security","secure",147.265788351276
+"122","COP21","Ireland","Security","disaster",90.3044928569146
+"123","COP21","Ireland","Security","disasters",131.983489560106
+"124","COP21","Ireland","Security","geo-politics",0
+"125","COP21","Ireland","Security","geo-political",1.38929989010638
+"126","COP21","Ireland","Security","poor infrastructure",0
+"127","COP21","Ireland","Sustainability","sustainability",261.188379339999
+"128","COP21","Ireland","Sustainability","sustainable",477.919162196594
+"129","COP21","Ireland","Sustainability","green",744.664741097019
+"130","COP21","Ireland","Sustainability","greenhouse",808.572536041912
+"131","COP21","Ireland","Sustainability","emissions",3278.74774065105
+"132","COP21","Ireland","Sustainability","emission",166.715986812765
+"133","COP21","Ireland","Sustainability","emitting",30.5645975823403
+"134","COP21","Ireland","Sustainability","emitted",25.0073980219148
+"135","COP21","Ireland","Sustainability","emits",16.6715986812765
+"136","COP21","Ireland","Sustainability","nuclear",129.204889779893
+"137","COP21","Ireland","Sustainability","carbon capture",25.0073980219148
+"138","COP21","Ireland","Sustainability","CCS",0
+"139","COP21","Ireland","Sustainability","CCU",0
+"140","COP21","Ireland","Sustainability","sequester",11.114399120851
+"141","COP21","Ireland","Sustainability","sequestering",6.94649945053189
+"142","COP21","Ireland","Sustainability","sequestration",13.8929989010638
+"143","COP21","Ireland","Sustainability","renewable energy",284.806477471808
+"144","COP21","Ireland","Sustainability","renewables",148.655088241383
+"145","COP21","Ireland","Sustainability","ecosystem",45.8468963735105
+"146","COP21","Ireland","Sustainability","ecosystems",63.9077949448934
+"147","COP21","Ireland","Sustainability","transition",384.836069559467
+"148","COP21","Ireland","Sustainability","transitioning",22.2287982417021
+"149","COP21","Ireland","Sustainability","transitions",9.72509923074465
+"150","COP21","Ireland","Sustainability","low-carbon",97.2509923074465
+"151","COP21","Ireland","Sustainability","zero carbon",33.3431973625531
+"152","COP21","Ireland","Sustainability","decarbonization",0
+"153","COP21","Ireland","Sustainability","subsidies",144.487188571063
+"154","COP21","Ireland","Sustainability","subsidy",11.114399120851
+"155","COP21","Ireland","Sustainability","subsidising",15.2822987911702
+"156","COP21","Ireland","Sustainability","subsidizing",0
+"157","COP21","Ireland","Sustainability","subsidise",11.114399120851
+"158","COP21","Ireland","Sustainability","subsidize",0
+"159","COP21","Ireland","Sustainability","environmental health",1.38929989010638
+"160","COP21","Ireland","Sustainability","decarbonisation",113.922590988723
+"161","COP21","Ireland","Sustainability","decarbonize",0
+"162","COP21","Ireland","Sustainability","decarbonise",41.6789967031914
+"163","COP21","Ireland","Sustainability","wind",336.210573405744
+"164","COP21","Ireland","Sustainability","tidal",11.114399120851
+"165","COP21","Ireland","Sustainability","ocean energy",0
+"166","COP21","Ireland","Sustainability","hydrogen",80.57939362617
+"167","COP21","Ireland","Sustainability","geothermal",2.77859978021276
+"168","COP21","Ireland","Sustainability","centralized",0
+"169","COP21","Ireland","Sustainability","decentralized",0
+"170","COP21","Ireland","Sustainability","centralised",1.38929989010638
+"171","COP21","Ireland","Sustainability","decentralised",1.38929989010638
+"172","COP21","Ireland","Sustainability","solar",227.845181977446
+"173","COP21","Ireland","Sustainability","photovoltaics",1.38929989010638
+"174","COP21","Ireland","Sustainability","photovoltaic",4.16789967031914
+"175","COP21","Ireland","Sustainability","PV",12.5036990109574
+"176","COP21","Ireland","Sustainability","solar panels",41.6789967031914
+"177","COP21","Ireland","Sustainability","solar panel",45.8468963735105
+"178","COP21","Ireland","Sustainability","frack",0
+"179","COP21","Ireland","Sustainability","fracking",34.7324972526595
+"180","COP21","Ireland","Sustainability","fracked",6.94649945053189
+"181","COP21","Ireland","Sustainability","pollution",191.72338483468
+"182","COP21","Ireland","Sustainability","polluting",76.4114939558508
+"183","COP21","Ireland","Sustainability","polluted",9.72509923074465
+"184","COP21","Ireland","Sustainability","energy storage",5.55719956042551
+"185","COP21","Ireland","Sustainability","alternative",91.693792747021
+"186","COP21","Ireland","Sustainability","alternatives",23.6180981318084
+"187","COP21","Ireland","Sustainability","coal",737.718241646487
+"188","COP21","Ireland","Sustainability","natural gas",76.4114939558508
+"189","COP21","Ireland","Sustainability","biomass",16.6715986812765
+"190","COP21","Ireland","Sustainability","ozone",6.94649945053189
+"191","COP21","Ireland","Sustainability","electrical vehicles",0
+"192","COP21","Ireland","Sustainability","EV",16.6715986812765
+"193","COP21","Ireland","Sustainability","electric vehicles",55.5719956042551
+"194","COP21","Ireland","Sustainability","net zero",252.852579999361
+"195","COP21","Ireland","Sustainability","carbon neutrality",62.518495054787
+"196","COP21","Ireland","Sustainability","carbon neutral",86.1365931865955
+"197","COP21","Ireland","Sustainability","clean energy",113.922590988723
+"198","COP21","Ireland","Sustainability","carbon reduction",18.0608985713829
+"199","COP21","Ireland","Sustainability","sea levels",104.197491757978
+"200","COP21","Ireland","Sustainability","paris agreement",533.491157800849
+"201","COP21","Ireland","Sustainability","zero-carbon",5.55719956042551
+"202","COP21","Ireland","Sustainability","net-zero",166.715986812765
+"203","COP21","Ireland","Sustainability","carbon-neutral",26.3966979120212
+"204","COP21","Ireland","Sustainability","carbon-neutrality",4.16789967031914
+"205","COP21","Ireland","Sustainability","clean-energy",4.16789967031914
+"206","COP21","Ireland","Sustainability","natural-gas",1.38929989010638
+"207","COP21","Ireland","Sustainability","geo-thermal",0
+"208","COP21","Ireland","Sustainability","bio-mass",0
+"209","COP21","Ireland","Sustainability","o-zone",0
+"210","COP21","Ireland","Sustainability","energy-storage",1.38929989010638
+"211","COP21","Ireland","Sustainability","eco-system",0
+"212","COP21","Ireland","Sustainability","eco-systems",2.77859978021276
+"213","COP21","Ireland","Sustainability","c02",4.16789967031914
+"214","COP21","Ireland","Sustainability","e-vehicles",0
+"215","COP21","Ireland","Sustainability","EVs",20.8394983515957
+"216","COP21","Ireland","Sustainability","PVs",4.16789967031914
+"217","COP21","Ireland","Sustainability","re-newables",1.38929989010638
+"218","COP21","Ireland","Sustainability","pollutant",0

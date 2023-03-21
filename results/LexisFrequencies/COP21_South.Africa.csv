@@ -1,164 +1,219 @@
 "","COP","country","aspect","keyword","freq"
-"1","COP21","South.Africa","Accessibility","affordability",4.28415974774867
-"2","COP21","South.Africa","Accessibility","affordable",77.1148754594761
-"3","COP21","South.Africa","Accessibility","ability to pay",2.14207987387434
-"4","COP21","South.Africa","Accessibility","able to pay",0
+"1","COP21","South.Africa","Accessibility","affordability",17.251334695174
+"2","COP21","South.Africa","Accessibility","affordable",78.1383983251998
+"3","COP21","South.Africa","Accessibility","ability to pay",1.01478439383376
+"4","COP21","South.Africa","Accessibility","able to pay",1.01478439383376
 "5","COP21","South.Africa","Accessibility","inability to pay",0
 "6","COP21","South.Africa","Accessibility","unable to pay",0
-"7","COP21","South.Africa","Accessibility","energy poverty",14.9945591171204
+"7","COP21","South.Africa","Accessibility","energy poverty",27.3991786335116
 "8","COP21","South.Africa","Accessibility","energy burden",0
 "9","COP21","South.Africa","Accessibility","fuel poverty",0
-"10","COP21","South.Africa","Accessibility","trasportation poverty",0
-"11","COP21","South.Africa","Accessibility","energy prices",14.9945591171204
-"12","COP21","South.Africa","Accessibility","energy bills",4.28415974774867
-"13","COP21","South.Africa","Accessibility","tansportation bills",0
+"10","COP21","South.Africa","Accessibility","fuel-poverty",0
+"11","COP21","South.Africa","Accessibility","trasportation poverty",0
+"12","COP21","South.Africa","Accessibility","energy prices",17.251334695174
+"13","COP21","South.Africa","Accessibility","transportation bills",0
 "14","COP21","South.Africa","Accessibility","utility bill",0
-"15","COP21","South.Africa","Accessibility","electricity bill",10.7103993693717
+"15","COP21","South.Africa","Accessibility","electricity bill",7.10349075683635
 "16","COP21","South.Africa","Accessibility","utility bills",0
-"17","COP21","South.Africa","Accessibility","electricity bills",6.42623962162301
+"17","COP21","South.Africa","Accessibility","electricity bills",4.05913757533506
 "18","COP21","South.Africa","Accessibility","gas bill",0
-"19","COP21","South.Africa","Accessibility","energy billgas bill",0
-"20","COP21","South.Africa","Accessibility","energy cost",12.852479243246
-"21","COP21","South.Africa","Accessibility","equity",102.819833945968
-"22","COP21","South.Africa","Accessibility","inequity",8.56831949549735
-"23","COP21","South.Africa","Accessibility","inequality",79.2569553333505
-"24","COP21","South.Africa","Accessibility","inequalities",42.8415974774867
-"25","COP21","South.Africa","Accessibility","energy justice",2.14207987387434
-"26","COP21","South.Africa","Accessibility","household",32.1311981081151
-"27","COP21","South.Africa","Accessibility","households",51.4099169729841
-"28","COP21","South.Africa","Accessibility","low-income households",4.28415974774867
-"29","COP21","South.Africa","Accessibility","low-income household",4.28415974774867
-"30","COP21","South.Africa","Accessibility","energy efficiency",85.6831949549735
-"31","COP21","South.Africa","Accessibility","personal finance",0
-"32","COP21","South.Africa","Accessibility","personal finances",0
-"33","COP21","South.Africa","Accessibility","race",57.8361565946071
-"34","COP21","South.Africa","Accessibility","minorities",4.28415974774867
-"35","COP21","South.Africa","Accessibility","underserved communities",0
-"36","COP21","South.Africa","Accessibility","gender",184.218869153193
-"37","COP21","South.Africa","Accessibility","women",595.498204937066
-"38","COP21","South.Africa","Accessibility","social economic class",0
-"39","COP21","South.Africa","Accessibility","upper class",0
-"40","COP21","South.Africa","Accessibility","middle class",10.7103993693717
-"41","COP21","South.Africa","Accessibility","lower class",0
-"42","COP21","South.Africa","Accessibility","working class",2.14207987387434
-"43","COP21","South.Africa","Accessibility","household heating",0
-"44","COP21","South.Africa","Accessibility","cooling",14.9945591171204
-"45","COP21","South.Africa","Accessibility","thermal comfort",0
-"46","COP21","South.Africa","Accessibility","hosuehold heating problems",0
-"47","COP21","South.Africa","Accessibility","household cooling probloems",0
-"48","COP21","South.Africa","Accessibility","consumption",184.218869153193
-"49","COP21","South.Africa","Accessibility","consuming",12.852479243246
-"50","COP21","South.Africa","Accessibility","consumed",23.5628786126177
-"51","COP21","South.Africa","Accessibility","basic needs",10.7103993693717
-"52","COP21","South.Africa","Accessibility","basic need",19.278718864869
-"53","COP21","South.Africa","Security","reliability",12.852479243246
-"54","COP21","South.Africa","Security","reliable",70.6886358378531
-"55","COP21","South.Africa","Security","resilience",207.781747765811
-"56","COP21","South.Africa","Security","resiliant",0
-"57","COP21","South.Africa","Security","power outage",8.56831949549735
-"58","COP21","South.Africa","Security","power outages",4.28415974774867
-"59","COP21","South.Africa","Security","blackout",8.56831949549735
-"60","COP21","South.Africa","Security","power cut",10.7103993693717
-"61","COP21","South.Africa","Security","blackouts",21.4207987387434
-"62","COP21","South.Africa","Security","power cuts",10.7103993693717
-"63","COP21","South.Africa","Security","security",496.962530738846
-"64","COP21","South.Africa","Security","stability",57.8361565946071
-"65","COP21","South.Africa","Security","risk",402.711016288375
-"66","COP21","South.Africa","Security","risky",10.7103993693717
-"67","COP21","South.Africa","Security","adequacy",2.14207987387434
-"68","COP21","South.Africa","Security","corruption",49.2678370991097
-"69","COP21","South.Africa","Security","corrupted",0
-"70","COP21","South.Africa","Security","geopolitics",4.28415974774867
-"71","COP21","South.Africa","Security","peak hours",0
-"72","COP21","South.Africa","Security","enegy demand",0
-"73","COP21","South.Africa","Security","nuclear",143.519351549581
-"74","COP21","South.Africa","Security","consistence",0
-"75","COP21","South.Africa","Security","consistency",2.14207987387434
-"76","COP21","South.Africa","Security","intermittancy",0
-"77","COP21","South.Africa","Security","intermittent",10.7103993693717
-"78","COP21","South.Africa","Security","war",162.79807041445
-"79","COP21","South.Africa","Security","wars",14.9945591171204
-"80","COP21","South.Africa","Security","conflicts",62.1203163423558
-"81","COP21","South.Africa","Security","energy crisis",12.852479243246
-"82","COP21","South.Africa","Security","energy crises",0
-"83","COP21","South.Africa","Security","petro-politics",0
-"84","COP21","South.Africa","Security","petropolitics",0
-"85","COP21","South.Africa","Security","aging infrastructure",0
-"86","COP21","South.Africa","Security","industry",469.11549237848
-"87","COP21","South.Africa","Security","industries",141.377271675706
-"88","COP21","South.Africa","Security","industrial",239.912945873926
-"89","COP21","South.Africa","Security","neoliberalism",0
-"90","COP21","South.Africa","Security","nationalisation",0
-"91","COP21","South.Africa","Security","nationalising",0
-"92","COP21","South.Africa","Security","nationalizing",0
-"93","COP21","South.Africa","Sustainability","sustainability",329.880300576648
-"94","COP21","South.Africa","Sustainability","sustainable",1094.60281554979
-"95","COP21","South.Africa","Sustainability","green",1036.76665895518
-"96","COP21","South.Africa","Sustainability","greenhouse",910.383946396593
-"97","COP21","South.Africa","Sustainability","carbon emissions",518.38332947759
-"98","COP21","South.Africa","Sustainability","emissions",2617.62160587444
-"99","COP21","South.Africa","Sustainability","emission",257.04958486492
-"100","COP21","South.Africa","Sustainability","emitting",29.9891182342407
-"101","COP21","South.Africa","Sustainability","emitted",27.8470383603664
-"102","COP21","South.Africa","Sustainability","nuclear",143.519351549581
-"103","COP21","South.Africa","Sustainability","carbon capture",14.9945591171204
-"104","COP21","South.Africa","Sustainability","carbon capture and storage",6.42623962162301
-"105","COP21","South.Africa","Sustainability","CCS",8.56831949549735
-"106","COP21","South.Africa","Sustainability","CCU",0
-"107","COP21","South.Africa","Sustainability","carbon capture and usage",0
-"108","COP21","South.Africa","Sustainability","sequester",8.56831949549735
-"109","COP21","South.Africa","Sustainability","sequestering",4.28415974774867
-"110","COP21","South.Africa","Sustainability","sequestration",8.56831949549735
-"111","COP21","South.Africa","Sustainability","renewable energy",854.68986967586
-"112","COP21","South.Africa","Sustainability","renewables",229.202546504554
-"113","COP21","South.Africa","Sustainability","ecosystem",62.1203163423558
-"114","COP21","South.Africa","Sustainability","ecosystems",89.9673547027221
-"115","COP21","South.Africa","Sustainability","transition",1229.55384760387
-"116","COP21","South.Africa","Sustainability","transitioning",29.9891182342407
-"117","COP21","South.Africa","Sustainability","transitions",44.9836773513611
-"118","COP21","South.Africa","Sustainability","low-carbon",248.481265369423
-"119","COP21","South.Africa","Sustainability","zero carbon",36.4153578558637
-"120","COP21","South.Africa","Sustainability","decarbonization",4.28415974774867
-"121","COP21","South.Africa","Sustainability","subsidies",139.235191801832
-"122","COP21","South.Africa","Sustainability","subsidy",19.278718864869
-"123","COP21","South.Africa","Sustainability","subsidising",6.42623962162301
-"124","COP21","South.Africa","Sustainability","subsidizing",0
-"125","COP21","South.Africa","Sustainability","subsidise",2.14207987387434
-"126","COP21","South.Africa","Sustainability","subsidize",0
-"127","COP21","South.Africa","Sustainability","environmental health",8.56831949549735
-"128","COP21","South.Africa","Sustainability","decarbonisation",102.819833945968
-"129","COP21","South.Africa","Sustainability","decarbonize",2.14207987387434
-"130","COP21","South.Africa","Sustainability","decarbonise",42.8415974774867
-"131","COP21","South.Africa","Sustainability","wind",269.902064108166
-"132","COP21","South.Africa","Sustainability","tidal",6.42623962162301
-"133","COP21","South.Africa","Sustainability","ocean energy",0
-"134","COP21","South.Africa","Sustainability","hydrogen",94.2515144504708
-"135","COP21","South.Africa","Sustainability","geothermal",17.1366389909947
-"136","COP21","South.Africa","Sustainability","centralized",2.14207987387434
-"137","COP21","South.Africa","Sustainability","decentralized",0
-"138","COP21","South.Africa","Sustainability","centralised",2.14207987387434
-"139","COP21","South.Africa","Sustainability","decentralised",6.42623962162301
-"140","COP21","South.Africa","Sustainability","solar",571.935326324448
-"141","COP21","South.Africa","Sustainability","photovoltaics",2.14207987387434
-"142","COP21","South.Africa","Sustainability","photovoltaic",36.4153578558637
-"143","COP21","South.Africa","Sustainability","PV",42.8415974774867
-"144","COP21","South.Africa","Sustainability","solar panels",42.8415974774867
-"145","COP21","South.Africa","Sustainability","solar panel",49.2678370991097
-"146","COP21","South.Africa","Sustainability","shale gas fracking",0
-"147","COP21","South.Africa","Sustainability","frack",0
-"148","COP21","South.Africa","Sustainability","fracking",8.56831949549735
-"149","COP21","South.Africa","Sustainability","pollution",212.065907513559
-"150","COP21","South.Africa","Sustainability","polluting",44.9836773513611
-"151","COP21","South.Africa","Sustainability","polluted",23.5628786126177
-"152","COP21","South.Africa","Sustainability","energy storage",29.9891182342407
-"153","COP21","South.Africa","Sustainability","alternative",107.103993693717
-"154","COP21","South.Africa","Sustainability","alternatives",51.4099169729841
-"155","COP21","South.Africa","Sustainability","coal",1450.18807461293
-"156","COP21","South.Africa","Sustainability","natural gas",57.8361565946071
-"157","COP21","South.Africa","Sustainability","biomass",27.8470383603664
-"158","COP21","South.Africa","Sustainability","ozone",10.7103993693717
-"159","COP21","South.Africa","Sustainability","Electrical vehicles",0
-"160","COP21","South.Africa","Sustainability","EV",19.278718864869
-"161","COP21","South.Africa","Sustainability","electric vehicles",89.9673547027221
-"162","COP21","South.Africa","Sustainability","net zero",179.934709405444
-"163","COP21","South.Africa","Sustainability","carbon neutrality",27.8470383603664
+"19","COP21","South.Africa","Accessibility","energy bill",3.04435318150129
+"20","COP21","South.Africa","Accessibility","energy bills",2.02956878766753
+"21","COP21","South.Africa","Accessibility","energy cost",17.251334695174
+"22","COP21","South.Africa","Accessibility","equity",99.4488705957089
+"23","COP21","South.Africa","Accessibility","inequity",7.10349075683635
+"24","COP21","South.Africa","Accessibility","inequality",125.833264835387
+"25","COP21","South.Africa","Accessibility","inequalities",37.5470225718493
+"26","COP21","South.Africa","Accessibility","energy justice",1.01478439383376
+"27","COP21","South.Africa","Accessibility","household",38.561806965683
+"28","COP21","South.Africa","Accessibility","households",60.8870636300258
+"29","COP21","South.Africa","Accessibility","low-income households",3.04435318150129
+"30","COP21","South.Africa","Accessibility","low-income household",3.04435318150129
+"31","COP21","South.Africa","Accessibility","energy efficiency",77.1236139313661
+"32","COP21","South.Africa","Accessibility","personal finance",0
+"33","COP21","South.Africa","Accessibility","personal finances",0
+"34","COP21","South.Africa","Accessibility","race",60.8870636300258
+"35","COP21","South.Africa","Accessibility","minorities",6.08870636300258
+"36","COP21","South.Africa","Accessibility","underserved communities",3.04435318150129
+"37","COP21","South.Africa","Accessibility","gender",172.51334695174
+"38","COP21","South.Africa","Accessibility","women",541.89486630723
+"39","COP21","South.Africa","Accessibility","social economic class",0
+"40","COP21","South.Africa","Accessibility","upper class",0
+"41","COP21","South.Africa","Accessibility","middle class",5.07392196916882
+"42","COP21","South.Africa","Accessibility","lower class",0
+"43","COP21","South.Africa","Accessibility","working class",1.01478439383376
+"44","COP21","South.Africa","Accessibility","economic class",0
+"45","COP21","South.Africa","Accessibility","upper-class",1.01478439383376
+"46","COP21","South.Africa","Accessibility","middle-class",4.05913757533506
+"47","COP21","South.Africa","Accessibility","lower-class",0
+"48","COP21","South.Africa","Accessibility","working-class",1.01478439383376
+"49","COP21","South.Africa","Accessibility","household heating",0
+"50","COP21","South.Africa","Accessibility","cooling",12.1774127260052
+"51","COP21","South.Africa","Accessibility","thermal comfort",0
+"52","COP21","South.Africa","Accessibility","household heating problems",0
+"53","COP21","South.Africa","Accessibility","household cooling problems",0
+"54","COP21","South.Africa","Accessibility","consumption",177.587268920909
+"55","COP21","South.Africa","Accessibility","consuming",10.1478439383376
+"56","COP21","South.Africa","Accessibility","consumed",22.3252566643428
+"57","COP21","South.Africa","Accessibility","basic needs",5.07392196916882
+"58","COP21","South.Africa","Accessibility","basic need",9.13305954450388
+"59","COP21","South.Africa","Accessibility","reduced costs",0
+"60","COP21","South.Africa","Accessibility","reduces costs",0
+"61","COP21","South.Africa","Accessibility","reducing costs",1.01478439383376
+"62","COP21","South.Africa","Accessibility","consumers",48.7096509040207
+"63","COP21","South.Africa","Accessibility","consumer",44.6505133286856
+"64","COP21","South.Africa","Accessibility","development",1999.12525585252
+"65","COP21","South.Africa","Accessibility","insurance",91.3305954450388
+"66","COP21","South.Africa","Accessibility","cheap",56.8279260546908
+"67","COP21","South.Africa","Accessibility","economical",3.04435318150129
+"68","COP21","South.Africa","Accessibility","low cost",6.08870636300258
+"69","COP21","South.Africa","Accessibility","low-cost",15.2217659075065
+"70","COP21","South.Africa","Accessibility","budget",155.262012256566
+"71","COP21","South.Africa","Accessibility","cost effective",6.08870636300258
+"72","COP21","South.Africa","Accessibility","cost-effective",19.2809034828415
+"73","COP21","South.Africa","Accessibility","efficiency",133.951539986057
+"74","COP21","South.Africa","Accessibility","unequal",16.2365503013402
+"75","COP21","South.Africa","Accessibility","underrepresented",2.02956878766753
+"76","COP21","South.Africa","Accessibility","low income household",1.01478439383376
+"77","COP21","South.Africa","Accessibility","low income households",1.01478439383376
+"78","COP21","South.Africa","Accessibility","energy-efficiency",4.05913757533506
+"79","COP21","South.Africa","Security","reliability",10.1478439383376
+"80","COP21","South.Africa","Security","reliable",75.0940451436986
+"81","COP21","South.Africa","Security","resilience",264.858726790612
+"82","COP21","South.Africa","Security","resilient",193.823819222249
+"83","COP21","South.Africa","Security","power outage",7.10349075683635
+"84","COP21","South.Africa","Security","power outages",5.07392196916882
+"85","COP21","South.Africa","Security","blackout",4.05913757533506
+"86","COP21","South.Africa","Security","black-out",0
+"87","COP21","South.Africa","Security","blackouts",19.2809034828415
+"88","COP21","South.Africa","Security","black-outs",0
+"89","COP21","South.Africa","Security","power cut",8.11827515067011
+"90","COP21","South.Africa","Security","power cuts",8.11827515067011
+"91","COP21","South.Africa","Security","security",642.358521296773
+"92","COP21","South.Africa","Security","stability",82.1975359005349
+"93","COP21","South.Africa","Security","adequacy",6.08870636300258
+"94","COP21","South.Africa","Security","corruption",85.2418890820362
+"95","COP21","South.Africa","Security","corrupted",5.07392196916882
+"96","COP21","South.Africa","Security","geopolitics",11.1626283321714
+"97","COP21","South.Africa","Security","peak hours",0
+"98","COP21","South.Africa","Security","energy demand",25.3696098458441
+"99","COP21","South.Africa","Security","nuclear",240.503901338602
+"100","COP21","South.Africa","Security","consistent",72.0496919621972
+"101","COP21","South.Africa","Security","consistency",3.04435318150129
+"102","COP21","South.Africa","Security","intermittancy",0
+"103","COP21","South.Africa","Security","intermittent",11.1626283321714
+"104","COP21","South.Africa","Security","war",207.016016342088
+"105","COP21","South.Africa","Security","wars",25.3696098458441
+"106","COP21","South.Africa","Security","conflicts",57.8427104485246
+"107","COP21","South.Africa","Security","energy crisis",53.7835728731895
+"108","COP21","South.Africa","Security","energy crises",2.02956878766753
+"109","COP21","South.Africa","Security","petro-politics",0
+"110","COP21","South.Africa","Security","petropolitics",0
+"111","COP21","South.Africa","Security","aging infrastructure",0
+"112","COP21","South.Africa","Security","industry",476.948665101869
+"113","COP21","South.Africa","Security","industries",145.114168318228
+"114","COP21","South.Africa","Security","neoliberalism",0
+"115","COP21","South.Africa","Security","nationalisation",1.01478439383376
+"116","COP21","South.Africa","Security","nationalization",0
+"117","COP21","South.Africa","Security","nationalising",0
+"118","COP21","South.Africa","Security","nationalizing",0
+"119","COP21","South.Africa","Security","certainty",22.3252566643428
+"120","COP21","South.Africa","Security","agreement",1606.40369543885
+"121","COP21","South.Africa","Security","secure",126.848049229221
+"122","COP21","South.Africa","Security","disaster",109.596714534047
+"123","COP21","South.Africa","Security","disasters",129.892402410722
+"124","COP21","South.Africa","Security","geo-politics",0
+"125","COP21","South.Africa","Security","geo-political",2.02956878766753
+"126","COP21","South.Africa","Security","poor infrastructure",1.01478439383376
+"127","COP21","South.Africa","Sustainability","sustainability",298.346611787127
+"128","COP21","South.Africa","Sustainability","sustainable",1000.57741232009
+"129","COP21","South.Africa","Sustainability","green",1100.0262829158
+"130","COP21","South.Africa","Sustainability","greenhouse",702.230800532965
+"131","COP21","South.Africa","Sustainability","emissions",2313.70841794098
+"132","COP21","South.Africa","Sustainability","emission",213.10472270509
+"133","COP21","South.Africa","Sustainability","emitting",24.3548254520103
+"134","COP21","South.Africa","Sustainability","emitted",27.3991786335116
+"135","COP21","South.Africa","Sustainability","emits",14.2069815136727
+"136","COP21","South.Africa","Sustainability","nuclear",240.503901338602
+"137","COP21","South.Africa","Sustainability","carbon capture",27.3991786335116
+"138","COP21","South.Africa","Sustainability","CCS",7.10349075683635
+"139","COP21","South.Africa","Sustainability","CCU",0
+"140","COP21","South.Africa","Sustainability","sequester",5.07392196916882
+"141","COP21","South.Africa","Sustainability","sequestering",2.02956878766753
+"142","COP21","South.Africa","Sustainability","sequestration",13.1921971198389
+"143","COP21","South.Africa","Sustainability","renewable energy",868.655441121702
+"144","COP21","South.Africa","Sustainability","renewables",254.710882852275
+"145","COP21","South.Africa","Sustainability","ecosystem",56.8279260546908
+"146","COP21","South.Africa","Sustainability","ecosystems",105.537576958711
+"147","COP21","South.Africa","Sustainability","transition",1756.59178572625
+"148","COP21","South.Africa","Sustainability","transitioning",36.5322381780155
+"149","COP21","South.Africa","Sustainability","transitions",100.463654989543
+"150","COP21","South.Africa","Sustainability","low-carbon",242.53347012627
+"151","COP21","South.Africa","Sustainability","zero carbon",30.4435318150129
+"152","COP21","South.Africa","Sustainability","decarbonization",15.2217659075065
+"153","COP21","South.Africa","Sustainability","subsidies",115.685420897049
+"154","COP21","South.Africa","Sustainability","subsidy",13.1921971198389
+"155","COP21","South.Africa","Sustainability","subsidising",8.11827515067011
+"156","COP21","South.Africa","Sustainability","subsidizing",2.02956878766753
+"157","COP21","South.Africa","Sustainability","subsidise",3.04435318150129
+"158","COP21","South.Africa","Sustainability","subsidize",0
+"159","COP21","South.Africa","Sustainability","environmental health",6.08870636300258
+"160","COP21","South.Africa","Sustainability","decarbonisation",140.040246349059
+"161","COP21","South.Africa","Sustainability","decarbonize",3.04435318150129
+"162","COP21","South.Africa","Sustainability","decarbonise",51.754004085522
+"163","COP21","South.Africa","Sustainability","wind",262.829158002945
+"164","COP21","South.Africa","Sustainability","tidal",5.07392196916882
+"165","COP21","South.Africa","Sustainability","ocean energy",0
+"166","COP21","South.Africa","Sustainability","hydrogen",341.982340721979
+"167","COP21","South.Africa","Sustainability","geothermal",21.310472270509
+"168","COP21","South.Africa","Sustainability","centralized",2.02956878766753
+"169","COP21","South.Africa","Sustainability","decentralized",0
+"170","COP21","South.Africa","Sustainability","centralised",5.07392196916882
+"171","COP21","South.Africa","Sustainability","decentralised",12.1774127260052
+"172","COP21","South.Africa","Sustainability","solar",493.185215403209
+"173","COP21","South.Africa","Sustainability","photovoltaics",2.02956878766753
+"174","COP21","South.Africa","Sustainability","photovoltaic",33.4878849965142
+"175","COP21","South.Africa","Sustainability","PV",32.4731006026805
+"176","COP21","South.Africa","Sustainability","solar panels",36.5322381780155
+"177","COP21","South.Africa","Sustainability","solar panel",40.5913757533506
+"178","COP21","South.Africa","Sustainability","frack",1.01478439383376
+"179","COP21","South.Africa","Sustainability","fracking",11.1626283321714
+"180","COP21","South.Africa","Sustainability","fracked",0
+"181","COP21","South.Africa","Sustainability","pollution",227.311704218763
+"182","COP21","South.Africa","Sustainability","polluting",55.813141660857
+"183","COP21","South.Africa","Sustainability","polluted",27.3991786335116
+"184","COP21","South.Africa","Sustainability","energy storage",20.2956878766753
+"185","COP21","South.Africa","Sustainability","alternative",131.921971198389
+"186","COP21","South.Africa","Sustainability","alternatives",61.9018480238596
+"187","COP21","South.Africa","Sustainability","coal",1415.6242293981
+"188","COP21","South.Africa","Sustainability","natural gas",109.596714534047
+"189","COP21","South.Africa","Sustainability","biomass",29.4287474211792
+"190","COP21","South.Africa","Sustainability","ozone",11.1626283321714
+"191","COP21","South.Africa","Sustainability","electrical vehicles",1.01478439383376
+"192","COP21","South.Africa","Sustainability","EV",24.3548254520103
+"193","COP21","South.Africa","Sustainability","electric vehicles",101.478439383376
+"194","COP21","South.Africa","Sustainability","net zero",172.51334695174
+"195","COP21","South.Africa","Sustainability","carbon neutrality",30.4435318150129
+"196","COP21","South.Africa","Sustainability","carbon neutral",41.6061601471843
+"197","COP21","South.Africa","Sustainability","clean energy",175.557700133241
+"198","COP21","South.Africa","Sustainability","carbon reduction",15.2217659075065
+"199","COP21","South.Africa","Sustainability","sea levels",55.813141660857
+"200","COP21","South.Africa","Sustainability","paris agreement",806.753593097842
+"201","COP21","South.Africa","Sustainability","zero-carbon",10.1478439383376
+"202","COP21","South.Africa","Sustainability","net-zero",146.128952712062
+"203","COP21","South.Africa","Sustainability","carbon-neutral",11.1626283321714
+"204","COP21","South.Africa","Sustainability","carbon-neutrality",0
+"205","COP21","South.Africa","Sustainability","clean-energy",7.10349075683635
+"206","COP21","South.Africa","Sustainability","natural-gas",0
+"207","COP21","South.Africa","Sustainability","geo-thermal",1.01478439383376
+"208","COP21","South.Africa","Sustainability","bio-mass",0
+"209","COP21","South.Africa","Sustainability","o-zone",0
+"210","COP21","South.Africa","Sustainability","energy-storage",0
+"211","COP21","South.Africa","Sustainability","eco-system",1.01478439383376
+"212","COP21","South.Africa","Sustainability","eco-systems",1.01478439383376
+"213","COP21","South.Africa","Sustainability","c02",3.04435318150129
+"214","COP21","South.Africa","Sustainability","e-vehicles",1.01478439383376
+"215","COP21","South.Africa","Sustainability","EVs",48.7096509040207
+"216","COP21","South.Africa","Sustainability","PVs",2.02956878766753
+"217","COP21","South.Africa","Sustainability","re-newables",0
+"218","COP21","South.Africa","Sustainability","pollutant",2.02956878766753

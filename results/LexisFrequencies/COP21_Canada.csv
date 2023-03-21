@@ -1,164 +1,219 @@
 "","COP","country","aspect","keyword","freq"
-"1","COP21","Canada","Accessibility","affordability",2.11824913999085
-"2","COP21","Canada","Accessibility","affordable",65.6657233397163
+"1","COP21","Canada","Accessibility","affordability",3.81397465740973
+"2","COP21","Canada","Accessibility","affordable",57.2096198611459
 "3","COP21","Canada","Accessibility","ability to pay",0
 "4","COP21","Canada","Accessibility","able to pay",0
 "5","COP21","Canada","Accessibility","inability to pay",0
 "6","COP21","Canada","Accessibility","unable to pay",0
-"7","COP21","Canada","Accessibility","energy poverty",10.5912456999542
+"7","COP21","Canada","Accessibility","energy poverty",10.1705990864259
 "8","COP21","Canada","Accessibility","energy burden",0
 "9","COP21","Canada","Accessibility","fuel poverty",0
-"10","COP21","Canada","Accessibility","trasportation poverty",0
-"11","COP21","Canada","Accessibility","energy prices",8.4729965599634
-"12","COP21","Canada","Accessibility","energy bills",0
-"13","COP21","Canada","Accessibility","tansportation bills",0
+"10","COP21","Canada","Accessibility","fuel-poverty",0
+"11","COP21","Canada","Accessibility","trasportation poverty",0
+"12","COP21","Canada","Accessibility","energy prices",12.7132488580324
+"13","COP21","Canada","Accessibility","transportation bills",0
 "14","COP21","Canada","Accessibility","utility bill",0
-"15","COP21","Canada","Accessibility","electricity bill",2.11824913999085
+"15","COP21","Canada","Accessibility","electricity bill",1.27132488580324
 "16","COP21","Canada","Accessibility","utility bills",0
-"17","COP21","Canada","Accessibility","electricity bills",2.11824913999085
+"17","COP21","Canada","Accessibility","electricity bills",1.27132488580324
 "18","COP21","Canada","Accessibility","gas bill",0
-"19","COP21","Canada","Accessibility","energy billgas bill",0
-"20","COP21","Canada","Accessibility","energy cost",14.8277439799359
-"21","COP21","Canada","Accessibility","equity",29.6554879598719
-"22","COP21","Canada","Accessibility","inequity",2.11824913999085
-"23","COP21","Canada","Accessibility","inequality",33.8919862398536
-"24","COP21","Canada","Accessibility","inequalities",4.2364982799817
-"25","COP21","Canada","Accessibility","energy justice",4.2364982799817
-"26","COP21","Canada","Accessibility","household",19.0642422599176
-"27","COP21","Canada","Accessibility","households",14.8277439799359
-"28","COP21","Canada","Accessibility","low-income households",0
-"29","COP21","Canada","Accessibility","low-income household",0
-"30","COP21","Canada","Accessibility","energy efficiency",80.4934673196523
-"31","COP21","Canada","Accessibility","personal finance",0
-"32","COP21","Canada","Accessibility","personal finances",0
-"33","COP21","Canada","Accessibility","race",23.3007405398993
-"34","COP21","Canada","Accessibility","minorities",2.11824913999085
-"35","COP21","Canada","Accessibility","underserved communities",0
-"36","COP21","Canada","Accessibility","gender",48.7197302197895
-"37","COP21","Canada","Accessibility","women",131.331446679433
-"38","COP21","Canada","Accessibility","social economic class",0
-"39","COP21","Canada","Accessibility","upper class",0
-"40","COP21","Canada","Accessibility","middle class",8.4729965599634
-"41","COP21","Canada","Accessibility","lower class",0
-"42","COP21","Canada","Accessibility","working class",2.11824913999085
-"43","COP21","Canada","Accessibility","household heating",0
-"44","COP21","Canada","Accessibility","cooling",36.0102353798444
-"45","COP21","Canada","Accessibility","thermal comfort",0
-"46","COP21","Canada","Accessibility","hosuehold heating problems",0
-"47","COP21","Canada","Accessibility","household cooling probloems",0
-"48","COP21","Canada","Accessibility","consumption",152.513938079341
-"49","COP21","Canada","Accessibility","consuming",12.7094948399451
-"50","COP21","Canada","Accessibility","consumed",8.4729965599634
-"51","COP21","Canada","Accessibility","basic needs",6.35474741997255
-"52","COP21","Canada","Accessibility","basic need",6.35474741997255
-"53","COP21","Canada","Security","reliability",19.0642422599176
-"54","COP21","Canada","Security","reliable",57.1927267797529
-"55","COP21","Canada","Security","resilience",59.3109759197438
-"56","COP21","Canada","Security","resiliant",0
-"57","COP21","Canada","Security","power outage",4.2364982799817
-"58","COP21","Canada","Security","power outages",4.2364982799817
-"59","COP21","Canada","Security","blackout",0
-"60","COP21","Canada","Security","power cut",0
-"61","COP21","Canada","Security","blackouts",2.11824913999085
-"62","COP21","Canada","Security","power cuts",0
-"63","COP21","Canada","Security","security",218.179661419057
-"64","COP21","Canada","Security","stability",38.1284845198353
-"65","COP21","Canada","Security","risk",163.105183779295
-"66","COP21","Canada","Security","risky",4.2364982799817
-"67","COP21","Canada","Security","adequacy",10.5912456999542
-"68","COP21","Canada","Security","corruption",21.1824913999085
-"69","COP21","Canada","Security","corrupted",0
-"70","COP21","Canada","Security","geopolitics",2.11824913999085
-"71","COP21","Canada","Security","peak hours",2.11824913999085
-"72","COP21","Canada","Security","enegy demand",0
-"73","COP21","Canada","Security","nuclear",144.040941519378
-"74","COP21","Canada","Security","consistence",0
-"75","COP21","Canada","Security","consistency",4.2364982799817
-"76","COP21","Canada","Security","intermittancy",0
-"77","COP21","Canada","Security","intermittent",2.11824913999085
-"78","COP21","Canada","Security","war",133.449695819423
-"79","COP21","Canada","Security","wars",10.5912456999542
-"80","COP21","Canada","Security","conflicts",10.5912456999542
-"81","COP21","Canada","Security","energy crisis",10.5912456999542
-"82","COP21","Canada","Security","energy crises",0
-"83","COP21","Canada","Security","petro-politics",0
-"84","COP21","Canada","Security","petropolitics",0
-"85","COP21","Canada","Security","aging infrastructure",0
-"86","COP21","Canada","Security","industry",616.410499737337
-"87","COP21","Canada","Security","industries",124.97669925946
-"88","COP21","Canada","Security","industrial",182.169426039213
-"89","COP21","Canada","Security","neoliberalism",2.11824913999085
-"90","COP21","Canada","Security","nationalisation",0
-"91","COP21","Canada","Security","nationalising",0
-"92","COP21","Canada","Security","nationalizing",0
-"93","COP21","Canada","Sustainability","sustainability",269.017640778838
-"94","COP21","Canada","Sustainability","sustainable",521.089288437749
-"95","COP21","Canada","Sustainability","green",514.734541017776
-"96","COP21","Canada","Sustainability","greenhouse",951.093863855891
-"97","COP21","Canada","Sustainability","carbon emissions",311.382623578655
-"98","COP21","Canada","Sustainability","emissions",2895.64657436749
-"99","COP21","Canada","Sustainability","emission",158.868685499314
-"100","COP21","Canada","Sustainability","emitting",33.8919862398536
-"101","COP21","Canada","Sustainability","emitted",27.537238819881
-"102","COP21","Canada","Sustainability","nuclear",144.040941519378
-"103","COP21","Canada","Sustainability","carbon capture",112.267204419515
-"104","COP21","Canada","Sustainability","carbon capture and storage",46.6014810797987
-"105","COP21","Canada","Sustainability","CCS",78.3752181796614
-"106","COP21","Canada","Sustainability","CCU",0
-"107","COP21","Canada","Sustainability","carbon capture and usage",0
-"108","COP21","Canada","Sustainability","sequester",8.4729965599634
-"109","COP21","Canada","Sustainability","sequestering",8.4729965599634
-"110","COP21","Canada","Sustainability","sequestration",10.5912456999542
-"111","COP21","Canada","Sustainability","renewable energy",309.264374438664
-"112","COP21","Canada","Sustainability","renewables",108.030706139533
-"113","COP21","Canada","Sustainability","ecosystem",61.4292250597346
-"114","COP21","Canada","Sustainability","ecosystems",69.902221619698
-"115","COP21","Canada","Sustainability","transition",438.477571978106
-"116","COP21","Canada","Sustainability","transitioning",14.8277439799359
-"117","COP21","Canada","Sustainability","transitions",23.3007405398993
-"118","COP21","Canada","Sustainability","low-carbon",167.341682059277
-"119","COP21","Canada","Sustainability","zero carbon",50.8379793597804
-"120","COP21","Canada","Sustainability","decarbonization",48.7197302197895
-"121","COP21","Canada","Sustainability","subsidies",135.567944959414
-"122","COP21","Canada","Sustainability","subsidy",2.11824913999085
-"123","COP21","Canada","Sustainability","subsidising",0
-"124","COP21","Canada","Sustainability","subsidizing",10.5912456999542
-"125","COP21","Canada","Sustainability","subsidise",0
-"126","COP21","Canada","Sustainability","subsidize",4.2364982799817
-"127","COP21","Canada","Sustainability","environmental health",0
-"128","COP21","Canada","Sustainability","decarbonisation",10.5912456999542
-"129","COP21","Canada","Sustainability","decarbonize",27.537238819881
-"130","COP21","Canada","Sustainability","decarbonise",4.2364982799817
-"131","COP21","Canada","Sustainability","wind",213.943163139076
-"132","COP21","Canada","Sustainability","tidal",4.2364982799817
-"133","COP21","Canada","Sustainability","ocean energy",0
-"134","COP21","Canada","Sustainability","hydrogen",63.5474741997255
-"135","COP21","Canada","Sustainability","geothermal",12.7094948399451
-"136","COP21","Canada","Sustainability","centralized",0
-"137","COP21","Canada","Sustainability","decentralized",2.11824913999085
-"138","COP21","Canada","Sustainability","centralised",0
-"139","COP21","Canada","Sustainability","decentralised",2.11824913999085
-"140","COP21","Canada","Sustainability","solar",233.007405398993
-"141","COP21","Canada","Sustainability","photovoltaics",4.2364982799817
-"142","COP21","Canada","Sustainability","photovoltaic",2.11824913999085
-"143","COP21","Canada","Sustainability","PV",6.35474741997255
-"144","COP21","Canada","Sustainability","solar panels",31.7737370998627
-"145","COP21","Canada","Sustainability","solar panel",33.8919862398536
-"146","COP21","Canada","Sustainability","shale gas fracking",0
-"147","COP21","Canada","Sustainability","frack",2.11824913999085
-"148","COP21","Canada","Sustainability","fracking",10.5912456999542
-"149","COP21","Canada","Sustainability","pollution",317.737370998627
-"150","COP21","Canada","Sustainability","polluting",55.0744776397621
-"151","COP21","Canada","Sustainability","polluted",0
-"152","COP21","Canada","Sustainability","energy storage",29.6554879598719
-"153","COP21","Canada","Sustainability","alternative",72.0204707596889
-"154","COP21","Canada","Sustainability","alternatives",42.364982799817
-"155","COP21","Canada","Sustainability","coal",1376.86194099405
-"156","COP21","Canada","Sustainability","natural gas",209.706664859094
-"157","COP21","Canada","Sustainability","biomass",36.0102353798444
-"158","COP21","Canada","Sustainability","ozone",12.7094948399451
-"159","COP21","Canada","Sustainability","Electrical vehicles",0
-"160","COP21","Canada","Sustainability","EV",21.1824913999085
-"161","COP21","Canada","Sustainability","electric vehicles",57.1927267797529
-"162","COP21","Canada","Sustainability","net zero",228.770907119012
-"163","COP21","Canada","Sustainability","carbon neutrality",42.364982799817
+"19","COP21","Canada","Accessibility","energy bill",3.81397465740973
+"20","COP21","Canada","Accessibility","energy bills",2.54264977160648
+"21","COP21","Canada","Accessibility","energy cost",11.4419239722292
+"22","COP21","Canada","Accessibility","equity",40.6823963457038
+"23","COP21","Canada","Accessibility","inequity",3.81397465740973
+"24","COP21","Canada","Accessibility","inequality",31.7831221450811
+"25","COP21","Canada","Accessibility","inequalities",5.08529954321297
+"26","COP21","Canada","Accessibility","energy justice",2.54264977160648
+"27","COP21","Canada","Accessibility","household",13.9845737438357
+"28","COP21","Canada","Accessibility","households",15.2558986296389
+"29","COP21","Canada","Accessibility","low-income households",0
+"30","COP21","Canada","Accessibility","low-income household",0
+"31","COP21","Canada","Accessibility","energy efficiency",63.5662442901621
+"32","COP21","Canada","Accessibility","personal finance",0
+"33","COP21","Canada","Accessibility","personal finances",0
+"34","COP21","Canada","Accessibility","race",38.1397465740973
+"35","COP21","Canada","Accessibility","minorities",2.54264977160648
+"36","COP21","Canada","Accessibility","underserved communities",0
+"37","COP21","Canada","Accessibility","gender",58.4809447469491
+"38","COP21","Canada","Accessibility","women",151.287661410586
+"39","COP21","Canada","Accessibility","social economic class",0
+"40","COP21","Canada","Accessibility","upper class",0
+"41","COP21","Canada","Accessibility","middle class",5.08529954321297
+"42","COP21","Canada","Accessibility","lower class",0
+"43","COP21","Canada","Accessibility","working class",1.27132488580324
+"44","COP21","Canada","Accessibility","economic class",0
+"45","COP21","Canada","Accessibility","upper-class",0
+"46","COP21","Canada","Accessibility","middle-class",6.35662442901621
+"47","COP21","Canada","Accessibility","lower-class",0
+"48","COP21","Canada","Accessibility","working-class",1.27132488580324
+"49","COP21","Canada","Accessibility","household heating",0
+"50","COP21","Canada","Accessibility","cooling",30.5117972592778
+"51","COP21","Canada","Accessibility","thermal comfort",0
+"52","COP21","Canada","Accessibility","household heating problems",0
+"53","COP21","Canada","Accessibility","household cooling problems",0
+"54","COP21","Canada","Accessibility","consumption",144.93103698157
+"55","COP21","Canada","Accessibility","consuming",12.7132488580324
+"56","COP21","Canada","Accessibility","consumed",7.62794931481945
+"57","COP21","Canada","Accessibility","basic needs",5.08529954321297
+"58","COP21","Canada","Accessibility","basic need",5.08529954321297
+"59","COP21","Canada","Accessibility","reduced costs",0
+"60","COP21","Canada","Accessibility","reduces costs",2.54264977160648
+"61","COP21","Canada","Accessibility","reducing costs",2.54264977160648
+"62","COP21","Canada","Accessibility","consumers",81.3647926914075
+"63","COP21","Canada","Accessibility","consumer",43.2250461173102
+"64","COP21","Canada","Accessibility","development",666.174240160899
+"65","COP21","Canada","Accessibility","insurance",36.868421688294
+"66","COP21","Canada","Accessibility","cheap",26.6978226018681
+"67","COP21","Canada","Accessibility","economical",5.08529954321297
+"68","COP21","Canada","Accessibility","low cost",5.08529954321297
+"69","COP21","Canada","Accessibility","low-cost",12.7132488580324
+"70","COP21","Canada","Accessibility","budget",80.0934678056042
+"71","COP21","Canada","Accessibility","cost effective",5.08529954321297
+"72","COP21","Canada","Accessibility","cost-effective",12.7132488580324
+"73","COP21","Canada","Accessibility","efficiency",108.062615293276
+"74","COP21","Canada","Accessibility","unequal",7.62794931481945
+"75","COP21","Canada","Accessibility","underrepresented",2.54264977160648
+"76","COP21","Canada","Accessibility","low income household",0
+"77","COP21","Canada","Accessibility","low income households",0
+"78","COP21","Canada","Accessibility","energy-efficiency",2.54264977160648
+"79","COP21","Canada","Security","reliability",13.9845737438357
+"80","COP21","Canada","Security","reliable",41.953721231507
+"81","COP21","Canada","Security","resilience",80.0934678056042
+"82","COP21","Canada","Security","resilient",53.3956452037362
+"83","COP21","Canada","Security","power outage",3.81397465740973
+"84","COP21","Canada","Security","power outages",2.54264977160648
+"85","COP21","Canada","Security","blackout",0
+"86","COP21","Canada","Security","black-out",1.27132488580324
+"87","COP21","Canada","Security","blackouts",1.27132488580324
+"88","COP21","Canada","Security","black-outs",0
+"89","COP21","Canada","Security","power cut",1.27132488580324
+"90","COP21","Canada","Security","power cuts",1.27132488580324
+"91","COP21","Canada","Security","security",219.939205243961
+"92","COP21","Canada","Security","stability",27.9691474876713
+"93","COP21","Canada","Security","adequacy",10.1705990864259
+"94","COP21","Canada","Security","corruption",16.5272235154421
+"95","COP21","Canada","Security","corrupted",1.27132488580324
+"96","COP21","Canada","Security","geopolitics",3.81397465740973
+"97","COP21","Canada","Security","peak hours",1.27132488580324
+"98","COP21","Canada","Security","energy demand",19.0698732870486
+"99","COP21","Canada","Security","nuclear",176.714159126651
+"100","COP21","Canada","Security","consistent",43.2250461173102
+"101","COP21","Canada","Security","consistency",3.81397465740973
+"102","COP21","Canada","Security","intermittancy",0
+"103","COP21","Canada","Security","intermittent",5.08529954321297
+"104","COP21","Canada","Security","war",133.48911300934
+"105","COP21","Canada","Security","wars",6.35662442901621
+"106","COP21","Canada","Security","conflicts",12.7132488580324
+"107","COP21","Canada","Security","energy crisis",40.6823963457038
+"108","COP21","Canada","Security","energy crises",0
+"109","COP21","Canada","Security","petro-politics",0
+"110","COP21","Canada","Security","petropolitics",0
+"111","COP21","Canada","Security","aging infrastructure",0
+"112","COP21","Canada","Security","industry",752.624332395519
+"113","COP21","Canada","Security","industries",139.845737438357
+"114","COP21","Canada","Security","neoliberalism",1.27132488580324
+"115","COP21","Canada","Security","nationalisation",0
+"116","COP21","Canada","Security","nationalization",0
+"117","COP21","Canada","Security","nationalising",0
+"118","COP21","Canada","Security","nationalizing",0
+"119","COP21","Canada","Security","certainty",22.8838479444584
+"120","COP21","Canada","Security","agreement",1112.40927507784
+"121","COP21","Canada","Security","secure",66.1088940617686
+"122","COP21","Canada","Security","disaster",86.4500922346205
+"123","COP21","Canada","Security","disasters",90.2640668920302
+"124","COP21","Canada","Security","geo-politics",0
+"125","COP21","Canada","Security","geo-political",0
+"126","COP21","Canada","Security","poor infrastructure",0
+"127","COP21","Canada","Sustainability","sustainability",268.249550904484
+"128","COP21","Canada","Sustainability","sustainable",521.243203179329
+"129","COP21","Canada","Sustainability","green",593.708721670114
+"130","COP21","Canada","Sustainability","greenhouse",855.601648145582
+"131","COP21","Canada","Sustainability","emissions",3103.30404624571
+"132","COP21","Canada","Sustainability","emission",172.900184469241
+"133","COP21","Canada","Sustainability","emitting",33.0544470308843
+"134","COP21","Canada","Sustainability","emitted",24.1551728302616
+"135","COP21","Canada","Sustainability","emits",13.9845737438357
+"136","COP21","Canada","Sustainability","nuclear",176.714159126651
+"137","COP21","Canada","Sustainability","carbon capture",119.504539265505
+"138","COP21","Canada","Sustainability","CCS",53.3956452037362
+"139","COP21","Canada","Sustainability","CCU",0
+"140","COP21","Canada","Sustainability","sequester",11.4419239722292
+"141","COP21","Canada","Sustainability","sequestering",5.08529954321297
+"142","COP21","Canada","Sustainability","sequestration",8.8992742006227
+"143","COP21","Canada","Sustainability","renewable energy",340.715069395269
+"144","COP21","Canada","Sustainability","renewables",116.961889493898
+"145","COP21","Canada","Sustainability","ecosystem",50.8529954321297
+"146","COP21","Canada","Sustainability","ecosystems",62.2949194043589
+"147","COP21","Canada","Sustainability","transition",498.359355234871
+"148","COP21","Canada","Sustainability","transitioning",16.5272235154421
+"149","COP21","Canada","Sustainability","transitions",22.8838479444584
+"150","COP21","Canada","Sustainability","low-carbon",160.186935611208
+"151","COP21","Canada","Sustainability","zero carbon",50.8529954321297
+"152","COP21","Canada","Sustainability","decarbonization",66.1088940617686
+"153","COP21","Canada","Sustainability","subsidies",150.016336524783
+"154","COP21","Canada","Sustainability","subsidy",10.1705990864259
+"155","COP21","Canada","Sustainability","subsidising",0
+"156","COP21","Canada","Sustainability","subsidizing",11.4419239722292
+"157","COP21","Canada","Sustainability","subsidise",1.27132488580324
+"158","COP21","Canada","Sustainability","subsidize",5.08529954321297
+"159","COP21","Canada","Sustainability","environmental health",1.27132488580324
+"160","COP21","Canada","Sustainability","decarbonisation",11.4419239722292
+"161","COP21","Canada","Sustainability","decarbonize",40.6823963457038
+"162","COP21","Canada","Sustainability","decarbonise",5.08529954321297
+"163","COP21","Canada","Sustainability","wind",225.024504787174
+"164","COP21","Canada","Sustainability","tidal",5.08529954321297
+"165","COP21","Canada","Sustainability","ocean energy",0
+"166","COP21","Canada","Sustainability","hydrogen",138.574412552553
+"167","COP21","Canada","Sustainability","geothermal",12.7132488580324
+"168","COP21","Canada","Sustainability","centralized",0
+"169","COP21","Canada","Sustainability","decentralized",3.81397465740973
+"170","COP21","Canada","Sustainability","centralised",0
+"171","COP21","Canada","Sustainability","decentralised",1.27132488580324
+"172","COP21","Canada","Sustainability","solar",268.249550904484
+"173","COP21","Canada","Sustainability","photovoltaics",2.54264977160648
+"174","COP21","Canada","Sustainability","photovoltaic",22.8838479444584
+"175","COP21","Canada","Sustainability","PV",22.8838479444584
+"176","COP21","Canada","Sustainability","solar panels",29.2404723734746
+"177","COP21","Canada","Sustainability","solar panel",31.7831221450811
+"178","COP21","Canada","Sustainability","frack",1.27132488580324
+"179","COP21","Canada","Sustainability","fracking",19.0698732870486
+"180","COP21","Canada","Sustainability","fracked",1.27132488580324
+"181","COP21","Canada","Sustainability","pollution",279.691474876713
+"182","COP21","Canada","Sustainability","polluting",61.0235945185556
+"183","COP21","Canada","Sustainability","polluted",5.08529954321297
+"184","COP21","Canada","Sustainability","energy storage",29.2404723734746
+"185","COP21","Canada","Sustainability","alternative",67.3802189475718
+"186","COP21","Canada","Sustainability","alternatives",52.1243203179329
+"187","COP21","Canada","Sustainability","coal",1128.93649859328
+"188","COP21","Canada","Sustainability","natural gas",250.451002503239
+"189","COP21","Canada","Sustainability","biomass",26.6978226018681
+"190","COP21","Canada","Sustainability","ozone",12.7132488580324
+"191","COP21","Canada","Sustainability","electrical vehicles",0
+"192","COP21","Canada","Sustainability","EV",25.4264977160648
+"193","COP21","Canada","Sustainability","electric vehicles",68.6515438333751
+"194","COP21","Canada","Sustainability","net zero",254.264977160648
+"195","COP21","Canada","Sustainability","carbon neutrality",27.9691474876713
+"196","COP21","Canada","Sustainability","carbon neutral",71.1941936049816
+"197","COP21","Canada","Sustainability","clean energy",174.171509355044
+"198","COP21","Canada","Sustainability","carbon reduction",35.5970968024908
+"199","COP21","Canada","Sustainability","sea levels",47.03902077472
+"200","COP21","Canada","Sustainability","paris agreement",546.669700895394
+"201","COP21","Canada","Sustainability","zero-carbon",22.8838479444584
+"202","COP21","Canada","Sustainability","net-zero",259.350276703861
+"203","COP21","Canada","Sustainability","carbon-neutral",25.4264977160648
+"204","COP21","Canada","Sustainability","carbon-neutrality",5.08529954321297
+"205","COP21","Canada","Sustainability","clean-energy",10.1705990864259
+"206","COP21","Canada","Sustainability","natural-gas",0
+"207","COP21","Canada","Sustainability","geo-thermal",1.27132488580324
+"208","COP21","Canada","Sustainability","bio-mass",1.27132488580324
+"209","COP21","Canada","Sustainability","o-zone",0
+"210","COP21","Canada","Sustainability","energy-storage",0
+"211","COP21","Canada","Sustainability","eco-system",0
+"212","COP21","Canada","Sustainability","eco-systems",0
+"213","COP21","Canada","Sustainability","c02",0
+"214","COP21","Canada","Sustainability","e-vehicles",0
+"215","COP21","Canada","Sustainability","EVs",5.08529954321297
+"216","COP21","Canada","Sustainability","PVs",0
+"217","COP21","Canada","Sustainability","re-newables",0
+"218","COP21","Canada","Sustainability","pollutant",6.35662442901621

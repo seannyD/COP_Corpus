@@ -6,11 +6,28 @@
 setwd("~/OneDrive - Cardiff University/Research/Cardiff/ClimageChangeAndLanguage/project/processing/")
 
 isText = function(line){
-  startCues = c("^\\{\\\\rtlch","^\\\\ltrch","^\\\\loch");
+  startCues = c("^\\{\\\\rtlch","^\\\\ltrch","^\\\\loch","\\\\ul\\\\cf1 ");
   return(any(sapply(startCues,function(X){
     grepl(X,line) & grepl("}$",line)
   })))
 }
+
+HongKongSources = c("South China Morning Post.com",
+                    "South China Morning Post",
+                    "China Daily (Hong Kong Edition)",
+                    "Xinhua Economic News Service",
+                    "Asia Times-English",
+                    "China Daily - US Edition",
+                    "Hong Kong Government News",
+                    "EyePress Photos (China)",
+                    "EJ Insight",
+                    "Week in China",
+                    "SinoCast",
+                    "Hong Kong Free Press",
+                    "EQS TodayIR",
+                    "Forkast.News",
+                    "ET Net",
+                    "Orient Aviation")
   
 parseText = function(fileName){
   
@@ -37,8 +54,8 @@ parseText = function(fileName){
       lines = lines[sapply(lines,isText)]
       lines = sapply(lines,findFromTo, from=" ",to="}")
       lines = lines[nchar(lines)>0]
-      lineText = paste(lines, collapse ="")
-      lineText = substr(lineText,0,unlist(gregexpr("\\line", lineText))[1])
+      lineText = paste(lines, collapse =" ")
+      lineText = substr(lineText,0,unlist(gregexpr("\\\\line", lineText))[1])
       
       lineText = cleanText(lineText)
       
@@ -47,7 +64,7 @@ parseText = function(fileName){
     
     cleanText = function(txt){
       txt = gsub('\u8220','"',txt)
-      txt = gsub('\u8221','"',txt)
+      txt = gsub('\u8221','" ',txt)
       txt = gsub('\\u8217',"'",txt)
       txt = gsub('\\u8216',"'",txt)
       txt = gsub('\\u8364',"€",txt)
@@ -58,6 +75,12 @@ parseText = function(fileName){
       txt = gsub("\\\\XE2s"," ",txt)
       txt = gsub("\\{\\\\rtlch\\\\afs24\\\\ltrch\\\\fs24\\\\par"," ",txt)
       txt = gsub(" +"," ",txt)
+      txt = gsub("\\\\l$","",txt)
+      txt = gsub("â\\(EURO\\)oe",'"',txt)
+      txt = gsub("â\\(EURO\\)\\(TM\\)","'",txt)
+      txt = gsub("â\\(EURO\\)",'"',txt)
+      txt = gsub("\\\\'e2\\(EURO\\)oe",'"',txt)
+      
       return(txt)
     }
     
@@ -137,6 +160,10 @@ parseText = function(fileName){
     d$country = fnBits[2]
     d$ID = paste0(fn,1:nrow(d))
     d = d[,c("COP","country","ID","title","date","source","text")]
+    
+    if(d$country[1] == "China"){
+      d = d[!d$source %in% HongKongSources,]
+    }
       
     fnOut = paste0("../data/LEXIS/textsDiachronicClean/",fn,".csv")
     write.csv(d, fnOut, row.names = F)

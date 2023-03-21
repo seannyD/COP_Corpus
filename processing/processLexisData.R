@@ -2,6 +2,7 @@ try(setwd("~/OneDrive - Cardiff University/Research/Cardiff/ClimageChangeAndLang
 
 library(quanteda)
 library(stringr)
+library(lubridate)
 
 kw = read.csv("../data/LEXIS/TrilemmaKeywords.csv",stringsAsFactors = F)
 
@@ -14,63 +15,58 @@ accessibilityKeywords = getKeywords("Accessibility")
 securityKeywords = getKeywords("Security")
 sustainabilityKeywords = getKeywords("Sustainability")
 
+N.AccKeyword = length(accessibilityKeywords)
+N.SecKeyword = length(securityKeywords)
+N.SusKeyword = length(sustainabilityKeywords)
 
 length(sustainabilityKeywords)
 length(securityKeywords)
 length(accessibilityKeywords)
 
-processFile = function(d,country){
-  
-  # d$text = gsub("\\\\tab","",d$text)
-  # d$text = gsub("\\*","",d$text)
-  # d$text = gsub("\\\\u[0-9]+","",d$text)
-  # d$text = gsub("^\\s+","",d$text)
-  # 
-  # # Remove duplicate articles
-  # cap = substr(d$text,0,100)
-  # #d = d[!duplicated(cap),]
-  # dists = adist(cap,ignore.case = T)
-  # dists[upper.tri(dists)] = 100
-  # diag(dists) = 100
-  # dups = which(dists<25,arr.ind = T)
-  # d = d[-unique(dups[,1]),]
-  
-  # create ID
-  #d$ID = paste0(country,1:nrow(d))
-  
+processFile = function(d,country,confStart=NA,confEnd=NA){
   # Lower case
   d$text = tolower(d$text)
-  
-  # Create corpus, tokens, freq matrix
-  corp = corpus(d, docid_field = "ID",text_field = "text")
-  tok = tokens(corp, remove_punct = TRUE)
-  corpDFM = dfm(tok)
-  totalWords = sum(corpDFM)
-  
-  # Get frequency for one keyword
-  getFrequency = function(keyword){
-    keyword = tolower(keyword)
-    if(grepl(" ",keyword)){
-      # Multi-word expression
-      return(length(unlist(str_extract_all(d$text, keyword))))
+
+  corp2Scores = function(d){
+    # Create corpus, tokens, freq matrix
+    corp = corpus(d, docid_field = "ID",text_field = "text")
+    tok = tokens(corp, remove_punct = TRUE)
+    corpDFM = dfm(tok)
+    totalWords = sum(corpDFM)
+    
+    # Get frequency for one keyword
+    getFrequency = function(keyword){
+      keyword = tolower(keyword)
+      if(grepl(" ",keyword)){
+        # Multi-word expression
+        return(length(unlist(str_extract_all(d$text, keyword))))
+      }
+      if(keyword %in% colnames(corpDFM)){
+        return(colSums(corpDFM[,keyword]))
+      }
+      return(0)
     }
-    if(keyword %in% colnames(corpDFM)){
-      return(colSums(corpDFM[,keyword]))
+    
+    # Get score (frequency per 1000000 words)
+    getScore = function(keywords){
+      freq = sapply(keywords,getFrequency)
+      prop = 1000000 * (freq/totalWords)
+      return(prop)
     }
-    return(0)
+    
+    AccFreqs = getScore(accessibilityKeywords)
+    SecFreqs = getScore(securityKeywords)
+    SusFreqs = getScore(sustainabilityKeywords)
+    return(list(AccFreqs=AccFreqs,SecFreqs=SecFreqs,
+                SusFreqs=SusFreqs,totalWords=totalWords))
   }
   
-  # Get score (frequency per 1000 words)
-  getScore = function(keywords){
-    freq = sapply(keywords,getFrequency)
-    prop = 1000000 * (freq/totalWords)
-    return(prop)
-  }
-  
-  AccFreqs = getScore(accessibilityKeywords)
-  SecFreqs = getScore(securityKeywords)
-  SusFreqs = getScore(sustainabilityKeywords)
-  
+  # Measure full corpus
+  fullScores = corp2Scores(d)
+  AccFreqs = fullScores$AccFreqs
+  SecFreqs = fullScores$SecFreqs
+  SusFreqs = fullScores$SusFreqs
+
   freqData = data.frame(
     COP = d$COP[1],
     country = d$country[1],
@@ -86,15 +82,43 @@ processFile = function(d,country){
                    gsub(" ","-",country),
                    ".csv"))
   
-  return(data.frame(
+  # Measure before/during/after
+  beforeScores = list(AccFreqs=0,SecFreqs=0,SusFreqs=0)
+  duringScores = list(AccFreqs=0,SecFreqs=0,SusFreqs=0)
+  afterScores = list(AccFreqs=0,SecFreqs=0,SusFreqs=0)
+  
+  if(!is.na(confStart)){
+    aDates = lubridate::parse_date_time(d$date, c('mdY','mdYHM',"bdYAHMpU"))
+    d$phase = cut(aDates,
+                  c(parse_date_time("01/01/1900","dmy"),
+                    confStart,confEnd,
+                    parse_date_time("01/01/2100","dmy")), labels = c("Before","During","After"))
+    
+    beforeScores = corp2Scores(d[!is.na(d$phase) & d$phase=="Before",])
+    duringScores = corp2Scores(d[!is.na(d$phase) & d$phase=="During",])
+    afterScores = corp2Scores(d[!is.na(d$phase) & d$phase=="After",])
+  }  
+  
+  ret = data.frame(
     "COP" = d$COP[1],
     "country" = country,
     "accessibility" = sum(AccFreqs),
     "security" = sum(SecFreqs),
     "sustainability" = sum(SusFreqs),
+    "beforeAcc" = sum(beforeScores[[1]]),
+    "duringAcc" = sum(duringScores[[1]]),
+    "afterAcc" = sum(afterScores[[1]]),
+    "beforeSec" = sum(beforeScores[[2]]),
+    "duringSec" = sum(duringScores[[2]]),
+    "afterSec" = sum(afterScores[[2]]),
+    "beforeSus" = sum(beforeScores[[3]]),
+    "duringSus" = sum(duringScores[[3]]),
+    "afterSus" = sum(afterScores[[3]]),
     "docs" = nrow(d),
-    "totalWords" = totalWords
-  ))
+    "totalWords" = fullScores$totalWords
+  )
+  
+  return(ret)
   
 }
 
@@ -102,6 +126,11 @@ processFile = function(d,country){
 #usa = processFile("../data/LEXIS/COP26_USA.csv")
 #ireland = processFile("../data/LEXIS/COP26_IRELAND.csv")
 #rbind(uk,usa,ireland)
+
+confDates = read.delim("../data/copDates.tab",sep="\t")
+confDates$start = lubridate::parse_date_time(confDates$start,"dmY")
+confDates$end = lubridate::parse_date_time(confDates$end,"dmY")
+confDates$end = confDates$end + days(1)
 
 folder = "../data/LEXIS/textsDiachronicClean/"
 res = NULL
@@ -111,11 +140,14 @@ for(file in list.files(folder,"*.csv")){
   country = gsub("\\.csv","",filename)
   country = unlist(strsplit(country,"_"))
   country = country[length(country)]
-  
+
   # Load data
   d= read.csv(filename,stringsAsFactors = F)
+  # Date
+  confDt = confDates[match(d$COP[1],confDates$COP),]
+  
   # Process data
-  newData= processFile(d,country)
+  newData= processFile(d,country,confDt$start,confDt$end)
   # Add to big data frame
   res = rbind(res,newData)
 }

@@ -1,164 +1,219 @@
 "","COP","country","aspect","keyword","freq"
-"1","COP26","South.Africa","Accessibility","affordability",5.05796427054039
-"2","COP26","South.Africa","Accessibility","affordable",80.9274283286463
+"1","COP26","South.Africa","Accessibility","affordability",17.2845907873131
+"2","COP26","South.Africa","Accessibility","affordable",86.4229539365656
 "3","COP26","South.Africa","Accessibility","ability to pay",0
 "4","COP26","South.Africa","Accessibility","able to pay",0
 "5","COP26","South.Africa","Accessibility","inability to pay",0
 "6","COP26","South.Africa","Accessibility","unable to pay",0
-"7","COP26","South.Africa","Accessibility","energy poverty",20.2318570821616
+"7","COP26","South.Africa","Accessibility","energy poverty",24.1984271022384
 "8","COP26","South.Africa","Accessibility","energy burden",0
 "9","COP26","South.Africa","Accessibility","fuel poverty",0
-"10","COP26","South.Africa","Accessibility","trasportation poverty",0
-"11","COP26","South.Africa","Accessibility","energy prices",15.1738928116212
-"12","COP26","South.Africa","Accessibility","energy bills",0
-"13","COP26","South.Africa","Accessibility","tansportation bills",0
+"10","COP26","South.Africa","Accessibility","fuel-poverty",0
+"11","COP26","South.Africa","Accessibility","trasportation poverty",0
+"12","COP26","South.Africa","Accessibility","energy prices",10.3707544723879
+"13","COP26","South.Africa","Accessibility","transportation bills",0
 "14","COP26","South.Africa","Accessibility","utility bill",0
-"15","COP26","South.Africa","Accessibility","electricity bill",20.2318570821616
+"15","COP26","South.Africa","Accessibility","electricity bill",17.2845907873131
 "16","COP26","South.Africa","Accessibility","utility bills",0
-"17","COP26","South.Africa","Accessibility","electricity bills",15.1738928116212
+"17","COP26","South.Africa","Accessibility","electricity bills",10.3707544723879
 "18","COP26","South.Africa","Accessibility","gas bill",0
-"19","COP26","South.Africa","Accessibility","energy billgas bill",0
-"20","COP26","South.Africa","Accessibility","energy cost",0
-"21","COP26","South.Africa","Accessibility","equity",136.565035304591
-"22","COP26","South.Africa","Accessibility","inequity",10.1159285410808
-"23","COP26","South.Africa","Accessibility","inequality",55.6376069759443
-"24","COP26","South.Africa","Accessibility","inequalities",65.7535355170251
-"25","COP26","South.Africa","Accessibility","energy justice",5.05796427054039
-"26","COP26","South.Africa","Accessibility","household",25.289821352702
-"27","COP26","South.Africa","Accessibility","households",60.6955712464847
-"28","COP26","South.Africa","Accessibility","low-income households",5.05796427054039
-"29","COP26","South.Africa","Accessibility","low-income household",5.05796427054039
-"30","COP26","South.Africa","Accessibility","energy efficiency",45.5216784348635
-"31","COP26","South.Africa","Accessibility","personal finance",0
-"32","COP26","South.Africa","Accessibility","personal finances",0
-"33","COP26","South.Africa","Accessibility","race",30.3477856232424
-"34","COP26","South.Africa","Accessibility","minorities",0
-"35","COP26","South.Africa","Accessibility","underserved communities",0
-"36","COP26","South.Africa","Accessibility","gender",111.275213951889
-"37","COP26","South.Africa","Accessibility","women",389.46324883161
-"38","COP26","South.Africa","Accessibility","social economic class",0
-"39","COP26","South.Africa","Accessibility","upper class",0
-"40","COP26","South.Africa","Accessibility","middle class",5.05796427054039
-"41","COP26","South.Africa","Accessibility","lower class",0
-"42","COP26","South.Africa","Accessibility","working class",5.05796427054039
-"43","COP26","South.Africa","Accessibility","household heating",0
-"44","COP26","South.Africa","Accessibility","cooling",35.4057498937827
-"45","COP26","South.Africa","Accessibility","thermal comfort",0
-"46","COP26","South.Africa","Accessibility","hosuehold heating problems",0
-"47","COP26","South.Africa","Accessibility","household cooling probloems",0
-"48","COP26","South.Africa","Accessibility","consumption",161.854856657293
-"49","COP26","South.Africa","Accessibility","consuming",15.1738928116212
-"50","COP26","South.Africa","Accessibility","consumed",25.289821352702
-"51","COP26","South.Africa","Accessibility","basic needs",5.05796427054039
-"52","COP26","South.Africa","Accessibility","basic need",5.05796427054039
-"53","COP26","South.Africa","Security","reliability",25.289821352702
-"54","COP26","South.Africa","Security","reliable",96.1013211402675
-"55","COP26","South.Africa","Security","resilience",263.0141420681
-"56","COP26","South.Africa","Security","resiliant",0
-"57","COP26","South.Africa","Security","power outage",15.1738928116212
-"58","COP26","South.Africa","Security","power outages",5.05796427054039
-"59","COP26","South.Africa","Security","blackout",20.2318570821616
-"60","COP26","South.Africa","Security","power cut",25.289821352702
-"61","COP26","South.Africa","Security","blackouts",50.5796427054039
-"62","COP26","South.Africa","Security","power cuts",25.289821352702
-"63","COP26","South.Africa","Security","security",303.477856232424
-"64","COP26","South.Africa","Security","stability",50.5796427054039
-"65","COP26","South.Africa","Security","risk",500.738462783499
-"66","COP26","South.Africa","Security","risky",10.1159285410808
-"67","COP26","South.Africa","Security","adequacy",0
-"68","COP26","South.Africa","Security","corruption",70.8114997875655
-"69","COP26","South.Africa","Security","corrupted",0
-"70","COP26","South.Africa","Security","geopolitics",5.05796427054039
-"71","COP26","South.Africa","Security","peak hours",0
-"72","COP26","South.Africa","Security","enegy demand",0
-"73","COP26","South.Africa","Security","nuclear",101.159285410808
-"74","COP26","South.Africa","Security","consistence",0
-"75","COP26","South.Africa","Security","consistency",5.05796427054039
-"76","COP26","South.Africa","Security","intermittancy",0
-"77","COP26","South.Africa","Security","intermittent",10.1159285410808
-"78","COP26","South.Africa","Security","war",212.434499362696
-"79","COP26","South.Africa","Security","wars",15.1738928116212
-"80","COP26","South.Africa","Security","conflicts",30.3477856232424
-"81","COP26","South.Africa","Security","energy crisis",20.2318570821616
-"82","COP26","South.Africa","Security","energy crises",0
-"83","COP26","South.Africa","Security","petro-politics",0
-"84","COP26","South.Africa","Security","petropolitics",0
-"85","COP26","South.Africa","Security","aging infrastructure",0
-"86","COP26","South.Africa","Security","industry",460.274748619176
-"87","COP26","South.Africa","Security","industries",202.318570821616
-"88","COP26","South.Africa","Security","industrial",232.666356444858
-"89","COP26","South.Africa","Security","neoliberalism",0
-"90","COP26","South.Africa","Security","nationalisation",0
-"91","COP26","South.Africa","Security","nationalising",0
-"92","COP26","South.Africa","Security","nationalizing",0
-"93","COP26","South.Africa","Sustainability","sustainability",404.637141643231
-"94","COP26","South.Africa","Sustainability","sustainable",890.201711615109
-"95","COP26","South.Africa","Sustainability","green",1254.37513909402
-"96","COP26","South.Africa","Sustainability","greenhouse",814.332247557003
-"97","COP26","South.Africa","Sustainability","carbon emissions",455.216784348635
-"98","COP26","South.Africa","Sustainability","emissions",2579.5617779756
-"99","COP26","South.Africa","Sustainability","emission",217.492463633237
-"100","COP26","South.Africa","Sustainability","emitting",20.2318570821616
-"101","COP26","South.Africa","Sustainability","emitted",25.289821352702
-"102","COP26","South.Africa","Sustainability","nuclear",101.159285410808
-"103","COP26","South.Africa","Sustainability","carbon capture",15.1738928116212
-"104","COP26","South.Africa","Sustainability","carbon capture and storage",5.05796427054039
-"105","COP26","South.Africa","Sustainability","CCS",15.1738928116212
-"106","COP26","South.Africa","Sustainability","CCU",0
-"107","COP26","South.Africa","Sustainability","carbon capture and usage",0
-"108","COP26","South.Africa","Sustainability","sequester",20.2318570821616
-"109","COP26","South.Africa","Sustainability","sequestering",10.1159285410808
-"110","COP26","South.Africa","Sustainability","sequestration",0
-"111","COP26","South.Africa","Sustainability","renewable energy",804.216319015923
-"112","COP26","South.Africa","Sustainability","renewables",268.072106338641
-"113","COP26","South.Africa","Sustainability","ecosystem",101.159285410808
-"114","COP26","South.Africa","Sustainability","ecosystems",106.217249681348
-"115","COP26","South.Africa","Sustainability","transition",2498.63434964695
-"116","COP26","South.Africa","Sustainability","transitioning",60.6955712464847
-"117","COP26","South.Africa","Sustainability","transitions",96.1013211402675
-"118","COP26","South.Africa","Sustainability","low-carbon",237.724320715398
-"119","COP26","South.Africa","Sustainability","zero carbon",70.8114997875655
-"120","COP26","South.Africa","Sustainability","decarbonization",0
-"121","COP26","South.Africa","Sustainability","subsidies",222.550427903777
-"122","COP26","South.Africa","Sustainability","subsidy",20.2318570821616
-"123","COP26","South.Africa","Sustainability","subsidising",10.1159285410808
-"124","COP26","South.Africa","Sustainability","subsidizing",0
-"125","COP26","South.Africa","Sustainability","subsidise",0
-"126","COP26","South.Africa","Sustainability","subsidize",0
-"127","COP26","South.Africa","Sustainability","environmental health",0
-"128","COP26","South.Africa","Sustainability","decarbonisation",192.202642280535
-"129","COP26","South.Africa","Sustainability","decarbonize",0
-"130","COP26","South.Africa","Sustainability","decarbonise",91.0433568697271
-"131","COP26","South.Africa","Sustainability","wind",313.593784773504
-"132","COP26","South.Africa","Sustainability","tidal",15.1738928116212
-"133","COP26","South.Africa","Sustainability","ocean energy",0
-"134","COP26","South.Africa","Sustainability","hydrogen",192.202642280535
-"135","COP26","South.Africa","Sustainability","geothermal",10.1159285410808
-"136","COP26","South.Africa","Sustainability","centralized",0
-"137","COP26","South.Africa","Sustainability","decentralized",0
-"138","COP26","South.Africa","Sustainability","centralised",0
-"139","COP26","South.Africa","Sustainability","decentralised",0
-"140","COP26","South.Africa","Sustainability","solar",485.564569971878
-"141","COP26","South.Africa","Sustainability","photovoltaics",0
-"142","COP26","South.Africa","Sustainability","photovoltaic",25.289821352702
-"143","COP26","South.Africa","Sustainability","PV",45.5216784348635
-"144","COP26","South.Africa","Sustainability","solar panels",45.5216784348635
-"145","COP26","South.Africa","Sustainability","solar panel",45.5216784348635
-"146","COP26","South.Africa","Sustainability","shale gas fracking",0
-"147","COP26","South.Africa","Sustainability","frack",0
-"148","COP26","South.Africa","Sustainability","fracking",5.05796427054039
-"149","COP26","South.Africa","Sustainability","pollution",242.782284985939
-"150","COP26","South.Africa","Sustainability","polluting",91.0433568697271
-"151","COP26","South.Africa","Sustainability","polluted",30.3477856232424
-"152","COP26","South.Africa","Sustainability","energy storage",45.5216784348635
-"153","COP26","South.Africa","Sustainability","alternative",106.217249681348
-"154","COP26","South.Africa","Sustainability","alternatives",75.8694640581059
-"155","COP26","South.Africa","Sustainability","coal",2493.57638537641
-"156","COP26","South.Africa","Sustainability","natural gas",80.9274283286463
-"157","COP26","South.Africa","Sustainability","biomass",15.1738928116212
-"158","COP26","South.Africa","Sustainability","ozone",5.05796427054039
-"159","COP26","South.Africa","Sustainability","Electrical vehicles",0
-"160","COP26","South.Africa","Sustainability","EV",40.4637141643231
-"161","COP26","South.Africa","Sustainability","electric vehicles",156.796892386752
-"162","COP26","South.Africa","Sustainability","net zero",359.115463208368
-"163","COP26","South.Africa","Sustainability","carbon neutrality",50.5796427054039
+"19","COP26","South.Africa","Accessibility","energy bill",0
+"20","COP26","South.Africa","Accessibility","energy bills",0
+"21","COP26","South.Africa","Accessibility","energy cost",10.3707544723879
+"22","COP26","South.Africa","Accessibility","equity",131.36288998358
+"23","COP26","South.Africa","Accessibility","inequity",17.2845907873131
+"24","COP26","South.Africa","Accessibility","inequality",76.0521994641777
+"25","COP26","South.Africa","Accessibility","inequalities",55.310690519402
+"26","COP26","South.Africa","Accessibility","energy justice",3.45691815746262
+"27","COP26","South.Africa","Accessibility","household",24.1984271022384
+"28","COP26","South.Africa","Accessibility","households",51.8537723619393
+"29","COP26","South.Africa","Accessibility","low-income households",3.45691815746262
+"30","COP26","South.Africa","Accessibility","low-income household",3.45691815746262
+"31","COP26","South.Africa","Accessibility","energy efficiency",38.0260997320888
+"32","COP26","South.Africa","Accessibility","personal finance",0
+"33","COP26","South.Africa","Accessibility","personal finances",0
+"34","COP26","South.Africa","Accessibility","race",51.8537723619393
+"35","COP26","South.Africa","Accessibility","minorities",0
+"36","COP26","South.Africa","Accessibility","underserved communities",0
+"37","COP26","South.Africa","Accessibility","gender",131.36288998358
+"38","COP26","South.Africa","Accessibility","women",356.06257021865
+"39","COP26","South.Africa","Accessibility","social economic class",0
+"40","COP26","South.Africa","Accessibility","upper class",0
+"41","COP26","South.Africa","Accessibility","middle class",3.45691815746262
+"42","COP26","South.Africa","Accessibility","lower class",0
+"43","COP26","South.Africa","Accessibility","working class",3.45691815746262
+"44","COP26","South.Africa","Accessibility","economic class",0
+"45","COP26","South.Africa","Accessibility","upper-class",0
+"46","COP26","South.Africa","Accessibility","middle-class",0
+"47","COP26","South.Africa","Accessibility","lower-class",0
+"48","COP26","South.Africa","Accessibility","working-class",0
+"49","COP26","South.Africa","Accessibility","household heating",0
+"50","COP26","South.Africa","Accessibility","cooling",24.1984271022384
+"51","COP26","South.Africa","Accessibility","thermal comfort",0
+"52","COP26","South.Africa","Accessibility","household heating problems",0
+"53","COP26","South.Africa","Accessibility","household cooling problems",0
+"54","COP26","South.Africa","Accessibility","consumption",169.388989715668
+"55","COP26","South.Africa","Accessibility","consuming",17.2845907873131
+"56","COP26","South.Africa","Accessibility","consumed",24.1984271022384
+"57","COP26","South.Africa","Accessibility","basic needs",3.45691815746262
+"58","COP26","South.Africa","Accessibility","basic need",3.45691815746262
+"59","COP26","South.Africa","Accessibility","reduced costs",0
+"60","COP26","South.Africa","Accessibility","reduces costs",0
+"61","COP26","South.Africa","Accessibility","reducing costs",3.45691815746262
+"62","COP26","South.Africa","Accessibility","consumers",62.2245268343272
+"63","COP26","South.Africa","Accessibility","consumer",55.310690519402
+"64","COP26","South.Africa","Accessibility","development",1489.93172586639
+"65","COP26","South.Africa","Accessibility","insurance",27.655345259701
+"66","COP26","South.Africa","Accessibility","cheap",96.7937084089534
+"67","COP26","South.Africa","Accessibility","economical",3.45691815746262
+"68","COP26","South.Africa","Accessibility","low cost",0
+"69","COP26","South.Africa","Accessibility","low-cost",17.2845907873131
+"70","COP26","South.Africa","Accessibility","budget",114.078299196267
+"71","COP26","South.Africa","Accessibility","cost effective",3.45691815746262
+"72","COP26","South.Africa","Accessibility","cost-effective",24.1984271022384
+"73","COP26","South.Africa","Accessibility","efficiency",79.5091176216403
+"74","COP26","South.Africa","Accessibility","unequal",13.8276726298505
+"75","COP26","South.Africa","Accessibility","underrepresented",6.91383631492524
+"76","COP26","South.Africa","Accessibility","low income household",0
+"77","COP26","South.Africa","Accessibility","low income households",0
+"78","COP26","South.Africa","Accessibility","energy-efficiency",0
+"79","COP26","South.Africa","Security","reliability",20.7415089447757
+"80","COP26","South.Africa","Security","reliable",82.9660357791029
+"81","COP26","South.Africa","Security","resilience",235.070434707458
+"82","COP26","South.Africa","Security","resilient",183.216662345519
+"83","COP26","South.Africa","Security","power outage",10.3707544723879
+"84","COP26","South.Africa","Security","power outages",3.45691815746262
+"85","COP26","South.Africa","Security","blackout",13.8276726298505
+"86","COP26","South.Africa","Security","black-out",0
+"87","COP26","South.Africa","Security","blackouts",48.3968542044767
+"88","COP26","South.Africa","Security","black-outs",0
+"89","COP26","South.Africa","Security","power cut",17.2845907873131
+"90","COP26","South.Africa","Security","power cuts",17.2845907873131
+"91","COP26","South.Africa","Security","security",342.2348975888
+"92","COP26","South.Africa","Security","stability",69.1383631492524
+"93","COP26","South.Africa","Security","adequacy",0
+"94","COP26","South.Africa","Security","corruption",103.707544723879
+"95","COP26","South.Africa","Security","corrupted",0
+"96","COP26","South.Africa","Security","geopolitics",17.2845907873131
+"97","COP26","South.Africa","Security","peak hours",0
+"98","COP26","South.Africa","Security","energy demand",24.1984271022384
+"99","COP26","South.Africa","Security","nuclear",103.707544723879
+"100","COP26","South.Africa","Security","consistent",86.4229539365656
+"101","COP26","South.Africa","Security","consistency",3.45691815746262
+"102","COP26","South.Africa","Security","intermittancy",0
+"103","COP26","South.Africa","Security","intermittent",6.91383631492524
+"104","COP26","South.Africa","Security","war",179.759744188056
+"105","COP26","South.Africa","Security","wars",17.2845907873131
+"106","COP26","South.Africa","Security","conflicts",24.1984271022384
+"107","COP26","South.Africa","Security","energy crisis",17.2845907873131
+"108","COP26","South.Africa","Security","energy crises",0
+"109","COP26","South.Africa","Security","petro-politics",0
+"110","COP26","South.Africa","Security","petropolitics",0
+"111","COP26","South.Africa","Security","aging infrastructure",0
+"112","COP26","South.Africa","Security","industry",553.10690519402
+"113","COP26","South.Africa","Security","industries",214.328925762683
+"114","COP26","South.Africa","Security","neoliberalism",0
+"115","COP26","South.Africa","Security","nationalisation",0
+"116","COP26","South.Africa","Security","nationalization",0
+"117","COP26","South.Africa","Security","nationalising",0
+"118","COP26","South.Africa","Security","nationalizing",0
+"119","COP26","South.Africa","Security","certainty",31.1122634171636
+"120","COP26","South.Africa","Security","agreement",1085.47230144326
+"121","COP26","South.Africa","Security","secure",127.905971826117
+"122","COP26","South.Africa","Security","disaster",103.707544723879
+"123","COP26","South.Africa","Security","disasters",93.3367902514908
+"124","COP26","South.Africa","Security","geo-politics",0
+"125","COP26","South.Africa","Security","geo-political",0
+"126","COP26","South.Africa","Security","poor infrastructure",0
+"127","COP26","South.Africa","Sustainability","sustainability",411.373260738052
+"128","COP26","South.Africa","Sustainability","sustainable",922.99714804252
+"129","COP26","South.Africa","Sustainability","green",1268.68896378878
+"130","COP26","South.Africa","Sustainability","greenhouse",719.038976752225
+"131","COP26","South.Africa","Sustainability","emissions",2440.58421916861
+"132","COP26","South.Africa","Sustainability","emission",210.87200760522
+"133","COP26","South.Africa","Sustainability","emitting",31.1122634171636
+"134","COP26","South.Africa","Sustainability","emitted",24.1984271022384
+"135","COP26","South.Africa","Sustainability","emits",17.2845907873131
+"136","COP26","South.Africa","Sustainability","nuclear",103.707544723879
+"137","COP26","South.Africa","Sustainability","carbon capture",31.1122634171636
+"138","COP26","South.Africa","Sustainability","CCS",13.8276726298505
+"139","COP26","South.Africa","Sustainability","CCU",0
+"140","COP26","South.Africa","Sustainability","sequester",13.8276726298505
+"141","COP26","South.Africa","Sustainability","sequestering",6.91383631492524
+"142","COP26","South.Africa","Sustainability","sequestration",10.3707544723879
+"143","COP26","South.Africa","Sustainability","renewable energy",774.349667271627
+"144","COP26","South.Africa","Sustainability","renewables",293.838043384323
+"145","COP26","South.Africa","Sustainability","ecosystem",117.535217353729
+"146","COP26","South.Africa","Sustainability","ecosystems",138.276726298505
+"147","COP26","South.Africa","Sustainability","transition",2527.00717310518
+"148","COP26","South.Africa","Sustainability","transitioning",58.7676086768646
+"149","COP26","South.Africa","Sustainability","transitions",86.4229539365656
+"150","COP26","South.Africa","Sustainability","low-carbon",238.527352864921
+"151","COP26","South.Africa","Sustainability","zero carbon",72.5952813067151
+"152","COP26","South.Africa","Sustainability","decarbonization",0
+"153","COP26","South.Africa","Sustainability","subsidies",190.130498660444
+"154","COP26","South.Africa","Sustainability","subsidy",13.8276726298505
+"155","COP26","South.Africa","Sustainability","subsidising",6.91383631492524
+"156","COP26","South.Africa","Sustainability","subsidizing",0
+"157","COP26","South.Africa","Sustainability","subsidise",0
+"158","COP26","South.Africa","Sustainability","subsidize",0
+"159","COP26","South.Africa","Sustainability","environmental health",0
+"160","COP26","South.Africa","Sustainability","decarbonisation",241.984271022384
+"161","COP26","South.Africa","Sustainability","decarbonize",0
+"162","COP26","South.Africa","Sustainability","decarbonise",93.3367902514908
+"163","COP26","South.Africa","Sustainability","wind",293.838043384323
+"164","COP26","South.Africa","Sustainability","tidal",13.8276726298505
+"165","COP26","South.Africa","Sustainability","ocean energy",0
+"166","COP26","South.Africa","Sustainability","hydrogen",241.984271022384
+"167","COP26","South.Africa","Sustainability","geothermal",10.3707544723879
+"168","COP26","South.Africa","Sustainability","centralized",0
+"169","COP26","South.Africa","Sustainability","decentralized",0
+"170","COP26","South.Africa","Sustainability","centralised",3.45691815746262
+"171","COP26","South.Africa","Sustainability","decentralised",0
+"172","COP26","South.Africa","Sustainability","solar",442.485524155216
+"173","COP26","South.Africa","Sustainability","photovoltaics",0
+"174","COP26","South.Africa","Sustainability","photovoltaic",24.1984271022384
+"175","COP26","South.Africa","Sustainability","PV",31.1122634171636
+"176","COP26","South.Africa","Sustainability","solar panels",38.0260997320888
+"177","COP26","South.Africa","Sustainability","solar panel",38.0260997320888
+"178","COP26","South.Africa","Sustainability","frack",0
+"179","COP26","South.Africa","Sustainability","fracking",10.3707544723879
+"180","COP26","South.Africa","Sustainability","fracked",0
+"181","COP26","South.Africa","Sustainability","pollution",266.182698124622
+"182","COP26","South.Africa","Sustainability","polluting",86.4229539365656
+"183","COP26","South.Africa","Sustainability","polluted",24.1984271022384
+"184","COP26","South.Africa","Sustainability","energy storage",31.1122634171636
+"185","COP26","South.Africa","Sustainability","alternative",117.535217353729
+"186","COP26","South.Africa","Sustainability","alternatives",72.5952813067151
+"187","COP26","South.Africa","Sustainability","coal",2651.45622677383
+"188","COP26","South.Africa","Sustainability","natural gas",96.7937084089534
+"189","COP26","South.Africa","Sustainability","biomass",20.7415089447757
+"190","COP26","South.Africa","Sustainability","ozone",3.45691815746262
+"191","COP26","South.Africa","Sustainability","electrical vehicles",0
+"192","COP26","South.Africa","Sustainability","EV",31.1122634171636
+"193","COP26","South.Africa","Sustainability","electric vehicles",148.647480770893
+"194","COP26","South.Africa","Sustainability","net zero",324.950306801486
+"195","COP26","South.Africa","Sustainability","carbon neutrality",41.4830178895515
+"196","COP26","South.Africa","Sustainability","carbon neutral",55.310690519402
+"197","COP26","South.Africa","Sustainability","clean energy",162.475153400743
+"198","COP26","South.Africa","Sustainability","carbon reduction",17.2845907873131
+"199","COP26","South.Africa","Sustainability","sea levels",38.0260997320888
+"200","COP26","South.Africa","Sustainability","paris agreement",601.503759398496
+"201","COP26","South.Africa","Sustainability","zero-carbon",20.7415089447757
+"202","COP26","South.Africa","Sustainability","net-zero",300.751879699248
+"203","COP26","South.Africa","Sustainability","carbon-neutral",20.7415089447757
+"204","COP26","South.Africa","Sustainability","carbon-neutrality",0
+"205","COP26","South.Africa","Sustainability","clean-energy",0
+"206","COP26","South.Africa","Sustainability","natural-gas",0
+"207","COP26","South.Africa","Sustainability","geo-thermal",0
+"208","COP26","South.Africa","Sustainability","bio-mass",0
+"209","COP26","South.Africa","Sustainability","o-zone",0
+"210","COP26","South.Africa","Sustainability","energy-storage",0
+"211","COP26","South.Africa","Sustainability","eco-system",0
+"212","COP26","South.Africa","Sustainability","eco-systems",0
+"213","COP26","South.Africa","Sustainability","c02",0
+"214","COP26","South.Africa","Sustainability","e-vehicles",0
+"215","COP26","South.Africa","Sustainability","EVs",55.310690519402
+"216","COP26","South.Africa","Sustainability","PVs",0
+"217","COP26","South.Africa","Sustainability","re-newables",0
+"218","COP26","South.Africa","Sustainability","pollutant",0

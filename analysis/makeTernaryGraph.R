@@ -3,10 +3,14 @@ try(setwd("~/OneDrive - Cardiff University/Research/Cardiff/ClimageChangeAndLang
 library(ggtern)
 library(ggrepel)
 library(ggpubr)
+library(openxlsx)
+library(lme4)
 
 d = read.csv("../data/LEXIS/TrilemmaScores_byCountry.csv",stringsAsFactors = F)
 
 d$country[d$country=="South.Africa"] = "SA"
+d$country[d$country=="Hong.Kong"] = "HK"
+#d = d[d$country!="HK",]
 
 d$tot = d$accessibility + d$security + d$sustainability
 
@@ -16,6 +20,8 @@ d$Sustainability = d$sustainability / d$tot
 
 colMeans(d[,c("Sustainability","Security","Accessibility")])
 apply(d[,c("Sustainability","Security","Accessibility")],2,sd)
+
+sum(d$totalWords)
 
 # Load trilemma index from Sparjc et al.
 ti = read.csv("../data/Sprajc_EnergyTrilemmaIndex.csv",stringsAsFactors = F)
@@ -28,11 +34,20 @@ plot(d$trilemmaIndex.sustainability, d$Sustainability)
 plot(d$trilemmaIndex.security, d$Security)
 plot(d$trilemmaIndex.accessibility, d$Accessibility)
 
+# Load trilemma index from Heffron
+hi = read.csv("../data/Heffron_2018_Metric.csv",stringsAsFactors = F)
+d[,c("Hindex.acc","Hindex.sec","Hindex.sus")] = 
+  hi[match(d$country,hi$country),c("accessibility","security","sustainability")]
 
+plot(d$Accessibility,d$Hindex.acc)
+plot(d$Security,d$Hindex.sec)
+plot(d$Sustainability,d$Hindex.sus)
+
+# Overall trilemma
 pdf(file="../results/COP_Overall_EnergyTrilemma.pdf")
 ggtern(data=d, 
        aes(x=Accessibility,y=Security, z=Sustainability)) + 
-  tern_limit(T=0.3,L=0.25,R=0.9) + 
+  tern_limit(T=0.4,L=0.4,R=0.85) + 
   theme_showarrows() +
   labs(x="",xarrow="Accessibility",
        y="",yarrow="Security",
@@ -77,8 +92,59 @@ dev.off()
 #   geom_point()
 # 
 
+####################
+# Results are the same if we control for num keywords
+# (security is a little higher)
 
-# UK
+kw = read.csv("../data/LEXIS/TrilemmaKeywords.csv",stringsAsFactors = F)
+
+getKeywords= function(sub){
+  kx = unique(unlist(strsplit(kw[kw$Subject==sub,]$concepts,";")))
+  names(kx) = kx
+  return(kx)
+}
+accessibilityKeywords = getKeywords("Accessibility")
+securityKeywords = getKeywords("Security")
+sustainabilityKeywords = getKeywords("Sustainability")
+
+d$sustainability2 = d$sustainability / length(sustainabilityKeywords)
+d$security2 = d$security / length(securityKeywords)
+d$accessibility2 = d$accessibility / length(accessibilityKeywords)
+
+d$tot2 = d$sustainability2 + d$security2 + d$accessibility2
+
+d$Accessibility2 = d$accessibility2 / d$tot2
+d$Security2 = d$security2 / d$tot2
+d$Sustainability2 = d$sustainability2 / d$tot2
+
+boxplot(d$Accessibility2,d$Security2, d$Sustainability2,
+        names = c("Accessibility","Security","Sustainability"))
+
+boxplotData2 = data.frame(
+  Score = c(d$Accessibility2,d$Security2,d$Sustainability2)*100,
+  Type = rep(c("Acc.","Sec.","Sus."),each=nrow(d))
+)
+ggplot(boxplotData2,aes(y=Score,fill=Type,x=Type,color=Type))+
+  geom_boxplot() +
+  theme(axis.title.x = element_blank(), legend.position = "none") +
+  ylim(c(0,100)) + 
+  scale_fill_manual(values=c("#619cffff","#f8766dff","#0a9f37ff")) +
+  scale_color_manual(values=c("#3b61a1","#a34e48","#05591f"))
+
+ggtern(data=d, 
+       aes(x=Accessibility2,y=Security2, z=Sustainability2)) + 
+  tern_limit(T=0.6,L=0.6,R=0.85) + 
+  theme_showarrows() +
+  labs(x="",xarrow="Accessibility",
+       y="",yarrow="Security",
+       z="",zarrow="Sustainability")+
+  geom_text(aes(label=country,colour=country),show.legend = FALSE,
+            position = position_nudge_tern(y=0.01),
+            alpha=1) +
+  geom_point(aes(colour=country),alpha=0.5)
+
+########################
+# CHANGE OVER TIME
 
 dy = read.csv("../data/LEXIS/TrilemmaScores_byCountryAndYear.csv",stringsAsFactors = F)
 
@@ -89,6 +155,39 @@ dy$Security = dy$security / dy$tot
 dy$Sustainability = dy$sustainability / dy$tot
 
 dy$COP = gsub("COP","",dy$COP)
+
+# Load WEC Energy Trilemma Index
+wec = read.xlsx("../data/Trielemma_scores.xlsx",sheet = 1,startRow = 3)
+names(wec)[1:2] = c("Conference","Year")
+names(wec)[3:ncol(wec)] = paste0(rep(names(wec)[3:14]), rep(c(".SEC",".SUS",".ACC"),each=12))
+
+dy[,c("WEC.SEC","WEC.SUS","WEC.ACC")] = NA
+for(i in 1:nrow(dy)){
+  country= dy[i,]$country
+  conf = dy[i,]$COP
+  dy[i,c("WEC.SEC","WEC.SUS","WEC.ACC")] = 
+      wec[wec$Conference==paste0("COP",conf),paste0(country,".",c("SEC","SUS","ACC"))]
+}
+
+cor.test(dy$Sustainability,dy$WEC.SUS)
+cor.test(dy$Security,dy$WEC.SEC)
+cor.test(dy$Accessibility,dy$WEC.ACC)
+
+xsus = dy[,c("COP","country","Sustainability","WEC.SUS")]
+xsec = dy[,c("COP","country","Security","WEC.SEC")]
+xacc = dy[,c("COP","country","Accessibility","WEC.ACC")]
+names(xsus) = c("COP","country","D","WEC")
+names(xsec) = c("COP","country","D","WEC")
+names(xacc) = c("COP","country","D","WEC")
+xsus$Comp = "Sustainability"
+xsec$Comp = "Security"
+xacc$Comp = "Accessibility"
+dyLong = rbind(xsus,xsec,xacc)
+
+m0 = lmer(WEC ~ D + (1|country) + (1 +D |Comp),
+  data=dyLong)
+
+# Graph of change over time
 
 g1 = ggplot(dy,aes(x=COP,y=Accessibility,group=country,color=country)) +
   geom_point() +
