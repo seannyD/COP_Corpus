@@ -1,3 +1,6 @@
+# Note: After the initial processing, a new error appeared with 
+#  Quanteda's dfm function, which seems to depend on Rstudio version
+# It's patched below, but the results are based on the first implementation
 try(setwd("~/OneDrive - Cardiff University/Research/Cardiff/ClimageChangeAndLanguage/project/processing/"))
 
 library(quanteda)
@@ -26,12 +29,23 @@ length(accessibilityKeywords)
 processFile = function(d,country,confStart=NA,confEnd=NA){
   # Lower case
   d$text = tolower(d$text)
+  
+  myDFM = function(tok){
+    #allWords = unique(unlist(tok))
+    uniqueToks = unique(unlist(tok))
+    frq = t(sapply(tok,function(tk){
+      tx = table(tk)[uniqueToks]
+      tx[is.na(tx)] = 0
+      return(tx)
+    }))
+  }
 
   corp2Scores = function(d){
     # Create corpus, tokens, freq matrix
     corp = corpus(d, docid_field = "ID",text_field = "text")
     tok = tokens(corp, remove_punct = TRUE)
-    corpDFM = dfm(tok)
+    #corpDFM = dfm(tok)
+    corpDFM = myDFM(tok)
     totalWords = sum(corpDFM)
     
     # Get frequency for one keyword
@@ -42,7 +56,7 @@ processFile = function(d,country,confStart=NA,confEnd=NA){
         return(length(unlist(str_extract_all(d$text, keyword))))
       }
       if(keyword %in% colnames(corpDFM)){
-        return(colSums(corpDFM[,keyword]))
+        return(sum(corpDFM[,keyword]))
       }
       return(0)
     }
