@@ -1,0 +1,298 @@
+---
+title: "Document-level statistics"
+output: pdf_document
+editor_options: 
+  chunk_output_type: console
+papersize: a4
+---
+
+```{r}
+knitr::opts_chunk$set(echo=F)
+```
+
+
+```{r echo=F,message=F,warning=F}
+#devtools::install_github("gaospecial/ggVennDiagram")
+library("ggVennDiagram")
+library(ggvenn)
+```
+
+```{r}
+
+try(setwd("~/OneDrive - Cardiff University/Research/Cardiff/ClimageChangeAndLanguage/project/visualisation/"))
+
+kw = read.csv("../data/LEXIS/TrilemmaKeywords.csv",stringsAsFactors = F)
+
+getKeywords= function(sub){
+  kx = unique(unlist(strsplit(kw[kw$Subject==sub,]$concepts,";")))
+  names(kx) = kx
+  return(kx)
+}
+accessibilityKeywords = tolower(getKeywords("Accessibility"))
+securityKeywords = tolower(getKeywords("Security"))
+sustainabilityKeywords = tolower(getKeywords("Sustainability"))
+
+files = list.files("../results/LexisFrequencies/byDocument/","*.csv")
+d = data.frame()
+for(file in files){
+  dx = read.csv(paste0("../results/LexisFrequencies/byDocument/",file),
+             stringsAsFactors = F,
+             check.names = F)
+  freqs = sapply(list(ACC = accessibilityKeywords,
+                      SEC = securityKeywords,
+                      SUS = sustainabilityKeywords), function(kws){
+                        rowSums(dx[,tolower(kws)])
+                      })
+  freqs = cbind(freqs, COP=dx$COP,country=dx$country)
+  d = rbind(d,freqs)
+}
+d[,"ACC"] = as.numeric(d[,"ACC"])
+d[,"SEC"] = as.numeric(d[,"SEC"])
+d[,"SUS"] = as.numeric(d[,"SUS"])
+
+docsWithAcc = which(d$ACC>0,arr.ind = T)
+docsWithSec = which(d$SEC>0,arr.ind = T)
+docsWithSus = which(d$SUS>0,arr.ind = T)
+
+ggVennDiagram(list(Accessibility = docsWithAcc,
+                   Security = docsWithSec,
+                   Sustainability = docsWithSus), 
+              set_color = c("#619cffff","#f8766dff","#0a9f37ff"),
+              label_alpha = 0,
+              label_color = "white",
+              force_upset = T)
+
+gvx = ggVennDiagram(list(Accessibility = docsWithAcc,
+                   Security = docsWithSec,
+                   Sustainability = docsWithSus), 
+              set_color = c("#619cffff","#f8766dff","#0a9f37ff"),
+              label_alpha = 0,
+              label_color = "white",
+              force_upset = F)
+
+gvx
+pdf("../visualisation/vennDiagramPer.pdf",width=3.3,height=3.3)
+  gvx
+dev.off()
+
+ggvenn(as.data.frame(d>0),c("ACC","SEC","SUS"),
+       show_outside = "always",
+       fill_color = c("#619cffff","#f8766dff","#0a9f37ff"))
+
+```
+
+Plots showing how the frequency of a keyword group correlates with another. There is generally a high correlation: documents that mention one component are likely to mention another.
+
+```{r}
+
+ggplot(d, aes(x=(ACC+1), y=(SEC+1)) ) +
+  geom_bin2d(bins = 8) +
+  scale_fill_continuous(type = "viridis") +
+  theme_bw() +
+  scale_y_log10() +
+  scale_x_log10() +
+  xlab("Frequency of Accessibility Keyterms") +
+  ylab("Frequency of Security Keyterms")
+
+ggplot(d, aes(x=(ACC+1), y=(SUS+1)) ) +
+  geom_bin2d(bins = 8) +
+  scale_fill_continuous(type = "viridis") +
+  theme_bw() +
+  scale_y_log10() +
+  scale_x_log10() +
+  xlab("Frequency of Accessibility Keyterms") +
+  ylab("Frequency of Sustainability Keyterms")
+
+ggplot(d, aes(x=(SEC+1), y=(SUS+1)) ) +
+  geom_bin2d(bins = 8) +
+  scale_fill_continuous(type = "viridis") +
+  theme_bw() +
+  scale_y_log10() +
+  scale_x_log10() +
+  xlab("Frequency of Security Keyterms") +
+  ylab("Frequency of Sustainability Keyterms")
+
+
+cor.test(d$ACC,d$SEC)
+cor.test(d$ACC,d$SUS)
+cor.test(d$SEC,d$SUS)
+
+```
+
+\clearpage
+\newpage
+
+# Are the patterns different from chance?
+
+We can simulate some data to see what the patterns might look like if there was no dependence between the discussion of the different components. The simulation below randomly distributes the keyterms between the documents, and see what the overlap in terms is:
+
+```{r}
+simCol = function(numDocs,totFreq){
+  x = sample(1:numDocs,totFreq,replace = T)
+  #counts = sapply(1:numDocs,function(i){sum(i==x)})
+  # Index a table by a character
+  cx = table(x)
+  names(cx) = as.character(names(cx))
+  cx = cx[as.character(1:numDocs)]
+  cx[is.na(cx)] = 0
+  return(as.vector(cx))
+}
+
+numDocs = nrow(d)
+simd = data.frame(
+  ACC = simCol(numDocs,sum(d$ACC)),
+  SEC = simCol(numDocs,sum(d$SEC)),
+  SUS = simCol(numDocs,sum(d$SUS))
+)
+
+simdocsWithAcc = which(simd$ACC>0,arr.ind = T)
+simdocsWithSec = which(simd$SEC>0,arr.ind = T)
+simdocsWithSus = which(simd$SUS>0,arr.ind = T)
+
+ggvenn(as.data.frame(simd>0),c("ACC","SEC","SUS"),
+       show_outside = "always",
+       fill_color = c("#619cffff","#f8766dff","#0a9f37ff"))
+
+```
+
+The simulation above randomly reassign each key term to any text. However, that breaks the clustered nature of the texts. Instead, the simulation below takes all the Accessibility words from one text and randomly swaps it with all the Accessibility words from another text. 
+
+```{r}
+simd2 = data.frame(
+  ACC = sample(d$ACC),
+  SEC = sample(d$SEC),
+  SUS = sample(d$SUS))
+
+x = ggvenn(as.data.frame(simd2>0),c("ACC","SEC","SUS"),
+       show_outside = "always",
+       fill_color = c("#619cffff","#f8766dff","#0a9f37ff"),text_size = 2)
+```
+
+Comparing with the real data, we see that discussion of all three components is higher than chance. But discussion of Security and Accessibility is lower than chance.
+
+```{r}
+# (ignoring none)
+allCombinations = c(unlist(lapply(1:3,function(X){apply((combn(c("ACC","SEC","SUS"),X)),2,function(Y){paste(Y,collapse=" ")})})))
+allCombinationsAlt = c(unlist(lapply(1:3,function(X){apply((combn(c("Accessibility","Security","Sustainability"),X)),2,function(Y){paste(Y,collapse="/")})})))
+simColPerm = function(){
+  simd2 = data.frame(
+    ACC = sample(d$ACC),
+    SEC = sample(d$SEC),
+    SUS = sample(d$SUS))
+  tx = table(apply(simd2,1,function(X){
+    paste(names(which(X>0)),collapse=" ")
+  }))
+  tx = tx[allCombinations]
+  tx[is.na(tx)] = 0
+  names(tx) = allCombinationsAlt
+  return(tx)
+}
+
+set.seed(45678)
+simColPermRes = replicate(1000,simColPerm())
+
+simColPermRes.mean = apply(simColPermRes,1,mean)
+#simColPermRes.ci = apply(simColPermRes,1,quantile,probs=c(0.025,0.975))
+simColPermRes.ci = apply(simColPermRes,1,range)
+simColPermResD = data.frame(
+  name = names(simColPermRes.mean),
+  mean = simColPermRes.mean,
+  meanProp = simColPermRes.mean/nrow(d),
+  CIhigh = simColPermRes.ci[1,],
+  CIlow = simColPermRes.ci[2,],
+  CIhighProp = simColPermRes.ci[1,]/nrow(d)*100,
+  CIlowProp = simColPermRes.ci[2,]/nrow(d)*100
+)
+
+upsetGraph = ggVennDiagram(
+  list(Accessibility = docsWithAcc,
+       Security = docsWithSec,
+       Sustainability = docsWithSus), 
+              set_color = c("#619cffff","#f8766dff","#0a9f37ff"),
+              label_alpha = 0,
+              label_color = "white",
+              force_upset = T)
+
+simColPermResD$id = upsetGraph$plotlist[[2]]$data$id
+simColPermResD$size = 1000
+simColPermResD$meanProp = simColPermResD$mean/nrow(d)*100
+
+upsetGraph$plotlist[[2]]$data$size =
+  upsetGraph$plotlist[[2]]$data$size/nrow(d)*100
+upsetGraph$plotlist[[2]]$data$size = 
+  round(upsetGraph$plotlist[[2]]$data$size,1)
+
+upsetGraph$plotlist[[2]] = 
+  upsetGraph$plotlist[[2]] +
+ # geom_point(mapping = aes(x=id,y=meanProp),
+ #            data=simColPermResD,color="red") +
+  geom_errorbar(mapping=aes(ymin=CIlowProp,
+                            ymax=CIhighProp,
+                            x=id),
+                data=simColPermResD,width=0.5,color="red") +
+  ylim(c(0,50)) +
+  ylab("Percentage of Articles")
+
+upsetGraph
+
+pdf("../visualisation/upsetGraph.pdf",width=7,height=3.5)
+  upsetGraph
+dev.off()
+```
+
+
+\clearpage
+\newpage
+
+# Results by country
+
+```{r}
+for(co in unique(d$country)){
+  px = ggvenn(as.data.frame(d[d$country==co,]>0),c("ACC","SEC","SUS"),
+       show_outside = "always",
+       fill_color = c("#619cffff","#f8766dff","#0a9f37ff")) +
+    ggtitle(co)
+  print(px,)
+  print(".")
+}
+```
+
+\clearpage
+\newpage
+
+# Results by COP
+
+```{r}
+componentCombinations = c("","ACC","SEC","SUS","ACC-SEC",
+                          "ACC-SUS","SEC-SUS","ACC-SEC-SUS")
+dcop = data.frame()
+for(cop in sort(unique(d$COP))){
+  dx = d[d$COP==cop,]
+  
+  tx = table(apply(dx[,c("ACC","SEC","SUS")],1,function(X){
+    paste(c("ACC","SEC","SUS")[X>0],collapse = "-")
+    }))
+  tx = tx[componentCombinations]
+  tx[is.na(tx)] = 0
+  tx = tx/sum(tx)
+  
+  dcop = rbind(dcop,data.frame(
+    type = componentCombinations,
+    freq = as.vector(tx),
+    cop = cop ))
+  
+  px = ggvenn(as.data.frame(dx>0),c("ACC","SEC","SUS"),
+       show_outside = "always",
+       fill_color = c("#619cffff","#f8766dff","#0a9f37ff")) +
+    ggtitle(cop)
+  print(px)
+  print(".")
+}
+
+dcop$type = factor(dcop$type,levels=names(sort(tapply(dcop$freq,dcop$type,mean),decreasing = T)))
+ggplot(dcop, aes(x=cop,y=freq,color=type,group=type)) +
+  geom_line() +
+  ylab("Proportion of documents")
+
+```
+

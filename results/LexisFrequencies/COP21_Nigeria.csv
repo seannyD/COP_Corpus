@@ -1,45 +1,45 @@
 "","COP","country","aspect","keyword","freq"
-"1","COP21","Nigeria","Accessibility","affordability",19.1584050740472
-"2","COP21","Nigeria","Accessibility","affordable",105.934710409438
-"3","COP21","Nigeria","Accessibility","ability to pay",1.12696500435572
-"4","COP21","Nigeria","Accessibility","able to pay",2.25393000871144
-"5","COP21","Nigeria","Accessibility","inability to pay",1.12696500435572
-"6","COP21","Nigeria","Accessibility","unable to pay",1.12696500435572
-"7","COP21","Nigeria","Accessibility","energy poverty",119.458290461706
+"1","COP21","Nigeria","Accessibility","affordability",27.5877289781505
+"2","COP21","Nigeria","Accessibility","affordable",55.175457956301
+"3","COP21","Nigeria","Accessibility","ability to pay",0
+"4","COP21","Nigeria","Accessibility","able to pay",18.391819318767
+"5","COP21","Nigeria","Accessibility","inability to pay",0
+"6","COP21","Nigeria","Accessibility","unable to pay",9.19590965938351
+"7","COP21","Nigeria","Accessibility","energy poverty",0
 "8","COP21","Nigeria","Accessibility","energy burden",0
-"9","COP21","Nigeria","Accessibility","fuel poverty",1.12696500435572
+"9","COP21","Nigeria","Accessibility","fuel poverty",0
 "10","COP21","Nigeria","Accessibility","fuel-poverty",0
 "11","COP21","Nigeria","Accessibility","trasportation poverty",0
-"12","COP21","Nigeria","Accessibility","energy prices",18.0314400696915
+"12","COP21","Nigeria","Accessibility","energy prices",0
 "13","COP21","Nigeria","Accessibility","transportation bills",0
 "14","COP21","Nigeria","Accessibility","utility bill",0
 "15","COP21","Nigeria","Accessibility","electricity bill",0
 "16","COP21","Nigeria","Accessibility","utility bills",0
 "17","COP21","Nigeria","Accessibility","electricity bills",0
 "18","COP21","Nigeria","Accessibility","gas bill",0
-"19","COP21","Nigeria","Accessibility","energy bill",5.6348250217786
-"20","COP21","Nigeria","Accessibility","energy bills",5.6348250217786
-"21","COP21","Nigeria","Accessibility","energy cost",10.1426850392015
-"22","COP21","Nigeria","Accessibility","equity",87.9032703397461
-"23","COP21","Nigeria","Accessibility","inequity",6.76179002613432
-"24","COP21","Nigeria","Accessibility","inequality",52.9673552047188
-"25","COP21","Nigeria","Accessibility","inequalities",22.5393000871144
-"26","COP21","Nigeria","Accessibility","energy justice",22.5393000871144
-"27","COP21","Nigeria","Accessibility","household",36.062880139383
-"28","COP21","Nigeria","Accessibility","households",56.348250217786
-"29","COP21","Nigeria","Accessibility","low-income households",2.25393000871144
-"30","COP21","Nigeria","Accessibility","low-income household",2.25393000871144
-"31","COP21","Nigeria","Accessibility","energy efficiency",75.5066552918332
+"19","COP21","Nigeria","Accessibility","energy bill",0
+"20","COP21","Nigeria","Accessibility","energy bills",0
+"21","COP21","Nigeria","Accessibility","energy cost",0
+"22","COP21","Nigeria","Accessibility","equity",55.175457956301
+"23","COP21","Nigeria","Accessibility","inequity",0
+"24","COP21","Nigeria","Accessibility","inequality",82.7631869344516
+"25","COP21","Nigeria","Accessibility","inequalities",0
+"26","COP21","Nigeria","Accessibility","energy justice",0
+"27","COP21","Nigeria","Accessibility","household",45.9795482969175
+"28","COP21","Nigeria","Accessibility","households",9.19590965938351
+"29","COP21","Nigeria","Accessibility","low-income households",0
+"30","COP21","Nigeria","Accessibility","low-income household",0
+"31","COP21","Nigeria","Accessibility","energy efficiency",45.9795482969175
 "32","COP21","Nigeria","Accessibility","personal finance",0
 "33","COP21","Nigeria","Accessibility","personal finances",0
-"34","COP21","Nigeria","Accessibility","race",50.7134251960074
-"35","COP21","Nigeria","Accessibility","minorities",7.88875503049004
-"36","COP21","Nigeria","Accessibility","underserved communities",9.01572003484576
-"37","COP21","Nigeria","Accessibility","gender",199.472805770962
-"38","COP21","Nigeria","Accessibility","women",485.721916877315
+"34","COP21","Nigeria","Accessibility","race",45.9795482969175
+"35","COP21","Nigeria","Accessibility","minorities",0
+"36","COP21","Nigeria","Accessibility","underserved communities",0
+"37","COP21","Nigeria","Accessibility","gender",27.5877289781505
+"38","COP21","Nigeria","Accessibility","women",275.877289781505
 "39","COP21","Nigeria","Accessibility","social economic class",0
 "40","COP21","Nigeria","Accessibility","upper class",0
-"41","COP21","Nigeria","Accessibility","middle class",3.38089501306716
+"41","COP21","Nigeria","Accessibility","middle class",0
 "42","COP21","Nigeria","Accessibility","lower class",0
 "43","COP21","Nigeria","Accessibility","working class",0
 "44","COP21","Nigeria","Accessibility","economic class",0
@@ -48,172 +48,172 @@
 "47","COP21","Nigeria","Accessibility","lower-class",0
 "48","COP21","Nigeria","Accessibility","working-class",0
 "49","COP21","Nigeria","Accessibility","household heating",0
-"50","COP21","Nigeria","Accessibility","cooling",20.285370078403
+"50","COP21","Nigeria","Accessibility","cooling",9.19590965938351
 "51","COP21","Nigeria","Accessibility","thermal comfort",0
 "52","COP21","Nigeria","Accessibility","household heating problems",0
 "53","COP21","Nigeria","Accessibility","household cooling problems",0
-"54","COP21","Nigeria","Accessibility","consumption",125.093115483485
-"55","COP21","Nigeria","Accessibility","consuming",10.1426850392015
-"56","COP21","Nigeria","Accessibility","consumed",18.0314400696915
-"57","COP21","Nigeria","Accessibility","basic needs",5.6348250217786
-"58","COP21","Nigeria","Accessibility","basic need",5.6348250217786
+"54","COP21","Nigeria","Accessibility","consumption",101.155006253219
+"55","COP21","Nigeria","Accessibility","consuming",27.5877289781505
+"56","COP21","Nigeria","Accessibility","consumed",18.391819318767
+"57","COP21","Nigeria","Accessibility","basic needs",0
+"58","COP21","Nigeria","Accessibility","basic need",0
 "59","COP21","Nigeria","Accessibility","reduced costs",0
 "60","COP21","Nigeria","Accessibility","reduces costs",0
-"61","COP21","Nigeria","Accessibility","reducing costs",1.12696500435572
-"62","COP21","Nigeria","Accessibility","consumers",55.2212852134303
-"63","COP21","Nigeria","Accessibility","consumer",30.4280551176044
-"64","COP21","Nigeria","Accessibility","development",2775.71480572814
-"65","COP21","Nigeria","Accessibility","insurance",99.1729203833033
-"66","COP21","Nigeria","Accessibility","cheap",33.8089501306716
-"67","COP21","Nigeria","Accessibility","economical",2.25393000871144
-"68","COP21","Nigeria","Accessibility","low cost",1.12696500435572
-"69","COP21","Nigeria","Accessibility","low-cost",10.1426850392015
-"70","COP21","Nigeria","Accessibility","budget",189.330120731761
-"71","COP21","Nigeria","Accessibility","cost effective",3.38089501306716
-"72","COP21","Nigeria","Accessibility","cost-effective",9.01572003484576
-"73","COP21","Nigeria","Accessibility","efficiency",136.362765527042
-"74","COP21","Nigeria","Accessibility","unequal",7.88875503049004
-"75","COP21","Nigeria","Accessibility","underrepresented",2.25393000871144
+"61","COP21","Nigeria","Accessibility","reducing costs",0
+"62","COP21","Nigeria","Accessibility","consumers",91.9590965938351
+"63","COP21","Nigeria","Accessibility","consumer",36.783638637534
+"64","COP21","Nigeria","Accessibility","development",2767.96880747444
+"65","COP21","Nigeria","Accessibility","insurance",36.783638637534
+"66","COP21","Nigeria","Accessibility","cheap",45.9795482969175
+"67","COP21","Nigeria","Accessibility","economical",0
+"68","COP21","Nigeria","Accessibility","low cost",9.19590965938351
+"69","COP21","Nigeria","Accessibility","low-cost",0
+"70","COP21","Nigeria","Accessibility","budget",257.485470462738
+"71","COP21","Nigeria","Accessibility","cost effective",0
+"72","COP21","Nigeria","Accessibility","cost-effective",18.391819318767
+"73","COP21","Nigeria","Accessibility","efficiency",110.350915912602
+"74","COP21","Nigeria","Accessibility","unequal",0
+"75","COP21","Nigeria","Accessibility","underrepresented",0
 "76","COP21","Nigeria","Accessibility","low income household",0
 "77","COP21","Nigeria","Accessibility","low income households",0
 "78","COP21","Nigeria","Accessibility","energy-efficiency",0
-"79","COP21","Nigeria","Security","reliability",7.88875503049004
-"80","COP21","Nigeria","Security","reliable",87.9032703397461
-"81","COP21","Nigeria","Security","resilience",404.580436563703
-"82","COP21","Nigeria","Security","resilient",219.758175849365
-"83","COP21","Nigeria","Security","power outage",4.50786001742288
-"84","COP21","Nigeria","Security","power outages",4.50786001742288
+"79","COP21","Nigeria","Security","reliability",45.9795482969175
+"80","COP21","Nigeria","Security","reliable",45.9795482969175
+"81","COP21","Nigeria","Security","resilience",193.114102847054
+"82","COP21","Nigeria","Security","resilient",156.33046420952
+"83","COP21","Nigeria","Security","power outage",0
+"84","COP21","Nigeria","Security","power outages",0
 "85","COP21","Nigeria","Security","blackout",0
 "86","COP21","Nigeria","Security","black-out",0
-"87","COP21","Nigeria","Security","blackouts",3.38089501306716
+"87","COP21","Nigeria","Security","blackouts",9.19590965938351
 "88","COP21","Nigeria","Security","black-outs",0
-"89","COP21","Nigeria","Security","power cut",3.38089501306716
-"90","COP21","Nigeria","Security","power cuts",3.38089501306716
-"91","COP21","Nigeria","Security","security",885.794493423596
-"92","COP21","Nigeria","Security","stability",98.0459553789476
-"93","COP21","Nigeria","Security","adequacy",6.76179002613432
-"94","COP21","Nigeria","Security","corruption",143.124555553176
-"95","COP21","Nigeria","Security","corrupted",1.12696500435572
-"96","COP21","Nigeria","Security","geopolitics",5.6348250217786
-"97","COP21","Nigeria","Security","peak hours",1.12696500435572
-"98","COP21","Nigeria","Security","energy demand",37.1898451437388
-"99","COP21","Nigeria","Security","nuclear",109.315605422505
-"100","COP21","Nigeria","Security","consistent",67.6179002613432
-"101","COP21","Nigeria","Security","consistency",4.50786001742288
+"89","COP21","Nigeria","Security","power cut",0
+"90","COP21","Nigeria","Security","power cuts",0
+"91","COP21","Nigeria","Security","security",1131.09688810417
+"92","COP21","Nigeria","Security","stability",137.938644890753
+"93","COP21","Nigeria","Security","adequacy",0
+"94","COP21","Nigeria","Security","corruption",248.289560803355
+"95","COP21","Nigeria","Security","corrupted",0
+"96","COP21","Nigeria","Security","geopolitics",0
+"97","COP21","Nigeria","Security","peak hours",0
+"98","COP21","Nigeria","Security","energy demand",18.391819318767
+"99","COP21","Nigeria","Security","nuclear",119.546825571986
+"100","COP21","Nigeria","Security","consistent",119.546825571986
+"101","COP21","Nigeria","Security","consistency",0
 "102","COP21","Nigeria","Security","intermittancy",0
-"103","COP21","Nigeria","Security","intermittent",5.6348250217786
-"104","COP21","Nigeria","Security","war",207.361560801452
-"105","COP21","Nigeria","Security","wars",7.88875503049004
-"106","COP21","Nigeria","Security","conflicts",86.7763053353904
-"107","COP21","Nigeria","Security","energy crisis",49.5864601916517
-"108","COP21","Nigeria","Security","energy crises",5.6348250217786
+"103","COP21","Nigeria","Security","intermittent",0
+"104","COP21","Nigeria","Security","war",257.485470462738
+"105","COP21","Nigeria","Security","wars",27.5877289781505
+"106","COP21","Nigeria","Security","conflicts",73.567277275068
+"107","COP21","Nigeria","Security","energy crisis",36.783638637534
+"108","COP21","Nigeria","Security","energy crises",27.5877289781505
 "109","COP21","Nigeria","Security","petro-politics",0
 "110","COP21","Nigeria","Security","petropolitics",0
 "111","COP21","Nigeria","Security","aging infrastructure",0
-"112","COP21","Nigeria","Security","industry",634.48129745227
-"113","COP21","Nigeria","Security","industries",128.474010496552
+"112","COP21","Nigeria","Security","industry",193.114102847054
+"113","COP21","Nigeria","Security","industries",183.91819318767
 "114","COP21","Nigeria","Security","neoliberalism",0
 "115","COP21","Nigeria","Security","nationalisation",0
 "116","COP21","Nigeria","Security","nationalization",0
 "117","COP21","Nigeria","Security","nationalising",0
 "118","COP21","Nigeria","Security","nationalizing",0
-"119","COP21","Nigeria","Security","certainty",5.6348250217786
-"120","COP21","Nigeria","Security","agreement",1272.34348991761
-"121","COP21","Nigeria","Security","secure",130.727940505263
-"122","COP21","Nigeria","Security","disaster",147.632415570599
-"123","COP21","Nigeria","Security","disasters",169.044750653358
+"119","COP21","Nigeria","Security","certainty",18.391819318767
+"120","COP21","Nigeria","Security","agreement",1682.85146766718
+"121","COP21","Nigeria","Security","secure",36.783638637534
+"122","COP21","Nigeria","Security","disaster",73.567277275068
+"123","COP21","Nigeria","Security","disasters",82.7631869344516
 "124","COP21","Nigeria","Security","geo-politics",0
-"125","COP21","Nigeria","Security","geo-political",7.88875503049004
-"126","COP21","Nigeria","Security","poor infrastructure",1.12696500435572
-"127","COP21","Nigeria","Sustainability","sustainability",246.805335953903
-"128","COP21","Nigeria","Sustainability","sustainable",1244.16936480871
-"129","COP21","Nigeria","Sustainability","green",1022.15725895064
-"130","COP21","Nigeria","Sustainability","greenhouse",506.007286955718
-"131","COP21","Nigeria","Sustainability","emissions",1732.14521169474
-"132","COP21","Nigeria","Sustainability","emission",386.548996494012
-"133","COP21","Nigeria","Sustainability","emitting",13.5235800522686
-"134","COP21","Nigeria","Sustainability","emitted",20.285370078403
-"135","COP21","Nigeria","Sustainability","emits",16.9044750653358
-"136","COP21","Nigeria","Sustainability","nuclear",109.315605422505
-"137","COP21","Nigeria","Sustainability","carbon capture",30.4280551176044
-"138","COP21","Nigeria","Sustainability","CCS",10.1426850392015
+"125","COP21","Nigeria","Security","geo-political",18.391819318767
+"126","COP21","Nigeria","Security","poor infrastructure",0
+"127","COP21","Nigeria","Sustainability","sustainability",110.350915912602
+"128","COP21","Nigeria","Sustainability","sustainable",1158.68461708232
+"129","COP21","Nigeria","Sustainability","green",432.207753991025
+"130","COP21","Nigeria","Sustainability","greenhouse",432.207753991025
+"131","COP21","Nigeria","Sustainability","emissions",1186.27234606047
+"132","COP21","Nigeria","Sustainability","emission",496.579121606709
+"133","COP21","Nigeria","Sustainability","emitting",18.391819318767
+"134","COP21","Nigeria","Sustainability","emitted",18.391819318767
+"135","COP21","Nigeria","Sustainability","emits",0
+"136","COP21","Nigeria","Sustainability","nuclear",119.546825571986
+"137","COP21","Nigeria","Sustainability","carbon capture",18.391819318767
+"138","COP21","Nigeria","Sustainability","CCS",18.391819318767
 "139","COP21","Nigeria","Sustainability","CCU",0
-"140","COP21","Nigeria","Sustainability","sequester",5.6348250217786
-"141","COP21","Nigeria","Sustainability","sequestering",4.50786001742288
-"142","COP21","Nigeria","Sustainability","sequestration",13.5235800522686
-"143","COP21","Nigeria","Sustainability","renewable energy",643.497017487116
-"144","COP21","Nigeria","Sustainability","renewables",225.393000871144
-"145","COP21","Nigeria","Sustainability","ecosystem",103.680780400726
-"146","COP21","Nigeria","Sustainability","ecosystems",98.0459553789476
-"147","COP21","Nigeria","Sustainability","transition",1533.79937092813
-"148","COP21","Nigeria","Sustainability","transitioning",52.9673552047188
-"149","COP21","Nigeria","Sustainability","transitions",45.0786001742288
-"150","COP21","Nigeria","Sustainability","low-carbon",129.600975500908
-"151","COP21","Nigeria","Sustainability","zero carbon",69.8718302700546
-"152","COP21","Nigeria","Sustainability","decarbonization",30.4280551176044
-"153","COP21","Nigeria","Sustainability","subsidies",51.8403902003631
-"154","COP21","Nigeria","Sustainability","subsidy",24.7932300958258
-"155","COP21","Nigeria","Sustainability","subsidising",6.76179002613432
-"156","COP21","Nigeria","Sustainability","subsidizing",1.12696500435572
-"157","COP21","Nigeria","Sustainability","subsidise",2.25393000871144
-"158","COP21","Nigeria","Sustainability","subsidize",3.38089501306716
-"159","COP21","Nigeria","Sustainability","environmental health",6.76179002613432
-"160","COP21","Nigeria","Sustainability","decarbonisation",56.348250217786
-"161","COP21","Nigeria","Sustainability","decarbonize",9.01572003484576
-"162","COP21","Nigeria","Sustainability","decarbonise",16.9044750653358
-"163","COP21","Nigeria","Sustainability","wind",160.029030618512
-"164","COP21","Nigeria","Sustainability","tidal",3.38089501306716
+"140","COP21","Nigeria","Sustainability","sequester",0
+"141","COP21","Nigeria","Sustainability","sequestering",0
+"142","COP21","Nigeria","Sustainability","sequestration",0
+"143","COP21","Nigeria","Sustainability","renewable energy",928.786875597734
+"144","COP21","Nigeria","Sustainability","renewables",137.938644890753
+"145","COP21","Nigeria","Sustainability","ecosystem",101.155006253219
+"146","COP21","Nigeria","Sustainability","ecosystems",9.19590965938351
+"147","COP21","Nigeria","Sustainability","transition",101.155006253219
+"148","COP21","Nigeria","Sustainability","transitioning",0
+"149","COP21","Nigeria","Sustainability","transitions",9.19590965938351
+"150","COP21","Nigeria","Sustainability","low-carbon",64.3713676156845
+"151","COP21","Nigeria","Sustainability","zero carbon",9.19590965938351
+"152","COP21","Nigeria","Sustainability","decarbonization",0
+"153","COP21","Nigeria","Sustainability","subsidies",36.783638637534
+"154","COP21","Nigeria","Sustainability","subsidy",101.155006253219
+"155","COP21","Nigeria","Sustainability","subsidising",27.5877289781505
+"156","COP21","Nigeria","Sustainability","subsidizing",9.19590965938351
+"157","COP21","Nigeria","Sustainability","subsidise",0
+"158","COP21","Nigeria","Sustainability","subsidize",9.19590965938351
+"159","COP21","Nigeria","Sustainability","environmental health",9.19590965938351
+"160","COP21","Nigeria","Sustainability","decarbonisation",9.19590965938351
+"161","COP21","Nigeria","Sustainability","decarbonize",0
+"162","COP21","Nigeria","Sustainability","decarbonise",18.391819318767
+"163","COP21","Nigeria","Sustainability","wind",239.093651143971
+"164","COP21","Nigeria","Sustainability","tidal",0
 "165","COP21","Nigeria","Sustainability","ocean energy",0
-"166","COP21","Nigeria","Sustainability","hydrogen",121.712220470418
-"167","COP21","Nigeria","Sustainability","geothermal",18.0314400696915
+"166","COP21","Nigeria","Sustainability","hydrogen",0
+"167","COP21","Nigeria","Sustainability","geothermal",45.9795482969175
 "168","COP21","Nigeria","Sustainability","centralized",0
-"169","COP21","Nigeria","Sustainability","decentralized",14.6505450566244
-"170","COP21","Nigeria","Sustainability","centralised",2.25393000871144
-"171","COP21","Nigeria","Sustainability","decentralised",15.7775100609801
-"172","COP21","Nigeria","Sustainability","solar",467.690476807624
-"173","COP21","Nigeria","Sustainability","photovoltaics",1.12696500435572
-"174","COP21","Nigeria","Sustainability","photovoltaic",6.76179002613432
-"175","COP21","Nigeria","Sustainability","PV",22.5393000871144
-"176","COP21","Nigeria","Sustainability","solar panels",23.6662650914701
-"177","COP21","Nigeria","Sustainability","solar panel",24.7932300958258
+"169","COP21","Nigeria","Sustainability","decentralized",0
+"170","COP21","Nigeria","Sustainability","centralised",9.19590965938351
+"171","COP21","Nigeria","Sustainability","decentralised",0
+"172","COP21","Nigeria","Sustainability","solar",947.178694916501
+"173","COP21","Nigeria","Sustainability","photovoltaics",0
+"174","COP21","Nigeria","Sustainability","photovoltaic",27.5877289781505
+"175","COP21","Nigeria","Sustainability","PV",18.391819318767
+"176","COP21","Nigeria","Sustainability","solar panels",55.175457956301
+"177","COP21","Nigeria","Sustainability","solar panel",55.175457956301
 "178","COP21","Nigeria","Sustainability","frack",0
-"179","COP21","Nigeria","Sustainability","fracking",4.50786001742288
+"179","COP21","Nigeria","Sustainability","fracking",9.19590965938351
 "180","COP21","Nigeria","Sustainability","fracked",0
-"181","COP21","Nigeria","Sustainability","pollution",265.96374102795
-"182","COP21","Nigeria","Sustainability","polluting",68.7448652656989
-"183","COP21","Nigeria","Sustainability","polluted",34.9359151350273
-"184","COP21","Nigeria","Sustainability","energy storage",3.38089501306716
-"185","COP21","Nigeria","Sustainability","alternative",121.712220470418
-"186","COP21","Nigeria","Sustainability","alternatives",38.3168101480945
-"187","COP21","Nigeria","Sustainability","coal",545.451062108168
-"188","COP21","Nigeria","Sustainability","natural gas",277.233391071507
-"189","COP21","Nigeria","Sustainability","biomass",36.062880139383
-"190","COP21","Nigeria","Sustainability","ozone",15.7775100609801
+"181","COP21","Nigeria","Sustainability","pollution",331.052747737806
+"182","COP21","Nigeria","Sustainability","polluting",0
+"183","COP21","Nigeria","Sustainability","polluted",73.567277275068
+"184","COP21","Nigeria","Sustainability","energy storage",0
+"185","COP21","Nigeria","Sustainability","alternative",147.134554550136
+"186","COP21","Nigeria","Sustainability","alternatives",82.7631869344516
+"187","COP21","Nigeria","Sustainability","coal",625.321856838078
+"188","COP21","Nigeria","Sustainability","natural gas",202.310012506437
+"189","COP21","Nigeria","Sustainability","biomass",91.9590965938351
+"190","COP21","Nigeria","Sustainability","ozone",18.391819318767
 "191","COP21","Nigeria","Sustainability","electrical vehicles",0
-"192","COP21","Nigeria","Sustainability","EV",30.4280551176044
-"193","COP21","Nigeria","Sustainability","electric vehicles",60.8561102352089
-"194","COP21","Nigeria","Sustainability","net zero",338.089501306716
-"195","COP21","Nigeria","Sustainability","carbon neutrality",32.6819851263159
-"196","COP21","Nigeria","Sustainability","carbon neutral",56.348250217786
-"197","COP21","Nigeria","Sustainability","clean energy",283.995181097641
-"198","COP21","Nigeria","Sustainability","carbon reduction",10.1426850392015
-"199","COP21","Nigeria","Sustainability","sea levels",40.5707401568059
-"200","COP21","Nigeria","Sustainability","paris agreement",723.511532796372
-"201","COP21","Nigeria","Sustainability","zero-carbon",7.88875503049004
-"202","COP21","Nigeria","Sustainability","net-zero",365.136661411253
-"203","COP21","Nigeria","Sustainability","carbon-neutral",14.6505450566244
-"204","COP21","Nigeria","Sustainability","carbon-neutrality",1.12696500435572
-"205","COP21","Nigeria","Sustainability","clean-energy",5.6348250217786
+"192","COP21","Nigeria","Sustainability","EV",0
+"193","COP21","Nigeria","Sustainability","electric vehicles",0
+"194","COP21","Nigeria","Sustainability","net zero",0
+"195","COP21","Nigeria","Sustainability","carbon neutrality",18.391819318767
+"196","COP21","Nigeria","Sustainability","carbon neutral",55.175457956301
+"197","COP21","Nigeria","Sustainability","clean energy",91.9590965938351
+"198","COP21","Nigeria","Sustainability","carbon reduction",0
+"199","COP21","Nigeria","Sustainability","sea levels",45.9795482969175
+"200","COP21","Nigeria","Sustainability","paris agreement",423.011844331641
+"201","COP21","Nigeria","Sustainability","zero-carbon",0
+"202","COP21","Nigeria","Sustainability","net-zero",0
+"203","COP21","Nigeria","Sustainability","carbon-neutral",0
+"204","COP21","Nigeria","Sustainability","carbon-neutrality",0
+"205","COP21","Nigeria","Sustainability","clean-energy",0
 "206","COP21","Nigeria","Sustainability","natural-gas",0
 "207","COP21","Nigeria","Sustainability","geo-thermal",0
 "208","COP21","Nigeria","Sustainability","bio-mass",0
 "209","COP21","Nigeria","Sustainability","o-zone",0
 "210","COP21","Nigeria","Sustainability","energy-storage",0
-"211","COP21","Nigeria","Sustainability","eco-system",4.50786001742288
+"211","COP21","Nigeria","Sustainability","eco-system",0
 "212","COP21","Nigeria","Sustainability","eco-systems",0
-"213","COP21","Nigeria","Sustainability","c02",3.38089501306716
+"213","COP21","Nigeria","Sustainability","c02",9.19590965938351
 "214","COP21","Nigeria","Sustainability","e-vehicles",0
-"215","COP21","Nigeria","Sustainability","EVs",25.9201951001816
+"215","COP21","Nigeria","Sustainability","EVs",0
 "216","COP21","Nigeria","Sustainability","PVs",0
 "217","COP21","Nigeria","Sustainability","re-newables",0
-"218","COP21","Nigeria","Sustainability","pollutant",4.50786001742288
+"218","COP21","Nigeria","Sustainability","pollutant",9.19590965938351

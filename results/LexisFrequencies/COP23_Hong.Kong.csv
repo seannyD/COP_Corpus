@@ -29,7 +29,7 @@
 "28","COP23","Hong.Kong","Accessibility","households",0
 "29","COP23","Hong.Kong","Accessibility","low-income households",0
 "30","COP23","Hong.Kong","Accessibility","low-income household",0
-"31","COP23","Hong.Kong","Accessibility","energy efficiency",1527.88388082506
+"31","COP23","Hong.Kong","Accessibility","energy efficiency",1523.22924600152
 "32","COP23","Hong.Kong","Accessibility","personal finance",0
 "33","COP23","Hong.Kong","Accessibility","personal finances",0
 "34","COP23","Hong.Kong","Accessibility","race",0
@@ -52,7 +52,7 @@
 "51","COP23","Hong.Kong","Accessibility","thermal comfort",0
 "52","COP23","Hong.Kong","Accessibility","household heating problems",0
 "53","COP23","Hong.Kong","Accessibility","household cooling problems",0
-"54","COP23","Hong.Kong","Accessibility","consumption",763.941940412529
+"54","COP23","Hong.Kong","Accessibility","consumption",761.614623000762
 "55","COP23","Hong.Kong","Accessibility","consuming",0
 "56","COP23","Hong.Kong","Accessibility","consumed",0
 "57","COP23","Hong.Kong","Accessibility","basic needs",0
@@ -62,7 +62,7 @@
 "61","COP23","Hong.Kong","Accessibility","reducing costs",0
 "62","COP23","Hong.Kong","Accessibility","consumers",0
 "63","COP23","Hong.Kong","Accessibility","consumer",0
-"64","COP23","Hong.Kong","Accessibility","development",1527.88388082506
+"64","COP23","Hong.Kong","Accessibility","development",1523.22924600152
 "65","COP23","Hong.Kong","Accessibility","insurance",0
 "66","COP23","Hong.Kong","Accessibility","cheap",0
 "67","COP23","Hong.Kong","Accessibility","economical",0
@@ -71,7 +71,7 @@
 "70","COP23","Hong.Kong","Accessibility","budget",0
 "71","COP23","Hong.Kong","Accessibility","cost effective",0
 "72","COP23","Hong.Kong","Accessibility","cost-effective",0
-"73","COP23","Hong.Kong","Accessibility","efficiency",1527.88388082506
+"73","COP23","Hong.Kong","Accessibility","efficiency",1523.22924600152
 "74","COP23","Hong.Kong","Accessibility","unequal",0
 "75","COP23","Hong.Kong","Accessibility","underrepresented",0
 "76","COP23","Hong.Kong","Accessibility","low income household",0
@@ -79,7 +79,7 @@
 "78","COP23","Hong.Kong","Accessibility","energy-efficiency",0
 "79","COP23","Hong.Kong","Security","reliability",0
 "80","COP23","Hong.Kong","Security","reliable",0
-"81","COP23","Hong.Kong","Security","resilience",763.941940412529
+"81","COP23","Hong.Kong","Security","resilience",761.614623000762
 "82","COP23","Hong.Kong","Security","resilient",0
 "83","COP23","Hong.Kong","Security","power outage",0
 "84","COP23","Hong.Kong","Security","power outages",0
@@ -97,7 +97,7 @@
 "96","COP23","Hong.Kong","Security","geopolitics",0
 "97","COP23","Hong.Kong","Security","peak hours",0
 "98","COP23","Hong.Kong","Security","energy demand",0
-"99","COP23","Hong.Kong","Security","nuclear",763.941940412529
+"99","COP23","Hong.Kong","Security","nuclear",761.614623000762
 "100","COP23","Hong.Kong","Security","consistent",0
 "101","COP23","Hong.Kong","Security","consistency",0
 "102","COP23","Hong.Kong","Security","intermittancy",0
@@ -118,7 +118,7 @@
 "117","COP23","Hong.Kong","Security","nationalising",0
 "118","COP23","Hong.Kong","Security","nationalizing",0
 "119","COP23","Hong.Kong","Security","certainty",0
-"120","COP23","Hong.Kong","Security","agreement",763.941940412529
+"120","COP23","Hong.Kong","Security","agreement",761.614623000762
 "121","COP23","Hong.Kong","Security","secure",0
 "122","COP23","Hong.Kong","Security","disaster",0
 "123","COP23","Hong.Kong","Security","disasters",0
@@ -126,29 +126,29 @@
 "125","COP23","Hong.Kong","Security","geo-political",0
 "126","COP23","Hong.Kong","Security","poor infrastructure",0
 "127","COP23","Hong.Kong","Sustainability","sustainability",0
-"128","COP23","Hong.Kong","Sustainability","sustainable",763.941940412529
-"129","COP23","Hong.Kong","Sustainability","green",763.941940412529
-"130","COP23","Hong.Kong","Sustainability","greenhouse",763.941940412529
-"131","COP23","Hong.Kong","Sustainability","emissions",1527.88388082506
-"132","COP23","Hong.Kong","Sustainability","emission",763.941940412529
+"128","COP23","Hong.Kong","Sustainability","sustainable",761.614623000762
+"129","COP23","Hong.Kong","Sustainability","green",761.614623000762
+"130","COP23","Hong.Kong","Sustainability","greenhouse",761.614623000762
+"131","COP23","Hong.Kong","Sustainability","emissions",1523.22924600152
+"132","COP23","Hong.Kong","Sustainability","emission",761.614623000762
 "133","COP23","Hong.Kong","Sustainability","emitting",0
 "134","COP23","Hong.Kong","Sustainability","emitted",0
 "135","COP23","Hong.Kong","Sustainability","emits",0
-"136","COP23","Hong.Kong","Sustainability","nuclear",763.941940412529
+"136","COP23","Hong.Kong","Sustainability","nuclear",761.614623000762
 "137","COP23","Hong.Kong","Sustainability","carbon capture",0
 "138","COP23","Hong.Kong","Sustainability","CCS",0
 "139","COP23","Hong.Kong","Sustainability","CCU",0
 "140","COP23","Hong.Kong","Sustainability","sequester",0
 "141","COP23","Hong.Kong","Sustainability","sequestering",0
 "142","COP23","Hong.Kong","Sustainability","sequestration",0
-"143","COP23","Hong.Kong","Sustainability","renewable energy",5347.5935828877
+"143","COP23","Hong.Kong","Sustainability","renewable energy",5331.30236100533
 "144","COP23","Hong.Kong","Sustainability","renewables",0
 "145","COP23","Hong.Kong","Sustainability","ecosystem",0
 "146","COP23","Hong.Kong","Sustainability","ecosystems",0
 "147","COP23","Hong.Kong","Sustainability","transition",0
 "148","COP23","Hong.Kong","Sustainability","transitioning",0
 "149","COP23","Hong.Kong","Sustainability","transitions",0
-"150","COP23","Hong.Kong","Sustainability","low-carbon",1527.88388082506
+"150","COP23","Hong.Kong","Sustainability","low-carbon",1523.22924600152
 "151","COP23","Hong.Kong","Sustainability","zero carbon",0
 "152","COP23","Hong.Kong","Sustainability","decarbonization",0
 "153","COP23","Hong.Kong","Sustainability","subsidies",0
@@ -170,12 +170,12 @@
 "169","COP23","Hong.Kong","Sustainability","decentralized",0
 "170","COP23","Hong.Kong","Sustainability","centralised",0
 "171","COP23","Hong.Kong","Sustainability","decentralised",0
-"172","COP23","Hong.Kong","Sustainability","solar",1527.88388082506
+"172","COP23","Hong.Kong","Sustainability","solar",1523.22924600152
 "173","COP23","Hong.Kong","Sustainability","photovoltaics",0
 "174","COP23","Hong.Kong","Sustainability","photovoltaic",0
 "175","COP23","Hong.Kong","Sustainability","PV",0
-"176","COP23","Hong.Kong","Sustainability","solar panels",763.941940412529
-"177","COP23","Hong.Kong","Sustainability","solar panel",763.941940412529
+"176","COP23","Hong.Kong","Sustainability","solar panels",761.614623000762
+"177","COP23","Hong.Kong","Sustainability","solar panel",761.614623000762
 "178","COP23","Hong.Kong","Sustainability","frack",0
 "179","COP23","Hong.Kong","Sustainability","fracking",0
 "180","COP23","Hong.Kong","Sustainability","fracked",0
@@ -195,10 +195,10 @@
 "194","COP23","Hong.Kong","Sustainability","net zero",0
 "195","COP23","Hong.Kong","Sustainability","carbon neutrality",0
 "196","COP23","Hong.Kong","Sustainability","carbon neutral",0
-"197","COP23","Hong.Kong","Sustainability","clean energy",763.941940412529
+"197","COP23","Hong.Kong","Sustainability","clean energy",761.614623000762
 "198","COP23","Hong.Kong","Sustainability","carbon reduction",0
 "199","COP23","Hong.Kong","Sustainability","sea levels",0
-"200","COP23","Hong.Kong","Sustainability","paris agreement",763.941940412529
+"200","COP23","Hong.Kong","Sustainability","paris agreement",761.614623000762
 "201","COP23","Hong.Kong","Sustainability","zero-carbon",0
 "202","COP23","Hong.Kong","Sustainability","net-zero",0
 "203","COP23","Hong.Kong","Sustainability","carbon-neutral",0

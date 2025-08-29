@@ -25,8 +25,8 @@
      showgrid="false"
      inkscape:snap-global="false"
      inkscape:zoom="0.75455247"
-     inkscape:cx="543.36844"
-     inkscape:cy="310.78024"
+     inkscape:cx="506.26035"
+     inkscape:cy="157.04673"
      inkscape:window-width="1920"
      inkscape:window-height="1027"
      inkscape:window-x="0"
@@ -410,15 +410,15 @@
        y="0"><tspan
          x="115.85547"
          y="227.96196"
-         id="tspan15908"><tspan
+         id="tspan2501"><tspan
            style="font-family:'Open Sans';-inkscape-font-specification:'Open Sans'"
-           id="tspan15906">News
+           id="tspan2499">News
 </tspan></tspan><tspan
          x="98.824219"
          y="266.06041"
-         id="tspan15912"><tspan
+         id="tspan2505"><tspan
            style="font-family:'Open Sans';-inkscape-font-specification:'Open Sans'"
-           id="tspan15910">Articles</tspan></tspan></text>
+           id="tspan2503">Articles</tspan></tspan></text>
     <g
        id="g4866"
        transform="matrix(1.1650235,0,0,1.2063456,-5.1582719,-31.183037)">
@@ -442,9 +442,9 @@
        style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect5047);fill:#000000;fill-opacity:1;stroke:none"><tspan
          x="87.46875"
          y="233.96196"
-         id="tspan15916"><tspan
+         id="tspan2509"><tspan
            style="font-family:'Open Sans';-inkscape-font-specification:'Open Sans'"
-           id="tspan15914">Corpus</tspan></tspan></text>
+           id="tspan2507">Corpus</tspan></tspan></text>
     <g
        id="g13384">
       <path
@@ -492,15 +492,15 @@
        y="0"><tspan
          x="133.66797"
          y="227.96196"
-         id="tspan15920"><tspan
+         id="tspan2513"><tspan
            style="font-family:'Open Sans';-inkscape-font-specification:'Open Sans'"
-           id="tspan15918">Key
+           id="tspan2511">Key
 </tspan></tspan><tspan
          x="108.74609"
          y="266.06041"
-         id="tspan15924"><tspan
+         id="tspan2517"><tspan
            style="font-family:'Open Sans';-inkscape-font-specification:'Open Sans'"
-           id="tspan15922">Terms</tspan></tspan></text>
+           id="tspan2515">Terms</tspan></tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.2165057,0,0,0.2165057,126.82893,124.37182)"
@@ -510,15 +510,15 @@
        y="0"><tspan
          x="99.398438"
          y="227.96196"
-         id="tspan15928"><tspan
+         id="tspan2521"><tspan
            style="font-family:'Open Sans';-inkscape-font-specification:'Open Sans'"
-           id="tspan15926">Frequency
+           id="tspan2519">Frequency
 </tspan></tspan><tspan
          x="105.60938"
          y="266.06041"
-         id="tspan15932"><tspan
+         id="tspan2525"><tspan
            style="font-family:'Open Sans';-inkscape-font-specification:'Open Sans'"
-           id="tspan15930">Measures</tspan></tspan></text>
+           id="tspan2523">Measures</tspan></tspan></text>
     <g
        id="g19755"
        transform="matrix(0.62995527,0,0,0.62995527,12.56513,58.607889)"
@@ -544,15 +544,15 @@
        y="0"><tspan
          x="98.277344"
          y="227.96196"
-         id="tspan15936"><tspan
+         id="tspan2529"><tspan
            style="font-family:'Open Sans';-inkscape-font-specification:'Open Sans'"
-           id="tspan15934">Human
+           id="tspan2527">Human
 </tspan></tspan><tspan
          x="98.902344"
          y="266.06041"
-         id="tspan15940"><tspan
+         id="tspan2533"><tspan
            style="font-family:'Open Sans';-inkscape-font-specification:'Open Sans'"
-           id="tspan15938">Ratings</tspan></tspan></text>
+           id="tspan2531">Ratings</tspan></tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.2165057,0,0,0.2165057,50.932935,127.86943)"
@@ -562,9 +562,9 @@
        y="0"><tspan
          x="103.77344"
          y="227.96196"
-         id="tspan15944"><tspan
+         id="tspan2537"><tspan
            style="font-family:'Open Sans';-inkscape-font-specification:'Open Sans'"
-           id="tspan15942">Validation</tspan></tspan></text>
+           id="tspan2535">Validation</tspan></tspan></text>
     <g
        id="g22793"
        transform="matrix(0.82947226,0,0,0.82947226,8.5634333,19.485011)">
@@ -853,15 +853,15 @@
        y="0"><tspan
          x="115.85547"
          y="227.96196"
-         id="tspan15948"><tspan
+         id="tspan2541"><tspan
            style="font-family:'Open Sans';-inkscape-font-specification:'Open Sans'"
-           id="tspan15946">News
+           id="tspan2539">News
 </tspan></tspan><tspan
          x="98.824219"
          y="266.06041"
-         id="tspan15952"><tspan
+         id="tspan2545"><tspan
            style="font-family:'Open Sans';-inkscape-font-specification:'Open Sans'"
-           id="tspan15950">Articles</tspan></tspan></text>
+           id="tspan2543">Articles</tspan></tspan></text>
     <g
        id="g27745"
        transform="matrix(1.1650235,0,0,1.2063456,65.150053,137.00103)">
@@ -885,9 +885,9 @@
        style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect27837);fill:#000000;fill-opacity:1;stroke:none"><tspan
          x="87.46875"
          y="233.96196"
-         id="tspan15956"><tspan
+         id="tspan2549"><tspan
            style="font-family:'Open Sans';-inkscape-font-specification:'Open Sans'"
-           id="tspan15954">Corpus</tspan></tspan></text>
+           id="tspan2547">Corpus</tspan></tspan></text>
     <g
        id="g27767"
        transform="matrix(0.64833721,0,0,0.65378524,-11.44417,230.19551)">
@@ -929,22 +929,22 @@
     </g>
     <text
        xml:space="preserve"
-       transform="matrix(0.23129882,0,0,0.23129882,35.434841,242.12402)"
+       transform="matrix(0.23129882,0,0,0.23129882,33.84734,242.12402)"
        id="text27771"
        style="font-style:normal;font-weight:normal;font-size:40px;line-height:0.95;font-family:sans-serif;text-align:center;white-space:pre;shape-inside:url(#rect27839);fill:#000000;fill-opacity:1;stroke:none"
        x="67.5"
        y="0"><tspan
-         x="133.66797"
+         x="104.37109"
          y="227.96196"
-         id="tspan15960"><tspan
+         id="tspan2553"><tspan
            style="font-family:'Open Sans';-inkscape-font-specification:'Open Sans'"
-           id="tspan15958">Key
+           id="tspan2551">Salient
 </tspan></tspan><tspan
          x="108.74609"
          y="266.06041"
-         id="tspan15964"><tspan
+         id="tspan2557"><tspan
            style="font-family:'Open Sans';-inkscape-font-specification:'Open Sans'"
-           id="tspan15962">Terms</tspan></tspan></text>
+           id="tspan2555">Terms</tspan></tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.2165057,0,0,0.2165057,127.32482,314.12723)"
@@ -954,15 +954,15 @@
        y="0"><tspan
          x="97.40625"
          y="227.96196"
-         id="tspan15968"><tspan
+         id="tspan2561"><tspan
            style="font-family:'Open Sans';-inkscape-font-specification:'Open Sans'"
-           id="tspan15966">Discussion
+           id="tspan2559">Discussion
 </tspan></tspan><tspan
          x="135.21875"
          y="266.06041"
-         id="tspan15972"><tspan
+         id="tspan2565"><tspan
            style="font-family:'Open Sans';-inkscape-font-specification:'Open Sans'"
-           id="tspan15970">Scores</tspan></tspan></text>
+           id="tspan2563">Scores</tspan></tspan></text>
     <g
        id="g30721"
        transform="matrix(1.1931706,0,0,1.1931706,-5.9110164,-69.901263)">
@@ -1024,9 +1024,9 @@
        y="0"><tspan
          x="103.77344"
          y="227.96196"
-         id="tspan15976"><tspan
+         id="tspan2569"><tspan
            style="font-family:'Open Sans';-inkscape-font-specification:'Open Sans'"
-           id="tspan15974">Validation</tspan></tspan></text>
+           id="tspan2567">Validation</tspan></tspan></text>
     <g
        id="g27795"
        transform="matrix(0.82947226,0,0,0.82947226,79.394602,184.94167)">
@@ -1167,15 +1167,15 @@
        y="0"><tspan
          x="127.79688"
          y="227.96196"
-         id="tspan15980"><tspan
+         id="tspan2573"><tspan
            style="font-family:'Open Sans';-inkscape-font-specification:'Open Sans'"
-           id="tspan15978">Human
+           id="tspan2571">Human
 </tspan></tspan><tspan
          x="128.42188"
          y="266.06041"
-         id="tspan15984"><tspan
+         id="tspan2577"><tspan
            style="font-family:'Open Sans';-inkscape-font-specification:'Open Sans'"
-           id="tspan15982">Ratings</tspan></tspan></text>
+           id="tspan2575">Ratings</tspan></tspan></text>
     <g
        id="g29887"
        transform="matrix(0.82947226,0,0,-0.82947226,-0.11469023,431.72433)">
@@ -1324,11 +1324,11 @@
        y="0"><tspan
          x="88.226562"
          y="227.96196"
-         id="tspan15986">Qualitative
+         id="tspan2579">Qualitative
 </tspan><tspan
          x="114.67188"
          y="265.96196"
-         id="tspan15988">Analysis</tspan></text>
+         id="tspan2581">Analysis</tspan></text>
     <g
        id="g8620"
        transform="matrix(0.82947226,0,0,-0.82947226,143.44635,425.45911)">
@@ -1375,11 +1375,11 @@
        y="0"><tspan
          x="90.365234"
          y="227.96196"
-         id="tspan15990">Quantitative
+         id="tspan2583">Quantitative
 </tspan><tspan
          x="131.84961"
          y="265.96196"
-         id="tspan15992">Analysis</tspan></text>
+         id="tspan2585">Analysis</tspan></text>
     <g
        id="g15412"
        transform="matrix(0.48974589,0,0,0.36645882,54.104976,227.34132)"

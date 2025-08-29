@@ -1,11 +1,11 @@
 "","COP","country","aspect","keyword","freq"
-"1","COP22","India","Accessibility","affordability",9.94040725848538
-"2","COP22","India","Accessibility","affordable",104.374276214096
+"1","COP22","India","Accessibility","affordability",9.92708555658687
+"2","COP22","India","Accessibility","affordable",104.234398344162
 "3","COP22","India","Accessibility","ability to pay",0
 "4","COP22","India","Accessibility","able to pay",0
 "5","COP22","India","Accessibility","inability to pay",0
 "6","COP22","India","Accessibility","unable to pay",0
-"7","COP22","India","Accessibility","energy poverty",9.94040725848538
+"7","COP22","India","Accessibility","energy poverty",9.92708555658687
 "8","COP22","India","Accessibility","energy burden",0
 "9","COP22","India","Accessibility","fuel poverty",0
 "10","COP22","India","Accessibility","fuel-poverty",0
@@ -13,195 +13,195 @@
 "12","COP22","India","Accessibility","energy prices",0
 "13","COP22","India","Accessibility","transportation bills",0
 "14","COP22","India","Accessibility","utility bill",0
-"15","COP22","India","Accessibility","electricity bill",4.97020362924269
+"15","COP22","India","Accessibility","electricity bill",4.96354277829344
 "16","COP22","India","Accessibility","utility bills",0
-"17","COP22","India","Accessibility","electricity bills",4.97020362924269
+"17","COP22","India","Accessibility","electricity bills",4.96354277829344
 "18","COP22","India","Accessibility","gas bill",0
-"19","COP22","India","Accessibility","energy bill",9.94040725848538
-"20","COP22","India","Accessibility","energy bills",9.94040725848538
-"21","COP22","India","Accessibility","energy cost",14.9106108877281
-"22","COP22","India","Accessibility","equity",139.165701618795
+"19","COP22","India","Accessibility","energy bill",9.92708555658687
+"20","COP22","India","Accessibility","energy bills",9.92708555658687
+"21","COP22","India","Accessibility","energy cost",14.8906283348803
+"22","COP22","India","Accessibility","equity",138.979197792216
 "23","COP22","India","Accessibility","inequity",0
-"24","COP22","India","Accessibility","inequality",4.97020362924269
-"25","COP22","India","Accessibility","inequalities",4.97020362924269
+"24","COP22","India","Accessibility","inequality",4.96354277829344
+"25","COP22","India","Accessibility","inequalities",4.96354277829344
 "26","COP22","India","Accessibility","energy justice",0
-"27","COP22","India","Accessibility","household",19.8808145169708
-"28","COP22","India","Accessibility","households",44.7318326631842
+"27","COP22","India","Accessibility","household",19.8541711131737
+"28","COP22","India","Accessibility","households",44.6718850046409
 "29","COP22","India","Accessibility","low-income households",0
 "30","COP22","India","Accessibility","low-income household",0
-"31","COP22","India","Accessibility","energy efficiency",412.526901227143
+"31","COP22","India","Accessibility","energy efficiency",411.974050598355
 "32","COP22","India","Accessibility","personal finance",0
 "33","COP22","India","Accessibility","personal finances",0
-"34","COP22","India","Accessibility","race",9.94040725848538
+"34","COP22","India","Accessibility","race",9.92708555658687
 "35","COP22","India","Accessibility","minorities",0
 "36","COP22","India","Accessibility","underserved communities",0
-"37","COP22","India","Accessibility","gender",44.7318326631842
-"38","COP22","India","Accessibility","women",104.374276214096
+"37","COP22","India","Accessibility","gender",44.6718850046409
+"38","COP22","India","Accessibility","women",104.234398344162
 "39","COP22","India","Accessibility","social economic class",0
 "40","COP22","India","Accessibility","upper class",0
-"41","COP22","India","Accessibility","middle class",4.97020362924269
+"41","COP22","India","Accessibility","middle class",4.96354277829344
 "42","COP22","India","Accessibility","lower class",0
 "43","COP22","India","Accessibility","working class",0
 "44","COP22","India","Accessibility","economic class",0
 "45","COP22","India","Accessibility","upper-class",0
-"46","COP22","India","Accessibility","middle-class",4.97020362924269
+"46","COP22","India","Accessibility","middle-class",4.96354277829344
 "47","COP22","India","Accessibility","lower-class",0
 "48","COP22","India","Accessibility","working-class",0
 "49","COP22","India","Accessibility","household heating",0
-"50","COP22","India","Accessibility","cooling",29.8212217754561
+"50","COP22","India","Accessibility","cooling",29.7812566697606
 "51","COP22","India","Accessibility","thermal comfort",0
 "52","COP22","India","Accessibility","household heating problems",0
 "53","COP22","India","Accessibility","household cooling problems",0
-"54","COP22","India","Accessibility","consumption",198.808145169708
-"55","COP22","India","Accessibility","consuming",4.97020362924269
-"56","COP22","India","Accessibility","consumed",4.97020362924269
-"57","COP22","India","Accessibility","basic needs",9.94040725848538
-"58","COP22","India","Accessibility","basic need",9.94040725848538
+"54","COP22","India","Accessibility","consumption",198.541711131737
+"55","COP22","India","Accessibility","consuming",4.96354277829344
+"56","COP22","India","Accessibility","consumed",4.96354277829344
+"57","COP22","India","Accessibility","basic needs",9.92708555658687
+"58","COP22","India","Accessibility","basic need",9.92708555658687
 "59","COP22","India","Accessibility","reduced costs",0
 "60","COP22","India","Accessibility","reduces costs",0
 "61","COP22","India","Accessibility","reducing costs",0
-"62","COP22","India","Accessibility","consumers",59.6424435509123
-"63","COP22","India","Accessibility","consumer",54.6722399216696
-"64","COP22","India","Accessibility","development",2584.5058872062
-"65","COP22","India","Accessibility","insurance",89.4636653263684
-"66","COP22","India","Accessibility","cheap",9.94040725848538
-"67","COP22","India","Accessibility","economical",9.94040725848538
-"68","COP22","India","Accessibility","low cost",29.8212217754561
-"69","COP22","India","Accessibility","low-cost",24.8510181462135
-"70","COP22","India","Accessibility","budget",59.6424435509123
-"71","COP22","India","Accessibility","cost effective",24.8510181462135
-"72","COP22","India","Accessibility","cost-effective",19.8808145169708
-"73","COP22","India","Accessibility","efficiency",541.752195587453
+"62","COP22","India","Accessibility","consumers",59.5625133395212
+"63","COP22","India","Accessibility","consumer",54.5989705612278
+"64","COP22","India","Accessibility","development",2581.04224471259
+"65","COP22","India","Accessibility","insurance",89.3437700092818
+"66","COP22","India","Accessibility","cheap",9.92708555658687
+"67","COP22","India","Accessibility","economical",9.92708555658687
+"68","COP22","India","Accessibility","low cost",29.7812566697606
+"69","COP22","India","Accessibility","low-cost",24.8177138914672
+"70","COP22","India","Accessibility","budget",59.5625133395212
+"71","COP22","India","Accessibility","cost effective",24.8177138914672
+"72","COP22","India","Accessibility","cost-effective",19.8541711131737
+"73","COP22","India","Accessibility","efficiency",541.026162833984
 "74","COP22","India","Accessibility","unequal",0
 "75","COP22","India","Accessibility","underrepresented",0
 "76","COP22","India","Accessibility","low income household",0
 "77","COP22","India","Accessibility","low income households",0
 "78","COP22","India","Accessibility","energy-efficiency",0
-"79","COP22","India","Security","reliability",4.97020362924269
-"80","COP22","India","Security","reliable",94.4338689556111
-"81","COP22","India","Security","resilience",342.944050417746
-"82","COP22","India","Security","resilient",188.867737911222
+"79","COP22","India","Security","reliability",4.96354277829344
+"80","COP22","India","Security","reliable",94.3073127875753
+"81","COP22","India","Security","resilience",342.484451702247
+"82","COP22","India","Security","resilient",188.61462557515
 "83","COP22","India","Security","power outage",0
 "84","COP22","India","Security","power outages",0
 "85","COP22","India","Security","blackout",0
 "86","COP22","India","Security","black-out",0
 "87","COP22","India","Security","blackouts",0
 "88","COP22","India","Security","black-outs",0
-"89","COP22","India","Security","power cut",4.97020362924269
-"90","COP22","India","Security","power cuts",4.97020362924269
-"91","COP22","India","Security","security",333.00364315926
-"92","COP22","India","Security","stability",59.6424435509123
+"89","COP22","India","Security","power cut",4.96354277829344
+"90","COP22","India","Security","power cuts",4.96354277829344
+"91","COP22","India","Security","security",332.55736614566
+"92","COP22","India","Security","stability",59.5625133395212
 "93","COP22","India","Security","adequacy",0
-"94","COP22","India","Security","corruption",4.97020362924269
+"94","COP22","India","Security","corruption",4.96354277829344
 "95","COP22","India","Security","corrupted",0
 "96","COP22","India","Security","geopolitics",0
 "97","COP22","India","Security","peak hours",0
-"98","COP22","India","Security","energy demand",29.8212217754561
-"99","COP22","India","Security","nuclear",278.331403237591
-"100","COP22","India","Security","consistent",69.5828508093977
-"101","COP22","India","Security","consistency",14.9106108877281
+"98","COP22","India","Security","energy demand",29.7812566697606
+"99","COP22","India","Security","nuclear",277.958395584432
+"100","COP22","India","Security","consistent",69.4895988961081
+"101","COP22","India","Security","consistency",14.8906283348803
 "102","COP22","India","Security","intermittancy",0
 "103","COP22","India","Security","intermittent",0
-"104","COP22","India","Security","war",14.9106108877281
-"105","COP22","India","Security","wars",24.8510181462135
-"106","COP22","India","Security","conflicts",39.7616290339415
+"104","COP22","India","Security","war",14.8906283348803
+"105","COP22","India","Security","wars",24.8177138914672
+"106","COP22","India","Security","conflicts",39.7083422263475
 "107","COP22","India","Security","energy crisis",0
 "108","COP22","India","Security","energy crises",0
 "109","COP22","India","Security","petro-politics",0
 "110","COP22","India","Security","petropolitics",0
 "111","COP22","India","Security","aging infrastructure",0
-"112","COP22","India","Security","industry",407.556697597901
-"113","COP22","India","Security","industries",104.374276214096
+"112","COP22","India","Security","industry",407.010507820062
+"113","COP22","India","Security","industries",104.234398344162
 "114","COP22","India","Security","neoliberalism",0
 "115","COP22","India","Security","nationalisation",0
 "116","COP22","India","Security","nationalization",0
 "117","COP22","India","Security","nationalising",0
 "118","COP22","India","Security","nationalizing",0
-"119","COP22","India","Security","certainty",9.94040725848538
-"120","COP22","India","Security","agreement",5487.10480668393
-"121","COP22","India","Security","secure",69.5828508093977
-"122","COP22","India","Security","disaster",89.4636653263684
-"123","COP22","India","Security","disasters",69.5828508093977
+"119","COP22","India","Security","certainty",9.92708555658687
+"120","COP22","India","Security","agreement",5479.75122723595
+"121","COP22","India","Security","secure",69.4895988961081
+"122","COP22","India","Security","disaster",89.3437700092818
+"123","COP22","India","Security","disasters",69.4895988961081
 "124","COP22","India","Security","geo-politics",0
 "125","COP22","India","Security","geo-political",0
 "126","COP22","India","Security","poor infrastructure",0
-"127","COP22","India","Sustainability","sustainability",531.811788328968
-"128","COP22","India","Sustainability","sustainable",2122.27694968663
-"129","COP22","India","Sustainability","green",1138.17663109658
-"130","COP22","India","Sustainability","greenhouse",830.024006083529
-"131","COP22","India","Sustainability","emissions",2062.63450613572
-"132","COP22","India","Sustainability","emission",422.467308485629
-"133","COP22","India","Sustainability","emitting",19.8808145169708
-"134","COP22","India","Sustainability","emitted",49.7020362924269
-"135","COP22","India","Sustainability","emits",14.9106108877281
-"136","COP22","India","Sustainability","nuclear",278.331403237591
-"137","COP22","India","Sustainability","carbon capture",39.7616290339415
-"138","COP22","India","Sustainability","CCS",69.5828508093977
+"127","COP22","India","Sustainability","sustainability",531.099077277398
+"128","COP22","India","Sustainability","sustainable",2119.4327663313
+"129","COP22","India","Sustainability","green",1136.6512962292
+"130","COP22","India","Sustainability","greenhouse",828.911643975004
+"131","COP22","India","Sustainability","emissions",2059.87025299178
+"132","COP22","India","Sustainability","emission",421.901136154942
+"133","COP22","India","Sustainability","emitting",19.8541711131737
+"134","COP22","India","Sustainability","emitted",49.6354277829344
+"135","COP22","India","Sustainability","emits",14.8906283348803
+"136","COP22","India","Sustainability","nuclear",277.958395584432
+"137","COP22","India","Sustainability","carbon capture",39.7083422263475
+"138","COP22","India","Sustainability","CCS",69.4895988961081
 "139","COP22","India","Sustainability","CCU",0
-"140","COP22","India","Sustainability","sequester",4.97020362924269
+"140","COP22","India","Sustainability","sequester",4.96354277829344
 "141","COP22","India","Sustainability","sequestering",0
-"142","COP22","India","Sustainability","sequestration",14.9106108877281
-"143","COP22","India","Sustainability","renewable energy",1187.878667389
-"144","COP22","India","Sustainability","renewables",203.77834879895
-"145","COP22","India","Sustainability","ecosystem",144.135905248038
-"146","COP22","India","Sustainability","ecosystems",154.076312506523
-"147","COP22","India","Sustainability","transition",392.646086710173
-"148","COP22","India","Sustainability","transitioning",29.8212217754561
+"142","COP22","India","Sustainability","sequestration",14.8906283348803
+"143","COP22","India","Sustainability","renewable energy",1186.28672401213
+"144","COP22","India","Sustainability","renewables",203.505253910031
+"145","COP22","India","Sustainability","ecosystem",143.94274057051
+"146","COP22","India","Sustainability","ecosystems",153.869826127096
+"147","COP22","India","Sustainability","transition",392.119879485181
+"148","COP22","India","Sustainability","transitioning",29.7812566697606
 "149","COP22","India","Sustainability","transitions",0
-"150","COP22","India","Sustainability","low-carbon",452.288530261085
-"151","COP22","India","Sustainability","zero carbon",9.94040725848538
-"152","COP22","India","Sustainability","decarbonization",4.97020362924269
-"153","COP22","India","Sustainability","subsidies",34.7914254046988
+"150","COP22","India","Sustainability","low-carbon",451.682392824703
+"151","COP22","India","Sustainability","zero carbon",9.92708555658687
+"152","COP22","India","Sustainability","decarbonization",4.96354277829344
+"153","COP22","India","Sustainability","subsidies",34.744799448054
 "154","COP22","India","Sustainability","subsidy",0
 "155","COP22","India","Sustainability","subsidising",0
 "156","COP22","India","Sustainability","subsidizing",0
 "157","COP22","India","Sustainability","subsidise",0
 "158","COP22","India","Sustainability","subsidize",0
 "159","COP22","India","Sustainability","environmental health",0
-"160","COP22","India","Sustainability","decarbonisation",69.5828508093977
-"161","COP22","India","Sustainability","decarbonize",19.8808145169708
-"162","COP22","India","Sustainability","decarbonise",14.9106108877281
-"163","COP22","India","Sustainability","wind",238.569774203649
-"164","COP22","India","Sustainability","tidal",4.97020362924269
+"160","COP22","India","Sustainability","decarbonisation",69.4895988961081
+"161","COP22","India","Sustainability","decarbonize",19.8541711131737
+"162","COP22","India","Sustainability","decarbonise",14.8906283348803
+"163","COP22","India","Sustainability","wind",238.250053358085
+"164","COP22","India","Sustainability","tidal",4.96354277829344
 "165","COP22","India","Sustainability","ocean energy",0
 "166","COP22","India","Sustainability","hydrogen",0
-"167","COP22","India","Sustainability","geothermal",54.6722399216696
+"167","COP22","India","Sustainability","geothermal",54.5989705612278
 "168","COP22","India","Sustainability","centralized",0
-"169","COP22","India","Sustainability","decentralized",29.8212217754561
+"169","COP22","India","Sustainability","decentralized",29.7812566697606
 "170","COP22","India","Sustainability","centralised",0
-"171","COP22","India","Sustainability","decentralised",9.94040725848538
-"172","COP22","India","Sustainability","solar",1227.64029642294
+"171","COP22","India","Sustainability","decentralised",9.92708555658687
+"172","COP22","India","Sustainability","solar",1225.99506623848
 "173","COP22","India","Sustainability","photovoltaics",0
-"174","COP22","India","Sustainability","photovoltaic",114.314683472582
-"175","COP22","India","Sustainability","PV",208.748552428193
-"176","COP22","India","Sustainability","solar panels",49.7020362924269
-"177","COP22","India","Sustainability","solar panel",64.612647180155
-"178","COP22","India","Sustainability","frack",4.97020362924269
+"174","COP22","India","Sustainability","photovoltaic",114.161483900749
+"175","COP22","India","Sustainability","PV",208.468796688324
+"176","COP22","India","Sustainability","solar panels",49.6354277829344
+"177","COP22","India","Sustainability","solar panel",64.5260561178147
+"178","COP22","India","Sustainability","frack",4.96354277829344
 "179","COP22","India","Sustainability","fracking",0
 "180","COP22","India","Sustainability","fracked",0
-"181","COP22","India","Sustainability","pollution",397.616290339415
-"182","COP22","India","Sustainability","polluting",14.9106108877281
-"183","COP22","India","Sustainability","polluted",9.94040725848538
-"184","COP22","India","Sustainability","energy storage",44.7318326631842
-"185","COP22","India","Sustainability","alternative",69.5828508093977
-"186","COP22","India","Sustainability","alternatives",29.8212217754561
-"187","COP22","India","Sustainability","coal",178.927330652737
-"188","COP22","India","Sustainability","natural gas",39.7616290339415
-"189","COP22","India","Sustainability","biomass",24.8510181462135
-"190","COP22","India","Sustainability","ozone",14.9106108877281
+"181","COP22","India","Sustainability","pollution",397.083422263475
+"182","COP22","India","Sustainability","polluting",14.8906283348803
+"183","COP22","India","Sustainability","polluted",9.92708555658687
+"184","COP22","India","Sustainability","energy storage",44.6718850046409
+"185","COP22","India","Sustainability","alternative",69.4895988961081
+"186","COP22","India","Sustainability","alternatives",29.7812566697606
+"187","COP22","India","Sustainability","coal",178.687540018564
+"188","COP22","India","Sustainability","natural gas",39.7083422263475
+"189","COP22","India","Sustainability","biomass",24.8177138914672
+"190","COP22","India","Sustainability","ozone",14.8906283348803
 "191","COP22","India","Sustainability","electrical vehicles",0
-"192","COP22","India","Sustainability","EV",64.612647180155
-"193","COP22","India","Sustainability","electric vehicles",94.4338689556111
-"194","COP22","India","Sustainability","net zero",4.97020362924269
-"195","COP22","India","Sustainability","carbon neutrality",34.7914254046988
-"196","COP22","India","Sustainability","carbon neutral",89.4636653263684
-"197","COP22","India","Sustainability","clean energy",571.573417362909
-"198","COP22","India","Sustainability","carbon reduction",29.8212217754561
-"199","COP22","India","Sustainability","sea levels",34.7914254046988
-"200","COP22","India","Sustainability","paris agreement",3558.66579853777
-"201","COP22","India","Sustainability","zero-carbon",9.94040725848538
-"202","COP22","India","Sustainability","net-zero",9.94040725848538
-"203","COP22","India","Sustainability","carbon-neutral",39.7616290339415
+"192","COP22","India","Sustainability","EV",64.5260561178147
+"193","COP22","India","Sustainability","electric vehicles",94.3073127875753
+"194","COP22","India","Sustainability","net zero",4.96354277829344
+"195","COP22","India","Sustainability","carbon neutrality",34.744799448054
+"196","COP22","India","Sustainability","carbon neutral",89.3437700092818
+"197","COP22","India","Sustainability","clean energy",570.807419503745
+"198","COP22","India","Sustainability","carbon reduction",29.7812566697606
+"199","COP22","India","Sustainability","sea levels",34.744799448054
+"200","COP22","India","Sustainability","paris agreement",3553.8966292581
+"201","COP22","India","Sustainability","zero-carbon",9.92708555658687
+"202","COP22","India","Sustainability","net-zero",9.92708555658687
+"203","COP22","India","Sustainability","carbon-neutral",39.7083422263475
 "204","COP22","India","Sustainability","carbon-neutrality",0
 "205","COP22","India","Sustainability","clean-energy",0
 "206","COP22","India","Sustainability","natural-gas",0
@@ -209,11 +209,11 @@
 "208","COP22","India","Sustainability","bio-mass",0
 "209","COP22","India","Sustainability","o-zone",0
 "210","COP22","India","Sustainability","energy-storage",0
-"211","COP22","India","Sustainability","eco-system",4.97020362924269
+"211","COP22","India","Sustainability","eco-system",4.96354277829344
 "212","COP22","India","Sustainability","eco-systems",0
-"213","COP22","India","Sustainability","c02",9.94040725848538
-"214","COP22","India","Sustainability","e-vehicles",4.97020362924269
-"215","COP22","India","Sustainability","EVs",29.8212217754561
+"213","COP22","India","Sustainability","c02",9.92708555658687
+"214","COP22","India","Sustainability","e-vehicles",4.96354277829344
+"215","COP22","India","Sustainability","EVs",29.7812566697606
 "216","COP22","India","Sustainability","PVs",0
 "217","COP22","India","Sustainability","re-newables",0
 "218","COP22","India","Sustainability","pollutant",0

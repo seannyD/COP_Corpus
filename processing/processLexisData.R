@@ -26,53 +26,77 @@ length(sustainabilityKeywords)
 length(securityKeywords)
 length(accessibilityKeywords)
 
-processFile = function(d,country,confStart=NA,confEnd=NA){
+processFile = function(d,country,confStart=NA,confEnd=NA,writeSummaries = TRUE){
   # Lower case
   d$text = tolower(d$text)
   
-  myDFM = function(tok){
-    #allWords = unique(unlist(tok))
-    uniqueToks = unique(unlist(tok))
-    frq = t(sapply(tok,function(tk){
-      tx = table(tk)[uniqueToks]
-      tx[is.na(tx)] = 0
-      return(tx)
-    }))
-  }
+  # myDFM = function(tok){
+  #   #allWords = unique(unlist(tok))
+  #   uniqueToks = unique(unlist(tok))
+  #   frq = t(sapply(tok,function(tk){
+  #     tx = table(tk)[uniqueToks]
+  #     tx[is.na(tx)] = 0
+  #     names(tx) = uniqueToks
+  #     return(tx)
+  #   }))
+  # }
 
   corp2Scores = function(d){
     # Create corpus, tokens, freq matrix
+    d$text = tolower(d$text)
     corp = corpus(d, docid_field = "ID",text_field = "text")
     tok = tokens(corp, remove_punct = TRUE)
     #corpDFM = dfm(tok)
-    corpDFM = myDFM(tok)
-    totalWords = sum(corpDFM)
+    #corpDFM = myDFM(tok)
+    totalWords = sum(sapply(tok,length))
     
-    # Get frequency for one keyword
-    getFrequency = function(keyword){
-      keyword = tolower(keyword)
+    # # Get frequency for one keyword
+    # getFrequency = function(keyword){
+    #   keyword = tolower(keyword)
+    #   if(grepl(" ",keyword)){
+    #     # Multi-word expression
+    #     return(length(unlist(str_extract_all(d$text, keyword))))
+    #   }
+    #   if(keyword %in% colnames(corpDFM)){
+    #     return(sum(corpDFM[,keyword]))
+    #   }
+    #   return(0)
+    # }
+    # 
+    # # Get score (frequency per 1000000 words)
+    # getScore = function(keywords){
+    #   freq = sapply(keywords,getFrequency)
+    #   prop = 1000000 * (freq/totalWords)
+    #   return(prop)
+    # }
+    
+    #AccFreqs = getScore(accessibilityKeywords)
+    #SecFreqs = getScore(securityKeywords)
+    #SusFreqs = getScore(sustainabilityKeywords)
+    
+    bydoc = NA
+    # Work out frequency for each document, 
+    #  so we can see the overlap between topics
+    allkw = tolower(c(accessibilityKeywords,securityKeywords,sustainabilityKeywords))
+    names(allkw) = tolower(allkw)
+    bydoc = sapply(allkw, function(keyword){
       if(grepl(" ",keyword)){
         # Multi-word expression
-        return(length(unlist(str_extract_all(d$text, keyword))))
+        mtch = str_extract_all(d$text, keyword)
+        return(sapply(mtch,length))
       }
-      if(keyword %in% colnames(corpDFM)){
-        return(sum(corpDFM[,keyword]))
-      }
-      return(0)
-    }
+      return(sapply(tok,function(X){sum(X==keyword)}))
+    })
+    bydoc = cbind(bydoc,NUMWORDS = sapply(tok,length))
+  
     
-    # Get score (frequency per 1000000 words)
-    getScore = function(keywords){
-      freq = sapply(keywords,getFrequency)
-      prop = 1000000 * (freq/totalWords)
-      return(prop)
-    }
+    AccFreqs = 1000000*(colSums(bydoc[,tolower(accessibilityKeywords)])/totalWords)
+    SecFreqs = 1000000*(colSums(bydoc[,tolower(securityKeywords)])/totalWords)
+    SusFreqs = 1000000*(colSums(bydoc[,tolower(sustainabilityKeywords)])/totalWords)
     
-    AccFreqs = getScore(accessibilityKeywords)
-    SecFreqs = getScore(securityKeywords)
-    SusFreqs = getScore(sustainabilityKeywords)
     return(list(AccFreqs=AccFreqs,SecFreqs=SecFreqs,
-                SusFreqs=SusFreqs,totalWords=totalWords))
+                SusFreqs=SusFreqs,totalWords=totalWords,
+                bydoc=bydoc))
   }
   
   # Measure full corpus
@@ -80,6 +104,15 @@ processFile = function(d,country,confStart=NA,confEnd=NA){
   AccFreqs = fullScores$AccFreqs
   SecFreqs = fullScores$SecFreqs
   SusFreqs = fullScores$SusFreqs
+  bydoc = fullScores$bydoc
+  bydoc = cbind(d[,c("COP","country","ID","title","date","source")],bydoc)
+  
+  # Write per-document stats
+  if(writeSummaries){
+    write.csv(bydoc,
+      file = paste0("../results/LexisFrequencies/byDocument/",
+                   country, "_", d$COP[1], "_byDocument.csv"))
+  }
 
   freqData = data.frame(
     COP = d$COP[1],
@@ -90,27 +123,34 @@ processFile = function(d,country,confStart=NA,confEnd=NA){
     keyword = c(accessibilityKeywords,securityKeywords,sustainabilityKeywords),
     freq = c(AccFreqs, SecFreqs, SusFreqs)
   )
-  write.csv(freqData, 
-            file=paste0("../results/LexisFrequencies/",
-                   d$COP[1],"_",
-                   gsub(" ","-",country),
-                   ".csv"))
+  if(writeSummaries){
+    write.csv(freqData, 
+              file=paste0("../results/LexisFrequencies/",
+                     d$COP[1],"_",
+                     gsub(" ","-",country),
+                     ".csv"))
+  }
   
   # Measure before/during/after
-  beforeScores = list(AccFreqs=0,SecFreqs=0,SusFreqs=0)
-  duringScores = list(AccFreqs=0,SecFreqs=0,SusFreqs=0)
-  afterScores = list(AccFreqs=0,SecFreqs=0,SusFreqs=0)
-  
+  phaseFreqs = matrix(0,nrow=3,ncol=3)
+  rownames(phaseFreqs) = c("ACC","SEC","SUS")
+  colnames(phaseFreqs) = c("Before","During","After")
   if(!is.na(confStart)){
     aDates = lubridate::parse_date_time(d$date, c('mdY','mdYHM',"bdYAHMpU"))
-    d$phase = cut(aDates,
+    phase = cut(aDates,
                   c(parse_date_time("01/01/1900","dmy"),
                     confStart,confEnd,
                     parse_date_time("01/01/2100","dmy")), labels = c("Before","During","After"))
     
-    beforeScores = corp2Scores(d[!is.na(d$phase) & d$phase=="Before",])
-    duringScores = corp2Scores(d[!is.na(d$phase) & d$phase=="During",])
-    afterScores = corp2Scores(d[!is.na(d$phase) & d$phase=="After",])
+    phaseFreqs = 
+      sapply(c("Before","During","After"),function(phx){
+      sapply(list(ACC = accessibilityKeywords,
+                  SEC = securityKeywords,
+                  SUS = sustainabilityKeywords), function(kws){
+        sum(bydoc[!is.na(phase) & phase==phx,tolower(kws)])
+      })
+    })
+  
   }  
   
   ret = data.frame(
@@ -119,15 +159,15 @@ processFile = function(d,country,confStart=NA,confEnd=NA){
     "accessibility" = sum(AccFreqs),
     "security" = sum(SecFreqs),
     "sustainability" = sum(SusFreqs),
-    "beforeAcc" = sum(beforeScores[[1]]),
-    "duringAcc" = sum(duringScores[[1]]),
-    "afterAcc" = sum(afterScores[[1]]),
-    "beforeSec" = sum(beforeScores[[2]]),
-    "duringSec" = sum(duringScores[[2]]),
-    "afterSec" = sum(afterScores[[2]]),
-    "beforeSus" = sum(beforeScores[[3]]),
-    "duringSus" = sum(duringScores[[3]]),
-    "afterSus" = sum(afterScores[[3]]),
+    "beforeAcc" = phaseFreqs["ACC","Before"],
+    "duringAcc" = phaseFreqs["ACC","During"],
+    "afterAcc" = phaseFreqs["ACC","After"],
+    "beforeSec" = phaseFreqs["SEC","Before"],
+    "duringSec" = phaseFreqs["SEC","During"],
+    "afterSec" = phaseFreqs["SEC","After"],
+    "beforeSus" = phaseFreqs["SUS","Before"],
+    "duringSus" = phaseFreqs["SUS","During"],
+    "afterSus" = phaseFreqs["SUS","After"],
     "docs" = nrow(d),
     "totalWords" = fullScores$totalWords
   )
@@ -178,7 +218,7 @@ for(country in unique(res$country)){
     dx= read.csv(filename,stringsAsFactors = F)
     dCountry = rbind(dCountry, dx)
   }
-  overallCountryData = processFile(dCountry,country)
+  overallCountryData = processFile(dCountry,country,writeSummaries = FALSE)
   overallCountryData$COP = "ALL"
   overallData = rbind(overallData, overallCountryData)
 }

@@ -20,23 +20,23 @@
 "19","COP25","China","Accessibility","energy bill",0
 "20","COP25","China","Accessibility","energy bills",0
 "21","COP25","China","Accessibility","energy cost",0
-"22","COP25","China","Accessibility","equity",39.1910957830381
+"22","COP25","China","Accessibility","equity",39.1287335333246
 "23","COP25","China","Accessibility","inequity",0
-"24","COP25","China","Accessibility","inequality",78.3821915660762
-"25","COP25","China","Accessibility","inequalities",13.063698594346
+"24","COP25","China","Accessibility","inequality",78.2574670666493
+"25","COP25","China","Accessibility","inequalities",13.0429111777749
 "26","COP25","China","Accessibility","energy justice",0
-"27","COP25","China","Accessibility","household",26.1273971886921
+"27","COP25","China","Accessibility","household",26.0858223555498
 "28","COP25","China","Accessibility","households",0
 "29","COP25","China","Accessibility","low-income households",0
 "30","COP25","China","Accessibility","low-income household",0
-"31","COP25","China","Accessibility","energy efficiency",52.2547943773841
+"31","COP25","China","Accessibility","energy efficiency",52.1716447110995
 "32","COP25","China","Accessibility","personal finance",0
 "33","COP25","China","Accessibility","personal finances",0
-"34","COP25","China","Accessibility","race",52.2547943773841
+"34","COP25","China","Accessibility","race",52.1716447110995
 "35","COP25","China","Accessibility","minorities",0
 "36","COP25","China","Accessibility","underserved communities",0
 "37","COP25","China","Accessibility","gender",0
-"38","COP25","China","Accessibility","women",26.1273971886921
+"38","COP25","China","Accessibility","women",26.0858223555498
 "39","COP25","China","Accessibility","social economic class",0
 "40","COP25","China","Accessibility","upper class",0
 "41","COP25","China","Accessibility","middle class",0
@@ -52,26 +52,26 @@
 "51","COP25","China","Accessibility","thermal comfort",0
 "52","COP25","China","Accessibility","household heating problems",0
 "53","COP25","China","Accessibility","household cooling problems",0
-"54","COP25","China","Accessibility","consumption",274.337670481267
+"54","COP25","China","Accessibility","consumption",273.901134733272
 "55","COP25","China","Accessibility","consuming",0
-"56","COP25","China","Accessibility","consumed",13.063698594346
+"56","COP25","China","Accessibility","consumed",13.0429111777749
 "57","COP25","China","Accessibility","basic needs",0
 "58","COP25","China","Accessibility","basic need",0
 "59","COP25","China","Accessibility","reduced costs",0
 "60","COP25","China","Accessibility","reduces costs",0
 "61","COP25","China","Accessibility","reducing costs",0
-"62","COP25","China","Accessibility","consumers",52.2547943773841
-"63","COP25","China","Accessibility","consumer",65.3184929717302
-"64","COP25","China","Accessibility","development",1646.0260228876
+"62","COP25","China","Accessibility","consumers",52.1716447110995
+"63","COP25","China","Accessibility","consumer",65.2145558888744
+"64","COP25","China","Accessibility","development",1643.40680839963
 "65","COP25","China","Accessibility","insurance",0
-"66","COP25","China","Accessibility","cheap",13.063698594346
-"67","COP25","China","Accessibility","economical",13.063698594346
+"66","COP25","China","Accessibility","cheap",13.0429111777749
+"67","COP25","China","Accessibility","economical",13.0429111777749
 "68","COP25","China","Accessibility","low cost",0
 "69","COP25","China","Accessibility","low-cost",0
-"70","COP25","China","Accessibility","budget",78.3821915660762
+"70","COP25","China","Accessibility","budget",78.2574670666493
 "71","COP25","China","Accessibility","cost effective",0
-"72","COP25","China","Accessibility","cost-effective",39.1910957830381
-"73","COP25","China","Accessibility","efficiency",156.764383132152
+"72","COP25","China","Accessibility","cost-effective",39.1287335333246
+"73","COP25","China","Accessibility","efficiency",156.514934133299
 "74","COP25","China","Accessibility","unequal",0
 "75","COP25","China","Accessibility","underrepresented",0
 "76","COP25","China","Accessibility","low income household",0
@@ -79,8 +79,8 @@
 "78","COP25","China","Accessibility","energy-efficiency",0
 "79","COP25","China","Security","reliability",0
 "80","COP25","China","Security","reliable",0
-"81","COP25","China","Security","resilience",78.3821915660762
-"82","COP25","China","Security","resilient",65.3184929717302
+"81","COP25","China","Security","resilience",78.2574670666493
+"82","COP25","China","Security","resilient",65.2145558888744
 "83","COP25","China","Security","power outage",0
 "84","COP25","China","Security","power outages",0
 "85","COP25","China","Security","blackout",0
@@ -89,121 +89,121 @@
 "88","COP25","China","Security","black-outs",0
 "89","COP25","China","Security","power cut",0
 "90","COP25","China","Security","power cuts",0
-"91","COP25","China","Security","security",418.038355019073
-"92","COP25","China","Security","stability",78.3821915660762
+"91","COP25","China","Security","security",417.373157688796
+"92","COP25","China","Security","stability",78.2574670666493
 "93","COP25","China","Security","adequacy",0
-"94","COP25","China","Security","corruption",26.1273971886921
+"94","COP25","China","Security","corruption",26.0858223555498
 "95","COP25","China","Security","corrupted",0
 "96","COP25","China","Security","geopolitics",0
 "97","COP25","China","Security","peak hours",0
-"98","COP25","China","Security","energy demand",39.1910957830381
-"99","COP25","China","Security","nuclear",143.700684537806
-"100","COP25","China","Security","consistent",13.063698594346
+"98","COP25","China","Security","energy demand",39.1287335333246
+"99","COP25","China","Security","nuclear",143.472022955524
+"100","COP25","China","Security","consistent",13.0429111777749
 "101","COP25","China","Security","consistency",0
 "102","COP25","China","Security","intermittancy",0
 "103","COP25","China","Security","intermittent",0
-"104","COP25","China","Security","war",143.700684537806
+"104","COP25","China","Security","war",143.472022955524
 "105","COP25","China","Security","wars",0
-"106","COP25","China","Security","conflicts",39.1910957830381
+"106","COP25","China","Security","conflicts",39.1287335333246
 "107","COP25","China","Security","energy crisis",0
 "108","COP25","China","Security","energy crises",0
 "109","COP25","China","Security","petro-politics",0
 "110","COP25","China","Security","petropolitics",0
 "111","COP25","China","Security","aging infrastructure",0
-"112","COP25","China","Security","industry",235.146574698229
-"113","COP25","China","Security","industries",117.573287349114
-"114","COP25","China","Security","neoliberalism",13.063698594346
+"112","COP25","China","Security","industry",234.772401199948
+"113","COP25","China","Security","industries",117.386200599974
+"114","COP25","China","Security","neoliberalism",13.0429111777749
 "115","COP25","China","Security","nationalisation",0
 "116","COP25","China","Security","nationalization",0
 "117","COP25","China","Security","nationalising",0
 "118","COP25","China","Security","nationalizing",0
-"119","COP25","China","Security","certainty",13.063698594346
-"120","COP25","China","Security","agreement",2717.24930762397
-"121","COP25","China","Security","secure",39.1910957830381
-"122","COP25","China","Security","disaster",78.3821915660762
-"123","COP25","China","Security","disasters",130.63698594346
+"119","COP25","China","Security","certainty",13.0429111777749
+"120","COP25","China","Security","agreement",2712.92552497717
+"121","COP25","China","Security","secure",39.1287335333246
+"122","COP25","China","Security","disaster",78.2574670666493
+"123","COP25","China","Security","disasters",130.429111777749
 "124","COP25","China","Security","geo-politics",0
 "125","COP25","China","Security","geo-political",0
 "126","COP25","China","Security","poor infrastructure",0
-"127","COP25","China","Sustainability","sustainability",182.891780320844
-"128","COP25","China","Sustainability","sustainable",823.0130114438
-"129","COP25","China","Sustainability","green",679.312326905994
-"130","COP25","China","Sustainability","greenhouse",927.522600198568
-"131","COP25","China","Sustainability","emissions",2782.5678005957
-"132","COP25","China","Sustainability","emission",483.356847990803
-"133","COP25","China","Sustainability","emitting",13.063698594346
-"134","COP25","China","Sustainability","emitted",39.1910957830381
+"127","COP25","China","Sustainability","sustainability",182.600756488848
+"128","COP25","China","Sustainability","sustainable",821.703404199817
+"129","COP25","China","Sustainability","green",678.231381244294
+"130","COP25","China","Sustainability","greenhouse",926.046693622016
+"131","COP25","China","Sustainability","emissions",2778.14008086605
+"132","COP25","China","Sustainability","emission",469.544802399896
+"133","COP25","China","Sustainability","emitting",13.0429111777749
+"134","COP25","China","Sustainability","emitted",39.1287335333246
 "135","COP25","China","Sustainability","emits",0
-"136","COP25","China","Sustainability","nuclear",143.700684537806
+"136","COP25","China","Sustainability","nuclear",143.472022955524
 "137","COP25","China","Sustainability","carbon capture",0
 "138","COP25","China","Sustainability","CCS",0
 "139","COP25","China","Sustainability","CCU",0
-"140","COP25","China","Sustainability","sequester",26.1273971886921
+"140","COP25","China","Sustainability","sequester",26.0858223555498
 "141","COP25","China","Sustainability","sequestering",0
-"142","COP25","China","Sustainability","sequestration",26.1273971886921
-"143","COP25","China","Sustainability","renewable energy",470.293149396457
-"144","COP25","China","Sustainability","renewables",52.2547943773841
-"145","COP25","China","Sustainability","ecosystem",26.1273971886921
-"146","COP25","China","Sustainability","ecosystems",78.3821915660762
-"147","COP25","China","Sustainability","transition",339.656163452997
-"148","COP25","China","Sustainability","transitioning",13.063698594346
-"149","COP25","China","Sustainability","transitions",26.1273971886921
-"150","COP25","China","Sustainability","low-carbon",195.95547891519
+"142","COP25","China","Sustainability","sequestration",26.0858223555498
+"143","COP25","China","Sustainability","renewable energy",469.544802399896
+"144","COP25","China","Sustainability","renewables",52.1716447110995
+"145","COP25","China","Sustainability","ecosystem",26.0858223555498
+"146","COP25","China","Sustainability","ecosystems",78.2574670666493
+"147","COP25","China","Sustainability","transition",339.115690622147
+"148","COP25","China","Sustainability","transitioning",13.0429111777749
+"149","COP25","China","Sustainability","transitions",26.0858223555498
+"150","COP25","China","Sustainability","low-carbon",195.643667666623
 "151","COP25","China","Sustainability","zero carbon",0
-"152","COP25","China","Sustainability","decarbonization",65.3184929717302
-"153","COP25","China","Sustainability","subsidies",78.3821915660762
+"152","COP25","China","Sustainability","decarbonization",65.2145558888744
+"153","COP25","China","Sustainability","subsidies",78.2574670666493
 "154","COP25","China","Sustainability","subsidy",0
 "155","COP25","China","Sustainability","subsidising",0
-"156","COP25","China","Sustainability","subsidizing",26.1273971886921
+"156","COP25","China","Sustainability","subsidizing",26.0858223555498
 "157","COP25","China","Sustainability","subsidise",0
 "158","COP25","China","Sustainability","subsidize",0
 "159","COP25","China","Sustainability","environmental health",0
 "160","COP25","China","Sustainability","decarbonisation",0
-"161","COP25","China","Sustainability","decarbonize",26.1273971886921
+"161","COP25","China","Sustainability","decarbonize",26.0858223555498
 "162","COP25","China","Sustainability","decarbonise",0
-"163","COP25","China","Sustainability","wind",182.891780320844
+"163","COP25","China","Sustainability","wind",182.600756488848
 "164","COP25","China","Sustainability","tidal",0
 "165","COP25","China","Sustainability","ocean energy",0
-"166","COP25","China","Sustainability","hydrogen",13.063698594346
+"166","COP25","China","Sustainability","hydrogen",13.0429111777749
 "167","COP25","China","Sustainability","geothermal",0
 "168","COP25","China","Sustainability","centralized",0
 "169","COP25","China","Sustainability","decentralized",0
 "170","COP25","China","Sustainability","centralised",0
 "171","COP25","China","Sustainability","decentralised",0
-"172","COP25","China","Sustainability","solar",326.592464858651
+"172","COP25","China","Sustainability","solar",326.072779444372
 "173","COP25","China","Sustainability","photovoltaics",0
-"174","COP25","China","Sustainability","photovoltaic",339.656163452997
-"175","COP25","China","Sustainability","PV",26.1273971886921
-"176","COP25","China","Sustainability","solar panels",65.3184929717302
-"177","COP25","China","Sustainability","solar panel",65.3184929717302
+"174","COP25","China","Sustainability","photovoltaic",339.115690622147
+"175","COP25","China","Sustainability","PV",26.0858223555498
+"176","COP25","China","Sustainability","solar panels",65.2145558888744
+"177","COP25","China","Sustainability","solar panel",65.2145558888744
 "178","COP25","China","Sustainability","frack",0
 "179","COP25","China","Sustainability","fracking",0
 "180","COP25","China","Sustainability","fracked",0
-"181","COP25","China","Sustainability","pollution",156.764383132152
-"182","COP25","China","Sustainability","polluting",39.1910957830381
-"183","COP25","China","Sustainability","polluted",13.063698594346
-"184","COP25","China","Sustainability","energy storage",65.3184929717302
-"185","COP25","China","Sustainability","alternative",117.573287349114
-"186","COP25","China","Sustainability","alternatives",13.063698594346
-"187","COP25","China","Sustainability","coal",130.63698594346
-"188","COP25","China","Sustainability","natural gas",39.1910957830381
+"181","COP25","China","Sustainability","pollution",156.514934133299
+"182","COP25","China","Sustainability","polluting",39.1287335333246
+"183","COP25","China","Sustainability","polluted",13.0429111777749
+"184","COP25","China","Sustainability","energy storage",65.2145558888744
+"185","COP25","China","Sustainability","alternative",117.386200599974
+"186","COP25","China","Sustainability","alternatives",13.0429111777749
+"187","COP25","China","Sustainability","coal",130.429111777749
+"188","COP25","China","Sustainability","natural gas",39.1287335333246
 "189","COP25","China","Sustainability","biomass",0
 "190","COP25","China","Sustainability","ozone",0
 "191","COP25","China","Sustainability","electrical vehicles",0
-"192","COP25","China","Sustainability","EV",39.1910957830381
-"193","COP25","China","Sustainability","electric vehicles",65.3184929717302
-"194","COP25","China","Sustainability","net zero",78.3821915660762
-"195","COP25","China","Sustainability","carbon neutrality",104.509588754768
-"196","COP25","China","Sustainability","carbon neutral",182.891780320844
-"197","COP25","China","Sustainability","clean energy",169.828081726498
-"198","COP25","China","Sustainability","carbon reduction",13.063698594346
-"199","COP25","China","Sustainability","sea levels",78.3821915660762
-"200","COP25","China","Sustainability","paris agreement",1855.04520039714
-"201","COP25","China","Sustainability","zero-carbon",117.573287349114
-"202","COP25","China","Sustainability","net-zero",104.509588754768
-"203","COP25","China","Sustainability","carbon-neutral",13.063698594346
+"192","COP25","China","Sustainability","EV",39.1287335333246
+"193","COP25","China","Sustainability","electric vehicles",65.2145558888744
+"194","COP25","China","Sustainability","net zero",78.2574670666493
+"195","COP25","China","Sustainability","carbon neutrality",104.343289422199
+"196","COP25","China","Sustainability","carbon neutral",182.600756488848
+"197","COP25","China","Sustainability","clean energy",169.557845311073
+"198","COP25","China","Sustainability","carbon reduction",13.0429111777749
+"199","COP25","China","Sustainability","sea levels",78.2574670666493
+"200","COP25","China","Sustainability","paris agreement",1852.09338724403
+"201","COP25","China","Sustainability","zero-carbon",117.386200599974
+"202","COP25","China","Sustainability","net-zero",104.343289422199
+"203","COP25","China","Sustainability","carbon-neutral",13.0429111777749
 "204","COP25","China","Sustainability","carbon-neutrality",0
-"205","COP25","China","Sustainability","clean-energy",13.063698594346
+"205","COP25","China","Sustainability","clean-energy",13.0429111777749
 "206","COP25","China","Sustainability","natural-gas",0
 "207","COP25","China","Sustainability","geo-thermal",0
 "208","COP25","China","Sustainability","bio-mass",0

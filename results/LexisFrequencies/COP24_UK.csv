@@ -1,13 +1,13 @@
 "","COP","country","aspect","keyword","freq"
-"1","COP24","UK","Accessibility","affordability",10.0421267215971
-"2","COP24","UK","Accessibility","affordable",85.3580771335753
+"1","COP24","UK","Accessibility","affordability",10.0406646920026
+"2","COP24","UK","Accessibility","affordable",85.3456498820222
 "3","COP24","UK","Accessibility","ability to pay",0
 "4","COP24","UK","Accessibility","able to pay",0
 "5","COP24","UK","Accessibility","inability to pay",0
 "6","COP24","UK","Accessibility","unable to pay",0
-"7","COP24","UK","Accessibility","energy poverty",40.1685068863884
+"7","COP24","UK","Accessibility","energy poverty",40.1626587680104
 "8","COP24","UK","Accessibility","energy burden",0
-"9","COP24","UK","Accessibility","fuel poverty",10.0421267215971
+"9","COP24","UK","Accessibility","fuel poverty",10.0406646920026
 "10","COP24","UK","Accessibility","fuel-poverty",0
 "11","COP24","UK","Accessibility","trasportation poverty",0
 "12","COP24","UK","Accessibility","energy prices",0
@@ -17,26 +17,26 @@
 "16","COP24","UK","Accessibility","utility bills",0
 "17","COP24","UK","Accessibility","electricity bills",0
 "18","COP24","UK","Accessibility","gas bill",0
-"19","COP24","UK","Accessibility","energy bill",5.02106336079855
-"20","COP24","UK","Accessibility","energy bills",5.02106336079855
+"19","COP24","UK","Accessibility","energy bill",5.02033234600131
+"20","COP24","UK","Accessibility","energy bills",5.02033234600131
 "21","COP24","UK","Accessibility","energy cost",0
-"22","COP24","UK","Accessibility","equity",55.231696968784
+"22","COP24","UK","Accessibility","equity",55.2236558060144
 "23","COP24","UK","Accessibility","inequity",0
-"24","COP24","UK","Accessibility","inequality",5.02106336079855
-"25","COP24","UK","Accessibility","inequalities",15.0631900823956
+"24","COP24","UK","Accessibility","inequality",5.02033234600131
+"25","COP24","UK","Accessibility","inequalities",15.0609970380039
 "26","COP24","UK","Accessibility","energy justice",0
-"27","COP24","UK","Accessibility","household",20.0842534431942
-"28","COP24","UK","Accessibility","households",50.2106336079855
-"29","COP24","UK","Accessibility","low-income households",5.02106336079855
-"30","COP24","UK","Accessibility","low-income household",5.02106336079855
-"31","COP24","UK","Accessibility","energy efficiency",190.800407710345
-"32","COP24","UK","Accessibility","personal finance",5.02106336079855
-"33","COP24","UK","Accessibility","personal finances",5.02106336079855
-"34","COP24","UK","Accessibility","race",20.0842534431942
+"27","COP24","UK","Accessibility","household",20.0813293840052
+"28","COP24","UK","Accessibility","households",50.203323460013
+"29","COP24","UK","Accessibility","low-income households",5.02033234600131
+"30","COP24","UK","Accessibility","low-income household",5.02033234600131
+"31","COP24","UK","Accessibility","energy efficiency",190.77262914805
+"32","COP24","UK","Accessibility","personal finance",5.02033234600131
+"33","COP24","UK","Accessibility","personal finances",5.02033234600131
+"34","COP24","UK","Accessibility","race",20.0813293840052
 "35","COP24","UK","Accessibility","minorities",0
 "36","COP24","UK","Accessibility","underserved communities",0
-"37","COP24","UK","Accessibility","gender",115.484457298367
-"38","COP24","UK","Accessibility","women",286.200611565517
+"37","COP24","UK","Accessibility","gender",115.46764395803
+"38","COP24","UK","Accessibility","women",286.158943722074
 "39","COP24","UK","Accessibility","social economic class",0
 "40","COP24","UK","Accessibility","upper class",0
 "41","COP24","UK","Accessibility","middle class",0
@@ -44,164 +44,164 @@
 "43","COP24","UK","Accessibility","working class",0
 "44","COP24","UK","Accessibility","economic class",0
 "45","COP24","UK","Accessibility","upper-class",0
-"46","COP24","UK","Accessibility","middle-class",5.02106336079855
+"46","COP24","UK","Accessibility","middle-class",5.02033234600131
 "47","COP24","UK","Accessibility","lower-class",0
 "48","COP24","UK","Accessibility","working-class",0
 "49","COP24","UK","Accessibility","household heating",0
-"50","COP24","UK","Accessibility","cooling",30.1263801647913
+"50","COP24","UK","Accessibility","cooling",30.1219940760078
 "51","COP24","UK","Accessibility","thermal comfort",0
 "52","COP24","UK","Accessibility","household heating problems",0
 "53","COP24","UK","Accessibility","household cooling problems",0
-"54","COP24","UK","Accessibility","consumption",175.737217627949
-"55","COP24","UK","Accessibility","consuming",5.02106336079855
-"56","COP24","UK","Accessibility","consumed",15.0631900823956
+"54","COP24","UK","Accessibility","consumption",175.711632110046
+"55","COP24","UK","Accessibility","consuming",5.02033234600131
+"56","COP24","UK","Accessibility","consumed",15.0609970380039
 "57","COP24","UK","Accessibility","basic needs",0
 "58","COP24","UK","Accessibility","basic need",0
 "59","COP24","UK","Accessibility","reduced costs",0
 "60","COP24","UK","Accessibility","reduces costs",0
 "61","COP24","UK","Accessibility","reducing costs",0
-"62","COP24","UK","Accessibility","consumers",70.2948870511797
-"63","COP24","UK","Accessibility","consumer",75.3159504119782
-"64","COP24","UK","Accessibility","development",1897.96195038185
-"65","COP24","UK","Accessibility","insurance",75.3159504119782
-"66","COP24","UK","Accessibility","cheap",35.1474435255898
+"62","COP24","UK","Accessibility","consumers",70.2846528440183
+"63","COP24","UK","Accessibility","consumer",75.3049851900196
+"64","COP24","UK","Accessibility","development",1897.68562678849
+"65","COP24","UK","Accessibility","insurance",75.3049851900196
+"66","COP24","UK","Accessibility","cheap",35.1423264220091
 "67","COP24","UK","Accessibility","economical",0
-"68","COP24","UK","Accessibility","low cost",5.02106336079855
-"69","COP24","UK","Accessibility","low-cost",10.0421267215971
-"70","COP24","UK","Accessibility","budget",95.4002038551724
-"71","COP24","UK","Accessibility","cost effective",5.02106336079855
-"72","COP24","UK","Accessibility","cost-effective",30.1263801647913
-"73","COP24","UK","Accessibility","efficiency",321.348055091107
+"68","COP24","UK","Accessibility","low cost",5.02033234600131
+"69","COP24","UK","Accessibility","low-cost",10.0406646920026
+"70","COP24","UK","Accessibility","budget",95.3863145740248
+"71","COP24","UK","Accessibility","cost effective",5.02033234600131
+"72","COP24","UK","Accessibility","cost-effective",30.1219940760078
+"73","COP24","UK","Accessibility","efficiency",321.301270144084
 "74","COP24","UK","Accessibility","unequal",0
 "75","COP24","UK","Accessibility","underrepresented",0
-"76","COP24","UK","Accessibility","low income household",10.0421267215971
-"77","COP24","UK","Accessibility","low income households",10.0421267215971
+"76","COP24","UK","Accessibility","low income household",10.0406646920026
+"77","COP24","UK","Accessibility","low income households",10.0406646920026
 "78","COP24","UK","Accessibility","energy-efficiency",0
-"79","COP24","UK","Security","reliability",15.0631900823956
-"80","COP24","UK","Security","reliable",100.421267215971
-"81","COP24","UK","Security","resilience",235.989977957532
-"82","COP24","UK","Security","resilient",90.3791404943739
+"79","COP24","UK","Security","reliability",15.0609970380039
+"80","COP24","UK","Security","reliable",100.406646920026
+"81","COP24","UK","Security","resilience",235.955620262061
+"82","COP24","UK","Security","resilient",90.3659822280235
 "83","COP24","UK","Security","power outage",0
 "84","COP24","UK","Security","power outages",0
 "85","COP24","UK","Security","blackout",0
 "86","COP24","UK","Security","black-out",0
-"87","COP24","UK","Security","blackouts",5.02106336079855
+"87","COP24","UK","Security","blackouts",5.02033234600131
 "88","COP24","UK","Security","black-outs",0
-"89","COP24","UK","Security","power cut",5.02106336079855
-"90","COP24","UK","Security","power cuts",5.02106336079855
-"91","COP24","UK","Security","security",346.4533718951
-"92","COP24","UK","Security","stability",15.0631900823956
+"89","COP24","UK","Security","power cut",5.02033234600131
+"90","COP24","UK","Security","power cuts",5.02033234600131
+"91","COP24","UK","Security","security",346.40293187409
+"92","COP24","UK","Security","stability",15.0609970380039
 "93","COP24","UK","Security","adequacy",0
-"94","COP24","UK","Security","corruption",60.2527603295826
-"95","COP24","UK","Security","corrupted",5.02106336079855
-"96","COP24","UK","Security","geopolitics",10.0421267215971
+"94","COP24","UK","Security","corruption",60.2439881520157
+"95","COP24","UK","Security","corrupted",5.02033234600131
+"96","COP24","UK","Security","geopolitics",10.0406646920026
 "97","COP24","UK","Security","peak hours",0
-"98","COP24","UK","Security","energy demand",35.1474435255898
-"99","COP24","UK","Security","nuclear",647.717173543013
-"100","COP24","UK","Security","consistent",50.2106336079855
-"101","COP24","UK","Security","consistency",10.0421267215971
+"98","COP24","UK","Security","energy demand",35.1423264220091
+"99","COP24","UK","Security","nuclear",647.622872634168
+"100","COP24","UK","Security","consistent",50.203323460013
+"101","COP24","UK","Security","consistency",10.0406646920026
 "102","COP24","UK","Security","intermittancy",0
 "103","COP24","UK","Security","intermittent",0
-"104","COP24","UK","Security","war",65.2738236903811
-"105","COP24","UK","Security","wars",10.0421267215971
-"106","COP24","UK","Security","conflicts",15.0631900823956
+"104","COP24","UK","Security","war",65.264320498017
+"105","COP24","UK","Security","wars",10.0406646920026
+"106","COP24","UK","Security","conflicts",15.0609970380039
 "107","COP24","UK","Security","energy crisis",0
 "108","COP24","UK","Security","energy crises",0
 "109","COP24","UK","Security","petro-politics",0
 "110","COP24","UK","Security","petropolitics",0
 "111","COP24","UK","Security","aging infrastructure",0
-"112","COP24","UK","Security","industry",923.875658386933
-"113","COP24","UK","Security","industries",220.926787875136
+"112","COP24","UK","Security","industry",923.74115166424
+"113","COP24","UK","Security","industries",220.894623224057
 "114","COP24","UK","Security","neoliberalism",0
 "115","COP24","UK","Security","nationalisation",0
 "116","COP24","UK","Security","nationalization",0
 "117","COP24","UK","Security","nationalising",0
 "118","COP24","UK","Security","nationalizing",0
-"119","COP24","UK","Security","certainty",10.0421267215971
-"120","COP24","UK","Security","agreement",2314.71020932813
-"121","COP24","UK","Security","secure",125.526584019964
-"122","COP24","UK","Security","disaster",160.674027545554
-"123","COP24","UK","Security","disasters",140.589774102359
+"119","COP24","UK","Security","certainty",10.0406646920026
+"120","COP24","UK","Security","agreement",2314.3732115066
+"121","COP24","UK","Security","secure",125.508308650033
+"122","COP24","UK","Security","disaster",160.650635072042
+"123","COP24","UK","Security","disasters",140.569305688037
 "124","COP24","UK","Security","geo-politics",0
 "125","COP24","UK","Security","geo-political",0
 "126","COP24","UK","Security","poor infrastructure",0
-"127","COP24","UK","Sustainability","sustainability",441.853575750272
-"128","COP24","UK","Sustainability","sustainable",1034.3390523245
-"129","COP24","UK","Sustainability","green",1129.73925617967
-"130","COP24","UK","Sustainability","greenhouse",728.05418731579
-"131","COP24","UK","Sustainability","emissions",2972.46950959274
-"132","COP24","UK","Sustainability","emission",291.221674926316
-"133","COP24","UK","Sustainability","emitting",10.0421267215971
-"134","COP24","UK","Sustainability","emitted",20.0842534431942
-"135","COP24","UK","Sustainability","emits",5.02106336079855
-"136","COP24","UK","Sustainability","nuclear",647.717173543013
-"137","COP24","UK","Sustainability","carbon capture",145.610837463158
-"138","COP24","UK","Sustainability","CCS",40.1685068863884
+"127","COP24","UK","Sustainability","sustainability",441.789246448115
+"128","COP24","UK","Sustainability","sustainable",1034.18846327627
+"129","COP24","UK","Sustainability","green",1129.57477785029
+"130","COP24","UK","Sustainability","greenhouse",727.948190170189
+"131","COP24","UK","Sustainability","emissions",2972.03674883277
+"132","COP24","UK","Sustainability","emission",291.179276068076
+"133","COP24","UK","Sustainability","emitting",10.0406646920026
+"134","COP24","UK","Sustainability","emitted",20.0813293840052
+"135","COP24","UK","Sustainability","emits",5.02033234600131
+"136","COP24","UK","Sustainability","nuclear",647.622872634168
+"137","COP24","UK","Sustainability","carbon capture",145.589638034038
+"138","COP24","UK","Sustainability","CCS",40.1626587680104
 "139","COP24","UK","Sustainability","CCU",0
-"140","COP24","UK","Sustainability","sequester",5.02106336079855
+"140","COP24","UK","Sustainability","sequester",5.02033234600131
 "141","COP24","UK","Sustainability","sequestering",0
-"142","COP24","UK","Sustainability","sequestration",15.0631900823956
-"143","COP24","UK","Sustainability","renewable energy",808.391201088567
-"144","COP24","UK","Sustainability","renewables",271.137421483122
-"145","COP24","UK","Sustainability","ecosystem",35.1474435255898
-"146","COP24","UK","Sustainability","ecosystems",35.1474435255898
-"147","COP24","UK","Sustainability","transition",712.990997233394
+"142","COP24","UK","Sustainability","sequestration",15.0609970380039
+"143","COP24","UK","Sustainability","renewable energy",808.27350770621
+"144","COP24","UK","Sustainability","renewables",271.09794668407
+"145","COP24","UK","Sustainability","ecosystem",35.1423264220091
+"146","COP24","UK","Sustainability","ecosystems",35.1423264220091
+"147","COP24","UK","Sustainability","transition",712.887193132185
 "148","COP24","UK","Sustainability","transitioning",0
-"149","COP24","UK","Sustainability","transitions",20.0842534431942
-"150","COP24","UK","Sustainability","low-carbon",361.516561977496
-"151","COP24","UK","Sustainability","zero carbon",40.1685068863884
-"152","COP24","UK","Sustainability","decarbonization",45.189570247187
-"153","COP24","UK","Sustainability","subsidies",70.2948870511797
-"154","COP24","UK","Sustainability","subsidy",10.0421267215971
-"155","COP24","UK","Sustainability","subsidising",20.0842534431942
+"149","COP24","UK","Sustainability","transitions",20.0813293840052
+"150","COP24","UK","Sustainability","low-carbon",361.463928912094
+"151","COP24","UK","Sustainability","zero carbon",40.1626587680104
+"152","COP24","UK","Sustainability","decarbonization",45.1829911140117
+"153","COP24","UK","Sustainability","subsidies",70.2846528440183
+"154","COP24","UK","Sustainability","subsidy",10.0406646920026
+"155","COP24","UK","Sustainability","subsidising",20.0813293840052
 "156","COP24","UK","Sustainability","subsidizing",0
-"157","COP24","UK","Sustainability","subsidise",10.0421267215971
+"157","COP24","UK","Sustainability","subsidise",10.0406646920026
 "158","COP24","UK","Sustainability","subsidize",0
 "159","COP24","UK","Sustainability","environmental health",0
-"160","COP24","UK","Sustainability","decarbonisation",90.3791404943739
-"161","COP24","UK","Sustainability","decarbonize",10.0421267215971
-"162","COP24","UK","Sustainability","decarbonise",35.1474435255898
-"163","COP24","UK","Sustainability","wind",306.284865008712
-"164","COP24","UK","Sustainability","tidal",5.02106336079855
+"160","COP24","UK","Sustainability","decarbonisation",90.3659822280235
+"161","COP24","UK","Sustainability","decarbonize",10.0406646920026
+"162","COP24","UK","Sustainability","decarbonise",35.1423264220091
+"163","COP24","UK","Sustainability","wind",306.24027310608
+"164","COP24","UK","Sustainability","tidal",5.02033234600131
 "165","COP24","UK","Sustainability","ocean energy",0
-"166","COP24","UK","Sustainability","hydrogen",100.421267215971
-"167","COP24","UK","Sustainability","geothermal",55.231696968784
-"168","COP24","UK","Sustainability","centralized",5.02106336079855
-"169","COP24","UK","Sustainability","decentralized",15.0631900823956
+"166","COP24","UK","Sustainability","hydrogen",100.406646920026
+"167","COP24","UK","Sustainability","geothermal",55.2236558060144
+"168","COP24","UK","Sustainability","centralized",5.02033234600131
+"169","COP24","UK","Sustainability","decentralized",15.0609970380039
 "170","COP24","UK","Sustainability","centralised",0
 "171","COP24","UK","Sustainability","decentralised",0
-"172","COP24","UK","Sustainability","solar",612.569730017423
+"172","COP24","UK","Sustainability","solar",612.480546212159
 "173","COP24","UK","Sustainability","photovoltaics",0
-"174","COP24","UK","Sustainability","photovoltaic",30.1263801647913
-"175","COP24","UK","Sustainability","PV",65.2738236903811
-"176","COP24","UK","Sustainability","solar panels",45.189570247187
-"177","COP24","UK","Sustainability","solar panel",45.189570247187
+"174","COP24","UK","Sustainability","photovoltaic",30.1219940760078
+"175","COP24","UK","Sustainability","PV",65.264320498017
+"176","COP24","UK","Sustainability","solar panels",45.1829911140117
+"177","COP24","UK","Sustainability","solar panel",45.1829911140117
 "178","COP24","UK","Sustainability","frack",0
-"179","COP24","UK","Sustainability","fracking",65.2738236903811
+"179","COP24","UK","Sustainability","fracking",65.264320498017
 "180","COP24","UK","Sustainability","fracked",0
-"181","COP24","UK","Sustainability","pollution",220.926787875136
-"182","COP24","UK","Sustainability","polluting",45.189570247187
-"183","COP24","UK","Sustainability","polluted",20.0842534431942
-"184","COP24","UK","Sustainability","energy storage",25.1053168039927
-"185","COP24","UK","Sustainability","alternative",40.1685068863884
-"186","COP24","UK","Sustainability","alternatives",15.0631900823956
-"187","COP24","UK","Sustainability","coal",1315.51860052922
-"188","COP24","UK","Sustainability","natural gas",90.3791404943739
-"189","COP24","UK","Sustainability","biomass",65.2738236903811
-"190","COP24","UK","Sustainability","ozone",5.02106336079855
+"181","COP24","UK","Sustainability","pollution",220.894623224057
+"182","COP24","UK","Sustainability","polluting",45.1829911140117
+"183","COP24","UK","Sustainability","polluted",20.0813293840052
+"184","COP24","UK","Sustainability","energy storage",25.1016617300065
+"185","COP24","UK","Sustainability","alternative",40.1626587680104
+"186","COP24","UK","Sustainability","alternatives",15.0609970380039
+"187","COP24","UK","Sustainability","coal",1315.32707465234
+"188","COP24","UK","Sustainability","natural gas",90.3659822280235
+"189","COP24","UK","Sustainability","biomass",65.264320498017
+"190","COP24","UK","Sustainability","ozone",5.02033234600131
 "191","COP24","UK","Sustainability","electrical vehicles",0
-"192","COP24","UK","Sustainability","EV",20.0842534431942
-"193","COP24","UK","Sustainability","electric vehicles",45.189570247187
-"194","COP24","UK","Sustainability","net zero",95.4002038551724
-"195","COP24","UK","Sustainability","carbon neutrality",60.2527603295826
-"196","COP24","UK","Sustainability","carbon neutral",170.716154267151
-"197","COP24","UK","Sustainability","clean energy",271.137421483122
-"198","COP24","UK","Sustainability","carbon reduction",75.3159504119782
-"199","COP24","UK","Sustainability","sea levels",75.3159504119782
-"200","COP24","UK","Sustainability","paris agreement",1586.65602201234
-"201","COP24","UK","Sustainability","zero-carbon",60.2527603295826
-"202","COP24","UK","Sustainability","net-zero",110.463393937568
-"203","COP24","UK","Sustainability","carbon-neutral",40.1685068863884
+"192","COP24","UK","Sustainability","EV",20.0813293840052
+"193","COP24","UK","Sustainability","electric vehicles",45.1829911140117
+"194","COP24","UK","Sustainability","net zero",95.3863145740248
+"195","COP24","UK","Sustainability","carbon neutrality",60.2439881520157
+"196","COP24","UK","Sustainability","carbon neutral",170.691299764044
+"197","COP24","UK","Sustainability","clean energy",271.09794668407
+"198","COP24","UK","Sustainability","carbon reduction",75.3049851900196
+"199","COP24","UK","Sustainability","sea levels",75.3049851900196
+"200","COP24","UK","Sustainability","paris agreement",1586.42502133641
+"201","COP24","UK","Sustainability","zero-carbon",60.2439881520157
+"202","COP24","UK","Sustainability","net-zero",110.447311612029
+"203","COP24","UK","Sustainability","carbon-neutral",40.1626587680104
 "204","COP24","UK","Sustainability","carbon-neutrality",0
 "205","COP24","UK","Sustainability","clean-energy",0
 "206","COP24","UK","Sustainability","natural-gas",0
@@ -211,9 +211,9 @@
 "210","COP24","UK","Sustainability","energy-storage",0
 "211","COP24","UK","Sustainability","eco-system",0
 "212","COP24","UK","Sustainability","eco-systems",0
-"213","COP24","UK","Sustainability","c02",10.0421267215971
+"213","COP24","UK","Sustainability","c02",10.0406646920026
 "214","COP24","UK","Sustainability","e-vehicles",0
-"215","COP24","UK","Sustainability","EVs",20.0842534431942
+"215","COP24","UK","Sustainability","EVs",20.0813293840052
 "216","COP24","UK","Sustainability","PVs",0
 "217","COP24","UK","Sustainability","re-newables",0
-"218","COP24","UK","Sustainability","pollutant",5.02106336079855
+"218","COP24","UK","Sustainability","pollutant",5.02033234600131

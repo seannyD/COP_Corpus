@@ -1,86 +1,86 @@
 "","COP","country","aspect","keyword","freq"
-"1","COP25","USA","Accessibility","affordability",4.61942839193078
-"2","COP25","USA","Accessibility","affordable",23.0971419596539
+"1","COP25","USA","Accessibility","affordability",4.61836168237679
+"2","COP25","USA","Accessibility","affordable",23.091808411884
 "3","COP25","USA","Accessibility","ability to pay",0
 "4","COP25","USA","Accessibility","able to pay",0
 "5","COP25","USA","Accessibility","inability to pay",0
 "6","COP25","USA","Accessibility","unable to pay",0
-"7","COP25","USA","Accessibility","energy poverty",9.23885678386157
+"7","COP25","USA","Accessibility","energy poverty",9.23672336475359
 "8","COP25","USA","Accessibility","energy burden",0
 "9","COP25","USA","Accessibility","fuel poverty",0
 "10","COP25","USA","Accessibility","fuel-poverty",0
 "11","COP25","USA","Accessibility","trasportation poverty",0
-"12","COP25","USA","Accessibility","energy prices",4.61942839193078
+"12","COP25","USA","Accessibility","energy prices",4.61836168237679
 "13","COP25","USA","Accessibility","transportation bills",0
 "14","COP25","USA","Accessibility","utility bill",0
 "15","COP25","USA","Accessibility","electricity bill",0
 "16","COP25","USA","Accessibility","utility bills",0
 "17","COP25","USA","Accessibility","electricity bills",0
 "18","COP25","USA","Accessibility","gas bill",0
-"19","COP25","USA","Accessibility","energy bill",9.23885678386157
-"20","COP25","USA","Accessibility","energy bills",4.61942839193078
-"21","COP25","USA","Accessibility","energy cost",13.8582851757923
-"22","COP25","USA","Accessibility","equity",46.1942839193078
-"23","COP25","USA","Accessibility","inequity",9.23885678386157
-"24","COP25","USA","Accessibility","inequality",64.671997487031
-"25","COP25","USA","Accessibility","inequalities",23.0971419596539
+"19","COP25","USA","Accessibility","energy bill",9.23672336475359
+"20","COP25","USA","Accessibility","energy bills",4.61836168237679
+"21","COP25","USA","Accessibility","energy cost",13.8550850471304
+"22","COP25","USA","Accessibility","equity",46.1836168237679
+"23","COP25","USA","Accessibility","inequity",9.23672336475359
+"24","COP25","USA","Accessibility","inequality",64.6570635532751
+"25","COP25","USA","Accessibility","inequalities",23.091808411884
 "26","COP25","USA","Accessibility","energy justice",0
 "27","COP25","USA","Accessibility","household",0
-"28","COP25","USA","Accessibility","households",18.4777135677231
+"28","COP25","USA","Accessibility","households",18.4734467295072
 "29","COP25","USA","Accessibility","low-income households",0
 "30","COP25","USA","Accessibility","low-income household",0
-"31","COP25","USA","Accessibility","energy efficiency",120.1051381902
+"31","COP25","USA","Accessibility","energy efficiency",120.077403741797
 "32","COP25","USA","Accessibility","personal finance",0
 "33","COP25","USA","Accessibility","personal finances",0
-"34","COP25","USA","Accessibility","race",60.0525690951002
-"35","COP25","USA","Accessibility","minorities",4.61942839193078
+"34","COP25","USA","Accessibility","race",60.0387018708983
+"35","COP25","USA","Accessibility","minorities",4.61836168237679
 "36","COP25","USA","Accessibility","underserved communities",0
-"37","COP25","USA","Accessibility","gender",309.501702259362
-"38","COP25","USA","Accessibility","women",337.218272610947
+"37","COP25","USA","Accessibility","gender",309.430232719245
+"38","COP25","USA","Accessibility","women",337.140402813506
 "39","COP25","USA","Accessibility","social economic class",0
 "40","COP25","USA","Accessibility","upper class",0
-"41","COP25","USA","Accessibility","middle class",4.61942839193078
+"41","COP25","USA","Accessibility","middle class",4.61836168237679
 "42","COP25","USA","Accessibility","lower class",0
 "43","COP25","USA","Accessibility","working class",0
 "44","COP25","USA","Accessibility","economic class",0
 "45","COP25","USA","Accessibility","upper-class",0
-"46","COP25","USA","Accessibility","middle-class",9.23885678386157
+"46","COP25","USA","Accessibility","middle-class",9.23672336475359
 "47","COP25","USA","Accessibility","lower-class",0
 "48","COP25","USA","Accessibility","working-class",0
 "49","COP25","USA","Accessibility","household heating",0
-"50","COP25","USA","Accessibility","cooling",18.4777135677231
+"50","COP25","USA","Accessibility","cooling",18.4734467295072
 "51","COP25","USA","Accessibility","thermal comfort",0
 "52","COP25","USA","Accessibility","household heating problems",0
 "53","COP25","USA","Accessibility","household cooling problems",0
-"54","COP25","USA","Accessibility","consumption",41.574855527377
+"54","COP25","USA","Accessibility","consumption",41.5652551413911
 "55","COP25","USA","Accessibility","consuming",0
-"56","COP25","USA","Accessibility","consumed",4.61942839193078
-"57","COP25","USA","Accessibility","basic needs",4.61942839193078
-"58","COP25","USA","Accessibility","basic need",4.61942839193078
+"56","COP25","USA","Accessibility","consumed",4.61836168237679
+"57","COP25","USA","Accessibility","basic needs",4.61836168237679
+"58","COP25","USA","Accessibility","basic need",4.61836168237679
 "59","COP25","USA","Accessibility","reduced costs",0
 "60","COP25","USA","Accessibility","reduces costs",0
 "61","COP25","USA","Accessibility","reducing costs",0
-"62","COP25","USA","Accessibility","consumers",27.7165703515847
-"63","COP25","USA","Accessibility","consumer",32.3359987435155
-"64","COP25","USA","Accessibility","development",1067.08795853601
-"65","COP25","USA","Accessibility","insurance",41.574855527377
-"66","COP25","USA","Accessibility","cheap",13.8582851757923
+"62","COP25","USA","Accessibility","consumers",27.7101700942608
+"63","COP25","USA","Accessibility","consumer",32.3285317766376
+"64","COP25","USA","Accessibility","development",1066.84154862904
+"65","COP25","USA","Accessibility","insurance",41.5652551413911
+"66","COP25","USA","Accessibility","cheap",13.8550850471304
 "67","COP25","USA","Accessibility","economical",0
 "68","COP25","USA","Accessibility","low cost",0
-"69","COP25","USA","Accessibility","low-cost",9.23885678386157
-"70","COP25","USA","Accessibility","budget",69.2914258789617
+"69","COP25","USA","Accessibility","low-cost",9.23672336475359
+"70","COP25","USA","Accessibility","budget",69.2754252356519
 "71","COP25","USA","Accessibility","cost effective",0
-"72","COP25","USA","Accessibility","cost-effective",41.574855527377
-"73","COP25","USA","Accessibility","efficiency",180.157707285301
+"72","COP25","USA","Accessibility","cost-effective",41.5652551413911
+"73","COP25","USA","Accessibility","efficiency",180.116105612695
 "74","COP25","USA","Accessibility","unequal",0
 "75","COP25","USA","Accessibility","underrepresented",0
 "76","COP25","USA","Accessibility","low income household",0
 "77","COP25","USA","Accessibility","low income households",0
 "78","COP25","USA","Accessibility","energy-efficiency",0
-"79","COP25","USA","Security","reliability",9.23885678386157
-"80","COP25","USA","Security","reliable",27.7165703515847
-"81","COP25","USA","Security","resilience",429.606840449563
-"82","COP25","USA","Security","resilient",194.015992461093
+"79","COP25","USA","Security","reliability",9.23672336475359
+"80","COP25","USA","Security","reliable",27.7101700942608
+"81","COP25","USA","Security","resilience",429.507636461042
+"82","COP25","USA","Security","resilient",193.971190659825
 "83","COP25","USA","Security","power outage",0
 "84","COP25","USA","Security","power outages",0
 "85","COP25","USA","Security","blackout",0
@@ -89,131 +89,131 @@
 "88","COP25","USA","Security","black-outs",0
 "89","COP25","USA","Security","power cut",0
 "90","COP25","USA","Security","power cuts",0
-"91","COP25","USA","Security","security",438.845697233424
-"92","COP25","USA","Security","stability",18.4777135677231
-"93","COP25","USA","Security","adequacy",4.61942839193078
-"94","COP25","USA","Security","corruption",32.3359987435155
-"95","COP25","USA","Security","corrupted",23.0971419596539
+"91","COP25","USA","Security","security",438.744359825795
+"92","COP25","USA","Security","stability",18.4734467295072
+"93","COP25","USA","Security","adequacy",4.61836168237679
+"94","COP25","USA","Security","corruption",32.3285317766376
+"95","COP25","USA","Security","corrupted",23.091808411884
 "96","COP25","USA","Security","geopolitics",0
 "97","COP25","USA","Security","peak hours",0
-"98","COP25","USA","Security","energy demand",23.0971419596539
-"99","COP25","USA","Security","nuclear",106.246853014408
-"100","COP25","USA","Security","consistent",73.9108542708925
-"101","COP25","USA","Security","consistency",4.61942839193078
+"98","COP25","USA","Security","energy demand",23.091808411884
+"99","COP25","USA","Security","nuclear",101.603957012289
+"100","COP25","USA","Security","consistent",73.8937869180287
+"101","COP25","USA","Security","consistency",4.61836168237679
 "102","COP25","USA","Security","intermittancy",0
 "103","COP25","USA","Security","intermittent",0
-"104","COP25","USA","Security","war",120.1051381902
+"104","COP25","USA","Security","war",120.077403741797
 "105","COP25","USA","Security","wars",0
-"106","COP25","USA","Security","conflicts",41.574855527377
+"106","COP25","USA","Security","conflicts",41.5652551413911
 "107","COP25","USA","Security","energy crisis",0
 "108","COP25","USA","Security","energy crises",0
 "109","COP25","USA","Security","petro-politics",0
 "110","COP25","USA","Security","petropolitics",0
 "111","COP25","USA","Security","aging infrastructure",0
-"112","COP25","USA","Security","industry",586.667405775209
-"113","COP25","USA","Security","industries",120.1051381902
+"112","COP25","USA","Security","industry",586.531933661853
+"113","COP25","USA","Security","industries",120.077403741797
 "114","COP25","USA","Security","neoliberalism",0
 "115","COP25","USA","Security","nationalisation",0
 "116","COP25","USA","Security","nationalization",0
 "117","COP25","USA","Security","nationalising",0
 "118","COP25","USA","Security","nationalizing",0
-"119","COP25","USA","Security","certainty",4.61942839193078
-"120","COP25","USA","Security","agreement",2462.15533289911
-"121","COP25","USA","Security","secure",129.343994974062
-"122","COP25","USA","Security","disaster",143.202280149854
-"123","COP25","USA","Security","disasters",189.396564069162
+"119","COP25","USA","Security","certainty",4.61836168237679
+"120","COP25","USA","Security","agreement",2452.35005334208
+"121","COP25","USA","Security","secure",129.31412710655
+"122","COP25","USA","Security","disaster",143.169212153681
+"123","COP25","USA","Security","disasters",189.352828977449
 "124","COP25","USA","Security","geo-politics",0
-"125","COP25","USA","Security","geo-political",4.61942839193078
+"125","COP25","USA","Security","geo-political",4.61836168237679
 "126","COP25","USA","Security","poor infrastructure",0
-"127","COP25","USA","Sustainability","sustainability",383.412556530255
-"128","COP25","USA","Sustainability","sustainable",942.36339195388
-"129","COP25","USA","Sustainability","green",1145.61824119883
-"130","COP25","USA","Sustainability","greenhouse",831.497110547541
-"131","COP25","USA","Sustainability","emissions",2674.64903892792
-"132","COP25","USA","Sustainability","emission",212.493706028816
-"133","COP25","USA","Sustainability","emitting",27.7165703515847
-"134","COP25","USA","Sustainability","emitted",27.7165703515847
-"135","COP25","USA","Sustainability","emits",9.23885678386157
-"136","COP25","USA","Sustainability","nuclear",106.246853014408
+"127","COP25","USA","Sustainability","sustainability",383.324019637274
+"128","COP25","USA","Sustainability","sustainable",942.145783204866
+"129","COP25","USA","Sustainability","green",1145.35369722944
+"130","COP25","USA","Sustainability","greenhouse",831.305102827823
+"131","COP25","USA","Sustainability","emissions",2674.03141409616
+"132","COP25","USA","Sustainability","emission",212.444637389333
+"133","COP25","USA","Sustainability","emitting",27.7101700942608
+"134","COP25","USA","Sustainability","emitted",27.7101700942608
+"135","COP25","USA","Sustainability","emits",9.23672336475359
+"136","COP25","USA","Sustainability","nuclear",101.603957012289
 "137","COP25","USA","Sustainability","carbon capture",0
 "138","COP25","USA","Sustainability","CCS",0
 "139","COP25","USA","Sustainability","CCU",0
-"140","COP25","USA","Sustainability","sequester",23.0971419596539
-"141","COP25","USA","Sustainability","sequestering",9.23885678386157
-"142","COP25","USA","Sustainability","sequestration",4.61942839193078
-"143","COP25","USA","Sustainability","renewable energy",494.278837936594
-"144","COP25","USA","Sustainability","renewables",203.254849244954
-"145","COP25","USA","Sustainability","ecosystem",83.1497110547541
-"146","COP25","USA","Sustainability","ecosystems",184.777135677231
-"147","COP25","USA","Sustainability","transition",531.23426507204
-"148","COP25","USA","Sustainability","transitioning",32.3359987435155
-"149","COP25","USA","Sustainability","transitions",32.3359987435155
-"150","COP25","USA","Sustainability","low-carbon",120.1051381902
-"151","COP25","USA","Sustainability","zero carbon",64.671997487031
-"152","COP25","USA","Sustainability","decarbonization",50.8137123112386
-"153","COP25","USA","Sustainability","subsidies",101.627424622477
+"140","COP25","USA","Sustainability","sequester",23.091808411884
+"141","COP25","USA","Sustainability","sequestering",9.23672336475359
+"142","COP25","USA","Sustainability","sequestration",4.61836168237679
+"143","COP25","USA","Sustainability","renewable energy",494.164700014317
+"144","COP25","USA","Sustainability","renewables",198.589552342202
+"145","COP25","USA","Sustainability","ecosystem",83.1305102827823
+"146","COP25","USA","Sustainability","ecosystems",184.734467295072
+"147","COP25","USA","Sustainability","transition",531.111593473331
+"148","COP25","USA","Sustainability","transitioning",32.3285317766376
+"149","COP25","USA","Sustainability","transitions",32.3285317766376
+"150","COP25","USA","Sustainability","low-carbon",120.077403741797
+"151","COP25","USA","Sustainability","zero carbon",64.6570635532751
+"152","COP25","USA","Sustainability","decarbonization",50.8019785061447
+"153","COP25","USA","Sustainability","subsidies",101.603957012289
 "154","COP25","USA","Sustainability","subsidy",0
-"155","COP25","USA","Sustainability","subsidising",4.61942839193078
-"156","COP25","USA","Sustainability","subsidizing",9.23885678386157
+"155","COP25","USA","Sustainability","subsidising",4.61836168237679
+"156","COP25","USA","Sustainability","subsidizing",9.23672336475359
 "157","COP25","USA","Sustainability","subsidise",0
-"158","COP25","USA","Sustainability","subsidize",9.23885678386157
-"159","COP25","USA","Sustainability","environmental health",4.61942839193078
-"160","COP25","USA","Sustainability","decarbonisation",50.8137123112386
-"161","COP25","USA","Sustainability","decarbonize",18.4777135677231
-"162","COP25","USA","Sustainability","decarbonise",4.61942839193078
-"163","COP25","USA","Sustainability","wind",244.829704772331
-"164","COP25","USA","Sustainability","tidal",4.61942839193078
+"158","COP25","USA","Sustainability","subsidize",9.23672336475359
+"159","COP25","USA","Sustainability","environmental health",4.61836168237679
+"160","COP25","USA","Sustainability","decarbonisation",50.8019785061447
+"161","COP25","USA","Sustainability","decarbonize",18.4734467295072
+"162","COP25","USA","Sustainability","decarbonise",4.61836168237679
+"163","COP25","USA","Sustainability","wind",244.77316916597
+"164","COP25","USA","Sustainability","tidal",4.61836168237679
 "165","COP25","USA","Sustainability","ocean energy",0
-"166","COP25","USA","Sustainability","hydrogen",4.61942839193078
-"167","COP25","USA","Sustainability","geothermal",36.9554271354463
-"168","COP25","USA","Sustainability","centralized",4.61942839193078
-"169","COP25","USA","Sustainability","decentralized",4.61942839193078
-"170","COP25","USA","Sustainability","centralised",4.61942839193078
-"171","COP25","USA","Sustainability","decentralised",13.8582851757923
-"172","COP25","USA","Sustainability","solar",406.509698489909
+"166","COP25","USA","Sustainability","hydrogen",4.61836168237679
+"167","COP25","USA","Sustainability","geothermal",36.9468934590143
+"168","COP25","USA","Sustainability","centralized",4.61836168237679
+"169","COP25","USA","Sustainability","decentralized",4.61836168237679
+"170","COP25","USA","Sustainability","centralised",4.61836168237679
+"171","COP25","USA","Sustainability","decentralised",13.8550850471304
+"172","COP25","USA","Sustainability","solar",406.415828049158
 "173","COP25","USA","Sustainability","photovoltaics",0
-"174","COP25","USA","Sustainability","photovoltaic",23.0971419596539
-"175","COP25","USA","Sustainability","PV",9.23885678386157
-"176","COP25","USA","Sustainability","solar panels",18.4777135677231
-"177","COP25","USA","Sustainability","solar panel",27.7165703515847
+"174","COP25","USA","Sustainability","photovoltaic",23.091808411884
+"175","COP25","USA","Sustainability","PV",9.23672336475359
+"176","COP25","USA","Sustainability","solar panels",18.4734467295072
+"177","COP25","USA","Sustainability","solar panel",27.7101700942608
 "178","COP25","USA","Sustainability","frack",0
-"179","COP25","USA","Sustainability","fracking",13.8582851757923
+"179","COP25","USA","Sustainability","fracking",13.8550850471304
 "180","COP25","USA","Sustainability","fracked",0
-"181","COP25","USA","Sustainability","pollution",277.165703515847
-"182","COP25","USA","Sustainability","polluting",87.7691394466849
-"183","COP25","USA","Sustainability","polluted",13.8582851757923
-"184","COP25","USA","Sustainability","energy storage",36.9554271354463
-"185","COP25","USA","Sustainability","alternative",32.3359987435155
-"186","COP25","USA","Sustainability","alternatives",4.61942839193078
-"187","COP25","USA","Sustainability","coal",230.971419596539
-"188","COP25","USA","Sustainability","natural gas",27.7165703515847
-"189","COP25","USA","Sustainability","biomass",4.61942839193078
-"190","COP25","USA","Sustainability","ozone",4.61942839193078
+"181","COP25","USA","Sustainability","pollution",277.101700942608
+"182","COP25","USA","Sustainability","polluting",87.7488719651591
+"183","COP25","USA","Sustainability","polluted",13.8550850471304
+"184","COP25","USA","Sustainability","energy storage",36.9468934590143
+"185","COP25","USA","Sustainability","alternative",32.3285317766376
+"186","COP25","USA","Sustainability","alternatives",4.61836168237679
+"187","COP25","USA","Sustainability","coal",230.91808411884
+"188","COP25","USA","Sustainability","natural gas",27.7101700942608
+"189","COP25","USA","Sustainability","biomass",4.61836168237679
+"190","COP25","USA","Sustainability","ozone",4.61836168237679
 "191","COP25","USA","Sustainability","electrical vehicles",0
-"192","COP25","USA","Sustainability","EV",13.8582851757923
-"193","COP25","USA","Sustainability","electric vehicles",4.61942839193078
-"194","COP25","USA","Sustainability","net zero",124.724566582131
-"195","COP25","USA","Sustainability","carbon neutrality",184.777135677231
-"196","COP25","USA","Sustainability","carbon neutral",235.59084798847
-"197","COP25","USA","Sustainability","clean energy",207.874277636885
-"198","COP25","USA","Sustainability","carbon reduction",32.3359987435155
-"199","COP25","USA","Sustainability","sea levels",78.5302826628233
-"200","COP25","USA","Sustainability","paris agreement",1496.69479898557
-"201","COP25","USA","Sustainability","zero-carbon",18.4777135677231
-"202","COP25","USA","Sustainability","net-zero",244.829704772331
-"203","COP25","USA","Sustainability","carbon-neutral",23.0971419596539
-"204","COP25","USA","Sustainability","carbon-neutrality",4.61942839193078
-"205","COP25","USA","Sustainability","clean-energy",4.61942839193078
+"192","COP25","USA","Sustainability","EV",13.8550850471304
+"193","COP25","USA","Sustainability","electric vehicles",4.61836168237679
+"194","COP25","USA","Sustainability","net zero",124.695765424173
+"195","COP25","USA","Sustainability","carbon neutrality",184.734467295072
+"196","COP25","USA","Sustainability","carbon neutral",235.536445801216
+"197","COP25","USA","Sustainability","clean energy",207.826275706956
+"198","COP25","USA","Sustainability","carbon reduction",32.3285317766376
+"199","COP25","USA","Sustainability","sea levels",78.5121486004055
+"200","COP25","USA","Sustainability","paris agreement",1496.34918509008
+"201","COP25","USA","Sustainability","zero-carbon",18.4734467295072
+"202","COP25","USA","Sustainability","net-zero",244.77316916597
+"203","COP25","USA","Sustainability","carbon-neutral",23.091808411884
+"204","COP25","USA","Sustainability","carbon-neutrality",4.61836168237679
+"205","COP25","USA","Sustainability","clean-energy",4.61836168237679
 "206","COP25","USA","Sustainability","natural-gas",0
 "207","COP25","USA","Sustainability","geo-thermal",0
 "208","COP25","USA","Sustainability","bio-mass",0
 "209","COP25","USA","Sustainability","o-zone",0
 "210","COP25","USA","Sustainability","energy-storage",0
 "211","COP25","USA","Sustainability","eco-system",0
-"212","COP25","USA","Sustainability","eco-systems",4.61942839193078
-"213","COP25","USA","Sustainability","c02",4.61942839193078
+"212","COP25","USA","Sustainability","eco-systems",4.61836168237679
+"213","COP25","USA","Sustainability","c02",4.61836168237679
 "214","COP25","USA","Sustainability","e-vehicles",0
 "215","COP25","USA","Sustainability","EVs",0
 "216","COP25","USA","Sustainability","PVs",0
 "217","COP25","USA","Sustainability","re-newables",0
-"218","COP25","USA","Sustainability","pollutant",4.61942839193078
+"218","COP25","USA","Sustainability","pollutant",4.61836168237679

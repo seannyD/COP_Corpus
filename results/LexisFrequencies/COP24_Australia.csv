@@ -1,6 +1,6 @@
 "","COP","country","aspect","keyword","freq"
 "1","COP24","Australia","Accessibility","affordability",0
-"2","COP24","Australia","Accessibility","affordable",100.613743837408
+"2","COP24","Australia","Accessibility","affordable",100.610369575424
 "3","COP24","Australia","Accessibility","ability to pay",0
 "4","COP24","Australia","Accessibility","able to pay",0
 "5","COP24","Australia","Accessibility","inability to pay",0
@@ -10,37 +10,37 @@
 "9","COP24","Australia","Accessibility","fuel poverty",0
 "10","COP24","Australia","Accessibility","fuel-poverty",0
 "11","COP24","Australia","Accessibility","trasportation poverty",0
-"12","COP24","Australia","Accessibility","energy prices",50.3068719187041
+"12","COP24","Australia","Accessibility","energy prices",50.3051847877121
 "13","COP24","Australia","Accessibility","transportation bills",0
 "14","COP24","Australia","Accessibility","utility bill",0
-"15","COP24","Australia","Accessibility","electricity bill",16.7689573062347
+"15","COP24","Australia","Accessibility","electricity bill",16.7683949292374
 "16","COP24","Australia","Accessibility","utility bills",0
-"17","COP24","Australia","Accessibility","electricity bills",16.7689573062347
+"17","COP24","Australia","Accessibility","electricity bills",16.7683949292374
 "18","COP24","Australia","Accessibility","gas bill",0
 "19","COP24","Australia","Accessibility","energy bill",0
 "20","COP24","Australia","Accessibility","energy bills",0
 "21","COP24","Australia","Accessibility","energy cost",0
-"22","COP24","Australia","Accessibility","equity",67.0758292249388
+"22","COP24","Australia","Accessibility","equity",67.0735797169495
 "23","COP24","Australia","Accessibility","inequity",0
-"24","COP24","Australia","Accessibility","inequality",33.5379146124694
+"24","COP24","Australia","Accessibility","inequality",33.5367898584747
 "25","COP24","Australia","Accessibility","inequalities",0
 "26","COP24","Australia","Accessibility","energy justice",0
-"27","COP24","Australia","Accessibility","household",16.7689573062347
-"28","COP24","Australia","Accessibility","households",33.5379146124694
-"29","COP24","Australia","Accessibility","low-income households",16.7689573062347
-"30","COP24","Australia","Accessibility","low-income household",16.7689573062347
-"31","COP24","Australia","Accessibility","energy efficiency",33.5379146124694
+"27","COP24","Australia","Accessibility","household",16.7683949292374
+"28","COP24","Australia","Accessibility","households",33.5367898584747
+"29","COP24","Australia","Accessibility","low-income households",16.7683949292374
+"30","COP24","Australia","Accessibility","low-income household",16.7683949292374
+"31","COP24","Australia","Accessibility","energy efficiency",33.5367898584747
 "32","COP24","Australia","Accessibility","personal finance",0
 "33","COP24","Australia","Accessibility","personal finances",0
-"34","COP24","Australia","Accessibility","race",33.5379146124694
+"34","COP24","Australia","Accessibility","race",33.5367898584747
 "35","COP24","Australia","Accessibility","minorities",0
 "36","COP24","Australia","Accessibility","underserved communities",0
-"37","COP24","Australia","Accessibility","gender",50.3068719187041
-"38","COP24","Australia","Accessibility","women",134.151658449878
+"37","COP24","Australia","Accessibility","gender",50.3051847877121
+"38","COP24","Australia","Accessibility","women",134.147159433899
 "39","COP24","Australia","Accessibility","social economic class",0
 "40","COP24","Australia","Accessibility","upper class",0
-"41","COP24","Australia","Accessibility","middle class",16.7689573062347
-"42","COP24","Australia","Accessibility","lower class",16.7689573062347
+"41","COP24","Australia","Accessibility","middle class",16.7683949292374
+"42","COP24","Australia","Accessibility","lower class",16.7683949292374
 "43","COP24","Australia","Accessibility","working class",0
 "44","COP24","Australia","Accessibility","economic class",0
 "45","COP24","Australia","Accessibility","upper-class",0
@@ -48,160 +48,160 @@
 "47","COP24","Australia","Accessibility","lower-class",0
 "48","COP24","Australia","Accessibility","working-class",0
 "49","COP24","Australia","Accessibility","household heating",0
-"50","COP24","Australia","Accessibility","cooling",16.7689573062347
+"50","COP24","Australia","Accessibility","cooling",16.7683949292374
 "51","COP24","Australia","Accessibility","thermal comfort",0
 "52","COP24","Australia","Accessibility","household heating problems",0
 "53","COP24","Australia","Accessibility","household cooling problems",0
-"54","COP24","Australia","Accessibility","consumption",167.689573062347
-"55","COP24","Australia","Accessibility","consuming",16.7689573062347
+"54","COP24","Australia","Accessibility","consumption",167.683949292374
+"55","COP24","Australia","Accessibility","consuming",16.7683949292374
 "56","COP24","Australia","Accessibility","consumed",0
 "57","COP24","Australia","Accessibility","basic needs",0
 "58","COP24","Australia","Accessibility","basic need",0
 "59","COP24","Australia","Accessibility","reduced costs",0
 "60","COP24","Australia","Accessibility","reduces costs",0
 "61","COP24","Australia","Accessibility","reducing costs",0
-"62","COP24","Australia","Accessibility","consumers",117.382701143643
-"63","COP24","Australia","Accessibility","consumer",33.5379146124694
-"64","COP24","Australia","Accessibility","development",335.379146124694
-"65","COP24","Australia","Accessibility","insurance",50.3068719187041
-"66","COP24","Australia","Accessibility","cheap",67.0758292249388
+"62","COP24","Australia","Accessibility","consumers",117.378764504662
+"63","COP24","Australia","Accessibility","consumer",33.5367898584747
+"64","COP24","Australia","Accessibility","development",335.367898584747
+"65","COP24","Australia","Accessibility","insurance",50.3051847877121
+"66","COP24","Australia","Accessibility","cheap",67.0735797169495
 "67","COP24","Australia","Accessibility","economical",0
 "68","COP24","Australia","Accessibility","low cost",0
-"69","COP24","Australia","Accessibility","low-cost",16.7689573062347
-"70","COP24","Australia","Accessibility","budget",301.841231512225
+"69","COP24","Australia","Accessibility","low-cost",16.7683949292374
+"70","COP24","Australia","Accessibility","budget",301.831108726273
 "71","COP24","Australia","Accessibility","cost effective",0
 "72","COP24","Australia","Accessibility","cost-effective",0
-"73","COP24","Australia","Accessibility","efficiency",67.0758292249388
+"73","COP24","Australia","Accessibility","efficiency",67.0735797169495
 "74","COP24","Australia","Accessibility","unequal",0
 "75","COP24","Australia","Accessibility","underrepresented",0
-"76","COP24","Australia","Accessibility","low income household",16.7689573062347
-"77","COP24","Australia","Accessibility","low income households",16.7689573062347
+"76","COP24","Australia","Accessibility","low income household",16.7683949292374
+"77","COP24","Australia","Accessibility","low income households",16.7683949292374
 "78","COP24","Australia","Accessibility","energy-efficiency",0
 "79","COP24","Australia","Security","reliability",0
-"80","COP24","Australia","Security","reliable",100.613743837408
-"81","COP24","Australia","Security","resilience",50.3068719187041
-"82","COP24","Australia","Security","resilient",16.7689573062347
+"80","COP24","Australia","Security","reliable",100.610369575424
+"81","COP24","Australia","Security","resilience",50.3051847877121
+"82","COP24","Australia","Security","resilient",16.7683949292374
 "83","COP24","Australia","Security","power outage",0
 "84","COP24","Australia","Security","power outages",0
 "85","COP24","Australia","Security","blackout",0
 "86","COP24","Australia","Security","black-out",0
-"87","COP24","Australia","Security","blackouts",50.3068719187041
+"87","COP24","Australia","Security","blackouts",50.3051847877121
 "88","COP24","Australia","Security","black-outs",0
 "89","COP24","Australia","Security","power cut",0
 "90","COP24","Australia","Security","power cuts",0
-"91","COP24","Australia","Security","security",217.996444981051
+"91","COP24","Australia","Security","security",217.989134080086
 "92","COP24","Australia","Security","stability",0
 "93","COP24","Australia","Security","adequacy",0
-"94","COP24","Australia","Security","corruption",33.5379146124694
+"94","COP24","Australia","Security","corruption",33.5367898584747
 "95","COP24","Australia","Security","corrupted",0
 "96","COP24","Australia","Security","geopolitics",0
-"97","COP24","Australia","Security","peak hours",16.7689573062347
-"98","COP24","Australia","Security","energy demand",16.7689573062347
-"99","COP24","Australia","Security","nuclear",83.8447865311735
-"100","COP24","Australia","Security","consistent",83.8447865311735
+"97","COP24","Australia","Security","peak hours",16.7683949292374
+"98","COP24","Australia","Security","energy demand",16.7683949292374
+"99","COP24","Australia","Security","nuclear",83.8419746461869
+"100","COP24","Australia","Security","consistent",83.8419746461869
 "101","COP24","Australia","Security","consistency",0
 "102","COP24","Australia","Security","intermittancy",0
 "103","COP24","Australia","Security","intermittent",0
-"104","COP24","Australia","Security","war",150.920615756112
-"105","COP24","Australia","Security","wars",16.7689573062347
+"104","COP24","Australia","Security","war",150.915554363136
+"105","COP24","Australia","Security","wars",16.7683949292374
 "106","COP24","Australia","Security","conflicts",0
 "107","COP24","Australia","Security","energy crisis",0
 "108","COP24","Australia","Security","energy crises",0
 "109","COP24","Australia","Security","petro-politics",0
 "110","COP24","Australia","Security","petropolitics",0
 "111","COP24","Australia","Security","aging infrastructure",0
-"112","COP24","Australia","Security","industry",486.299761880806
-"113","COP24","Australia","Security","industries",184.458530368582
+"112","COP24","Australia","Security","industry",486.283452947884
+"113","COP24","Australia","Security","industries",184.452344221611
 "114","COP24","Australia","Security","neoliberalism",0
 "115","COP24","Australia","Security","nationalisation",0
 "116","COP24","Australia","Security","nationalization",0
 "117","COP24","Australia","Security","nationalising",0
 "118","COP24","Australia","Security","nationalizing",0
-"119","COP24","Australia","Security","certainty",50.3068719187041
-"120","COP24","Australia","Security","agreement",3051.95022973471
-"121","COP24","Australia","Security","secure",16.7689573062347
-"122","COP24","Australia","Security","disaster",100.613743837408
-"123","COP24","Australia","Security","disasters",33.5379146124694
+"119","COP24","Australia","Security","certainty",50.3051847877121
+"120","COP24","Australia","Security","agreement",3051.8478771212
+"121","COP24","Australia","Security","secure",16.7683949292374
+"122","COP24","Australia","Security","disaster",100.610369575424
+"123","COP24","Australia","Security","disasters",33.5367898584747
 "124","COP24","Australia","Security","geo-politics",0
 "125","COP24","Australia","Security","geo-political",0
 "126","COP24","Australia","Security","poor infrastructure",0
-"127","COP24","Australia","Sustainability","sustainability",150.920615756112
-"128","COP24","Australia","Sustainability","sustainable",352.148103430929
-"129","COP24","Australia","Sustainability","green",570.14454841198
-"130","COP24","Australia","Sustainability","greenhouse",821.6789080055
-"131","COP24","Australia","Sustainability","emissions",4074.85662541503
-"132","COP24","Australia","Sustainability","emission",83.8447865311735
+"127","COP24","Australia","Sustainability","sustainability",150.915554363136
+"128","COP24","Australia","Sustainability","sustainable",352.136293513985
+"129","COP24","Australia","Sustainability","green",570.125427594071
+"130","COP24","Australia","Sustainability","greenhouse",821.651351532631
+"131","COP24","Australia","Sustainability","emissions",4074.71996780468
+"132","COP24","Australia","Sustainability","emission",83.8419746461869
 "133","COP24","Australia","Sustainability","emitting",0
-"134","COP24","Australia","Sustainability","emitted",50.3068719187041
-"135","COP24","Australia","Sustainability","emits",16.7689573062347
-"136","COP24","Australia","Sustainability","nuclear",83.8447865311735
-"137","COP24","Australia","Sustainability","carbon capture",83.8447865311735
-"138","COP24","Australia","Sustainability","CCS",33.5379146124694
+"134","COP24","Australia","Sustainability","emitted",50.3051847877121
+"135","COP24","Australia","Sustainability","emits",16.7683949292374
+"136","COP24","Australia","Sustainability","nuclear",83.8419746461869
+"137","COP24","Australia","Sustainability","carbon capture",83.8419746461869
+"138","COP24","Australia","Sustainability","CCS",33.5367898584747
 "139","COP24","Australia","Sustainability","CCU",0
 "140","COP24","Australia","Sustainability","sequester",0
 "141","COP24","Australia","Sustainability","sequestering",0
 "142","COP24","Australia","Sustainability","sequestration",0
-"143","COP24","Australia","Sustainability","renewable energy",285.07227420599
-"144","COP24","Australia","Sustainability","renewables",100.613743837408
+"143","COP24","Australia","Sustainability","renewable energy",285.062713797035
+"144","COP24","Australia","Sustainability","renewables",100.610369575424
 "145","COP24","Australia","Sustainability","ecosystem",0
-"146","COP24","Australia","Sustainability","ecosystems",16.7689573062347
-"147","COP24","Australia","Sustainability","transition",553.375591105745
-"148","COP24","Australia","Sustainability","transitioning",16.7689573062347
+"146","COP24","Australia","Sustainability","ecosystems",16.7683949292374
+"147","COP24","Australia","Sustainability","transition",553.357032664833
+"148","COP24","Australia","Sustainability","transitioning",16.7683949292374
 "149","COP24","Australia","Sustainability","transitions",0
-"150","COP24","Australia","Sustainability","low-carbon",167.689573062347
-"151","COP24","Australia","Sustainability","zero carbon",16.7689573062347
+"150","COP24","Australia","Sustainability","low-carbon",167.683949292374
+"151","COP24","Australia","Sustainability","zero carbon",16.7683949292374
 "152","COP24","Australia","Sustainability","decarbonization",0
-"153","COP24","Australia","Sustainability","subsidies",67.0758292249388
-"154","COP24","Australia","Sustainability","subsidy",33.5379146124694
+"153","COP24","Australia","Sustainability","subsidies",67.0735797169495
+"154","COP24","Australia","Sustainability","subsidy",33.5367898584747
 "155","COP24","Australia","Sustainability","subsidising",0
 "156","COP24","Australia","Sustainability","subsidizing",0
 "157","COP24","Australia","Sustainability","subsidise",0
 "158","COP24","Australia","Sustainability","subsidize",0
 "159","COP24","Australia","Sustainability","environmental health",0
-"160","COP24","Australia","Sustainability","decarbonisation",33.5379146124694
+"160","COP24","Australia","Sustainability","decarbonisation",33.5367898584747
 "161","COP24","Australia","Sustainability","decarbonize",0
-"162","COP24","Australia","Sustainability","decarbonise",33.5379146124694
-"163","COP24","Australia","Sustainability","wind",268.303316899755
+"162","COP24","Australia","Sustainability","decarbonise",33.5367898584747
+"163","COP24","Australia","Sustainability","wind",268.294318867798
 "164","COP24","Australia","Sustainability","tidal",0
 "165","COP24","Australia","Sustainability","ocean energy",0
-"166","COP24","Australia","Sustainability","hydrogen",234.765402287286
-"167","COP24","Australia","Sustainability","geothermal",16.7689573062347
+"166","COP24","Australia","Sustainability","hydrogen",234.757529009323
+"167","COP24","Australia","Sustainability","geothermal",16.7683949292374
 "168","COP24","Australia","Sustainability","centralized",0
 "169","COP24","Australia","Sustainability","decentralized",0
 "170","COP24","Australia","Sustainability","centralised",0
 "171","COP24","Australia","Sustainability","decentralised",0
-"172","COP24","Australia","Sustainability","solar",385.686018043398
+"172","COP24","Australia","Sustainability","solar",385.67308337246
 "173","COP24","Australia","Sustainability","photovoltaics",0
 "174","COP24","Australia","Sustainability","photovoltaic",0
-"175","COP24","Australia","Sustainability","PV",33.5379146124694
-"176","COP24","Australia","Sustainability","solar panels",33.5379146124694
-"177","COP24","Australia","Sustainability","solar panel",50.3068719187041
+"175","COP24","Australia","Sustainability","PV",33.5367898584747
+"176","COP24","Australia","Sustainability","solar panels",33.5367898584747
+"177","COP24","Australia","Sustainability","solar panel",50.3051847877121
 "178","COP24","Australia","Sustainability","frack",0
 "179","COP24","Australia","Sustainability","fracking",0
 "180","COP24","Australia","Sustainability","fracked",0
-"181","COP24","Australia","Sustainability","pollution",318.610188818459
-"182","COP24","Australia","Sustainability","polluting",33.5379146124694
+"181","COP24","Australia","Sustainability","pollution",318.59950365551
+"182","COP24","Australia","Sustainability","polluting",33.5367898584747
 "183","COP24","Australia","Sustainability","polluted",0
 "184","COP24","Australia","Sustainability","energy storage",0
-"185","COP24","Australia","Sustainability","alternative",50.3068719187041
-"186","COP24","Australia","Sustainability","alternatives",50.3068719187041
-"187","COP24","Australia","Sustainability","coal",1593.0509440923
-"188","COP24","Australia","Sustainability","natural gas",100.613743837408
+"185","COP24","Australia","Sustainability","alternative",50.3051847877121
+"186","COP24","Australia","Sustainability","alternatives",50.3051847877121
+"187","COP24","Australia","Sustainability","coal",1592.99751827755
+"188","COP24","Australia","Sustainability","natural gas",100.610369575424
 "189","COP24","Australia","Sustainability","biomass",0
-"190","COP24","Australia","Sustainability","ozone",50.3068719187041
+"190","COP24","Australia","Sustainability","ozone",50.3051847877121
 "191","COP24","Australia","Sustainability","electrical vehicles",0
 "192","COP24","Australia","Sustainability","EV",0
-"193","COP24","Australia","Sustainability","electric vehicles",16.7689573062347
-"194","COP24","Australia","Sustainability","net zero",50.3068719187041
-"195","COP24","Australia","Sustainability","carbon neutrality",67.0758292249388
-"196","COP24","Australia","Sustainability","carbon neutral",67.0758292249388
-"197","COP24","Australia","Sustainability","clean energy",134.151658449878
+"193","COP24","Australia","Sustainability","electric vehicles",16.7683949292374
+"194","COP24","Australia","Sustainability","net zero",50.3051847877121
+"195","COP24","Australia","Sustainability","carbon neutrality",67.0735797169495
+"196","COP24","Australia","Sustainability","carbon neutral",67.0735797169495
+"197","COP24","Australia","Sustainability","clean energy",134.147159433899
 "198","COP24","Australia","Sustainability","carbon reduction",0
-"199","COP24","Australia","Sustainability","sea levels",50.3068719187041
-"200","COP24","Australia","Sustainability","paris agreement",2247.04027903545
+"199","COP24","Australia","Sustainability","sea levels",50.3051847877121
+"200","COP24","Australia","Sustainability","paris agreement",2246.96492051781
 "201","COP24","Australia","Sustainability","zero-carbon",0
-"202","COP24","Australia","Sustainability","net-zero",83.8447865311735
-"203","COP24","Australia","Sustainability","carbon-neutral",33.5379146124694
+"202","COP24","Australia","Sustainability","net-zero",83.8419746461869
+"203","COP24","Australia","Sustainability","carbon-neutral",33.5367898584747
 "204","COP24","Australia","Sustainability","carbon-neutrality",0
 "205","COP24","Australia","Sustainability","clean-energy",0
 "206","COP24","Australia","Sustainability","natural-gas",0
@@ -216,4 +216,4 @@
 "215","COP24","Australia","Sustainability","EVs",0
 "216","COP24","Australia","Sustainability","PVs",0
 "217","COP24","Australia","Sustainability","re-newables",0
-"218","COP24","Australia","Sustainability","pollutant",16.7689573062347
+"218","COP24","Australia","Sustainability","pollutant",16.7683949292374

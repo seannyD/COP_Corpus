@@ -1,42 +1,42 @@
 "","COP","country","aspect","keyword","freq"
-"1","COP27","Bangladesh","Accessibility","affordability",13.7098985467508
-"2","COP27","Bangladesh","Accessibility","affordable",47.9846449136276
+"1","COP27","Bangladesh","Accessibility","affordability",13.6982548423331
+"2","COP27","Bangladesh","Accessibility","affordable",47.9438919481658
 "3","COP27","Bangladesh","Accessibility","ability to pay",0
-"4","COP27","Bangladesh","Accessibility","able to pay",6.85494927337538
+"4","COP27","Bangladesh","Accessibility","able to pay",6.84912742116654
 "5","COP27","Bangladesh","Accessibility","inability to pay",0
-"6","COP27","Bangladesh","Accessibility","unable to pay",6.85494927337538
+"6","COP27","Bangladesh","Accessibility","unable to pay",6.84912742116654
 "7","COP27","Bangladesh","Accessibility","energy poverty",0
 "8","COP27","Bangladesh","Accessibility","energy burden",0
 "9","COP27","Bangladesh","Accessibility","fuel poverty",0
 "10","COP27","Bangladesh","Accessibility","fuel-poverty",0
 "11","COP27","Bangladesh","Accessibility","trasportation poverty",0
-"12","COP27","Bangladesh","Accessibility","energy prices",54.839594187003
+"12","COP27","Bangladesh","Accessibility","energy prices",54.7930193693323
 "13","COP27","Bangladesh","Accessibility","transportation bills",0
 "14","COP27","Bangladesh","Accessibility","utility bill",0
 "15","COP27","Bangladesh","Accessibility","electricity bill",0
 "16","COP27","Bangladesh","Accessibility","utility bills",0
 "17","COP27","Bangladesh","Accessibility","electricity bills",0
 "18","COP27","Bangladesh","Accessibility","gas bill",0
-"19","COP27","Bangladesh","Accessibility","energy bill",6.85494927337538
-"20","COP27","Bangladesh","Accessibility","energy bills",6.85494927337538
-"21","COP27","Bangladesh","Accessibility","energy cost",20.5648478201261
-"22","COP27","Bangladesh","Accessibility","equity",61.6945434603784
-"23","COP27","Bangladesh","Accessibility","inequity",13.7098985467508
-"24","COP27","Bangladesh","Accessibility","inequality",54.839594187003
-"25","COP27","Bangladesh","Accessibility","inequalities",47.9846449136276
+"19","COP27","Bangladesh","Accessibility","energy bill",6.84912742116654
+"20","COP27","Bangladesh","Accessibility","energy bills",6.84912742116654
+"21","COP27","Bangladesh","Accessibility","energy cost",20.5473822634996
+"22","COP27","Bangladesh","Accessibility","equity",61.6421467904989
+"23","COP27","Bangladesh","Accessibility","inequity",13.6982548423331
+"24","COP27","Bangladesh","Accessibility","inequality",54.7930193693323
+"25","COP27","Bangladesh","Accessibility","inequalities",47.9438919481658
 "26","COP27","Bangladesh","Accessibility","energy justice",0
-"27","COP27","Bangladesh","Accessibility","household",47.9846449136276
-"28","COP27","Bangladesh","Accessibility","households",68.5494927337538
-"29","COP27","Bangladesh","Accessibility","low-income households",6.85494927337538
-"30","COP27","Bangladesh","Accessibility","low-income household",6.85494927337538
-"31","COP27","Bangladesh","Accessibility","energy efficiency",34.2747463668769
+"27","COP27","Bangladesh","Accessibility","household",47.9438919481658
+"28","COP27","Bangladesh","Accessibility","households",68.4912742116654
+"29","COP27","Bangladesh","Accessibility","low-income households",6.84912742116654
+"30","COP27","Bangladesh","Accessibility","low-income household",6.84912742116654
+"31","COP27","Bangladesh","Accessibility","energy efficiency",34.2456371058327
 "32","COP27","Bangladesh","Accessibility","personal finance",0
 "33","COP27","Bangladesh","Accessibility","personal finances",0
-"34","COP27","Bangladesh","Accessibility","race",34.2747463668769
-"35","COP27","Bangladesh","Accessibility","minorities",13.7098985467508
+"34","COP27","Bangladesh","Accessibility","race",34.2456371058327
+"35","COP27","Bangladesh","Accessibility","minorities",13.6982548423331
 "36","COP27","Bangladesh","Accessibility","underserved communities",0
-"37","COP27","Bangladesh","Accessibility","gender",123.389086920757
-"38","COP27","Bangladesh","Accessibility","women",500.411296956402
+"37","COP27","Bangladesh","Accessibility","gender",123.284293580998
+"38","COP27","Bangladesh","Accessibility","women",499.986301745158
 "39","COP27","Bangladesh","Accessibility","social economic class",0
 "40","COP27","Bangladesh","Accessibility","upper class",0
 "41","COP27","Bangladesh","Accessibility","middle class",0
@@ -48,39 +48,39 @@
 "47","COP27","Bangladesh","Accessibility","lower-class",0
 "48","COP27","Bangladesh","Accessibility","working-class",0
 "49","COP27","Bangladesh","Accessibility","household heating",0
-"50","COP27","Bangladesh","Accessibility","cooling",13.7098985467508
+"50","COP27","Bangladesh","Accessibility","cooling",13.6982548423331
 "51","COP27","Bangladesh","Accessibility","thermal comfort",0
 "52","COP27","Bangladesh","Accessibility","household heating problems",0
 "53","COP27","Bangladesh","Accessibility","household cooling problems",0
-"54","COP27","Bangladesh","Accessibility","consumption",95.9692898272553
-"55","COP27","Bangladesh","Accessibility","consuming",27.4197970935015
-"56","COP27","Bangladesh","Accessibility","consumed",6.85494927337538
-"57","COP27","Bangladesh","Accessibility","basic needs",6.85494927337538
-"58","COP27","Bangladesh","Accessibility","basic need",6.85494927337538
+"54","COP27","Bangladesh","Accessibility","consumption",95.8877838963316
+"55","COP27","Bangladesh","Accessibility","consuming",27.3965096846662
+"56","COP27","Bangladesh","Accessibility","consumed",6.84912742116654
+"57","COP27","Bangladesh","Accessibility","basic needs",6.84912742116654
+"58","COP27","Bangladesh","Accessibility","basic need",6.84912742116654
 "59","COP27","Bangladesh","Accessibility","reduced costs",0
 "60","COP27","Bangladesh","Accessibility","reduces costs",0
 "61","COP27","Bangladesh","Accessibility","reducing costs",0
-"62","COP27","Bangladesh","Accessibility","consumers",47.9846449136276
-"63","COP27","Bangladesh","Accessibility","consumer",41.1296956402523
-"64","COP27","Bangladesh","Accessibility","development",1617.76802851659
-"65","COP27","Bangladesh","Accessibility","insurance",95.9692898272553
-"66","COP27","Bangladesh","Accessibility","cheap",34.2747463668769
+"62","COP27","Bangladesh","Accessibility","consumers",47.9438919481658
+"63","COP27","Bangladesh","Accessibility","consumer",41.0947645269993
+"64","COP27","Bangladesh","Accessibility","development",1616.3940713953
+"65","COP27","Bangladesh","Accessibility","insurance",95.8877838963316
+"66","COP27","Bangladesh","Accessibility","cheap",34.2456371058327
 "67","COP27","Bangladesh","Accessibility","economical",0
 "68","COP27","Bangladesh","Accessibility","low cost",0
-"69","COP27","Bangladesh","Accessibility","low-cost",20.5648478201261
-"70","COP27","Bangladesh","Accessibility","budget",54.839594187003
-"71","COP27","Bangladesh","Accessibility","cost effective",6.85494927337538
-"72","COP27","Bangladesh","Accessibility","cost-effective",20.5648478201261
-"73","COP27","Bangladesh","Accessibility","efficiency",47.9846449136276
-"74","COP27","Bangladesh","Accessibility","unequal",6.85494927337538
+"69","COP27","Bangladesh","Accessibility","low-cost",20.5473822634996
+"70","COP27","Bangladesh","Accessibility","budget",54.7930193693323
+"71","COP27","Bangladesh","Accessibility","cost effective",6.84912742116654
+"72","COP27","Bangladesh","Accessibility","cost-effective",20.5473822634996
+"73","COP27","Bangladesh","Accessibility","efficiency",47.9438919481658
+"74","COP27","Bangladesh","Accessibility","unequal",6.84912742116654
 "75","COP27","Bangladesh","Accessibility","underrepresented",0
 "76","COP27","Bangladesh","Accessibility","low income household",0
 "77","COP27","Bangladesh","Accessibility","low income households",0
 "78","COP27","Bangladesh","Accessibility","energy-efficiency",0
-"79","COP27","Bangladesh","Security","reliability",20.5648478201261
-"80","COP27","Bangladesh","Security","reliable",20.5648478201261
-"81","COP27","Bangladesh","Security","resilience",390.732108582396
-"82","COP27","Bangladesh","Security","resilient",130.244036194132
+"79","COP27","Bangladesh","Security","reliability",20.5473822634996
+"80","COP27","Bangladesh","Security","reliable",20.5473822634996
+"81","COP27","Bangladesh","Security","resilience",390.400263006493
+"82","COP27","Bangladesh","Security","resilient",130.133421002164
 "83","COP27","Bangladesh","Security","power outage",0
 "84","COP27","Bangladesh","Security","power outages",0
 "85","COP27","Bangladesh","Security","blackout",0
@@ -89,118 +89,118 @@
 "88","COP27","Bangladesh","Security","black-outs",0
 "89","COP27","Bangladesh","Security","power cut",0
 "90","COP27","Bangladesh","Security","power cuts",0
-"91","COP27","Bangladesh","Security","security",754.044420071291
-"92","COP27","Bangladesh","Security","stability",75.4044420071291
-"93","COP27","Bangladesh","Security","adequacy",6.85494927337538
+"91","COP27","Bangladesh","Security","security",753.40401632832
+"92","COP27","Bangladesh","Security","stability",75.340401632832
+"93","COP27","Bangladesh","Security","adequacy",6.84912742116654
 "94","COP27","Bangladesh","Security","corruption",0
 "95","COP27","Bangladesh","Security","corrupted",0
-"96","COP27","Bangladesh","Security","geopolitics",6.85494927337538
+"96","COP27","Bangladesh","Security","geopolitics",6.84912742116654
 "97","COP27","Bangladesh","Security","peak hours",0
 "98","COP27","Bangladesh","Security","energy demand",0
-"99","COP27","Bangladesh","Security","nuclear",47.9846449136276
-"100","COP27","Bangladesh","Security","consistent",61.6945434603784
+"99","COP27","Bangladesh","Security","nuclear",47.9438919481658
+"100","COP27","Bangladesh","Security","consistent",61.6421467904989
 "101","COP27","Bangladesh","Security","consistency",0
 "102","COP27","Bangladesh","Security","intermittancy",0
 "103","COP27","Bangladesh","Security","intermittent",0
-"104","COP27","Bangladesh","Security","war",527.831094049904
-"105","COP27","Bangladesh","Security","wars",6.85494927337538
-"106","COP27","Bangladesh","Security","conflicts",75.4044420071291
-"107","COP27","Bangladesh","Security","energy crisis",95.9692898272553
+"104","COP27","Bangladesh","Security","war",527.382811429824
+"105","COP27","Bangladesh","Security","wars",6.84912742116654
+"106","COP27","Bangladesh","Security","conflicts",75.340401632832
+"107","COP27","Bangladesh","Security","energy crisis",95.8877838963316
 "108","COP27","Bangladesh","Security","energy crises",0
 "109","COP27","Bangladesh","Security","petro-politics",0
 "110","COP27","Bangladesh","Security","petropolitics",0
-"111","COP27","Bangladesh","Security","aging infrastructure",6.85494927337538
-"112","COP27","Bangladesh","Security","industry",246.778173841514
-"113","COP27","Bangladesh","Security","industries",137.098985467508
+"111","COP27","Bangladesh","Security","aging infrastructure",6.84912742116654
+"112","COP27","Bangladesh","Security","industry",246.568587161996
+"113","COP27","Bangladesh","Security","industries",136.982548423331
 "114","COP27","Bangladesh","Security","neoliberalism",0
 "115","COP27","Bangladesh","Security","nationalisation",0
 "116","COP27","Bangladesh","Security","nationalization",0
 "117","COP27","Bangladesh","Security","nationalising",0
 "118","COP27","Bangladesh","Security","nationalizing",0
 "119","COP27","Bangladesh","Security","certainty",0
-"120","COP27","Bangladesh","Security","agreement",1247.60076775432
-"121","COP27","Bangladesh","Security","secure",123.389086920757
-"122","COP27","Bangladesh","Security","disaster",301.617768028517
-"123","COP27","Bangladesh","Security","disasters",411.296956402523
+"120","COP27","Bangladesh","Security","agreement",1246.54119065231
+"121","COP27","Bangladesh","Security","secure",123.284293580998
+"122","COP27","Bangladesh","Security","disaster",301.361606531328
+"123","COP27","Bangladesh","Security","disasters",410.947645269993
 "124","COP27","Bangladesh","Security","geo-politics",0
-"125","COP27","Bangladesh","Security","geo-political",6.85494927337538
+"125","COP27","Bangladesh","Security","geo-political",6.84912742116654
 "126","COP27","Bangladesh","Security","poor infrastructure",0
-"127","COP27","Bangladesh","Sustainability","sustainability",109.679188374006
-"128","COP27","Bangladesh","Sustainability","sustainable",685.494927337538
-"129","COP27","Bangladesh","Sustainability","green",1041.95228955306
-"130","COP27","Bangladesh","Sustainability","greenhouse",596.380586783658
-"131","COP27","Bangladesh","Sustainability","emissions",2303.26295585413
-"132","COP27","Bangladesh","Sustainability","emission",472.991499862901
-"133","COP27","Bangladesh","Sustainability","emitting",61.6945434603784
-"134","COP27","Bangladesh","Sustainability","emitted",41.1296956402523
+"127","COP27","Bangladesh","Sustainability","sustainability",109.586038738665
+"128","COP27","Bangladesh","Sustainability","sustainable",684.912742116654
+"129","COP27","Bangladesh","Sustainability","green",1041.06736801731
+"130","COP27","Bangladesh","Sustainability","greenhouse",595.874085641489
+"131","COP27","Bangladesh","Sustainability","emissions",2301.30681351196
+"132","COP27","Bangladesh","Sustainability","emission",472.589792060492
+"133","COP27","Bangladesh","Sustainability","emitting",61.6421467904989
+"134","COP27","Bangladesh","Sustainability","emitted",41.0947645269993
 "135","COP27","Bangladesh","Sustainability","emits",0
-"136","COP27","Bangladesh","Sustainability","nuclear",47.9846449136276
-"137","COP27","Bangladesh","Sustainability","carbon capture",34.2747463668769
+"136","COP27","Bangladesh","Sustainability","nuclear",47.9438919481658
+"137","COP27","Bangladesh","Sustainability","carbon capture",34.2456371058327
 "138","COP27","Bangladesh","Sustainability","CCS",0
 "139","COP27","Bangladesh","Sustainability","CCU",0
-"140","COP27","Bangladesh","Sustainability","sequester",6.85494927337538
-"141","COP27","Bangladesh","Sustainability","sequestering",6.85494927337538
-"142","COP27","Bangladesh","Sustainability","sequestration",6.85494927337538
-"143","COP27","Bangladesh","Sustainability","renewable energy",754.044420071291
-"144","COP27","Bangladesh","Sustainability","renewables",150.808884014258
-"145","COP27","Bangladesh","Sustainability","ecosystem",47.9846449136276
-"146","COP27","Bangladesh","Sustainability","ecosystems",95.9692898272553
-"147","COP27","Bangladesh","Sustainability","transition",479.846449136276
-"148","COP27","Bangladesh","Sustainability","transitioning",20.5648478201261
-"149","COP27","Bangladesh","Sustainability","transitions",34.2747463668769
-"150","COP27","Bangladesh","Sustainability","low-carbon",75.4044420071291
-"151","COP27","Bangladesh","Sustainability","zero carbon",41.1296956402523
-"152","COP27","Bangladesh","Sustainability","decarbonization",54.839594187003
-"153","COP27","Bangladesh","Sustainability","subsidies",75.4044420071291
-"154","COP27","Bangladesh","Sustainability","subsidy",20.5648478201261
+"140","COP27","Bangladesh","Sustainability","sequester",6.84912742116654
+"141","COP27","Bangladesh","Sustainability","sequestering",6.84912742116654
+"142","COP27","Bangladesh","Sustainability","sequestration",6.84912742116654
+"143","COP27","Bangladesh","Sustainability","renewable energy",753.40401632832
+"144","COP27","Bangladesh","Sustainability","renewables",150.680803265664
+"145","COP27","Bangladesh","Sustainability","ecosystem",47.9438919481658
+"146","COP27","Bangladesh","Sustainability","ecosystems",95.8877838963316
+"147","COP27","Bangladesh","Sustainability","transition",479.438919481658
+"148","COP27","Bangladesh","Sustainability","transitioning",20.5473822634996
+"149","COP27","Bangladesh","Sustainability","transitions",34.2456371058327
+"150","COP27","Bangladesh","Sustainability","low-carbon",75.340401632832
+"151","COP27","Bangladesh","Sustainability","zero carbon",41.0947645269993
+"152","COP27","Bangladesh","Sustainability","decarbonization",54.7930193693323
+"153","COP27","Bangladesh","Sustainability","subsidies",75.340401632832
+"154","COP27","Bangladesh","Sustainability","subsidy",20.5473822634996
 "155","COP27","Bangladesh","Sustainability","subsidising",0
-"156","COP27","Bangladesh","Sustainability","subsidizing",6.85494927337538
+"156","COP27","Bangladesh","Sustainability","subsidizing",6.84912742116654
 "157","COP27","Bangladesh","Sustainability","subsidise",0
 "158","COP27","Bangladesh","Sustainability","subsidize",0
-"159","COP27","Bangladesh","Sustainability","environmental health",6.85494927337538
-"160","COP27","Bangladesh","Sustainability","decarbonisation",27.4197970935015
+"159","COP27","Bangladesh","Sustainability","environmental health",6.84912742116654
+"160","COP27","Bangladesh","Sustainability","decarbonisation",27.3965096846662
 "161","COP27","Bangladesh","Sustainability","decarbonize",0
-"162","COP27","Bangladesh","Sustainability","decarbonise",13.7098985467508
-"163","COP27","Bangladesh","Sustainability","wind",226.213326021387
-"164","COP27","Bangladesh","Sustainability","tidal",41.1296956402523
+"162","COP27","Bangladesh","Sustainability","decarbonise",13.6982548423331
+"163","COP27","Bangladesh","Sustainability","wind",226.021204898496
+"164","COP27","Bangladesh","Sustainability","tidal",41.0947645269993
 "165","COP27","Bangladesh","Sustainability","ocean energy",0
-"166","COP27","Bangladesh","Sustainability","hydrogen",68.5494927337538
-"167","COP27","Bangladesh","Sustainability","geothermal",6.85494927337538
+"166","COP27","Bangladesh","Sustainability","hydrogen",68.4912742116654
+"167","COP27","Bangladesh","Sustainability","geothermal",6.84912742116654
 "168","COP27","Bangladesh","Sustainability","centralized",0
-"169","COP27","Bangladesh","Sustainability","decentralized",6.85494927337538
-"170","COP27","Bangladesh","Sustainability","centralised",6.85494927337538
+"169","COP27","Bangladesh","Sustainability","decentralized",6.84912742116654
+"170","COP27","Bangladesh","Sustainability","centralised",6.84912742116654
 "171","COP27","Bangladesh","Sustainability","decentralised",0
-"172","COP27","Bangladesh","Sustainability","solar",534.686043323279
+"172","COP27","Bangladesh","Sustainability","solar",534.23193885099
 "173","COP27","Bangladesh","Sustainability","photovoltaics",0
-"174","COP27","Bangladesh","Sustainability","photovoltaic",6.85494927337538
+"174","COP27","Bangladesh","Sustainability","photovoltaic",6.84912742116654
 "175","COP27","Bangladesh","Sustainability","PV",0
-"176","COP27","Bangladesh","Sustainability","solar panels",102.824239100631
-"177","COP27","Bangladesh","Sustainability","solar panel",123.389086920757
+"176","COP27","Bangladesh","Sustainability","solar panels",102.736911317498
+"177","COP27","Bangladesh","Sustainability","solar panel",123.284293580998
 "178","COP27","Bangladesh","Sustainability","frack",0
-"179","COP27","Bangladesh","Sustainability","fracking",6.85494927337538
+"179","COP27","Bangladesh","Sustainability","fracking",6.84912742116654
 "180","COP27","Bangladesh","Sustainability","fracked",0
-"181","COP27","Bangladesh","Sustainability","pollution",322.182615848643
-"182","COP27","Bangladesh","Sustainability","polluting",47.9846449136276
-"183","COP27","Bangladesh","Sustainability","polluted",13.7098985467508
+"181","COP27","Bangladesh","Sustainability","pollution",321.908988794828
+"182","COP27","Bangladesh","Sustainability","polluting",47.9438919481658
+"183","COP27","Bangladesh","Sustainability","polluted",13.6982548423331
 "184","COP27","Bangladesh","Sustainability","energy storage",0
-"185","COP27","Bangladesh","Sustainability","alternative",34.2747463668769
-"186","COP27","Bangladesh","Sustainability","alternatives",13.7098985467508
-"187","COP27","Bangladesh","Sustainability","coal",459.28160131615
-"188","COP27","Bangladesh","Sustainability","natural gas",102.824239100631
-"189","COP27","Bangladesh","Sustainability","biomass",6.85494927337538
-"190","COP27","Bangladesh","Sustainability","ozone",27.4197970935015
+"185","COP27","Bangladesh","Sustainability","alternative",34.2456371058327
+"186","COP27","Bangladesh","Sustainability","alternatives",13.6982548423331
+"187","COP27","Bangladesh","Sustainability","coal",458.891537218158
+"188","COP27","Bangladesh","Sustainability","natural gas",102.736911317498
+"189","COP27","Bangladesh","Sustainability","biomass",6.84912742116654
+"190","COP27","Bangladesh","Sustainability","ozone",27.3965096846662
 "191","COP27","Bangladesh","Sustainability","electrical vehicles",0
 "192","COP27","Bangladesh","Sustainability","EV",0
-"193","COP27","Bangladesh","Sustainability","electric vehicles",61.6945434603784
-"194","COP27","Bangladesh","Sustainability","net zero",185.083630381135
-"195","COP27","Bangladesh","Sustainability","carbon neutrality",13.7098985467508
-"196","COP27","Bangladesh","Sustainability","carbon neutral",13.7098985467508
-"197","COP27","Bangladesh","Sustainability","clean energy",130.244036194132
-"198","COP27","Bangladesh","Sustainability","carbon reduction",6.85494927337538
-"199","COP27","Bangladesh","Sustainability","sea levels",75.4044420071291
-"200","COP27","Bangladesh","Sustainability","paris agreement",719.769673704415
-"201","COP27","Bangladesh","Sustainability","zero-carbon",13.7098985467508
-"202","COP27","Bangladesh","Sustainability","net-zero",143.953934740883
+"193","COP27","Bangladesh","Sustainability","electric vehicles",61.6421467904989
+"194","COP27","Bangladesh","Sustainability","net zero",184.926440371497
+"195","COP27","Bangladesh","Sustainability","carbon neutrality",13.6982548423331
+"196","COP27","Bangladesh","Sustainability","carbon neutral",13.6982548423331
+"197","COP27","Bangladesh","Sustainability","clean energy",130.133421002164
+"198","COP27","Bangladesh","Sustainability","carbon reduction",6.84912742116654
+"199","COP27","Bangladesh","Sustainability","sea levels",75.340401632832
+"200","COP27","Bangladesh","Sustainability","paris agreement",719.158379222487
+"201","COP27","Bangladesh","Sustainability","zero-carbon",13.6982548423331
+"202","COP27","Bangladesh","Sustainability","net-zero",143.831675844497
 "203","COP27","Bangladesh","Sustainability","carbon-neutral",0
 "204","COP27","Bangladesh","Sustainability","carbon-neutrality",0
 "205","COP27","Bangladesh","Sustainability","clean-energy",0
@@ -213,7 +213,7 @@
 "212","COP27","Bangladesh","Sustainability","eco-systems",0
 "213","COP27","Bangladesh","Sustainability","c02",0
 "214","COP27","Bangladesh","Sustainability","e-vehicles",0
-"215","COP27","Bangladesh","Sustainability","EVs",13.7098985467508
+"215","COP27","Bangladesh","Sustainability","EVs",13.6982548423331
 "216","COP27","Bangladesh","Sustainability","PVs",0
 "217","COP27","Bangladesh","Sustainability","re-newables",0
-"218","COP27","Bangladesh","Sustainability","pollutant",27.4197970935015
+"218","COP27","Bangladesh","Sustainability","pollutant",27.3965096846662
